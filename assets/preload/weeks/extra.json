@@ -152,8 +152,8 @@
             "Dave",
             [
                 0,
-                255,
-                0
+                0,
+                255
             ]
         ],
         [
@@ -161,8 +161,107 @@
             "Dave",
             [
                 0,
-                255,
+                0,
+                255
+            ]
+        ],
+        [
+            "Jawbreaker",
+            "trueexpungedbandumb",
+            [
+                0,
+                100,
                 0
+            ]
+        ],
+        [
+            "Gloomy Despair ALT",
+            "exosphere",
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        [
+            "Convenience",
+            "bambiaggrivated",
+            [
+                0,
+                128,
+                0
+            ]
+        ],
+        [
+            "Encore",
+            "bambiaggrivated",
+            [
+                0,
+                128,
+                0
+            ]
+        ],
+        [
+            "Overwhelm",
+            "azastroth",
+            [
+                128,
+                0,
+                128
+            ]
+        ],
+        [
+            "Dissaranging",
+            "bandumbmad",
+            [
+                0,
+                128,
+                0
+            ]
+        ],
+        [
+            "Demurral",
+            "OppositionFlyHigh",
+            [
+                255,
+                255,
+                255
+            ]
+        ],
+        [
+            "Soundless",
+            "pibbydave",
+            [
+                0,
+                0,
+                255
+            ]
+        ],
+        [
+            "approaching-yourself",
+            "MyBandumb",
+            [
+                0,
+                250,
+                154
+            ]
+        ],
+        [
+            "Dead Dream",
+            "DeadDream",
+            [
+                253,
+                253,
+                150
+            ]
+        ],
+        [
+            "Jinxed",
+            "allurepanicked",
+            [
+                14,
+                14,
+                14
             ]
         ]
     ],

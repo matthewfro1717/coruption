@@ -1,0 +1,32 @@
+{
+    "storyName": "free",
+    "difficulties": "",
+    "hideFreeplay": false,
+    "weekBackground": "youfnf",
+    "weekBefore": "fplay",
+    "freeplayColor": [
+        146,
+        113,
+        253
+    ],
+    "startUnlocked": true,
+    "hideStoryMode": true,
+    "songs": [
+        [
+            "Aichmophobia",
+            "exosphereinsanity",
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        ["Demigod","TrueFormFlyHigh", []]
+    ],
+    "weekCharacters": [
+        "",
+        "",
+        ""
+    ],
+    "weekName": "frepla"
+}

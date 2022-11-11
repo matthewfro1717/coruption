@@ -137,32 +137,7 @@ class FreeplayState extends MusicBeatState
 		}
 		// switch (AllPossibleSongs[CurrentPack].toLowerCase())
 		// {
-
-		// 	case 'extra':
-		// 		addWeek(['Jawbreaker'], 9, ['trueexpungedbandumb']);
-		// 		addWeek(['Gloomy Despair ALT'], 0, ['exosphere']);
-		// 		addWeek(['Convenience'], 1, ['bambiaggrivated']);
-		// 		addWeek(['Encore'], 1, ['bambiaggrivated']);
-		// 		addWeek(['Overwhelm'], 10, ['azastroth']);
-		// 		addWeek(['Dissaranging'], 1, ['bandumbmad']);
-		// 		addWeek(['Diaphanous'], 13, ['FlyHigh']);
-		// 		addWeek(['Demurral'], 3, ['OppositionFlyHigh']);
-		// 		addWeek(['Soundless'], 8, ['pibbydave']);
-		// 		addWeek(['approaching-yourself'], 18, ['MyBandumb']);
-		// 		addWeek(['Dead Dream'], 13, ['DeadDream']);
-		// 		addWeek(['Jinxed'], 4, ['allurepanicked']);
-
-		// 	case 'joke':
-		// 		addWeek(['pseptuagint5'], 9, ['jeremy']);
-		// 		addWeek(['Kysophobia'], 0, ['obligatory']);
-		// 		addWeek(['real-delirium'], 10, ['cobi']);
-		// 		addWeek(['Devorial'], 14, ['gf']);
-		// 		addWeek(['Peace'], 18, ['bandumb']);
-		// 		addWeek(['Unexpecting'], 0, ['exosphere']);
-		// 		addWeek(['Wizard Time'], 13, ['FlyHigh']);
-
 		// 	case 'hidden':
-		// 		addWeek(['Aichmophobia'], 0, ['exosphereinsanity']);
 		// 		addWeek(['Demigod'], 16, ['TrueFormFlyHigh']);
 		// 		addWeek(['Trulucent'], 0, ['redacted']);
 		// 		addWeek(['Dimensional'], 5, ['Anthony']);

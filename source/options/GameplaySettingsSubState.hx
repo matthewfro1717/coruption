@@ -76,25 +76,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.maxValue = 30;
 		addOption(option);
 
-		var option:Option = new Option('Judgement Counter', 'If unchecked, the judgement counter is hidden.', 'judgement', 'bool', true);
-		addOption(option);
-
-		var option:Option = new Option('Lane Underlay Visibility', 'Sets visibility of lane underlay.', 'underlaneVisibility', 'percent', 0);
-		addOption(option);
-		option.scrollSpeed = 1;
-		option.minValue = 0.0;
-		option.maxValue = 1;
-		option.changeValue = 0.1;
-		option.decimals = 1;
-
-		var option:Option = new Option('Opponent Lane Underlay Visibility', 'Sets visibility of opponent\'s lane underlay.', 'opponentUnderlaneVisibility',
-			'percent', 0);
-		addOption(option);
-		option.scrollSpeed = 1;
-		option.minValue = 0.0;
-		option.maxValue = 1;
-		option.changeValue = 0.1;
-		option.decimals = 1;
+	
 
 		var option:Option = new Option('Sick! Hit Window', 'Changes the amount of time you have\nfor hitting a "Sick!" in milliseconds.', 'sickWindow', 'int',
 			45);

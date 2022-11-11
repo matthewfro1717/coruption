@@ -1,0 +1,85 @@
+{
+    "storyName": "free",
+    "difficulties": "",
+    "hideFreeplay": false,
+    "weekBackground": "youfnf",
+    "weekBefore": "fplay",
+    "freeplayColor": [
+        146,
+        113,
+        253
+    ],
+    "startUnlocked": true,
+    "hideStoryMode": true,
+    "songs": [
+        [
+            "pseptuagint5",
+            "jeremy",
+            [
+                0,
+                100,
+                0
+            ]
+        ],
+        [
+            "Kysophobia",
+            "obligatory",
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        [
+            "real-delirium",
+            "cobi",
+            [
+                128,
+                0,
+                128
+            ]
+        ],
+        [
+            "Devorial",
+            "gf",
+            [
+                165,
+                11,
+                94
+            ]
+        ],
+        [
+            "Peace",
+            "bandumb",
+            [
+                0,
+                250,
+                154
+            ]
+        ],
+        [
+            "Unexpecting",
+            "exosphere",
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        [
+            "Wizard Time",
+            "FlyHigh",
+            [
+                253,
+                253,
+                150
+            ]
+        ]
+    ],
+    "weekCharacters": [
+        "",
+        "",
+        ""
+    ],
+    "weekName": "frepla"
+}
