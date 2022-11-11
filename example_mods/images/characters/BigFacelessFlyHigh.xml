@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BigFacelessFlyHigh.png"><SubTexture name="BigFacelessFlyHigh down0000" x="0" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh down0001" x="724" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh down0002" x="1448" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh idle0000" x="0" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh left\0000" x="724" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh left\0001" x="1448" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh left\0002" x="0" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh right0000" x="724" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh right0001" x="1448" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh right0002" x="0" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh up0000" x="724" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh up0001" x="1448" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="BigFacelessFlyHigh up0002" x="0" y="2896" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+</TextureAtlas>

@@ -1,0 +1,2319 @@
+{
+	"song": {
+		"speed": 3.59999990463257,
+		"stage": "glitchcornBG",
+		"player1": "bf",
+		"player2": "hyperbambi",
+		"player3": null,
+		"events": [
+			[
+				19200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.1",
+						"0.01"
+					]
+				]
+			],
+			[
+				19275,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.2"
+					]
+				]
+			],
+			[
+				19500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.1",
+						"0.01"
+					]
+				]
+			],
+			[
+				19575,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.2"
+					]
+				]
+			],
+			[
+				19800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.1",
+						"0.01"
+					]
+				]
+			],
+			[
+				19875,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.2"
+					]
+				]
+			],
+			[
+				20100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.1",
+						"0.01"
+					]
+				]
+			],
+			[
+				20175,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.2"
+					]
+				]
+			],
+			[
+				20400,
+				[
+					[
+						"Change Scroll Speed",
+						"0.1",
+						"0.01"
+					]
+				]
+			],
+			[
+				20475,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.2"
+					]
+				]
+			],
+			[
+				20700,
+				[
+					[
+						"Change Scroll Speed",
+						"0.1",
+						"0.01"
+					]
+				]
+			],
+			[
+				20775,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.2"
+					]
+				]
+			],
+			[
+				21000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				21075,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.2"
+					]
+				]
+			],
+			[
+				21300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				21375,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.2"
+					]
+				]
+			],
+			[
+				25200,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				25500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.1"
+					]
+				]
+			],
+			[
+				25800,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				26100,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				28800,
+				[
+					[
+						"TweenSpin",
+						"1",
+						"360"
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				38475,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				38700,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				38775,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				39000,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				39075,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				39300,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				39375,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				39600,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				39675,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				39900,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				39975,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				40200,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.01"
+					]
+				]
+			],
+			[
+				40275,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				40500,
+				[
+					[
+						"Change Scroll Speed",
+						"1.1",
+						"0.01"
+					]
+				]
+			],
+			[
+				40575,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				43800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				43837.5,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.05"
+					]
+				]
+			],
+			[
+				43950,
+				[
+					[
+						"Change Scroll Speed",
+						"0.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				43987.5,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.05"
+					]
+				]
+			],
+			[
+				44100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				44137.5,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.05"
+					]
+				]
+			],
+			[
+				44250,
+				[
+					[
+						"Change Scroll Speed",
+						"0.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				44287.5,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.05"
+					]
+				]
+			],
+			[
+				44400,
+				[
+					[
+						"Change Scroll Speed",
+						"0.2",
+						"0.01"
+					]
+				]
+			],
+			[
+				44475,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				44700,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				44775,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				45000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				45075,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				45300,
+				[
+					[
+						"Change Scroll Speed",
+						"1.1",
+						"0.01"
+					]
+				]
+			],
+			[
+				45375,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				48150,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				48300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				48450,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				48600,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				48750,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				48900,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				49050,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				49200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				49350,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				49500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				49650,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				49800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				49950,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				50100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				50250,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				50400,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				50550,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				50700,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				50850,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				51000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				51150,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				51300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				51450,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				51600,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				51750,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				51900,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				52050,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				52200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				52350,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				52500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				52650,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				52800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				52950,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				53100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				53250,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				53400,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				53550,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				53700,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				53850,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				54000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				54150,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				54300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				54450,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				54600,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				54750,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				54900,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				55050,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				55200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				55350,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				55500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				55650,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				55800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				55950,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				56100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				56250,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				56400,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				56550,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				56700,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				56850,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				57000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				57150,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				57300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				57450,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				57750,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				57900,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				58050,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				58200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				58350,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				58500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				58650,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				58800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				58950,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				59100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				59250,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				59400,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				59550,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				59700,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				59850,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				60150,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				60300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				60450,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				60600,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				60750,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				60900,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				61050,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				61200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				61350,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				61500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				61650,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				61800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				61950,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				62100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				62250,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				67200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				67350,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				67500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				67650,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				67800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				67950,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				68100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				68250,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				68400,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				68550,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				68700,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				68850,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				69000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				69150,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				69300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				69450,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				69600,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				69750,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				69900,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				70050,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				70200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				70350,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				70500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				70650,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				70800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				70950,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				71100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				71250,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				71400,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				71550,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				71700,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				71850,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				72150,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				72300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				72450,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				72600,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				72750,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				72900,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				73050,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				73200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				73350,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				73500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				73650,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				73800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				73950,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				74100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				74250,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				74400,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				74550,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				74700,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				74850,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				75000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				75150,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				75300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				75450,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				75600,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				75750,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				75900,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				76050,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				76200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				76350,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				76500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.05"
+					]
+				]
+			],
+			[
+				76650,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				96075,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				96300,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				96375,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				96600,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				96675,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				96900,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				96975,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				97200,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				97275,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				97500,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				97575,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				97800,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				97875,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				98100,
+				[
+					[
+						"Change Scroll Speed",
+						"0.7",
+						"0.01"
+					]
+				]
+			],
+			[
+				98175,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				105000,
+				[
+					[
+						"Change Scroll Speed",
+						"2",
+						"2"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 200,
+		"arrowSkin": "ReeVrzes3DNotes_assets",
+		"needsVoices": false,
+		"song": "Hyperness"
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "gone",
+			"text": "*2 years later*",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Azstroth"
+		},
+		{
+			"expression": "Fear",
+			"text": "I feel like this isn't going to end...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "FlyHigh"
+		},
+		{
+			"expression": "Fear",
+			"text": "We've suffered many casualties and we're now on the losing side.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "FlyHigh"
+		},
+		{
+			"expression": "talk",
+			"text": "uhhhhhhhhhhhh",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Notice",
+			"text": "I'm guessing you want another round?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "FlyHigh"
+		},
+		{
+			"expression": "Notice",
+			"text": "I might leave early though I'm not sure of it as I have to aid my soldiers.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "FlyHigh"
+		},
+		{
+			"expression": "Happy",
+			"text": "I'll put on something calm this time, alright?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "FlyHigh"
+		}
+	]
+}

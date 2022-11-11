@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "angry",
+			"expression": "pain",
+			"text": "THE PAIN... IS UNBEARABLE!"
+		},
+		{
+                                    "sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "BEEP!"
+		},
+		{
+                                    "sound": "gfspeak",
+			"speed": 0.01,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "HOLY FUCK!"
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "angry",
+			"expression": "pain",
+			"text": "NO WONDER SOMETHING WASN'T RIGHT!"
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "angry",
+			"expression": "pain",
+			"text": "I CAN'T KEEP CONTROL OF MYSELF!"
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "angry",
+			"expression": "pain",
+			"text": "SOMEONE JUST HELP ME ALREADY!!"
+		}
+	]
+}

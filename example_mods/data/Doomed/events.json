@@ -1,0 +1,319 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "glitchcornBG",
+		"player1": "bf",
+		"player2": "exophericbambcontrolled",
+		"player3": null,
+		"events": [
+			[
+				51692.3076923077,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				51807.6923076923,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				52153.8461538461,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				52269.2307692308,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				52615.3846153846,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				52730.7692307692,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				53076.9230769231,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				53192.3076923077,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				53538.4615384615,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				53653.8461538461,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				54000,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				54115.3846153846,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				54461.5384615384,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				54576.9230769231,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				54923.0769230769,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				55038.4615384615,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				55384.6153846154,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				55500,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				55846.1538461538,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				55961.5384615384,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				56307.6923076923,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				56423.0769230769,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				56769.2307692308,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				56884.6153846154,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				57230.7692307692,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				57346.1538461538,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				57692.3076923077,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				57807.6923076923,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.3"
+					]
+				]
+			],
+			[
+				58153.8461538461,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.1"
+					]
+				]
+			],
+			[
+				58269.2307692308,
+				[
+					[
+						"Change Scroll Speed",
+						"1.1",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 130,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Doomed"
+	}
+}

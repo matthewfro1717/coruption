@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-309,
+				29
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bsidesupplant right"
+		},
+		{
+			"offsets": [
+				-313,
+				31
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bsidesupplant left"
+		},
+		{
+			"offsets": [
+				-308,
+				30
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bsidesupplant down"
+		},
+		{
+			"offsets": [
+				-311,
+				32
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bsidesupplant up"
+		},
+		{
+			"offsets": [
+				-310,
+				31
+			],
+			"loop": true,
+			"fps": 13,
+			"anim": "idle",
+			"indices": [],
+			"name": "bsidesupplant idle"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/bsidesupplant",
+	"position": [
+		-360,
+		240
+	],
+	"healthicon": "bsidesmadbambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		255,
+		255
+	],
+	"camera_position": [
+		400,
+		-90
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

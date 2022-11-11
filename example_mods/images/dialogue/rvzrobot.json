@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		-100,
+		-130
+	],
+	"scale": 0.9,
+	"animations": [
+		{
+			"loop_name": "RVZRobot neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "RVZRobot neutral0001",
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "RVZRobot tired",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "RVZRobot tired0001",
+			"anim": "tired",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "RVZRobot shocked",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "RVZRobot shocked0001",
+			"anim": "shocked",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "RVZRobot happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "RVZRobot happy0001",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "RVZRobot"
+}

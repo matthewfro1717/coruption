@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "enragedbambi left"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "enragedbambi down"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singUP",
+			"indices": [],
+			"name": "enragedbambi up"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "enragedbambi right"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "idle",
+			"indices": [],
+			"name": "enragedbambi idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/enragedbambi",
+	"position": [
+		-360,
+		200
+	],
+	"healthicon": "BambiAggrivated",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		215,
+		0
+	],
+	"camera_position": [
+		170,
+		-80
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

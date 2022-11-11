@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="hyperbambi.png"><SubTexture name="hyperbambi down0000" x="0" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi down0001" x="668" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi down0002" x="1336" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi idle0000" x="0" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi idle0001" x="668" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi idle0002" x="1336" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi idle0003" x="0" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi idle0004" x="668" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi left0000" x="1336" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi right0000" x="0" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi right0001" x="668" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi right0002" x="1336" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi up0000" x="0" y="2672" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi up0001" x="668" y="2672" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="hyperbambi up0002" x="1336" y="2672" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+</TextureAtlas>

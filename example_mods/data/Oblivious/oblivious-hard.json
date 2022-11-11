@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 3.3,
+		"stage": "Familiarity",
+		"player1": "bfscared",
+		"player2": "Exopunged",
+		"player3": null,
+		"events": [
+			[
+				153468.75,
+				[
+					[
+						"Play Animation",
+						"transform",
+						"Dad"
+					]
+				]
+			],
+			[
+				153562.5,
+				[
+					[
+						"Opponent Fade",
+						"1",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 160,
+		"arrowSkin": "ReeVrzes3DNotes_assets",
+		"needsVoices": true,
+		"song": "Oblivious"
+	}
+}

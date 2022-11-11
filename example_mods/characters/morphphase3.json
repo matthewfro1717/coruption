@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				167
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "newmorpheusp3 up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-200,
+				70
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "newmorpheusp3 right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				229,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "newmorpheusp3 left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-226,
+				-150
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "newmorpheusp3 down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "newmorpheusp3 idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/newmorpheusp3",
+	"position": [
+		-80,
+		-140
+	],
+	"healthicon": "morphp3",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		255
+	],
+	"camera_position": [
+		-380,
+		-90
+	],
+	"sing_duration": 4,
+	"scale": 1.7
+}

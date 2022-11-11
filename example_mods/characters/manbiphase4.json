@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				300,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "manbiphase4 idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				250,
+				-60
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "manbiphase4 down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				420,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "manbiphase4 left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				30
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "manbiphase4 right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				288,
+				140
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "manbiphase4 up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/manbiphase4",
+	"position": [
+		100,
+		-300
+	],
+	"healthicon": "manbip4",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		140
+	],
+	"camera_position": [
+		-851,
+		-619
+	],
+	"sing_duration": 4,
+	"scale": 2.3
+}

@@ -1,0 +1,58 @@
+{
+	"storyName": "Tristan in the void? HOW?!?!?!?!",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "tristan",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week3bambi",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Homework",
+			"tristan",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"Lesson",
+			"tristan",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"Grounded",
+			"tristan",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"Defiance",
+			"exosphere",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Exospheric Bambi"
+}

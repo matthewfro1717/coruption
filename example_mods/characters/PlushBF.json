@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 16,
+			"name": "PlushBF idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				-3
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "PlushBF left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-1
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "PlushBF down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				3
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "PlushBF up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-17,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "PlushBF right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/PlushBF",
+	"position": [
+		-220,
+		-60
+	],
+	"healthicon": "PlushBF",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-370,
+		500
+	],
+	"sing_duration": 4,
+	"scale": 0.3
+}

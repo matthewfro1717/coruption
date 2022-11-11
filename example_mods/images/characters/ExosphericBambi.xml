@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ExosphericBambi.png"><SubTexture name="ExosphericBambi Down0000" x="0" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Down0001" x="993" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Down0002" x="1986" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0000" x="2979" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0001" x="0" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0002" x="993" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0003" x="1986" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0004" x="2979" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0005" x="0" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0006" x="993" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0007" x="1986" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0008" x="2979" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0009" x="0" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0010" x="993" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Idle0011" x="1986" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Left0000" x="2979" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Left0001" x="0" y="3972" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Left0002" x="993" y="3972" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Right0000" x="1986" y="3972" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Right0001" x="2979" y="3972" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Right0002" x="0" y="4965" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Up0000" x="993" y="4965" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Up0001" x="1986" y="4965" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="ExosphericBambi Up0002" x="2979" y="4965" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+</TextureAtlas>

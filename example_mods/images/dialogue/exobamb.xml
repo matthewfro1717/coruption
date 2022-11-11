@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="exobamb.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EXOTALK0000" x="0" y="0" width="629" height="692"/>
+	<SubTexture name="leantalk0000" x="710" y="0" width="665" height="620"/>
+</TextureAtlas>

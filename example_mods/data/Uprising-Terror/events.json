@@ -1,0 +1,130 @@
+{
+	"song": {
+		"speed": 2.9,
+		"stage": "Yard",
+		"player1": "Boyfriend",
+		"player2": "worrieddave",
+		"player3": null,
+		"events": [
+			[
+				5647.05882352941,
+				[
+					[
+						"MoveArrow",
+						"0",
+						"0,0,0,0.3,1"
+					]
+				]
+			],
+			[
+				7058.82352941176,
+				[
+					[
+						"MoveArrow",
+						"1",
+						"0,0,0,0.3,1"
+					]
+				]
+			],
+			[
+				8470.58823529412,
+				[
+					[
+						"MoveArrow",
+						"2",
+						"0,0,0,0.3,1"
+					]
+				]
+			],
+			[
+				9882.35294117647,
+				[
+					[
+						"MoveArrow",
+						"3",
+						"0,0,0,0.3,1"
+					]
+				]
+			],
+			[
+				11294.1176470588,
+				[
+					[
+						"MoveArrow",
+						"4",
+						"0,0,0,1,1"
+					]
+				]
+			],
+			[
+				12705.8823529412,
+				[
+					[
+						"MoveArrow",
+						"5",
+						"0,0,0,1,1"
+					]
+				]
+			],
+			[
+				14117.6470588235,
+				[
+					[
+						"MoveArrow",
+						"6",
+						"0,0,0,1,1"
+					]
+				]
+			],
+			[
+				15529.4117647059,
+				[
+					[
+						"MoveArrow",
+						"7",
+						"0,0,0,1,1"
+					]
+				]
+			],
+			[
+				135529.411764706,
+				[
+					[
+						"Change Character",
+						"1",
+						"phobiadave"
+					]
+				]
+			],
+			[
+				135529.411764706,
+				[
+					[
+						"Change Character",
+						"2",
+						"gfworried"
+					]
+				]
+			],
+			[
+				135529.411764706,
+				[
+					[
+						"Change Character",
+						"0",
+						"ScaredBoyfriend"
+					]
+				]
+			]
+			
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 170,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Uprising-Terror"
+	}
+}

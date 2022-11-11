@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 3.6,
+		"stage": "PureCorrupt",
+		"player1": "bfflyhigh",
+		"player2": "Azastroth",
+		"player3": null,
+		"events": [
+			[
+				46800,
+				[
+					[
+						"Play Animation",
+						"looking",
+						"gf"
+					]
+				]
+			],
+			[
+				86400,
+				[
+					[
+						"Play Animation",
+						"shocked",
+						"gf"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "ChromaticAbNoteSplashes",
+		"validScore": false,
+		"gfVersion": "FlyHighSideways",
+		"bpm": 200,
+		"arrowSkin": "ChromaticAbNotes_assets",
+		"needsVoices": true,
+		"song": "Intrusion"
+	}
+}

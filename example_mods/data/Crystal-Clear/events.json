@@ -1,0 +1,89 @@
+{
+	"song": {
+		"speed": 3.40000009536743,
+		"stage": "halfdimension",
+		"player1": "bf",
+		"player2": "halfbi",
+		"player3": null,
+		"events": [
+			[
+				58300,
+				[
+					[
+						"Change Character",
+						"1",
+						"halfbicorrupt"
+					]
+				]
+			],
+			[
+				76800,
+				[
+					[
+						"Change Character",
+						"1",
+						"exosphere"
+					]
+				]
+			],
+			[
+				89600,
+				[
+					[
+						"Change Character",
+						"1",
+						"halfbicorrupt"
+					]
+				]
+			],
+			[
+				102400,
+				[
+					[
+						"Change Character",
+						"1",
+						"exosphere"
+					]
+				]
+			],
+			[
+				140800,
+				[
+					[
+						"Change Character",
+						"1",
+						"exosphereguitar"
+					]
+				]
+			],
+			[
+				192000,
+				[
+					[
+						"Change Character",
+						"1",
+						"halfibicorrupt"
+					]
+				]
+			],
+			[
+				204800,
+				[
+					[
+						"Change Character",
+						"1",
+						"exosphere"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 150,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"song": "Crystal-Clear"
+	}
+}

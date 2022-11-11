@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "exosphereguitar left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "exosphereguitar down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "exosphereguitar up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "Summon",
+			"fps": 13,
+			"name": "exosphereguitar summon",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "exosphereguitar right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "idle",
+			"fps": 18,
+			"name": "exosphereguitar idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exosphereguitar",
+	"position": [
+		-650,
+		-290
+	],
+	"healthicon": "exosphereinsanity",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		300,
+		-10
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

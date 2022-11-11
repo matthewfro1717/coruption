@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jeremy.png"><SubTexture name="jeremy idle0000" x="1420" y="3363" width="810" height="641" frameX="-496" frameY="-483" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy idle0001" x="951" y="2642" width="762" height="711" frameX="-471" frameY="-388" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy idle0002" x="0" y="1901" width="745" height="741" frameX="-456" frameY="-349" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy idle0003" x="2654" y="784" width="706" height="756" frameX="-452" frameY="-324" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy idle0004" x="682" y="1009" width="684" height="786" frameX="-444" frameY="-294" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy idle0005" x="1968" y="0" width="686" height="784" frameX="-432" frameY="-289" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy left0000" x="637" y="3363" width="783" height="655" frameX="-126" frameY="-472" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy left0001" x="2328" y="2642" width="621" height="685" frameX="-289" frameY="-445" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy left0002" x="1713" y="2642" width="615" height="694" frameX="-309" frameY="-438" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy left0003" x="1968" y="784" width="616" height="700" frameX="-313" frameY="-434" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy right0000" x="0" y="2642" width="951" height="721" frameX="-408" frameY="-470" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy right0001" x="1503" y="1901" width="770" height="733" frameX="-341" frameY="-452" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy right0002" x="745" y="1901" width="758" height="736" frameX="-334" frameY="-450" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy right0003" x="2273" y="1901" width="754" height="725" frameX="-332" frameY="-461" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy up0000" x="0" y="0" width="627" height="1009" frameX="-433" frameY="-172" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy up0001" x="627" y="0" width="669" height="920" frameX="-440" frameY="-287" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy up0002" x="1296" y="0" width="672" height="904" frameX="-439" frameY="-305" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy up0003" x="0" y="1009" width="682" height="892" frameX="-437" frameY="-319" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy down0000" x="0" y="3363" width="637" height="684" frameX="-334" frameY="-682" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy down0001" x="3502" y="685" width="594" height="675" frameX="-520" frameY="-548" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy down0002" x="3502" y="0" width="594" height="685" frameX="-504" frameY="-531" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy down0003" x="1366" y="1009" width="595" height="688" frameX="-501" frameY="-524" frameWidth="1377" frameHeight="1425" />
+<SubTexture name="jeremy fuck you lmao0000" x="2654" y="0" width="848" height="784" frameX="-270" frameY="-289" frameWidth="1377" frameHeight="1425" />
+</TextureAtlas>

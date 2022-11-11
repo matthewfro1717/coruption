@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Bambi.png"><SubTexture name="Bambi mad0000" x="0" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="Bambi talk0000" x="993" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="Bambi talk0001" x="0" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="Bambi mad0001" x="993" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="Bambi sickly0000" x="0" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="Bambi sickly0001" x="993" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+</TextureAtlas>

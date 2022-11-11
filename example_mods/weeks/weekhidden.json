@@ -1,0 +1,140 @@
+{
+	"storyName": "",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Aichmophobia",
+			"exosphereinsanity",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Demigod",
+			"TrueFormFlyHigh",
+			[
+				155,
+				155,
+				113
+			]
+		],
+		[
+			"Holy-Flame",
+			"TrueFormFlyHigh",
+			[
+				155,
+				155,
+				113
+			]
+		],
+		[
+			"Truculent",
+			"redacted",
+			[
+				20,
+				20,
+				20
+			]
+		],
+		[
+			"Dimensional",
+			"Anthony",
+			[
+				255,
+				120,
+				0
+			]
+		],
+		[
+			"Omnipotent",
+			"omnipotent",
+			[
+				0,
+				0,
+				95
+			]
+		],
+		[
+			"Atmospheric Anomaly",
+			"atomosphere",
+			[
+				0,
+				255,
+				180
+			]
+		],
+		[
+			"Quadriplegia",
+			"exosphereinsanity",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Skill Issue",
+			"Exosphere",
+			[
+				0,
+				240,
+				0
+			]
+		],
+		[
+			"Blocked Forever",
+			"BlockedRedacted",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Screwed",
+			"bambiAGGRIVATED",
+			[
+				0,
+				160,
+				0
+			]
+		],
+		[
+			"Hydromania",
+			"Hydromania",
+			[
+				0,
+				113,
+				253
+			]
+		],
+		[
+			"Disavowed",
+			"disregar",
+			[
+				6,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": ""
+}

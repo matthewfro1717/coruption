@@ -1,0 +1,128 @@
+{
+	"position": [
+		0,
+		-130
+	],
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "FlyHigh",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "FlyHigh Talk",
+			"idle_name": "FlyHigh Talk0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Confused",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "FlyHigh Confused",
+			"idle_name": "FlyHigh Confused0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "FlyHigh Mad",
+			"idle_name": "FlyHigh Mad0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Notice",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "FlyHigh Notice",
+			"idle_name": "FlyHigh Notice0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "FlyHigh Happy",
+			"idle_name": "FlyHigh Happy0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "what",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "FlyHigh what",
+			"idle_name": "FlyHigh what0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "AngryTurn",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "FlyHigh AngryTurn",
+			"idle_name": "FlyHigh AngryTurn0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Shocked",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "FlyHigh Shocked",
+			"idle_name": "FlyHigh Shocked0000"
+		},
+		{
+			"loop_name": "FlyHigh Fear",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "FlyHigh Fear0000",
+			"anim": "Fear",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="redacted expunged.png">
+<SubTexture name="redacted expunged idle0000" x="2475" y="747" width="506" height="684" frameX="-377" frameY="-265" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged idle0001" x="0" y="0" width="664" height="915" frameX="-331" frameY="-123" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged idle0002" x="664" y="0" width="642" height="895" frameX="-346" frameY="-133" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged idle0003" x="0" y="915" width="574" height="857" frameX="-389" frameY="-154" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged idle0004" x="1899" y="837" width="557" height="790" frameX="-406" frameY="-201" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged idle0005" x="2475" y="0" width="507" height="747" frameX="-382" frameY="-225" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged idle0006" x="2982" y="1448" width="507" height="723" frameX="-375" frameY="-243" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged right0000" x="2982" y="0" width="1000" height="724" frameX="-111" frameY="-249" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged right0001" x="727" y="2511" width="687" height="717" frameX="-481" frameY="-261" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged right0002" x="1560" y="1772" width="699" height="726" frameX="-488" frameY="-257" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged right0003" x="2259" y="1772" width="684" height="722" frameX="-499" frameY="-261" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged up0000" x="1899" y="0" width="576" height="837" frameX="-322" frameY="-78" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged up0001" x="1162" y="915" width="589" height="856" frameX="-325" frameY="-52" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged up0002" x="1306" y="0" width="593" height="865" frameX="-327" frameY="-28" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged up0003" x="574" y="915" width="588" height="857" frameX="-327" frameY="-37" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged left0000" x="2870" y="2511" width="730" height="707" frameX="-56" frameY="-256" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged left0001" x="1414" y="2511" width="732" height="715" frameX="-7" frameY="-254" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged left0002" x="0" y="2511" width="727" height="718" frameX="0" frameY="-254" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged left0003" x="2146" y="2511" width="724" height="715" frameX="0" frameY="-257" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged down0000" x="2982" y="724" width="516" height="724" frameX="-426" frameY="-365" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged down0001" x="522" y="1772" width="521" height="738" frameX="-388" frameY="-408" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged down0002" x="1043" y="1772" width="517" height="736" frameX="-379" frameY="-419" frameWidth="1222" frameHeight="1222" />
+<SubTexture name="redacted expunged down0003" x="0" y="1772" width="522" height="739" frameX="-389" frameY="-410" frameWidth="1222" frameHeight="1222" />
+</TextureAtlas>

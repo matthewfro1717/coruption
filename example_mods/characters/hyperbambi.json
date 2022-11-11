@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 13,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "hyperbambi left"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 13,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "hyperbambi down"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 13,
+			"anim": "singUP",
+			"indices": [],
+			"name": "hyperbambi up"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 13,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "hyperbambi right"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": true,
+			"fps": 10,
+			"anim": "idle",
+			"indices": [],
+			"name": "hyperbambi idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/hyperbambi",
+	"position": [
+		-50,
+		0
+	],
+	"healthicon": "hyperbambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		20,
+		20,
+		20
+	],
+	"camera_position": [
+		-40,
+		-140
+	],
+	"sing_duration": 6.1,
+	"scale": 1.4
+}

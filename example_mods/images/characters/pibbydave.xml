@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pibbydave.png">
+<SubTexture name="pibbydave idle0000" x="1732" y="0" width="427" height="613" frameX="-154" frameY="-73" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave idle0001" x="929" y="1930" width="459" height="595" frameX="-146" frameY="-93" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave idle0002" x="2159" y="599" width="452" height="598" frameX="-148" frameY="-87" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave idle0003" x="445" y="1317" width="447" height="606" frameX="-149" frameY="-80" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave idle0004" x="0" y="1317" width="445" height="613" frameX="-149" frameY="-74" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave idle0005" x="862" y="665" width="444" height="614" frameX="-149" frameY="-74" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave right0000" x="1732" y="613" width="406" height="612" frameX="-154" frameY="-75" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave right0001" x="1306" y="665" width="418" height="609" frameX="-154" frameY="-82" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave right0002" x="1362" y="1317" width="435" height="601" frameX="-154" frameY="-89" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave right0003" x="2159" y="1197" width="444" height="597" frameX="-154" frameY="-95" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave right0004" x="0" y="1930" width="447" height="596" frameX="-154" frameY="-97" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave right0005" x="2638" y="0" width="448" height="589" frameX="-154" frameY="-99" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave up0000" x="431" y="665" width="431" height="641" frameX="-154" frameY="-47" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave up0001" x="0" y="665" width="431" height="652" frameX="-154" frameY="-36" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave up0002" x="867" y="0" width="430" height="662" frameX="-154" frameY="-27" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave up0003" x="0" y="0" width="432" height="665" frameX="-154" frameY="-25" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave up0004" x="432" y="0" width="435" height="665" frameX="-154" frameY="-26" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave up0005" x="1297" y="0" width="435" height="662" frameX="-154" frameY="-29" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave left0000" x="892" y="1317" width="470" height="603" frameX="-154" frameY="-83" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave left0001" x="2159" y="0" width="479" height="599" frameX="-154" frameY="-87" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave left0002" x="447" y="1930" width="482" height="596" frameX="-154" frameY="-90" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave left0003" x="1388" y="1930" width="483" height="592" frameX="-154" frameY="-94" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave left0004" x="3086" y="0" width="481" height="588" frameX="-154" frameY="-98" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave left0005" x="1871" y="1930" width="478" height="590" frameX="-154" frameY="-98" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave down0000" x="3086" y="588" width="447" height="522" frameX="-154" frameY="-164" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave down0001" x="3086" y="1110" width="455" height="512" frameX="-154" frameY="-169" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave down0002" x="0" y="2526" width="456" height="506" frameX="-154" frameY="-170" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave down0003" x="456" y="2526" width="451" height="506" frameX="-154" frameY="-171" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave down0004" x="2638" y="589" width="446" height="510" frameX="-154" frameY="-169" frameWidth="720" frameHeight="720" />
+<SubTexture name="pibbydave down0005" x="3086" y="1622" width="444" height="512" frameX="-154" frameY="-170" frameWidth="720" frameHeight="720" />
+</TextureAtlas>

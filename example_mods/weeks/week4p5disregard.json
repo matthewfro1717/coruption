@@ -1,0 +1,32 @@
+{
+	"storyName": "You will not be spared",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "disregard",
+	"weekBefore": "week4exosphere",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Disregard",
+			"disregar",
+			[
+				20,
+				20,
+				20
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "???"
+}

@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"expression": "mad",
+			"text": "GRRRRR!!11!!!!1!111",
+			"boxState": "angry",
+			"sound": "bandumbspeak",
+			"speed": 0.05,
+			"portrait": "bandumb"
+		},
+		{
+			"expression": "mad",
+			"text": "HOW YOU BEET!!!!!",
+			"boxState": "angry",
+			"sound": "bandumbspeak",
+			"speed": 0.05,
+			"portrait": "bandumb"
+		},
+		{
+			"expression": "talk",
+			"text": "Skill issue",
+			"boxState": "normal",
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "mad",
+			"text": "AAAAAAA@A@A@A@A@A2@!A!A111A1!A1A1A1!A1!A",
+			"boxState": "angry",
+			"sound": "bandumbspeak",
+			"speed": 0.05,
+			"portrait": "bandumb"
+		}
+	]
+}

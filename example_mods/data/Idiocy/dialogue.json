@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "bandumbspeak",
+			"speed": 0.05,
+			"portrait": "bandumb",
+			"boxState": "normal",
+			"expression": "talking",
+			"text": "Who is you???"
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Beep bop skdoo"
+		},
+		{
+			"sound": "bandumbspeak",
+			"speed": 0.05,
+			"portrait": "bandumb",
+			"boxState": "normal",
+			"expression": "intrested",
+			"text": "Rap battol???"
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bep"
+		},
+		{
+			"sound": "bandumbspeak",
+			"speed": 0.05,
+			"portrait": "bandumb",
+			"boxState": "normal",
+			"expression": "talking",
+			"text": "Ok"
+		}
+	]
+}

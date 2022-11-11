@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 3.6,
+		"stage": "desaturatedmovement",
+		"player1": "TrueFormFlyHighSideways",
+		"player2": "TrueFormAzstroth",
+		"player3": null,
+		"events": [
+			[
+				174300,
+				[
+					[
+						"Opponent Fade",
+						"1",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 200,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Purgatory"
+	}
+}

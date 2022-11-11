@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bsidesupplant.png">
+<SubTexture name="bsidesupplant idle0000" x="0" y="1242" width="336" height="353" frameX="-198" frameY="-153" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant idle0001" x="1400" y="1242" width="326" height="339" frameX="-218" frameY="-167" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant idle0002" x="670" y="1595" width="279" height="327" frameX="-273" frameY="-178" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant idle0003" x="1544" y="1595" width="279" height="319" frameX="-256" frameY="-187" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant idle0004" x="1266" y="1595" width="278" height="325" frameX="-228" frameY="-181" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant idle0005" x="396" y="1595" width="274" height="333" frameX="-201" frameY="-173" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant idle0006" x="726" y="1242" width="274" height="346" frameX="-204" frameY="-160" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant idle0007" x="1511" y="715" width="276" height="354" frameX="-216" frameY="-154" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant right0000" x="336" y="1242" width="390" height="349" frameX="-252" frameY="-157" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant right0001" x="1000" y="1242" width="400" height="343" frameX="-269" frameY="-163" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant right0002" x="1885" y="0" width="411" height="338" frameX="-275" frameY="-167" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant right0003" x="1885" y="1011" width="406" height="334" frameX="-277" frameY="-172" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant right0004" x="0" y="1595" width="396" height="334" frameX="-276" frameY="-172" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant right0005" x="1885" y="675" width="385" height="336" frameX="-273" frameY="-170" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant right0006" x="1885" y="338" width="383" height="337" frameX="-271" frameY="-169" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant left0000" x="1179" y="382" width="316" height="360" frameX="-166" frameY="-146" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant left0001" x="373" y="872" width="359" height="367" frameX="-132" frameY="-139" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant left0002" x="0" y="872" width="373" height="370" frameX="-121" frameY="-138" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant left0003" x="732" y="872" width="389" height="367" frameX="-105" frameY="-142" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant left0004" x="1121" y="872" width="386" height="361" frameX="-105" frameY="-150" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant left0005" x="1511" y="0" width="374" height="358" frameX="-113" frameY="-155" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant left0006" x="1511" y="358" width="367" height="357" frameX="-118" frameY="-156" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant up0000" x="1179" y="0" width="332" height="382" frameX="-212" frameY="-124" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant up0001" x="782" y="440" width="385" height="426" frameX="-201" frameY="-80" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant up0002" x="395" y="0" width="388" height="439" frameX="-199" frameY="-66" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant up0003" x="0" y="0" width="395" height="440" frameX="-186" frameY="-67" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant up0004" x="783" y="0" width="396" height="438" frameX="-180" frameY="-67" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant up0005" x="0" y="440" width="391" height="432" frameX="-182" frameY="-74" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant up0006" x="391" y="440" width="391" height="430" frameX="-185" frameY="-77" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant down0000" x="949" y="1595" width="317" height="327" frameX="-234" frameY="-179" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant down0001" x="315" y="1929" width="311" height="315" frameX="-246" frameY="-190" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant down0002" x="1232" y="1929" width="305" height="310" frameX="-248" frameY="-198" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant down0003" x="933" y="1929" width="299" height="311" frameX="-245" frameY="-200" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant down0004" x="626" y="1929" width="307" height="313" frameX="-227" frameY="-195" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant down0005" x="0" y="1929" width="315" height="316" frameX="-213" frameY="-190" frameWidth="720" frameHeight="720" />
+<SubTexture name="bsidesupplant down0006" x="1823" y="1595" width="316" height="319" frameX="-210" frameY="-187" frameWidth="720" frameHeight="720" />
+</TextureAtlas>

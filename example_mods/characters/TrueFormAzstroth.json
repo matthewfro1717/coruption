@@ -1,0 +1,175 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "Dad idle dance",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-9,
+				10
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note LEFT",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				27
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-6,
+				50
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Dad Sing Note UP",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			]
+		},
+		{
+			"offsets": [
+				140,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "WhatYouKnowAboutRollingDownInTheDeep"
+		},
+		{
+			"offsets": [
+				20,
+				201
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "TrueFormAzstroth left"
+		},
+		{
+			"offsets": [
+				0,
+				171
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "TrueFormAzstroth down"
+		},
+		{
+			"offsets": [
+				-3,
+				207
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "TrueFormAzstroth up"
+		},
+		{
+			"offsets": [
+				-50,
+				201
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "TrueFormAzstroth right"
+		},
+		{
+			"offsets": [
+				2,
+				201
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "fire",
+			"indices": [],
+			"name": "TrueFormAzstroth attack"
+		},
+		{
+			"offsets": [
+				1,
+				201
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "die",
+			"indices": [],
+			"name": "TrueFormAzstroth death"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "TrueFormAzstroth idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/TrueFormAzstroth",
+	"position": [
+		-70,
+		150
+	],
+	"healthicon": "TrueFormAzstroth",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-460,
+		-190
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

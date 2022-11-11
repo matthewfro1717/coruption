@@ -1,0 +1,50 @@
+{
+	"position": [
+		40,
+		-30
+	],
+	"dialogue_pos": "left",
+	"scale": 1.4,
+	"image": "exosphere",
+	"animations": [
+		{
+			"loop_offsets": [
+				-60,
+				30
+			],
+			"anim": "happy",
+			"idle_offsets": [
+				-60,
+				30
+			],
+			"loop_name": "exohappy",
+			"idle_name": "exohappy0001"
+		},
+		{
+			"loop_name": "exotalk",
+			"idle_offsets": [
+				0,
+				30
+			],
+			"idle_name": "exotalk0001",
+			"anim": "neutrual",
+			"loop_offsets": [
+				0,
+				30
+			]
+		},
+		{
+			"loop_name": "exoreallyhappy",
+			"idle_offsets": [
+				-50,
+				40
+			],
+			"idle_name": "exoreallyhappy0001",
+			"anim": "intimidating",
+			"loop_offsets": [
+				-50,
+				40
+			]
+		}
+	]
+}

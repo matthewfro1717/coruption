@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="deever.png"><SubTexture name="deever idle0000" x="3811" y="0" width="745" height="1221" frameX="-689" frameY="-442" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever idle0001" x="2722" y="2507" width="745" height="1227" frameX="-686" frameY="-435" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever idle0002" x="733" y="1259" width="752" height="1234" frameX="-673" frameY="-428" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever idle0003" x="0" y="1259" width="733" height="1248" frameX="-672" frameY="-412" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever left0000" x="4556" y="0" width="831" height="1209" frameX="-775" frameY="-441" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever left0001" x="4556" y="1209" width="826" height="1206" frameX="-779" frameY="-445" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever right0000" x="2832" y="1234" width="872" height="1230" frameX="-473" frameY="-433" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever right0001" x="0" y="2507" width="873" height="1229" frameX="-479" frameY="-433" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever up0000" x="0" y="0" width="946" height="1259" frameX="-508" frameY="-399" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever up0001" x="946" y="0" width="943" height="1258" frameX="-512" frameY="-403" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever down0000" x="873" y="2507" width="976" height="1229" frameX="-513" frameY="-423" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever down0001" x="1485" y="1259" width="979" height="1234" frameX="-510" frameY="-422" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever MISSDOWN0000" x="2832" y="0" width="979" height="1234" frameX="-510" frameY="-422" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever MISSUP0000" x="1889" y="0" width="943" height="1258" frameX="-512" frameY="-403" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever MISSRIGHT0000" x="1849" y="2507" width="873" height="1229" frameX="-479" frameY="-433" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever MISSLEFT0000" x="4556" y="2415" width="826" height="1206" frameX="-779" frameY="-445" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever MISSDOWN0001" x="1485" y="1259" width="979" height="1234" frameX="-510" frameY="-422" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever MISSUP0001" x="946" y="0" width="943" height="1258" frameX="-512" frameY="-403" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever MISSLEFT0001" x="4556" y="1209" width="826" height="1206" frameX="-779" frameY="-445" frameWidth="2017" frameHeight="2128" />
+<SubTexture name="deever MISSRIGHT0001" x="2832" y="1234" width="872" height="1230" frameX="-473" frameY="-433" frameWidth="2017" frameHeight="2128" />
+</TextureAtlas>

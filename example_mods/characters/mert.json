@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				341,
+				110
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "mert left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				340,
+				120
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "mert down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				345,
+				120
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "mert up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				340,
+				107
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "mert right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				340,
+				120
+			],
+			"anim": "idle",
+			"fps": 18,
+			"name": "mert idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mert",
+	"position": [
+		-260,
+		-90
+	],
+	"healthicon": "mert",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		230,
+		0
+	],
+	"camera_position": [
+		-510,
+		40
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

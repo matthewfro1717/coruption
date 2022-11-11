@@ -1,0 +1,129 @@
+{
+	"song": {
+		"speed": 3.3,
+		"stage": "DeadDreams",
+		"player1": "AzstrothFacelessP1",
+		"player2": "FacelessFlyHighP1",
+		"player3": null,
+		"events": [
+			[
+				65333.3333333334,
+				[
+					[
+						"ScreenStuff",
+						"360",
+						"0.3"
+					]
+				]
+			],
+			[
+				70666.6666666667,
+				[
+					[
+						"ScreenStuff",
+						"-360",
+						"0.3"
+					]
+				]
+			],
+			[
+				76000,
+				[
+					[
+						"ScreenStuff",
+						"360",
+						"0.3"
+					]
+				]
+			],
+			[
+				81333.3333333333,
+				[
+					[
+						"ScreenStuff",
+						"-360",
+						"0.3"
+					]
+				]
+			],
+			[
+				86666.6666666666,
+				[
+					[
+						"ScreenStuff",
+						"360",
+						"0.3"
+					]
+				]
+			],
+			[
+				92000,
+				[
+					[
+						"ScreenStuff",
+						"-360",
+						"0.3"
+					]
+				]
+			],
+			[
+				97333.3333333333,
+				[
+					[
+						"ScreenStuff",
+						"360",
+						"0.3"
+					]
+				]
+			],
+			[
+				124000,
+				[
+					[
+						"Change Character",
+						"2",
+						"BigFliHiFaceless"
+					],
+					[
+						"Change Character",
+						"1",
+						"BigFacelessFlyHigh"
+					],
+					[
+						"Change Character",
+						"0",
+						"AzstrothRun"
+					]
+				]
+			],
+			[
+				177333.333333333,
+				[
+					[
+						"Opponent Fade",
+						"0",
+						"0"
+					],
+					[
+						"Change Character",
+						"2",
+						"gfinvisible"
+					],
+					[
+						"BF Fade",
+						"0",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "FliHiFaceless",
+		"bpm": 180,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Dead-Dream"
+	}
+}

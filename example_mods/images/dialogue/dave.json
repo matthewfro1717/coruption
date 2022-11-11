@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		40,
+		-30
+	],
+	"scale": 1.4,
+	"animations": [
+		{
+			"loop_name": "Dave rap",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Dave rap0001",
+			"anim": "rap",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Dave happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Dave happy0001",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Dave worried",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Dave worried0001",
+			"anim": "worried",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Dave pain",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Dave pain0001",
+			"anim": "pain",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Dave"
+}

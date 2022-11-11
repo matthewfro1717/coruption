@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="realitybroke.png"><SubTexture name="realitybroke idle0000" x="0" y="2132" width="538" height="542" frameX="-397" frameY="-361" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke idle0001" x="2110" y="2674" width="593" height="465" frameX="-374" frameY="-438" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke idle0002" x="1543" y="2674" width="567" height="502" frameX="-392" frameY="-401" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke idle0003" x="0" y="2674" width="547" height="516" frameX="-389" frameY="-387" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke idle0004" x="2158" y="2132" width="544" height="522" frameX="-397" frameY="-381" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke idle0005" x="1614" y="2132" width="544" height="539" frameX="-396" frameY="-364" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke idle0006" x="538" y="2132" width="546" height="542" frameX="-395" frameY="-361" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke idle0007" x="1084" y="2132" width="530" height="542" frameX="-396" frameY="-361" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke idle0008" x="2702" y="2132" width="542" height="521" frameX="-397" frameY="-382" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke right0000" x="2551" y="1134" width="656" height="560" frameX="-609" frameY="-319" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke right0001" x="1755" y="1509" width="651" height="571" frameX="-619" frameY="-305" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke right0002" x="2551" y="568" width="662" height="566" frameX="-612" frameY="-316" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke right0003" x="547" y="2674" width="996" height="511" frameX="-254" frameY="-381" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke up0000" x="1166" y="1509" width="589" height="592" frameX="-377" frameY="-144" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke up0001" x="0" y="799" width="596" height="710" frameX="-372" frameY="-20" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke up0002" x="581" y="0" width="601" height="736" frameX="-371" frameY="0" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke up0003" x="0" y="0" width="581" height="799" frameX="-369" frameY="-66" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke left0000" x="2551" y="0" width="722" height="568" frameX="-105" frameY="-351" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke left0001" x="0" y="1509" width="601" height="623" frameX="-104" frameY="-286" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke left0002" x="596" y="799" width="600" height="661" frameX="-114" frameY="-261" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke left0003" x="1810" y="0" width="741" height="657" frameX="-74" frameY="-291" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke down0000" x="1810" y="657" width="566" height="647" frameX="-422" frameY="-405" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke down0001" x="601" y="1509" width="565" height="605" frameX="-427" frameY="-449" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke down0002" x="1196" y="799" width="569" height="631" frameX="-432" frameY="-453" frameWidth="1280" frameHeight="1420" />
+<SubTexture name="realitybroke down0003" x="1182" y="0" width="628" height="733" frameX="-420" frameY="-375" frameWidth="1280" frameHeight="1420" />
+</TextureAtlas>

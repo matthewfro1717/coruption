@@ -1,0 +1,230 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "Dad idle dance",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-9,
+				10
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note LEFT",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				27
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-6,
+				50
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Dad Sing Note UP",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			]
+		},
+		{
+			"offsets": [
+				140,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "WhatYouKnowAboutRollingDownInTheDeep"
+		},
+		{
+			"offsets": [
+				20,
+				181
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "FlyHighSideways left"
+		},
+		{
+			"offsets": [
+				-30,
+				151
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "FlyHighSideways down"
+		},
+		{
+			"offsets": [
+				-10,
+				211
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "FlyHighSideways up"
+		},
+		{
+			"offsets": [
+				-80,
+				141
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "FlyHighSideways right"
+		},
+		{
+			"offsets": [
+				-10,
+				211
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "dodge",
+			"indices": [],
+			"name": "FlyHighSideways dodge"
+		},
+		{
+			"offsets": [
+				-11,
+				192
+			],
+			"loop": false,
+			"fps": 1,
+			"anim": "shocked",
+			"indices": [],
+			"name": "FlyHighSideways shocked"
+		},
+		{
+			"offsets": [
+				-11,
+				192
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "looking",
+			"indices": [],
+			"name": "FlyHighSideways looking"
+		},
+		{
+			"offsets": [
+				-14,
+				192
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "FlyHighSideways miss"
+		},
+		{
+			"offsets": [
+				-14,
+				192
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "FlyHighSideways miss"
+		},
+		{
+			"offsets": [
+				-14,
+				192
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "FlyHighSideways miss"
+		},
+		{
+			"offsets": [
+				-14,
+				192
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "FlyHighSideways miss"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "FlyHighSideways idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/FlyHighSideways",
+	"position": [
+		-170,
+		150
+	],
+	"healthicon": "flyhigh",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		130,
+		-340
+	],
+	"sing_duration": 6.1,
+	"scale": 1.2
+}

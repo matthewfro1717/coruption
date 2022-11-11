@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 2.8,
+		"stage": "phone",
+		"player1": "bf",
+		"player2": "Bamderp",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"TweenSpin",
+						"240",
+						"36000"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "GF-phone",
+		"bpm": 160,
+		"arrowSkin": "ReeVrzes3DNotes_assets",
+		"needsVoices": true,
+		"song": "Idiocy"
+	}
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bandumb.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dumbangry0000" x="0" y="0" width="549" height="579"/>
+	<SubTexture name="dumbexpunged0000" x="609" y="0" width="449" height="730"/>
+	<SubTexture name="dumbhappy0000" x="1118" y="0" width="428" height="541"/>
+	<SubTexture name="dumbintrested0000" x="0" y="790" width="445" height="553"/>
+</TextureAtlas>

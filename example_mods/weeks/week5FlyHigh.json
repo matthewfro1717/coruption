@@ -1,0 +1,50 @@
+{
+	"storyName": "FlyHigh and the war between the pure and corrupt",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "FlyHigh",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week4p5endear",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"effulgence",
+			"FlyHigh",
+			[
+				255,
+				255,
+				100
+			]
+		],
+		[
+			"Precariousness",
+			"FlyHigh",
+			[
+				255,
+				255,
+				100
+			]
+		],
+		[
+			"Intrusion",
+			"azastroth",
+			[
+				186,
+				133,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "week5FlyHigh",
+	"hiddenUntilUnlocked": true
+}

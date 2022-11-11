@@ -1,0 +1,67 @@
+{
+	"storyName": "aw hell naw not the bamber!!!",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "exospheric",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week2expunged",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Resentful",
+			"BambiAggrivated",
+			[
+				0,
+				155,
+				0
+			]
+		],
+		[
+			"temper",
+			"madman",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"dereliction",
+			"placeholder",
+			[
+				75,
+				0,
+				95
+			]
+		],
+		[
+			"doomed",
+			"Exosphericbambi",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"glitchcorn",
+			"Exosphericbambi2",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Exospheric Bambi"
+}

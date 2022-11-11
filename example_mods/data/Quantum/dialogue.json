@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Oh hey! You're back."
+		},
+		{
+                                    "sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "beep!"
+		},
+		{
+                                    "sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "we were getting kind of bored so he was wondering if you'll do a rematch."
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "A rematch?"
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "normal",
+			"expression": "rap",
+			"text": "Sure thing! Are you ready?"
+		},
+		{
+                                    "sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep!"
+		}
+	]
+}

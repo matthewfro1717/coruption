@@ -1,0 +1,37 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		30,
+		-10
+	],
+	"scale": 1.45,
+	"animations": [
+		{
+			"loop_name": "Expunged talking",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Expunged talking0001",
+			"anim": "talking",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Expunged mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Expunged mad0001",
+			"anim": "mad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Expunged"
+}

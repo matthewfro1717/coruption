@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Azstroth.png"><SubTexture name="Azstroth Mad0000" x="0" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="Azstroth Beamed0000" x="724" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="Azstroth Stance0000" x="1448" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="Azstroth Gone0000" x="0" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="Azstroth NoHead0000" x="724" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="Azstroth CrossedArms0000" x="1448" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="Azstroth Looking0000" x="0" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="Azstroth Talking0000" x="724" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="Azstroth Thinking0000" x="1448" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+</TextureAtlas>

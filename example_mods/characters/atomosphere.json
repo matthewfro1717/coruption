@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				301,
+				140
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "atomosphere left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				330,
+				80
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "atomosphere down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				315,
+				120
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "atomosphere up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				410,
+				107
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "atomosphere right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				340,
+				120
+			],
+			"anim": "idle",
+			"fps": 13,
+			"name": "atomosphere idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				340,
+				120
+			],
+			"anim": "look",
+			"fps": 13,
+			"name": "atomosphere look",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/atomosphere",
+	"position": [
+		0,
+		-90
+	],
+	"healthicon": "atomosphere",
+	"flip_x": false,
+	"healthbar_colors": [
+		55,
+		212,
+		123
+	],
+	"camera_position": [
+		-510,
+		-300
+	],
+	"sing_duration": 6.1,
+	"scale": 1.4
+}

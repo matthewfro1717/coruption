@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "jeremy idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				133,
+				30
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "jeremy left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				1
+			],
+			"anim": "fuckyou",
+			"fps": 1,
+			"name": "jeremy fuck you lmao",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				71,
+				57
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "jeremy down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				115
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "jeremy up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-81,
+				42
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "jeremy right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Jeremy",
+	"position": [
+		-670,
+		-370
+	],
+	"healthicon": "Jeremy",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		20,
+		0
+	],
+	"camera_position": [
+		590,
+		520
+	],
+	"sing_duration": 6.1,
+	"scale": 0.4
+}

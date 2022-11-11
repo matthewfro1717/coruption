@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 3.6,
+		"stage": "ControlledVoid",
+		"player1": "bf",
+		"player2": "exosphere",
+		"player3": null,
+		"events": [
+			[
+				39000,
+				[
+					[
+						"Opponent Fade",
+						"0",
+						"0"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 200,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Unexpecting"
+	}
+}

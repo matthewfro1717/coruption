@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "angry",
+			"expression": "pain",
+			"text": "THE PAIN"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "beep!"
+		},
+		{
+			"speed": 0.01,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "HOLY SH-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "angry",
+			"expression": "pain",
+			"text": "ITS UNBEARABLE"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "angry",
+			"expression": "pain",
+			"text": "WAS THIS A SIGN???"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "angry",
+			"expression": "pain",
+			"text": "SOMEONE JUST HELP ME ALREADY"
+		}
+	]
+}

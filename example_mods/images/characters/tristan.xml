@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tristan.png"><SubTexture name="tristan idle0000" x="443" y="974" width="442" height="438" frameX="-293" frameY="-300" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan idle0001" x="877" y="1417" width="438" height="429" frameX="-285" frameY="-310" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan idle0002" x="1471" y="436" width="440" height="434" frameX="-288" frameY="-307" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan idle0003" x="0" y="974" width="443" height="443" frameX="-293" frameY="-298" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan right0000" x="1070" y="0" width="401" height="446" frameX="-329" frameY="-291" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan right0001" x="885" y="974" width="420" height="438" frameX="-330" frameY="-299" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan right0002" x="449" y="1417" width="428" height="430" frameX="-336" frameY="-307" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan right0003" x="1315" y="1417" width="429" height="428" frameX="-325" frameY="-309" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan left0000" x="681" y="500" width="307" height="455" frameX="-307" frameY="-286" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan left0001" x="366" y="500" width="315" height="456" frameX="-286" frameY="-285" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan left0002" x="1070" y="446" width="305" height="440" frameX="-284" frameY="-301" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan left0003" x="1471" y="870" width="294" height="432" frameX="-302" frameY="-309" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan up0000" x="0" y="500" width="366" height="474" frameX="-318" frameY="-266" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan up0001" x="713" y="0" width="357" height="492" frameX="-336" frameY="-249" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan up0002" x="0" y="0" width="353" height="500" frameX="-348" frameY="-242" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan up0003" x="353" y="0" width="360" height="500" frameX="-349" frameY="-242" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan down0000" x="1916" y="421" width="429" height="410" frameX="-296" frameY="-326" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan down0001" x="1916" y="1231" width="437" height="398" frameX="-298" frameY="-338" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan down0002" x="0" y="1848" width="438" height="397" frameX="-302" frameY="-340" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan down0003" x="1916" y="831" width="422" height="400" frameX="-309" frameY="-337" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0000" x="443" y="974" width="442" height="438" frameX="-293" frameY="-300" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0001" x="1471" y="0" width="445" height="436" frameX="-294" frameY="-302" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0002" x="0" y="1417" width="449" height="431" frameX="-297" frameY="-308" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0003" x="1916" y="0" width="452" height="421" frameX="-300" frameY="-319" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0004" x="438" y="1848" width="402" height="379" frameX="-331" frameY="-361" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0005" x="840" y="1848" width="532" height="216" frameX="-405" frameY="-592" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0006" x="1372" y="1848" width="542" height="216" frameX="-402" frameY="-592" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0007" x="2368" y="0" width="547" height="216" frameX="-400" frameY="-592" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0008" x="0" y="2245" width="551" height="216" frameX="-398" frameY="-592" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0009" x="551" y="2245" width="551" height="216" frameX="-399" frameY="-592" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0010" x="1102" y="2245" width="550" height="216" frameX="-400" frameY="-592" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0011" x="1102" y="2245" width="550" height="216" frameX="-400" frameY="-592" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="tristan fall0012" x="1102" y="2245" width="550" height="216" frameX="-400" frameY="-592" frameWidth="1000" frameHeight="1000" />
+</TextureAtlas>

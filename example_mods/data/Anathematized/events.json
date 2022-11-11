@@ -1,0 +1,59 @@
+{
+	"song": {
+		"speed": 3.4,
+		"stage": "MansionHalls",
+		"player1": "ScaredBoyfriend",
+		"player2": "AllureAltForm",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Opponent Fade",
+						"0",
+						"0"
+					]
+				]
+			],
+			[
+				9.86842105263158,
+				[
+					[
+						"BF Fade",
+						"0",
+						"0"
+					]
+				]
+			],
+			[
+				10105.2631578947,
+				[
+					[
+						"BF Fade",
+						"10",
+						"1"
+					]
+				]
+			],
+			[
+				111157.894736842,
+				[
+					[
+						"Opponent Fade",
+						"0",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 190,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Anathematized"
+	}
+}

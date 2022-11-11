@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BambiISFUCKINGPISSED.png"><SubTexture name="BambiISFUCKINGPISSED Down0000" x="0" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Down0001" x="993" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Down0002" x="1986" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Down0003" x="2979" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Idle0000" x="0" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Idle0001" x="993" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Idle0002" x="1986" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Left0000" x="2979" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Left0001" x="0" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Left0002" x="993" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Right0000" x="1986" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Right0001" x="2979" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Right0002" x="0" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Up0000" x="993" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Up0001" x="1986" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="BambiISFUCKINGPISSED Up0002" x="2979" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+</TextureAtlas>

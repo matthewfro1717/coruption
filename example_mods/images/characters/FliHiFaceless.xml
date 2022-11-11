@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="FliHiFaceless.png"><SubTexture name="FliHiFaceless down0000" x="0" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless down0001" x="668" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless down0002" x="1336" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless idle0000" x="0" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless left0000" x="668" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless left0001" x="1336" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless left0002" x="0" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless right0000" x="668" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless right0001" x="1336" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless right0002" x="0" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless up0000" x="668" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="FliHiFaceless up0001" x="1336" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+</TextureAtlas>

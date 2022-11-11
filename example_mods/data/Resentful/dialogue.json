@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+                                    "sound": "bambispeak",
+			"speed": 0.05,
+			"portrait": "bambi",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "What you two doing back on my farm!!"
+		},
+		{
+                                    "sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Something happened with Dave! I'm not sure what it is though but it could be a parasite..."
+		},
+		{
+                                    "sound": "bambispeak",
+			"speed": 0.05,
+			"portrait": "Bambi",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "You LYING, you a LIAR!"
+		},
+		{
+                                    "sound": "bambispeak",
+			"speed": 0.05,
+			"portrait": "bambi",
+			"boxState": "angry",
+			"expression": "mad",
+			"text": "you lie to try and steal corn!"
+		},
+		{
+                                    "sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "we are literally telling the truth"
+		},
+		{
+                                    "sound": "bambispeak",
+			"speed": 0.05,
+			"portrait": "bambi",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "LIAR!!"
+		},
+		{
+                                    "sound": "bambispeak",
+			"speed": 0.05,
+			"portrait": "bambi",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "I will block you from this farm ONCE and for ALL!!"
+		}
+	]
+}

@@ -1,0 +1,439 @@
+{
+	"song": {
+		"speed": 3.50000000000002,
+		"stage": "NEMESIS",
+		"player1": "bf",
+		"player2": "cessare",
+		"player3": null,
+		"events": [
+			[
+				158608.695652174,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				358956.521739131,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				542608.695652174,
+				[
+					[
+						"Change Character",
+						"1",
+						"manbiphase4"
+					]
+				]
+			],
+			[
+				759652.173913032,
+				[
+					[
+						"Change Character",
+						"1",
+						"conbiY"
+					]
+				]
+			],
+			[
+				793043.478260856,
+				[
+					[
+						"Change Character",
+						"1",
+						"cessare"
+					]
+				]
+			],
+			[
+				809739.130434769,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				826434.782608681,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				843130.434782593,
+				[
+					[
+						"Change Character",
+						"1",
+						"manbiphase4"
+					]
+				]
+			],
+			[
+				859826.086956505,
+				[
+					[
+						"Change Character",
+						"1",
+						"cessare"
+					]
+				]
+			],
+			[
+				860869.565217374,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				861913.043478244,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				862956.521739113,
+				[
+					[
+						"Change Character",
+						"1",
+						"manbiphase4"
+					]
+				]
+			],
+			[
+				863999.999999983,
+				[
+					[
+						"Change Character",
+						"1",
+						"cessare"
+					]
+				]
+			],
+			[
+				865043.478260853,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				866086.956521722,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				867130.434782592,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				876521.739130417,
+				[
+					[
+						"Change Character",
+						"1",
+						"cessare"
+					]
+				]
+			],
+			[
+				877565.217391287,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				878608.695652156,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				879652.173913026,
+				[
+					[
+						"Change Character",
+						"1",
+						"manbiphase4"
+					]
+				]
+			],
+			[
+				880695.652173895,
+				[
+					[
+						"Change Character",
+						"1",
+						"cessare"
+					]
+				]
+			],
+			[
+				881739.130434765,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				882782.608695634,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				883826.086956504,
+				[
+					[
+						"Change Character",
+						"1",
+						"manbiphase4"
+					]
+				]
+			],
+			[
+				893217.391304329,
+				[
+					[
+						"Change Character",
+						"1",
+						"conbiy"
+					]
+				]
+			],
+			[
+				926608.695652154,
+				[
+					[
+						"Change Character",
+						"1",
+						"cessare"
+					]
+				]
+			],
+			[
+				927652.173913023,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				928695.652173893,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				929739.130434762,
+				[
+					[
+						"Change Character",
+						"1",
+						"manbiphase4"
+					]
+				]
+			],
+			[
+				930782.608695632,
+				[
+					[
+						"Change Character",
+						"1",
+						"cessare"
+					]
+				]
+			],
+			[
+				931826.086956501,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				932869.565217371,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				933913.04347824,
+				[
+					[
+						"Change Character",
+						"1",
+						"manbiphase4"
+					]
+				]
+			],
+			[
+				943304.347826066,
+				[
+					[
+						"Change Character",
+						"1",
+						"cessare"
+					]
+				]
+			],
+			[
+				944347.826086935,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				945391.304347805,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				946434.782608674,
+				[
+					[
+						"Change Character",
+						"1",
+						"manbiphase4"
+					]
+				]
+			],
+			[
+				947478.260869544,
+				[
+					[
+						"Change Character",
+						"1",
+						"cessare"
+					]
+				]
+			],
+			[
+				948521.739130413,
+				[
+					[
+						"Change Character",
+						"1",
+						"cry-ill"
+					]
+				]
+			],
+			[
+				949565.217391283,
+				[
+					[
+						"Change Character",
+						"1",
+						"morphphase3"
+					]
+				]
+			],
+			[
+				950608.695652152,
+				[
+					[
+						"Change Character",
+						"1",
+						"manbiphase4"
+					]
+				]
+			],
+			[
+				959999.999999978,
+				[
+					[
+						"Change Character",
+						"1",
+						"conbiy"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 230,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "nemesis"
+	}
+}

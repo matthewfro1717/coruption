@@ -1,0 +1,95 @@
+{
+	"storyName": "",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Overwhelm",
+			"azastroth",
+			[
+				186,
+				133,
+				255
+			]
+		],
+		[
+			"Disarranging",
+			"bandumbmad",
+			[
+				40,
+				160,
+				40
+			]
+		],
+		[
+			"Diaphanous",
+			"FlyHigh",
+			[
+				255,
+				255,
+				100
+			]
+		],
+		[
+			"Demurral",
+			"OppositionFlyHigh",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Soundless",
+			"pibbydave",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"approaching-yourself",
+			"MyBandumb",
+			[
+				0,
+				220,
+				0
+			]
+		],
+		[
+			"Dead Dream",
+			"DeadDream",
+			[
+				40,
+				40,
+				0
+			]
+		],
+		[
+			"Jinxed",
+			"allurepanicked",
+			[
+				60,
+				60,
+				60
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "",
+	"hiddenUntilUnlocked": false
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				20,
+				53
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "exo dave right"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-10,
+				61
+			],
+			"anim": "idle",
+			"fps": 13,
+			"name": "exo dave idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				81
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "exo dave left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				91
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "exo dave down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				141
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "exo dave up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exo_dave",
+	"position": [
+		-450,
+		-220
+	],
+	"healthicon": "corrupteddave",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-30,
+		-200
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

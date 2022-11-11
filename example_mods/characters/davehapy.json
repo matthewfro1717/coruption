@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singLEFT",
+			"fps": 13,
+			"name": "davehapy left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singDOWN",
+			"fps": 13,
+			"name": "davehapy down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singUP",
+			"fps": 13,
+			"name": "davehapy up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singRIGHT",
+			"fps": 13,
+			"name": "davehapy right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "idle",
+			"fps": 13,
+			"name": "davehapy idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/davehapy",
+	"position": [
+		-260,
+		260
+	],
+	"healthicon": "dave",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		255
+	],
+	"camera_position": [
+		-40,
+		-300
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

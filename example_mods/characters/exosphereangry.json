@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "angry exosphere left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "angry exosphere down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "angry exosphere up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "attack",
+			"fps": 18,
+			"name": "angry exosphere throw",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "angry exosphere right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "idle",
+			"fps": 15,
+			"name": "angry exosphere idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/angry_exosphere",
+	"position": [
+		-960,
+		-290
+	],
+	"healthicon": "exosphereinsanity",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		300,
+		-10
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

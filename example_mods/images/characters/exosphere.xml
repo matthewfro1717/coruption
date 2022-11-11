@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="exosphere.png"><SubTexture name="exosphere idle0000" x="1918" y="2506" width="941" height="1087" frameX="-611" frameY="-310" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0001" x="2859" y="2506" width="950" height="1087" frameX="-605" frameY="-317" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0002" x="4085" y="1087" width="968" height="1079" frameX="-593" frameY="-331" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0003" x="4085" y="2166" width="983" height="1069" frameX="-582" frameY="-347" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0004" x="1046" y="3599" width="1005" height="1067" frameX="-572" frameY="-352" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0005" x="2051" y="3599" width="1036" height="1067" frameX="-566" frameY="-353" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0006" x="3087" y="3599" width="1048" height="1066" frameX="-564" frameY="-349" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0007" x="0" y="3599" width="1046" height="1072" frameX="-566" frameY="-347" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0008" x="4085" y="0" width="1012" height="1087" frameX="-572" frameY="-332" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0009" x="0" y="2506" width="971" height="1093" frameX="-582" frameY="-323" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0010" x="3065" y="1220" width="957" height="1094" frameX="-593" frameY="-316" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere idle0011" x="971" y="2506" width="947" height="1091" frameX="-605" frameY="-313" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere right0000" x="6913" y="0" width="912" height="902" frameX="-715" frameY="-367" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere right0001" x="5957" y="4647" width="911" height="908" frameX="-749" frameY="-367" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere right0002" x="5957" y="3729" width="948" height="918" frameX="-765" frameY="-353" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere right0003" x="5957" y="1881" width="951" height="929" frameX="-783" frameY="-352" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere right0004" x="5957" y="0" width="956" height="944" frameX="-792" frameY="-349" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere right0005" x="2496" y="4671" width="959" height="948" frameX="-796" frameY="-346" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere right0006" x="762" y="4671" width="956" height="949" frameX="-795" frameY="-347" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere left0000" x="2041" y="1267" width="987" height="1224" frameX="-338" frameY="-34" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere left0001" x="2065" y="0" width="1000" height="1244" frameX="-319" frameY="-33" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere left0002" x="0" y="0" width="1033" height="1267" frameX="-277" frameY="-37" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere left0003" x="1033" y="0" width="1032" height="1254" frameX="-263" frameY="-57" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere left0004" x="0" y="1267" width="1021" height="1239" frameX="-258" frameY="-75" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere left0005" x="1021" y="1267" width="1020" height="1229" frameX="-253" frameY="-87" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere left0006" x="3065" y="0" width="1020" height="1220" frameX="-250" frameY="-93" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere up0000" x="0" y="5621" width="998" height="942" frameX="-536" frameY="-209" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere up0001" x="3577" y="5621" width="1002" height="935" frameX="-550" frameY="-203" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere up0002" x="4579" y="5621" width="1003" height="933" frameX="-562" frameY="-202" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere up0003" x="5582" y="5621" width="1000" height="932" frameX="-574" frameY="-204" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere up0004" x="998" y="5621" width="1003" height="942" frameX="-572" frameY="-200" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere up0005" x="3455" y="4671" width="1002" height="947" frameX="-568" frameY="-201" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere up0006" x="4457" y="4671" width="1002" height="945" frameX="-566" frameY="-203" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere down0000" x="0" y="4671" width="762" height="950" frameX="-569" frameY="-425" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere down0001" x="1718" y="4671" width="778" height="949" frameX="-559" frameY="-440" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere down0002" x="5097" y="2927" width="794" height="958" frameX="-550" frameY="-452" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere down0003" x="5097" y="1958" width="824" height="969" frameX="-527" frameY="-456" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere down0004" x="5097" y="982" width="841" height="976" frameX="-520" frameY="-459" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere down0005" x="4135" y="3599" width="856" height="982" frameX="-518" frameY="-461" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere down0006" x="5097" y="0" width="860" height="982" frameX="-518" frameY="-460" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere swing0000" x="2001" y="5621" width="1576" height="937" frameX="-424" frameY="-382" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere swing0001" x="5957" y="944" width="823" height="937" frameX="-438" frameY="-380" frameWidth="2000" frameHeight="1800" />
+<SubTexture name="exosphere swing0002" x="5957" y="2810" width="794" height="919" frameX="-411" frameY="-378" frameWidth="2000" frameHeight="1800" />
+</TextureAtlas>

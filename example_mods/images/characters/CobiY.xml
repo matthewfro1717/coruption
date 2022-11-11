@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="CobiY.png"><SubTexture name="CobiY down0000" x="0" y="0" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY down0001" x="1804" y="0" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY down0002" x="3608" y="0" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY down0003" x="5412" y="0" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY down0004" x="0" y="1804" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY down0005" x="1804" y="1804" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY idle0000" x="3608" y="1804" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY idle0001" x="5412" y="1804" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY idle0002" x="0" y="3608" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY idle0003" x="1804" y="3608" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY idle0004" x="3608" y="3608" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY left0000" x="5412" y="3608" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY left0001" x="0" y="5412" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY left0002" x="1804" y="5412" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY left0003" x="3608" y="5412" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY right0000" x="5412" y="5412" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY right0001" x="0" y="7216" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY right0002" x="1804" y="7216" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY up0000" x="3608" y="7216" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY up0001" x="5412" y="7216" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+<SubTexture name="CobiY up0002" x="0" y="9020" width="1804" height="1804" frameX="0" frameY="0" frameWidth="1804" frameHeight="1804" />
+</TextureAtlas>

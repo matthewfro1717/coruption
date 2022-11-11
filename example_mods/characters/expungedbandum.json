@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "expungedbandum left",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "expungedbandum idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "expungedbandum down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "expungedbandum up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "expungedbandum right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/expungedbandum",
+	"position": [
+		-350,
+		140
+	],
+	"healthicon": "trueexpungedbandumb",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		115,
+		40
+	],
+	"camera_position": [
+		-70,
+		-290
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}

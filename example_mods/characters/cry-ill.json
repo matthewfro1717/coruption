@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-290,
+				-60
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "idle",
+			"indices": [],
+			"name": "cryll idle"
+		},
+		{
+			"offsets": [
+				-290,
+				-50
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "cryll down"
+		},
+		{
+			"offsets": [
+				-370,
+				30
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singUP",
+			"indices": [],
+			"name": "cryll up"
+		},
+		{
+			"offsets": [
+				-271,
+				-90
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "cryll right"
+		},
+		{
+			"offsets": [
+				-130,
+				-50
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "cryll left"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/cryll",
+	"position": [
+		-300,
+		-230
+	],
+	"healthicon": "cyrill",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		190,
+		-10
+	],
+	"sing_duration": 6.1,
+	"scale": 0.999999999999999
+}

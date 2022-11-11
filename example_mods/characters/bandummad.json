@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bandummad left"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "bandummad idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bandummad up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bandummad down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bandummad right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bandummad",
+	"position": [
+		-350,
+		140
+	],
+	"healthicon": "bandumbMAD",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		255,
+		160
+	],
+	"camera_position": [
+		-70,
+		-290
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}

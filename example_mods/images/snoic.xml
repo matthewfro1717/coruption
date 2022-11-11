@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="snoic.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="snoic0000" x="0" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0001" x="0" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0002" x="320" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0003" x="320" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0004" x="640" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0005" x="640" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0006" x="960" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0007" x="960" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0008" x="1280" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0009" x="1280" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0010" x="1600" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0011" x="1600" y="0" width="320" height="240"/>
+	<SubTexture name="snoic0012" x="0" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0013" x="0" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0014" x="320" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0015" x="320" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0016" x="640" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0017" x="640" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0018" x="960" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0019" x="960" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0020" x="1280" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0021" x="1280" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0022" x="1600" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0023" x="1600" y="240" width="320" height="240"/>
+	<SubTexture name="snoic0024" x="0" y="480" width="320" height="240"/>
+	<SubTexture name="snoic0025" x="0" y="480" width="320" height="240"/>
+	<SubTexture name="snoic0026" x="320" y="480" width="320" height="240"/>
+	<SubTexture name="snoic0027" x="320" y="480" width="320" height="240"/>
+	<SubTexture name="snoic0028" x="640" y="480" width="320" height="240"/>
+	<SubTexture name="snoic0029" x="640" y="480" width="320" height="240"/>
+	<SubTexture name="snoic0030" x="960" y="480" width="320" height="240"/>
+	<SubTexture name="snoic0031" x="960" y="480" width="320" height="240"/>
+	<SubTexture name="snoic0032" x="1280" y="480" width="320" height="240"/>
+	<SubTexture name="snoic0033" x="1280" y="480" width="320" height="240"/>
+</TextureAtlas>

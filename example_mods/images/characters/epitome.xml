@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="epitome.png">
+<SubTexture name="epitome idle0000" x="1011" y="0" width="522" height="662" frameX="-235" frameY="-190" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome idle0001" x="1676" y="2632" width="554" height="622" frameX="-327" frameY="-207" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome idle0002" x="1141" y="2632" width="535" height="626" frameX="-318" frameY="-210" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome idle0003" x="0" y="1986" width="547" height="646" frameX="-261" frameY="-201" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome idle0004" x="1533" y="660" width="535" height="658" frameX="-240" frameY="-194" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome idle0005" x="475" y="0" width="536" height="664" frameX="-232" frameY="-192" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome right0000" x="2797" y="2632" width="605" height="615" frameX="-343" frameY="-186" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome right0001" x="3754" y="0" width="611" height="615" frameX="-348" frameY="-190" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome right0002" x="3754" y="615" width="583" height="614" frameX="-374" frameY="-211" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome right0003" x="2230" y="2632" width="567" height="622" frameX="-347" frameY="-222" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome right0004" x="567" y="2632" width="574" height="627" frameX="-334" frameY="-219" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome right0005" x="0" y="2632" width="567" height="630" frameX="-326" frameY="-221" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome up0000" x="546" y="666" width="473" height="660" frameX="-291" frameY="-90" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome up0001" x="0" y="0" width="475" height="666" frameX="-291" frameY="-79" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome up0002" x="1019" y="666" width="477" height="660" frameX="-292" frameY="-78" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome up0003" x="618" y="1327" width="476" height="656" frameX="-294" frameY="-86" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome up0004" x="2085" y="654" width="476" height="650" frameX="-294" frameY="-100" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome up0005" x="2625" y="650" width="475" height="648" frameX="-293" frameY="-105" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome left0000" x="1094" y="1327" width="614" height="656" frameX="-44" frameY="-174" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome left0001" x="0" y="1327" width="618" height="659" frameX="-26" frameY="-181" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome left0002" x="2625" y="0" width="609" height="650" frameX="-20" frameY="-190" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome left0003" x="2625" y="1298" width="601" height="648" frameX="-28" frameY="-198" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome left0004" x="547" y="1986" width="560" height="642" frameX="-55" frameY="-203" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome left0005" x="1655" y="1986" width="551" height="640" frameX="-61" frameY="-202" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome left0006" x="1107" y="1986" width="548" height="641" frameX="-67" frameY="-201" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome down0000" x="1533" y="0" width="552" height="660" frameX="-162" frameY="-314" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome down0001" x="0" y="666" width="546" height="661" frameX="-189" frameY="-330" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome down0002" x="2085" y="0" width="540" height="654" frameX="-205" frameY="-346" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome down0003" x="2085" y="1304" width="532" height="635" frameX="-221" frameY="-365" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome down0004" x="2206" y="1986" width="524" height="632" frameX="-230" frameY="-368" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="epitome down0005" x="3234" y="0" width="520" height="632" frameX="-237" frameY="-368" frameWidth="1000" frameHeight="1000" />
+</TextureAtlas>

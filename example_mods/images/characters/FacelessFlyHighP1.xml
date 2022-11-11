@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="FacelessFlyHighP1.png"><SubTexture name="FacelessFlyHighP1 down0000" x="0" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 down0001" x="724" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 down0002" x="1448" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 idle0000" x="0" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 left0000" x="724" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 left0001" x="1448" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 left0002" x="0" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 right0000" x="724" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 right0001" x="1448" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 right0002" x="0" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 up0000" x="724" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 up0001" x="1448" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FacelessFlyHighP1 up0002" x="0" y="2896" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+</TextureAtlas>

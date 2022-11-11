@@ -1,0 +1,37 @@
+{
+	"position": [
+		30,
+		-10
+	],
+	"dialogue_pos": "left",
+	"scale": 1.45,
+	"image": "corruptedexpunged",
+	"animations": [
+		{
+			"loop_name": "exoexpunged",
+			"idle_offsets": [
+				-163,
+				0
+			],
+			"idle_name": "exoexpungd0001",
+			"anim": "exospheric",
+			"loop_offsets": [
+				-163,
+				0
+			]
+		},
+		{
+			"loop_name": "epitome",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "epitome0001",
+			"anim": "epitomed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

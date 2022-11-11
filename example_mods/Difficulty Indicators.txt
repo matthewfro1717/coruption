@@ -1,0 +1,38 @@
+DIFFICULTY INDICATOR
+
+MODCHART RATING | CHART DIFFICULTY | OVERALL DIFFICULTY
+
+Skill Testing: 0 | 3.6 | 3.6
+
+Quantum: 0 | 1.8 | 1.8
+Yard: 0 | 2.3 | 2.3
+Apeirogon: 0 | 1.3 | 1.3
+Censure: 1.6 | 2.1 | 2.7
+
+Farm: 2.3 | 2.1 | 2.6
+Starch: 0.3 | 1.8 | 2
+Epitome: 2.8 | 2.7 | 3.3
+Insane: 2.9 | 3 | 3.6
+Oblivious: 2.5 | 2.7 | 3.2
+
+Resentful: 0 | 2.8 | 2.8
+Temper: 0 | 2.7 | 2.7
+Dereliction: 0.7 | 3.5 | 3.5
+Doomed: 1.4 | 2.6 | 2.9
+Glitchcorn: 4.2 | 1.8 | 4.6
+
+Homework: 0 | 1.6 | 1.6
+Lesson: 0 | 1.8 | 1.8
+Grounded: 0 | 2.4 | 2.4
+Defiance: 0 | 2 | 2
+
+Devoid: 0 | 2 | 2
+Overlord: 0 | 2.1 | 2.1
+Inevitable: 1 | 2.5 | 2.7
+Violence: 0.5 | 1.7 | 2
+Exospheric: 2.2 | 4.7 | 4.7
+Gloomy Despair: 2.7 | 4.2 | 4.5
+
+Seraphic: 8.5 | 5.2 | 10
+Disregard: 8.2 | 5.6 | 10
+

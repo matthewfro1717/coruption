@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 3.3,
+		"stage": "ControlledVoid",
+		"player1": "bf",
+		"player2": "tristan",
+		"player3": null,
+		"events": [
+			[
+				210100,
+				[
+					[
+						"Play Animation",
+						"fall",
+						"tristan"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 150,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Grounded"
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"storyName": "expung",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "INSANE",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week1dave",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Farm",
+			"expunged",
+			[
+				0,
+				233,
+				0
+			]
+		],
+		[
+			"starch",
+			"expunged",
+			[
+				0,
+				193,
+				0
+			]
+		],
+		[
+			"epitome",
+			"epitome",
+			[
+				0,
+				53,
+				0
+			]
+		],
+		[
+			"insane",
+			"insane",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Oblivious",
+			"insane",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Custom Week"
+}

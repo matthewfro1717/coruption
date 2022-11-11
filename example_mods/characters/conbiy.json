@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				300,
+				0
+			],
+			"anim": "idle",
+			"fps": 5,
+			"name": "conbiy idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				250,
+				-60
+			],
+			"anim": "singDOWN",
+			"fps": 16,
+			"name": "conbiy down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				420,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 16,
+			"name": "conbiy left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				30
+			],
+			"anim": "singRIGHT",
+			"fps": 16,
+			"name": "conbiy right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				288,
+				140
+			],
+			"anim": "singUP",
+			"fps": 16,
+			"name": "conbiy up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/conbiy",
+	"position": [
+		220,
+		-260
+	],
+	"healthicon": "conbiy",
+	"flip_x": false,
+	"healthbar_colors": [
+		155,
+		0,
+		0
+	],
+	"camera_position": [
+		-781,
+		-699
+	],
+	"sing_duration": 4,
+	"scale": 2.6
+}

@@ -1,0 +1,86 @@
+{
+	"storyName": "The True hidden songs of Exospheric corruption",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "truehidden",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Disheartened",
+			"disheartened",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Divine Punishment",
+			"trueformflyhigh",
+			[
+				255,
+				255,
+				140
+			]
+		],
+		[
+			"Purgatory",
+			"TrueFormFlyHigh",
+			[
+				60,
+				0,
+				160
+			]
+		],
+		[
+			"Numbskull",
+			"trueexpungedbandumb",
+			[
+				60,
+				60,
+				60
+			]
+		],
+		[
+			"Fractured Incantation",
+			"AllureAngryFP",
+			[
+				60,
+				60,
+				60
+			]
+		],
+		[
+			"Prismatic",
+			"halfbi",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Charlatan",
+			"OperationY",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "True Hidden Songs",
+	"hiddenUntilUnlocked": false
+}

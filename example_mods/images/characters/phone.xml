@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="phone.png"><SubTexture name="phone phoneDown0000" x="0" y="0" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneDown0001" x="1404" y="0" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneIdle0000" x="2808" y="0" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneIdle0001" x="0" y="1404" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneIdle0002" x="1404" y="1404" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneIdle0003" x="2808" y="1404" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneLeft0000" x="0" y="2808" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneLeft0001" x="1404" y="2808" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneRight0000" x="2808" y="2808" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneRight0001" x="0" y="4212" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneUp0000" x="1404" y="4212" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="phone phoneUp0001" x="2808" y="4212" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+</TextureAtlas>

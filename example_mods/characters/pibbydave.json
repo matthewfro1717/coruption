@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-69,
+				152
+			],
+			"anim": "idle",
+			"fps": 16,
+			"name": "pibbydave idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				151
+			],
+			"anim": "singLEFT",
+			"fps": 16,
+			"name": "pibbydave left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				151
+			],
+			"anim": "singDOWN",
+			"fps": 16,
+			"name": "pibbydave down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				151
+			],
+			"anim": "singUP",
+			"fps": 16,
+			"name": "pibbydave up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				151
+			],
+			"anim": "singRIGHT",
+			"fps": 16,
+			"name": "pibbydave right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pibbydave",
+	"position": [
+		-260,
+		260
+	],
+	"healthicon": "pibbydave",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		10,
+		-210
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		60,
+		-10
+	],
+	"scale": 1.45,
+	"animations": [
+		{
+			"idle_offsets": [
+				-80,
+				-45
+			],
+			"anim": "talking",
+			"loop_offsets": [
+				-80,
+				-45
+			],
+			"idle_name": "dumbhappy0001",
+			"loop_name": "dumbhappy"
+		},
+		{
+			"idle_offsets": [
+				0,
+				-30
+			],
+			"anim": "mad",
+			"loop_offsets": [
+				0,
+				-30
+			],
+			"idle_name": "dumbangry0001",
+			"loop_name": "dumbangry"
+		},
+		{
+			"loop_offsets": [
+				-30,
+				-60
+			],
+			"anim": "intrested",
+			"idle_offsets": [
+				-30,
+				-60
+			],
+			"loop_name": "dumbintrested",
+			"idle_name": "dumbintrested0001"
+		},
+		{
+			"loop_offsets": [
+				0,
+				70
+			],
+			"anim": "expunged",
+			"idle_offsets": [
+				0,
+				70
+			],
+			"loop_name": "dumbexpunged",
+			"idle_name": "dumbexpunged0001"
+		}
+	],
+	"image": "bandumb"
+}

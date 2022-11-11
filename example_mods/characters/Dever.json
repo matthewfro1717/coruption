@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				191
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "deever left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				191
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "deever down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				201
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "deever up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				201
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "deever right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				189
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "deever MISSLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				201
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "deever MISSDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				197
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "deever MISSUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				202
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "deever MISSRIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "deever idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/deever",
+	"position": [
+		-580,
+		-410
+	],
+	"healthicon": "dever",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		240,
+		100
+	],
+	"camera_position": [
+		-410,
+		360
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

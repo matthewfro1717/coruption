@@ -1,0 +1,18 @@
+{
+	"song": {
+		"speed": 3.4,
+		"stage": "Destructed",
+		"player1": "bf",
+		"player2": "FlyHighTrueForm",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 145,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"song": "Demigod"
+	}
+}

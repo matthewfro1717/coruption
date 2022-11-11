@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "Stance",
+			"text": "I WILL NOT LOSE TO A FILTHY MORTAL LIKE YOU!",
+			"boxState": "angry",
+			"sound": "azasspeak",
+			"speed": 0.05,
+			"portrait": "Azstroth"
+		},
+		{
+			"expression": "talk",
+			"text": "THIS REALM WILL KNEEL BEFORE ME AND I WILL RULE THE WO-",
+			"boxState": "angry",
+			"sound": "azasspeak",
+			"speed": 0.05,
+			"portrait": "Azstroth"
+		},
+		{
+			"expression": "beamed",
+			"text": ".",
+			"boxState": "normal",
+			"sound": "GetBeamed",
+			"speed": 0.05,
+			"portrait": "Azstroth"
+		},
+		{
+			"expression": "NoHead",
+			"text": "",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Azstroth"
+		},
+		{
+			"expression": "gone",
+			"text": "",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Azstroth"
+		},
+		{
+			"expression": "what",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "flyhighspeak",
+			"speed": 0.2,
+			"portrait": "FlyHigh"
+		},
+		{
+			"expression": "Confused",
+			"text": "????????????????????",
+			"boxState": "normal",
+			"sound": "flyhighspeak",
+			"speed": 0.1,
+			"portrait": "FlyHigh"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Allure.png"><SubTexture name="Allure down0000" x="0" y="0" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure down0001" x="3844" y="0" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure down0002" x="7688" y="0" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure idle0000" x="0" y="2164" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure idle0001" x="3844" y="2164" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure idle0002" x="7688" y="2164" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure left0000" x="0" y="4328" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure left0001" x="3844" y="4328" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure left0002" x="7688" y="4328" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure right0000" x="0" y="6492" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure right0001" x="3844" y="6492" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure right0002" x="7688" y="6492" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure up0000" x="0" y="8656" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure up0001" x="3844" y="8656" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<SubTexture name="Allure up0002" x="7688" y="8656" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+</TextureAtlas>

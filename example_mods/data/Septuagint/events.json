@@ -1,0 +1,44 @@
+{
+	"song": {
+		"speed": 3.5,
+		"stage": "septuagint",
+		"player1": "bf",
+		"player2": "Jeremy",
+		"player3": null,
+		"events": [
+			[
+				26068.9655172414,
+				[
+					[
+						"Play Animation",
+						"fuckyou",
+						"Jeremy"
+					],
+					[
+						"Arrow flip",
+						"",
+						"0.1"
+					]
+				]
+			],
+			[
+				26482.7586206897,
+				[
+					[
+						"Arrow flip",
+						"1",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 290,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "septuagint"
+	}
+}

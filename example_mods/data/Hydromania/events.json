@@ -1,0 +1,409 @@
+{
+	"song": {
+		"speed": 3.59999990463257,
+		"stage": "Hydromania",
+		"player1": "bf",
+		"player2": "bsidesmadbambi",
+		"player3": null,
+		"events": [
+			[
+				176958.525345622,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				407004.608294933,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				530875.576036869,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				533087.557603689,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				535299.53917051,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				548571.428571431,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				550783.410138252,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				552995.391705072,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				566267.281105994,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				575115.207373275,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				583963.133640556,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				586175.115207376,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				592811.059907837,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				601658.986175118,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				602211.981566824,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				602764.976958529,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				603317.972350234,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				603870.967741939,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				604423.963133644,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				604976.958525349,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				605529.953917054,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				606082.949308759,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				610506.9124424,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				611059.907834105,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				611612.90322581,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				612165.898617515,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				612718.89400922,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				613271.889400925,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				613824.88479263,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				614101.382488483,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				614377.880184335,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				614654.377880188,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				619354.838709681,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				620460.829493091,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				621566.820276501,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				622672.811059911,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			],
+			[
+				629308.755760372,
+				[
+					[
+						"Change Character",
+						"1",
+						"corniphobiaexpunged"
+					]
+				]
+			],
+			[
+				630414.746543782,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesoppositionexpunged"
+					]
+				]
+			],
+			[
+				631520.737327192,
+				[
+					[
+						"Change Character",
+						"1",
+						"bsidesmadbambi"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 217,
+		"arrowSkin": "ChromaticAbNotes_assets",
+		"needsVoices": true,
+		"song": "Hydromania"
+	}
+}

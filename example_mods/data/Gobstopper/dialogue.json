@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"sound": "bandumbspeak",
+			"speed": 0.005,
+			"portrait": "bandumb",
+			"boxState": "angry",
+			"expression": "expunged",
+			"text": "grh8'uogryhb2eiu234tgh8[93t2gh79[38t2gb3[righ42eui;o[feyhueof;hdui;gui;[12412413r79p1524h81oti34q8auweti8pjawm uo4fk,qjtvuk;hawedtui;kjarwiol'ghgiuoejq34hio'1j34yhi8o[254yhu892h54yu89[q3rh8[9gehfguiegefu;ikweguk;rgahui;raeg\\ngjerow3h5o[reqh8qgeryhigq34y34tq8p9h4y3guipqg43b7uqrghi;regbhljgargawryigarh7pirgwaehyipg\\n\\nghrupiwreh[4rp3rqyh350983hwq57y035h9p2o7380\\nerhureghurge"
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You suck"
+		},
+		{
+			"sound": "bandumbspeak",
+			"speed": 0.00500000000000001,
+			"portrait": "bandumb",
+			"boxState": "angry",
+			"expression": "expunged",
+			"text": "-.- .. .-.. .-.. / -.-- --- ..- .-. ... . .-.. ..-."
+		}
+	]
+}

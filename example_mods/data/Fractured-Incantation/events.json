@@ -1,0 +1,129 @@
+{
+	"song": {
+		"speed": 2.1,
+		"stage": "MansionHalls",
+		"player1": "FrontPlushBF",
+		"player2": "3DAllure",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Camera Follow Pos",
+						"950",
+						"250"
+					]
+				]
+			],
+			[
+				3.28947368421053,
+				[
+					[
+						"Add Camera Zoom",
+						"1.25",
+						""
+					]
+				]
+			],
+			[
+				20210.5263157895,
+				[
+					[
+						"Change Scroll Speed",
+						"1.3",
+						"1"
+					]
+				]
+			],
+			[
+				30315.7894736842,
+				[
+					[
+						"Change Scroll Speed",
+						"1.7",
+						"1"
+					]
+				]
+			],
+			[
+				30315.7894736842,
+				[
+					[
+						"Change Character",
+						"0",
+						"PlushBF"
+					]
+				]
+			],
+			[
+				30319.0789473684,
+				[
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					]
+				]
+			],
+			[
+				99789.4736842104,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				99789.4736842104,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				121263.157894737,
+				[
+					[
+						"Change Scroll Speed",
+						"1.3",
+						"1"
+					]
+				]
+			],
+			[
+				131368.421052631,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"1"
+					]
+				]
+			],
+			[
+				141473.684210526,
+				[
+					[
+						"Change Scroll Speed",
+						"1.7",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 190,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Fractured-Incantation"
+	}
+}

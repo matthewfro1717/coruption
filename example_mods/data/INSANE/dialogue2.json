@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"sound": "glitchexpungedspeak",
+			"speed": 0.05,
+			"portrait": "corruptedexpunged",
+			"boxState": "angry",
+			"expression": "exospheric",
+			"text": "YOU SHOULD NOT HAVE COME HERE"
+		},
+		{
+			"sound": "glitchexpungedspeak",
+			"speed": 0.05,
+			"portrait": "corruptedexpunged",
+			"boxState": "angry",
+			"expression": "exospheric",
+			"text": "PLACEHOLDER BECAUSE IDK"
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "BRO WTF???"
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "What the fuck is happening"
+		}
+	]
+}

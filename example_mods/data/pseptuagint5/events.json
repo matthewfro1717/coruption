@@ -1,0 +1,69 @@
+{
+	"song": {
+		"speed": 1,
+		"stage": "Familiarity",
+		"player1": "bf",
+		"player2": "Jeremy",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Change Scroll Speed",
+						"0.04",
+						"0.01"
+					]
+				]
+			],
+			[
+				511.363636363636,
+				[
+					[
+						"Change Scroll Speed",
+						"100",
+						"0.01"
+					]
+				]
+			],
+			[
+				522.017045454545,
+				[
+					[
+						"Opponent Fade",
+						"0",
+						"0"
+					]
+				]
+			],
+			[
+				13977.2727272727,
+				[
+					[
+						"Change Scroll Speed",
+						"3.5",
+						"0.01"
+					]
+				]
+			],
+			[
+				14019.8863636364,
+				[
+					[
+						"Opponent Fade",
+						"0",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 176,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"song": "pseptuagint5"
+	}
+}

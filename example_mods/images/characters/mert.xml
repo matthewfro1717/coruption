@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mert.png"><SubTexture name="mert down0000" x="0" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert down0001" x="993" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert down0002" x="1986" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert idle0000" x="2979" y="0" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert idle0001" x="0" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert idle0002" x="993" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert idle0003" x="1986" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert idle0004" x="2979" y="993" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert left0000" x="0" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert left0001" x="993" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert left0002" x="1986" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert right0000" x="2979" y="1986" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert right0001" x="0" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert right0002" x="993" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert up0000" x="1986" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert up0001" x="2979" y="2979" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+<SubTexture name="mert up0002" x="0" y="3972" width="993" height="993" frameX="0" frameY="0" frameWidth="993" frameHeight="993" />
+</TextureAtlas>

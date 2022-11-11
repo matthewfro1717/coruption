@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 16,
+			"name": "bfscared idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				1
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "bfscared left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				2
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "bfscared down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				3
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "bfscared up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				1
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "bfscared right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				2
+			],
+			"anim": "singLEFTmiss",
+			"fps": 18,
+			"name": "bfscared Lmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				4
+			],
+			"anim": "singDOWNmiss",
+			"fps": 18,
+			"name": "bfscared Dmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				0
+			],
+			"anim": "singUPmiss",
+			"fps": 18,
+			"name": "bfscared Umiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				1
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 18,
+			"name": "bfscared Rmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				1
+			],
+			"anim": "hey",
+			"fps": 18,
+			"name": "bfscared taunt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-2
+			],
+			"anim": "hurt",
+			"fps": 18,
+			"name": "bfscared hurt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-2
+			],
+			"anim": "dodge",
+			"fps": 18,
+			"name": "bfscared dodge",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfscared",
+	"position": [
+		-40,
+		60
+	],
+	"healthicon": "scaredbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		40,
+		-30
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

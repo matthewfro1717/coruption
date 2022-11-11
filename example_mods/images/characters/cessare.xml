@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="cessare.png"><SubTexture name="cessare idle0000" x="2296" y="2830" width="778" height="830" frameX="-219" frameY="-158" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare idle0001" x="1522" y="2830" width="774" height="840" frameX="-214" frameY="-147" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare idle0002" x="759" y="2830" width="763" height="855" frameX="-196" frameY="-131" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare idle0003" x="0" y="2830" width="759" height="874" frameX="-190" frameY="-112" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare idle0004" x="758" y="1930" width="755" height="888" frameX="-173" frameY="-98" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare idle0005" x="0" y="1930" width="758" height="900" frameX="-166" frameY="-86" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare idle0006" x="2216" y="0" width="750" height="907" frameX="-164" frameY="-78" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare idle0007" x="745" y="968" width="736" height="913" frameX="-178" frameY="-68" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare right0000" x="2216" y="907" width="717" height="892" frameX="-308" frameY="-95" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare right0001" x="2232" y="1930" width="718" height="885" frameX="-302" frameY="-103" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare right0002" x="2966" y="883" width="720" height="880" frameX="-301" frameY="-108" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare right0003" x="3688" y="0" width="722" height="877" frameX="-299" frameY="-112" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare left0000" x="1481" y="968" width="710" height="891" frameX="-22" frameY="-95" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare left0001" x="1513" y="1930" width="719" height="886" frameX="-31" frameY="-100" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare left0002" x="2966" y="0" width="722" height="883" frameX="-42" frameY="-104" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare left0003" x="2966" y="1763" width="722" height="880" frameX="-49" frameY="-108" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare down0000" x="760" y="3704" width="760" height="783" frameX="-216" frameY="-206" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare down0001" x="0" y="3704" width="760" height="789" frameX="-213" frameY="-200" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare down0002" x="4410" y="0" width="759" height="795" frameX="-208" frameY="-194" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare down0003" x="3074" y="2830" width="760" height="802" frameX="-202" frameY="-187" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare up0000" x="0" y="0" width="736" height="968" frameX="-145" frameY="-11" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare up0001" x="736" y="0" width="738" height="966" frameX="-147" frameY="-14" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare up0002" x="1474" y="0" width="742" height="963" frameX="-150" frameY="-18" frameWidth="1025" frameHeight="1025" />
+<SubTexture name="cessare up0003" x="0" y="968" width="745" height="962" frameX="-154" frameY="-20" frameWidth="1025" frameHeight="1025" />
+</TextureAtlas>

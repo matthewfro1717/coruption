@@ -1,0 +1,18 @@
+{
+	"song": {
+		"speed": 3.3,
+		"stage": "FarmWalls",
+		"player1": "bf",
+		"player2": "pissedman",
+		"player3": null,
+		"events": [],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 160,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Temper"
+	}
+}

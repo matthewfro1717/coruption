@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Wow that wasn't half bad!"
+		},
+		{
+                                    "sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Same to you dave!"
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "I just hope I don't turn 3d again."
+		},
+		{
+                                    "sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Beep skdoo bop."
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "dave",
+			"boxState": "normal",
+			"expression": "rap",
+			"text": "Anyways, Up for another round?"
+		},
+		{
+                                    "sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Beep!"
+		}
+	]
+}

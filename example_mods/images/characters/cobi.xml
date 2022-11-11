@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="cobi.png"><SubTexture name="cobi idle0000" x="0" y="0" width="904" height="904" frameX="0" frameY="0" frameWidth="904" frameHeight="904" />
+<SubTexture name="cobi left0000" x="904" y="0" width="904" height="904" frameX="0" frameY="0" frameWidth="904" frameHeight="904" />
+<SubTexture name="cobi right0000" x="0" y="904" width="904" height="904" frameX="0" frameY="0" frameWidth="904" frameHeight="904" />
+<SubTexture name="cobi up0000" x="904" y="904" width="904" height="904" frameX="0" frameY="0" frameWidth="904" frameHeight="904" />
+<SubTexture name="cobi down0000" x="0" y="1808" width="904" height="904" frameX="0" frameY="0" frameWidth="904" frameHeight="904" />
+<SubTexture name="cobi you0000" x="904" y="1808" width="904" height="904" frameX="0" frameY="0" frameWidth="904" frameHeight="904" />
+</TextureAtlas>

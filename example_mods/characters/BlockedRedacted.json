@@ -1,0 +1,164 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "Dad idle dance",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-9,
+				10
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note LEFT",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				27
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-6,
+				50
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Dad Sing Note UP",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			]
+		},
+		{
+			"offsets": [
+				140,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "WhatYouKnowAboutRollingDownInTheDeep"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 13,
+			"anim": "you",
+			"indices": [],
+			"name": "BlockedRedacted idle"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 13,
+			"anim": "idle",
+			"indices": [],
+			"name": "BlockedRedacted idle"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"indices": [],
+			"fps": 0,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "BlockedRedacted idle0"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"indices": [],
+			"fps": 0,
+			"anim": "singUP",
+			"loop": false,
+			"name": "BlockedRedacted idle0"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"indices": [],
+			"fps": 0,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "BlockedRedacted idle0"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"indices": [],
+			"fps": 0,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "BlockedRedacted idle0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BlockedRedacted",
+	"position": [
+		320,
+		660
+	],
+	"healthicon": "BlockedRedacted",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-1470,
+		-1730
+	],
+	"sing_duration": 6.1,
+	"scale": 5
+}

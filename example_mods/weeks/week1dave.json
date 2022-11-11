@@ -1,0 +1,58 @@
+{
+	"storyName": "yoooo dave rematch is real",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "dave",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Quantum",
+			"dave",
+			[
+				0,
+				0,
+				255
+			]
+		],
+		[
+			"Valley",
+			"dave",
+			[
+				0,
+				0,
+				215
+			]
+		],
+		[
+			"Uprising Terror",
+			"worrieddave",
+			[
+				0,
+				0,
+				135
+			]
+		],
+		[
+			"Censure",
+			"corrupteddave",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Burnt dogs"
+}

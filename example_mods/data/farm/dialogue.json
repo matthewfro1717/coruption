@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+                                   "sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
+			"expression": "mad",
+			"text": "you cheat again??"
+		},
+		{
+                                    "sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Listen, something happened to Dave and we don't know what to do."
+		},
+		{
+                                    "sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
+			"expression": "mad",
+			"text": "why would i believe cheater like you??"
+		},
+		{
+                                    "sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "i think dave is fine"
+		},
+		{
+                                    "sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
+			"expression": "mad",
+			"text": "(even though ive never seen him for long time)"
+		},
+		{
+                                    "sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "rap and if you win uhhhhhh.... idk what i can do"
+		}
+	]
+}

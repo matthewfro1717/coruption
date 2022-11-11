@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="expungedbandum.png"><SubTexture name="expungedbandum idle0000" x="2006" y="0" width="656" height="681" frameX="-272" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum idle0001" x="2006" y="681" width="614" height="681" frameX="-314" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum idle0002" x="0" y="1442" width="650" height="681" frameX="-275" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum idle0003" x="650" y="1442" width="617" height="681" frameX="-313" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum idle0004" x="1267" y="1442" width="651" height="681" frameX="-262" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum idle0005" x="1918" y="1442" width="612" height="681" frameX="-274" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum idle0006" x="2662" y="0" width="654" height="681" frameX="-260" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum idle0007" x="2662" y="681" width="620" height="681" frameX="-270" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum right0000" x="2662" y="1362" width="593" height="681" frameX="-465" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum right0001" x="0" y="2123" width="595" height="681" frameX="-470" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum right0002" x="595" y="2123" width="597" height="681" frameX="-465" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum right0003" x="1596" y="683" width="372" height="681" frameX="-458" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum up0000" x="618" y="0" width="611" height="732" frameX="-422" frameY="-36" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum up0001" x="0" y="0" width="618" height="746" frameX="-416" frameY="-22" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum up0002" x="371" y="746" width="551" height="686" frameX="-422" frameY="-82" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum up0003" x="922" y="746" width="399" height="683" frameX="-458" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum left0000" x="1192" y="2123" width="477" height="681" frameX="-276" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum left0001" x="1669" y="2123" width="499" height="681" frameX="-254" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum left0002" x="2168" y="2123" width="526" height="681" frameX="-227" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum left0003" x="2694" y="2123" width="442" height="681" frameX="-311" frameY="-87" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum down0000" x="0" y="746" width="371" height="696" frameX="-378" frameY="-85" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum down0001" x="1229" y="0" width="367" height="706" frameX="-382" frameY="-86" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum down0002" x="1596" y="0" width="410" height="683" frameX="-339" frameY="-85" frameWidth="1220" frameHeight="867" />
+<SubTexture name="expungedbandum down0003" x="3316" y="0" width="451" height="681" frameX="-302" frameY="-87" frameWidth="1220" frameHeight="867" />
+</TextureAtlas>

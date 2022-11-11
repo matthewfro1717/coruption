@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BlockedRedacted.png"><SubTexture name="BlockedRedacted idle0000" x="0" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="BlockedRedacted idle0001" x="668" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="BlockedRedacted idle0002" x="0" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<SubTexture name="BlockedRedacted idle0003" x="668" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+</TextureAtlas>

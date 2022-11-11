@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="anthony.png"><SubTexture name="anthony idle0000" x="5131" y="0" width="1067" height="904" frameX="-630" frameY="-299" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony idle0001" x="1081" y="3989" width="1071" height="909" frameX="-628" frameY="-293" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony idle0002" x="0" y="3989" width="1081" height="920" frameX="-622" frameY="-278" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony idle0003" x="4011" y="1878" width="1097" height="933" frameX="-612" frameY="-262" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony idle0004" x="4011" y="941" width="1099" height="937" frameX="-608" frameY="-256" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony idle0005" x="2187" y="3040" width="1095" height="941" frameX="-597" frameY="-248" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony right0000" x="0" y="3040" width="1069" height="949" frameX="-708" frameY="-255" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony right0001" x="982" y="2078" width="1005" height="958" frameX="-658" frameY="-251" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony right0002" x="1987" y="2078" width="1008" height="958" frameX="-653" frameY="-251" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony right0003" x="2995" y="2078" width="1012" height="955" frameX="-648" frameY="-253" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony left0000" x="3037" y="965" width="867" height="958" frameX="-361" frameY="-233" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony left0001" x="0" y="2078" width="982" height="962" frameX="-405" frameY="-235" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony left0002" x="1732" y="1098" width="978" height="965" frameX="-407" frameY="-235" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony left0003" x="3037" y="0" width="974" height="965" frameX="-417" frameY="-235" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony up0000" x="0" y="0" width="943" height="1098" frameX="-522" frameY="-70" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony up0001" x="943" y="0" width="866" height="986" frameX="-575" frameY="-208" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony up0002" x="0" y="1098" width="866" height="980" frameX="-581" frameY="-219" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony up0003" x="866" y="1098" width="866" height="975" frameX="-587" frameY="-226" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony down0000" x="5131" y="904" width="934" height="847" frameX="-619" frameY="-394" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony down0001" x="3135" y="3989" width="979" height="905" frameX="-596" frameY="-326" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony down0002" x="4114" y="3989" width="978" height="905" frameX="-596" frameY="-326" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony down0003" x="2152" y="3989" width="983" height="907" frameX="-593" frameY="-322" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony shoot0000" x="1809" y="0" width="1228" height="985" frameX="-533" frameY="-236" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony shoot0001" x="1069" y="3040" width="1118" height="942" frameX="-560" frameY="-292" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony shoot0002" x="4011" y="0" width="1120" height="941" frameX="-564" frameY="-298" frameWidth="1857" frameHeight="1905" />
+<SubTexture name="anthony shoot0003" x="4011" y="2811" width="1117" height="931" frameX="-570" frameY="-309" frameWidth="1857" frameHeight="1905" />
+</TextureAtlas>

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				-39
+			],
+			"indices": [],
+			"fps": 13,
+			"anim": "idle",
+			"loop": true,
+			"name": "deriliction idle"
+		},
+		{
+			"offsets": [
+				10,
+				-39
+			],
+			"indices": [],
+			"fps": 18,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "deriliction left"
+		},
+		{
+			"offsets": [
+				-60,
+				-29
+			],
+			"indices": [],
+			"fps": 18,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "deriliction down"
+		},
+		{
+			"offsets": [
+				-20,
+				-29
+			],
+			"indices": [],
+			"fps": 18,
+			"anim": "singUP",
+			"loop": false,
+			"name": "deriliction up"
+		},
+		{
+			"offsets": [
+				-80,
+				-39
+			],
+			"indices": [],
+			"fps": 18,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "deriliction right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/deriliction",
+	"position": [
+		-260,
+		-210
+	],
+	"healthicon": "placeholder",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		130,
+		210
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

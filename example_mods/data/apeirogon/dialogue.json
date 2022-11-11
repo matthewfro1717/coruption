@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Nice job, you outbested me again!"
+		},
+		{
+                                    "sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "beep!"
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.1,
+			"portrait": "Dave",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "..."
+		},
+		{
+                                    "sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "?"
+		},
+		{
+                                    "sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Uh, Dave? Why do you look a bit nervous all of the sudden?"
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "Something just doesn't feel right, thats all."
+		},
+		{
+                                    "sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Dave",
+			"boxState": "normal",
+			"expression": "rap",
+			"text": "Should be nothing important though, down for another round?"
+		},
+		{
+                                    "sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep!"
+		}
+	]
+}

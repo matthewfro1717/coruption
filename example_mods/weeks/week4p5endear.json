@@ -1,0 +1,32 @@
+{
+	"storyName": "bandumb v3.75 fans where you at",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "end",
+	"weekBefore": "week4exosphere",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Endearment",
+			"phonophobiagf",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "???"
+}

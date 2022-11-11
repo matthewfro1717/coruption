@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				130,
+				231
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "trueyambi left"
+		},
+		{
+			"offsets": [
+				20,
+				161
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "trueyambi down"
+		},
+		{
+			"offsets": [
+				30,
+				151
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "trueyambi up"
+		},
+		{
+			"offsets": [
+				-210,
+				111
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "trueyambi right"
+		},
+		{
+			"offsets": [
+				-10,
+				201
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "trueyambi idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/trueyambi",
+	"position": [
+		590,
+		-20
+	],
+	"healthicon": "omnipotent",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		95
+	],
+	"camera_position": [
+		-430,
+		-340
+	],
+	"sing_duration": 6.1,
+	"scale": 1.7
+}

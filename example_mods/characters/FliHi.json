@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "FliHi left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "FliHi down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "FliHi up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "FliHi right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "FliHi idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/FliHi",
+	"position": [
+		-320,
+		20
+	],
+	"healthicon": "FliHi",
+	"flip_x": false,
+	"healthbar_colors": [
+		189,
+		179,
+		0
+	],
+	"camera_position": [
+		-170,
+		-270
+	],
+	"sing_duration": 6.1,
+	"scale": 1.6
+}

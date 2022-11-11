@@ -1,0 +1,94 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"--Joke songs--",
+			"gfgone",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"pseptuagint5",
+			"bandumb",
+			[
+				40,
+				160,
+				40
+			]
+		],
+		[
+			"Kysophobia",
+			"obligatory",
+			[
+				3,
+				2,
+				1
+			]
+		],
+		[
+			"real-delirium",
+			"cobi",
+			[
+				255,
+				180,
+				255
+			]
+		],
+		[
+			"Devorial",
+			"gf",
+			[
+				255,
+				0,
+				120
+			]
+		],
+		[
+			"Peace",
+			"bandumb",
+			[
+				40,
+				160,
+				40
+			]
+		],
+		[
+			"Unexpecting",
+			"exosphere",
+			[
+				0,
+				0,
+				0
+			]
+		],
+		[
+			"Wizard Time",
+			"FlyHigh",
+			[
+				255,
+				255,
+				93
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekName": "Custom Week"
+}

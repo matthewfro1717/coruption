@@ -1,0 +1,128 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		100,
+		-140
+	],
+	"scale": 1.3,
+	"animations": [
+		{
+			"loop_name": "Azstroth Talking",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Azstroth Talking0000",
+			"anim": "Talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Azstroth Beamed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Azstroth Beamed0000",
+			"anim": "beamed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Azstroth Gone",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Azstroth Gone0000",
+			"anim": "gone",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Azstroth NoHead",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Azstroth NoHead",
+			"anim": "NoHead",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Azstroth Mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Azstroth Mad0000",
+			"anim": "Mad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Azstroth Stance",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Azstroth Stance0000",
+			"anim": "Stance",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Azstroth CrossedArms",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Azstroth CrossedArms0000",
+			"anim": "CrossedArms",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Azstroth Looking",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Azstroth Looking0000",
+			"anim": "Looking",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Azstroth Thinking",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Azstroth Thinking0000",
+			"anim": "Thinking",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Azstroth"
+}

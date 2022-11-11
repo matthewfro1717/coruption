@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				40,
+				140
+			],
+			"loop": true,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "bsideoppoexpunged idle"
+		},
+		{
+			"offsets": [
+				109,
+				125
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bsideoppoexpunged left"
+		},
+		{
+			"offsets": [
+				17,
+				175
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bsideoppoexpunged right"
+		},
+		{
+			"offsets": [
+				30,
+				152
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bsideoppoexpunged down"
+		},
+		{
+			"offsets": [
+				51,
+				215
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bsideoppoexpunged up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bsideoppoexpunged",
+	"position": [
+		-260,
+		-140
+	],
+	"healthicon": "bsidesopposition",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		40,
+		-60
+	],
+	"sing_duration": 4,
+	"scale": 0.999999999999999
+}

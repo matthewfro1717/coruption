@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="conbiy.png"><SubTexture name="conbiy right0000" x="0" y="1348" width="472" height="581" frameX="-110" frameY="-124" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy right0001" x="1675" y="631" width="422" height="619" frameX="-141" frameY="-116" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy up0000" x="383" y="0" width="382" height="674" frameX="-108" frameY="-8" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy up0001" x="0" y="0" width="383" height="697" frameX="-104" frameY="-16" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy down0000" x="892" y="1348" width="447" height="513" frameX="-67" frameY="-250" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy down0001" x="472" y="1348" width="420" height="543" frameX="-74" frameY="-225" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy left0000" x="1675" y="0" width="588" height="631" frameX="0" frameY="-109" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy left0001" x="0" y="697" width="509" height="651" frameX="-10" frameY="-98" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy idle0000" x="1221" y="0" width="454" height="652" frameX="-66" frameY="-82" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy idle0001" x="765" y="0" width="456" height="656" frameX="-61" frameY="-68" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy idle0002" x="509" y="697" width="481" height="638" frameX="-48" frameY="-68" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy idle0003" x="765" y="0" width="456" height="656" frameX="-61" frameY="-68" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy idle0004" x="1221" y="0" width="454" height="652" frameX="-66" frameY="-82" frameWidth="588" frameHeight="818" />
+<SubTexture name="conbiy idle0005" x="990" y="697" width="447" height="636" frameX="-72" frameY="-99" frameWidth="588" frameHeight="818" />
+</TextureAtlas>

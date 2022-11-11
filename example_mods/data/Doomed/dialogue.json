@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"sound": "glitchbambitalk",
+			"speed": 0.05,
+			"portrait": "exobamb",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You just fucked up"
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "????"
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "demon",
+			"text": "???"
+		},
+		{
+			"sound": "glitchbambitalk",
+			"speed": 0.05,
+			"portrait": "exobamb",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You've doomed yourself, You have been doomed from the start. You should've ran away when you had the chance"
+		}
+	]
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="corruptedexpunged.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="epitome0000" x="0" y="0" width="690" height="694"/>
+	<SubTexture name="exoexpunged0000" x="750" y="0" width="552" height="661"/>
+</TextureAtlas>

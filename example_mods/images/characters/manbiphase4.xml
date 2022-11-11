@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="manbiphase4.png"><SubTexture name="manbiphase4 right0000" x="763" y="0" width="902" height="715" frameX="0" frameY="-19" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 right0001" x="755" y="800" width="707" height="667" frameX="-112" frameY="-64" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 up0000" x="0" y="0" width="763" height="800" frameX="-45" frameY="0" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 up0001" x="0" y="800" width="755" height="705" frameX="-60" frameY="-51" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 down0000" x="2390" y="0" width="744" height="579" frameX="-64" frameY="-206" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 down0001" x="762" y="1505" width="705" height="590" frameX="-113" frameY="-187" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 left0000" x="1665" y="629" width="721" height="610" frameX="-10" frameY="-125" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 left0001" x="1467" y="1505" width="698" height="586" frameX="-23" frameY="-111" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 idle0000" x="1665" y="0" width="725" height="629" frameX="-62" frameY="-86" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 idle0001" x="0" y="1505" width="762" height="623" frameX="-23" frameY="-71" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 idle0002" x="1665" y="0" width="725" height="629" frameX="-62" frameY="-86" frameWidth="902" frameHeight="800" />
+<SubTexture name="manbiphase4 idle0003" x="2390" y="579" width="558" height="567" frameX="-174" frameY="-119" frameWidth="902" frameHeight="800" />
+</TextureAtlas>

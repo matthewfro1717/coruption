@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lacuna.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="0" y="0" width="351" height="612"/>
+	<SubTexture name="down0001" x="351" y="0" width="351" height="612"/>
+	<SubTexture name="down0002" x="351" y="0" width="351" height="612"/>
+	<SubTexture name="down0003" x="702" y="0" width="351" height="612"/>
+	<SubTexture name="idle0000" x="1053" y="0" width="588" height="655"/>
+	<SubTexture name="idle0001" x="1641" y="0" width="588" height="655"/>
+	<SubTexture name="idle0002" x="2229" y="0" width="588" height="655"/>
+	<SubTexture name="idle0003" x="2229" y="0" width="588" height="655"/>
+	<SubTexture name="idle0004" x="2817" y="0" width="588" height="655"/>
+	<SubTexture name="left0000" x="3405" y="0" width="507" height="626"/>
+	<SubTexture name="left0001" x="0" y="655" width="507" height="626"/>
+	<SubTexture name="left0002" x="0" y="655" width="507" height="626"/>
+	<SubTexture name="left0003" x="507" y="655" width="507" height="626"/>
+	<SubTexture name="right0000" x="1014" y="655" width="501" height="530"/>
+	<SubTexture name="right0001" x="1515" y="655" width="501" height="530"/>
+	<SubTexture name="right0002" x="1515" y="655" width="501" height="530"/>
+	<SubTexture name="right0003" x="2016" y="655" width="501" height="530"/>
+	<SubTexture name="up0000" x="2517" y="655" width="429" height="593"/>
+	<SubTexture name="up0001" x="2946" y="655" width="429" height="593"/>
+	<SubTexture name="up0002" x="2946" y="655" width="429" height="593"/>
+	<SubTexture name="up0003" x="3375" y="655" width="429" height="593"/>
+</TextureAtlas>

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				40,
+				140
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "idle",
+			"indices": [],
+			"name": "corniphobia idle"
+		},
+		{
+			"offsets": [
+				119,
+				175
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "corniphobia left"
+		},
+		{
+			"offsets": [
+				-3,
+				125
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "corniphobia right"
+		},
+		{
+			"offsets": [
+				10,
+				172
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "corniphobia down"
+		},
+		{
+			"offsets": [
+				41,
+				65
+			],
+			"loop": true,
+			"fps": 13,
+			"anim": "singUP",
+			"indices": [],
+			"name": "corniphobia up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/corniphobia",
+	"position": [
+		-190,
+		-30
+	],
+	"healthicon": "corniphobiaexpunged",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-50,
+		-180
+	],
+	"sing_duration": 4,
+	"scale": 1.2
+}

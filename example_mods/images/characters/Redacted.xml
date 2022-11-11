@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Redacted.png"><SubTexture name="Redacted RedactedDown0000" x="0" y="0" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedDown0001" x="1404" y="0" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedDown0002" x="2808" y="0" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedDown0003" x="4212" y="0" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedDown0004" x="0" y="1404" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedDown0005" x="1404" y="1404" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedIdle0000" x="2808" y="1404" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedIdle0001" x="4212" y="1404" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedIdle0002" x="0" y="2808" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedIdle0003" x="1404" y="2808" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedIdle0004" x="2808" y="2808" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedLeft0000" x="4212" y="2808" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedLeft0001" x="0" y="4212" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedLeft0002" x="1404" y="4212" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedLeft0003" x="2808" y="4212" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedRight0000" x="4212" y="4212" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedRight0001" x="0" y="5616" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedRight0002" x="1404" y="5616" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedRight0003" x="2808" y="5616" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedRight0004" x="4212" y="5616" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted idle0000" x="0" y="7020" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedUp0000" x="1404" y="7020" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedUp0001" x="2808" y="7020" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+<SubTexture name="Redacted RedactedUp0002" x="4212" y="7020" width="1404" height="1404" frameX="0" frameY="0" frameWidth="1404" frameHeight="1404" />
+</TextureAtlas>

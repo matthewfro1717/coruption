@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="trueyambi.png"><SubTexture name="trueyambi down0000" x="2733" y="482" width="610" height="412" frameX="-210" frameY="-312" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi down0001" x="1826" y="2150" width="608" height="489" frameX="-182" frameY="-232" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi down0002" x="609" y="2150" width="606" height="550" frameX="-152" frameY="-152" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi up0000" x="2733" y="0" width="613" height="482" frameX="-125" frameY="-7" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi up0001" x="1215" y="2150" width="611" height="531" frameX="-124" frameY="-17" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi up0002" x="0" y="2150" width="609" height="566" frameX="-125" frameY="-21" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi right0000" x="0" y="0" width="831" height="733" frameX="0" frameY="0" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi right0001" x="1496" y="0" width="593" height="719" frameX="-237" frameY="0" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi right0002" x="640" y="733" width="604" height="720" frameX="-226" frameY="-4" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi left0000" x="1480" y="1466" width="831" height="613" frameX="0" frameY="-71" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi left0001" x="649" y="1466" width="831" height="653" frameX="0" frameY="-45" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi left0002" x="2089" y="0" width="644" height="698" frameX="-39" frameY="-23" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi idle0000" x="831" y="0" width="665" height="733" frameX="-75" frameY="0" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi idle0001" x="0" y="733" width="640" height="733" frameX="-84" frameY="0" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi idle0002" x="0" y="1466" width="649" height="684" frameX="-82" frameY="-20" frameWidth="831" frameHeight="733" />
+<SubTexture name="trueyambi idle0003" x="2089" y="698" width="631" height="629" frameX="-95" frameY="-64" frameWidth="831" frameHeight="733" />
+</TextureAtlas>

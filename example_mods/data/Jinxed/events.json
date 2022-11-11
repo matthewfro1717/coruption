@@ -1,0 +1,69 @@
+{
+	"song": {
+		"speed": 2.1,
+		"stage": "jinxed",
+		"player1": "boyfriendd",
+		"player2": "3DAllure",
+		"player3": null,
+		"events": [
+			[
+				44383.5616438356,
+				[
+					[
+						"Change Scroll Speed",
+						"1.6",
+						"1"
+					]
+				]
+			],
+			[
+				84427.397260274,
+				[
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				86827.397260274,
+				[
+					[
+						"Change Character",
+						"1",
+						"AllureMarkov"
+					]
+				]
+			],
+			[
+				106027.397260274,
+				[
+					[
+						"Change Character",
+						"1",
+						"3DAllure"
+					]
+				]
+			],
+			[
+				182827.397260274,
+				[
+					[
+						"Change Character",
+						"1",
+						"Part2AllureMarkov"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 146,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"song": "jinxed"
+	}
+}

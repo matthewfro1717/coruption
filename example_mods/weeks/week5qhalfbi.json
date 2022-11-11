@@ -1,0 +1,68 @@
+{
+	"storyName": "Half Dimension",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "half",
+	"weekBefore": "week4p5endear",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Double Sided",
+			"halfbi",
+			[
+				100,
+				100,
+				180
+			]
+		],
+		[
+			"Dual Wield",
+			"halfbi",
+			[
+				100,
+				100,
+				180
+			]
+		],
+		[
+			"crystal Clear",
+			"corruptedhalf",
+			[
+				40,
+				0,
+				75
+			]
+		],
+		[
+			"DEFORMED",
+			"corruptedhalf",
+			[
+				40,
+				0,
+				75
+			]
+		],
+		[
+			"Disappointment",
+			"disappointment",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "Halfbi356489-345u-0345u-"
+}

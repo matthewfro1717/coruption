@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"expression": "Talk",
+			"text": "That was fun, I should get going now...",
+			"boxState": "normal",
+			"portrait": "FlyHigh",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "AngryTurn",
+			"text": "...is what I would say if the person I was looking for wasn't behind me...",
+			"boxState": "normal",
+			"portrait": "FlyHigh",
+			"speed": 0.15,
+			"sound": ""
+		},
+		{
+			"expression": "Stance",
+			"text": "Of course your awareness saves you again, can't win even when I try to sneak around.",
+			"boxState": "normal",
+			"portrait": "Azstroth",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "CrossedArms",
+			"text": "pitiful...",
+			"boxState": "normal",
+			"portrait": "Azstroth",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "CrossedArms",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "Azstroth",
+			"speed": 0.5,
+			"sound": ""
+		},
+		{
+			"expression": "Looking",
+			"text": "and who might that be...",
+			"boxState": "normal",
+			"portrait": "Azstroth",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "shocked",
+			"text": "????",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "Mad",
+			"text": "Don't even worry about him, if you came here to fight me then fight m-",
+			"boxState": "normal",
+			"portrait": "FlyHigh",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "bro who tf this dude and why his body built like a fuckin drill",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "Shocked",
+			"text": "!",
+			"boxState": "normal",
+			"portrait": "FlyHigh",
+			"speed": 0,
+			"sound": ""
+		},
+		{
+			"expression": "Stance",
+			"text": "HOW ARE YOU THE ONE TO TALK WHEN YOU CAN'T EVEN REACH THE DOORKNOB!",
+			"boxState": "angry",
+			"portrait": "Azstroth",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "can't even talk when your limbs fall off the bed because of how spread out they are.",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "Shocked",
+			"text": "ohhhh shit...",
+			"boxState": "normal",
+			"portrait": "FlyHigh",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "Stance",
+			"text": "ALRIGHT! IF YOU WANT TO CHALLENGE ME TOO THEN SO BE IT!",
+			"boxState": "angry",
+			"portrait": "Azstroth",
+			"speed": 0.05,
+			"sound": ""
+		}
+	]
+}
