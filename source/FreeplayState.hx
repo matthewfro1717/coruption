@@ -135,22 +135,6 @@ class FreeplayState extends MusicBeatState
 			else
 				addSong(songData[0], FlxColor.fromRGB(songData[2][0], songData[2][1], songData[2][2]), songData[1], false, false);
 		}
-		// switch (AllPossibleSongs[CurrentPack].toLowerCase())
-		// {
-		// 	case 'hidden':
-		// 		addWeek(['Demigod'], 16, ['TrueFormFlyHigh']);
-		// 		addWeek(['Trulucent'], 0, ['redacted']);
-		// 		addWeek(['Dimensional'], 5, ['Anthony']);
-		// 		addWeek(['Omnipotent'], 12, ['omnipotent']);
-		// 		addWeek(['Atmospheric Anomaly'], 18, ['atomosphere']);
-		// 		addWeek(['Quadriplegia'], 0, ['exosphereinsanity']);
-		// 		addWeek(['Skill Issue'], 0, ['Exosphere']);
-		// 		addWeek(['Screwed'], 1, ['bambiAGGRIVATED']);
-		// 		addWeek(['Hydromania'], 17, ['Hydromania']);
-		// 		addWeek(['Disavowed'], 0, ['disregar']);
-		// 	case "secret":
-		// 		addWeek(["Numbskull"], 1, ["trueexpungedbandumb"], true, false);
-		// }
 	}
 
 	public function isSongLocked(songName:String, achievementUnlockAllow:Bool = true)
@@ -338,6 +322,7 @@ class FreeplayState extends MusicBeatState
 				});
 				new FlxTimer().start(0.5, function(Dumbshit:FlxTimer)
 				{
+					FlxG.camera.zoom = 1;
 					GoToActualFreeplay();
 					InMainFreeplayState = true;
 					loadingPack = false;
@@ -589,17 +574,19 @@ class SongMetadata
 		if (isLocked)
 		{
 			descLocked = "If you see this, something went wrong! Report to the devs!";
-			if (isAchievement)
+			if (isAchievement && !(isLocked && song.toLowerCase() == "charlatan"))
 			{
 				var index = Achievements.getAchievementIndex(song.toLowerCase() + "_unlock");
 				if (index == -1) // no good
 					return;
-				descLocked = 'Unlock the Achievement ${Achievements.achievementsStuff[index][0]} to unlock this song.';
+				descLocked = 'Unlock the achievement ${Achievements.achievementsStuff[index][0]} to unlock this song.';
 			}
 			else
 			{
 				switch (Paths.formatToSongPath(songName)) // just in case
 				{
+					case "charlatan":
+						descLocked = "One's mind goes hectic, and insanely deranged. Once he sees you, it will all end in pain.";
 					case "numbskull":
 						descLocked = "Purgatory's Opposition is the key, one of the numbers will set him free.";
 					case "fractured-incantation":

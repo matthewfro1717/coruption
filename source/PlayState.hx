@@ -513,7 +513,6 @@ class PlayState extends MusicBeatState
 				}
 		}
 
-
 		add(gfGroup); // Needed for blammed lights
 
 		add(dadGroup);
@@ -633,7 +632,7 @@ class PlayState extends MusicBeatState
 		{
 			dialogue = CoolUtil.coolTextFile(file);
 		}
-		
+
 		Conductor.songPosition = -5000 / Conductor.songPosition;
 
 		strumLine = new FlxSprite(ClientPrefs.middleScroll ? STRUM_X_MIDDLESCROLL : STRUM_X, 50).makeGraphic(FlxG.width, 10);
@@ -2584,10 +2583,8 @@ class PlayState extends MusicBeatState
 							{
 								daNote.y += 10.5 * (fakeCrochet / 400) * 1.5 * songSpeed + (46 * (songSpeed - 1));
 								daNote.y -= 46 * (1 - (fakeCrochet / 600)) * songSpeed;
-								
-								
-									daNote.y -= 19;
-								
+
+								daNote.y -= 19;
 							}
 							daNote.y += (Note.swagWidth / 2) - (60.5 * (songSpeed - 1));
 							daNote.y += 27.5 * ((SONG.bpm / 100) - 1) * (songSpeed - 1);
@@ -4413,7 +4410,8 @@ class PlayState extends MusicBeatState
 	private function checkForAchievement(achievesToCheck:Array<String> = null):String
 	{
 		var usedPractice:Bool = (ClientPrefs.getGameplaySetting('practice', false) || ClientPrefs.getGameplaySetting('botplay', false))
-			|| chartingMode;
+			|| chartingMode
+			|| modchartsDisabled;
 		for (i in 0...achievesToCheck.length)
 		{
 			var achievementName:String = achievesToCheck[i];
