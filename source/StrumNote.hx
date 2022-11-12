@@ -125,7 +125,7 @@ class StrumNote extends FlxSprite
 				colorSwap.brightness = ClientPrefs.arrowHSV[noteData][2] / 100;
 			}
 
-			if(animation.curAnim.name == 'confirm' && !PlayState.isPixelStage) {
+			if(animation.curAnim.name == 'confirm') {
 				centerOrigin();
 			}
 		}
