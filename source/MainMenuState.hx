@@ -1,5 +1,6 @@
 package;
 
+import flixel.input.mouse.FlxMouse;
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -38,6 +39,7 @@ class MainMenuState extends MusicBeatState
 	private var camAchievement:FlxCamera;
 
 	var optionShit:Array<String> = ['story_mode', 'freeplay', 'credits', 'options'];
+	var ogLength:Int = 0;
 
 	var backdrop:FlxBackdrop;
 	var camFollow:FlxObject;
@@ -123,15 +125,29 @@ class MainMenuState extends MusicBeatState
 				scr = 0;
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
+
 			// menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
 			menuItem.updateHitbox();
+			if (firstStart)
+			{
+				menuItem.y += FlxG.height * 1.1;
+				FlxTween.tween(menuItem, {y: offset + (i * 140)}, 1 + (i * 0.25), {
+					ease: FlxEase.expoInOut,
+					onComplete: function(flxTween:FlxTween)
+					{
+						finishedFunnyMove = true;
+						changeItem();
+					}
+				});
+			}
 		}
+		firstStart = false;
+		ogLength = optionShit.length;
 		optionShit.push("achievements");
 		var trophyIcon = new FlxSprite().loadGraphic(Paths.image("trophyicon"));
-		trophyIcon.setGraphicSize(150, 150);
 		trophyIcon.updateHitbox();
-		trophyIcon.x = FlxG.width - trophyIcon.width - 10;
-		trophyIcon.y = 10;
+		trophyIcon.x = FlxG.width - trophyIcon.width - 15;
+		trophyIcon.y = 15;
 		trophyIcon.ID = 4;
 		menuItems.add(trophyIcon);
 		FlxG.mouse.visible = true;
@@ -194,7 +210,8 @@ class MainMenuState extends MusicBeatState
 					{
 						if (curSelected == menuItem.ID)
 							break;
-						changeItem(menuItem.ID - curSelected);
+						curSelected = menuItem.ID;
+						reloadSprites();
 						FlxG.sound.play(Paths.sound('scrollMenu'));
 						break;
 					}
@@ -293,15 +310,33 @@ class MainMenuState extends MusicBeatState
 	{
 		curSelected += huh;
 
-		if (curSelected >= menuItems.length)
+		if (curSelected >= ogLength)
 			curSelected = 0;
 		if (curSelected < 0)
-			curSelected = menuItems.length - 1;
+			curSelected = ogLength - 1;
+		reloadSprites();
+	}
 
+	function reloadSprites()
+	{
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			if (spr.ID > 3)
+			{
+				if (curSelected == 4) // i have to do this horribleness
+				{
+					spr.loadGraphic(Paths.image("trophyiconSelected"));
+					spr.x = FlxG.width - spr.width - 8;
+					spr.y = 8;
+				}
+				else
+				{
+					spr.loadGraphic(Paths.image("trophyicon"));
+					spr.x = FlxG.width - spr.width - 10;
+					spr.y = 10;
+				}
 				return;
+			}
 			spr.animation.play('idle');
 			spr.updateHitbox();
 
