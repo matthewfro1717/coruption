@@ -105,13 +105,6 @@ class CharacterEditorState extends MusicBeatState
 		cameraFollowPointer.color = FlxColor.WHITE;
 		add(cameraFollowPointer);
 
-		changeBGbutton = new FlxButton(FlxG.width - 360, 25, "", function()
-		{
-			onPixelBG = !onPixelBG;
-			reloadBGs();
-		});
-		changeBGbutton.cameras = [camMenu];
-
 		loadChar(!daAnim.startsWith('bf'), false);
 
 		healthBarBG = new FlxSprite(30, FlxG.height - 75).loadGraphic(Paths.image('healthBar'));
@@ -204,7 +197,6 @@ class CharacterEditorState extends MusicBeatState
 		super.create();
 	}
 
-	var onPixelBG:Bool = false;
 	var OFFSET_X:Float = 300;
 	function reloadBGs() {
 		var i:Int = bgLayer.members.length-1;
@@ -221,47 +213,8 @@ class CharacterEditorState extends MusicBeatState
 		var playerXDifference = 0;
 		if(char.isPlayer) playerXDifference = 670;
 
-		if(onPixelBG) {
-			var playerYDifference:Float = 0;
-			if(char.isPlayer) {
-				playerXDifference += 200;
-				playerYDifference = 220;
-			}
-
-			var bgSky:BGSprite = new BGSprite('weeb/weebSky', OFFSET_X - (playerXDifference / 2) - 300, 0 - playerYDifference, 0.1, 0.1);
-			bgLayer.add(bgSky);
-			bgSky.antialiasing = false;
-
-			var repositionShit = -200 + OFFSET_X - playerXDifference;
-
-			var bgSchool:BGSprite = new BGSprite('weeb/weebSchool', repositionShit, -playerYDifference + 6, 0.6, 0.90);
-			bgLayer.add(bgSchool);
-			bgSchool.antialiasing = false;
-
-			var bgStreet:BGSprite = new BGSprite('weeb/weebStreet', repositionShit, -playerYDifference, 0.95, 0.95);
-			bgLayer.add(bgStreet);
-			bgStreet.antialiasing = false;
-
-			var widShit = Std.int(bgSky.width * 6);
-			var bgTrees:FlxSprite = new FlxSprite(repositionShit - 380, -800 - playerYDifference);
-			bgTrees.frames = Paths.getPackerAtlas('weeb/weebTrees');
-			bgTrees.animation.add('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
-			bgTrees.animation.play('treeLoop');
-			bgTrees.scrollFactor.set(0.85, 0.85);
-			bgLayer.add(bgTrees);
-			bgTrees.antialiasing = false;
-
-			bgSky.setGraphicSize(widShit);
-			bgSchool.setGraphicSize(widShit);
-			bgStreet.setGraphicSize(widShit);
-			bgTrees.setGraphicSize(Std.int(widShit * 1.4));
-
-			bgSky.updateHitbox();
-			bgSchool.updateHitbox();
-			bgStreet.updateHitbox();
-			bgTrees.updateHitbox();
-			changeBGbutton.text = "Regular BG";
-		} else {
+		
+		
 			var bg:BGSprite = new BGSprite('stageback', -600 + OFFSET_X - playerXDifference, -300, 0.9, 0.9);
 			bgLayer.add(bg);
 
@@ -269,8 +222,7 @@ class CharacterEditorState extends MusicBeatState
 			stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
 			stageFront.updateHitbox();
 			bgLayer.add(stageFront);
-			changeBGbutton.text = "Pixel BG";
-		}
+		
 	}
 
 	/*var animationInputText:FlxUIInputText;
