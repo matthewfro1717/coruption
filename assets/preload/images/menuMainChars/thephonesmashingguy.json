@@ -1,0 +1,13 @@
+{
+    "name": "enragedbambi",
+    "idle": "enragedbambi idle",
+    "fps": 10,
+    "pos": [
+        375,
+        -10
+    ],
+    "scale": 0.85,
+    "isChar": true,
+    "isAnimated": true,
+    "flipX": true
+}

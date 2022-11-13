@@ -1,0 +1,13 @@
+{
+    "name": "cheatingbambi",
+    "idle": "cheatingbambi idle",
+    "fps": 24,
+    "pos": [
+        370,
+        35
+    ],
+    "scale": 0.875,
+    "isChar": true,
+    "isAnimated": true,
+    "flipX": true
+}

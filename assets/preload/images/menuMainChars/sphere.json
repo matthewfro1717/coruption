@@ -1,0 +1,13 @@
+    {
+        "name": "exosphere",
+        "idle": "exosphere idle",
+        "fps": 15,
+        "pos": [
+            370,
+            55
+        ],
+        "scale": 0.4925,
+        "isChar": true,
+        "isAnimated": true,
+        "flipX": true
+    }

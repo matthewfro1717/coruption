@@ -1,0 +1,13 @@
+{
+    "name": "tristan",
+    "idle": "tristan idle",
+    "fps": 15,
+    "pos": [
+        345,
+        5
+    ],
+    "scale": 1.0125,
+    "isChar": true,
+    "isAnimated": true,
+    "flipX": true
+}

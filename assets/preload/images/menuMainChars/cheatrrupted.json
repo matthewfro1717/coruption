@@ -1,0 +1,13 @@
+{
+    "name": "ExosphericExpunged",
+    "idle": "Exopunged idle",
+    "fps": 24,
+    "pos": [
+        350,
+        15
+    ],
+    "scale": 0.6,
+    "isChar": true,
+    "isAnimated": true,
+    "flipX": true
+}

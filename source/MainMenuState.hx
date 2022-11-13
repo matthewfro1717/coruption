@@ -1,5 +1,6 @@
 package;
 
+import sys.io.File;
 import flixel.input.mouse.FlxMouse;
 #if desktop
 import Discord.DiscordClient;
@@ -22,8 +23,21 @@ import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
 import flixel.addons.display.FlxBackdrop;
+import sys.FileSystem;
 
 using StringTools;
+
+typedef MainMenuChar =
+{
+	public var name:String;
+	public var idle:String;
+	public var fps:Int;
+	public var scale:Float;
+	public var pos:Array<Int>;
+	public var isAnimated:Bool;
+	public var isChar:Bool;
+	public var flipX:Bool;
+}
 
 class MainMenuState extends MusicBeatState
 {
@@ -45,6 +59,15 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+	var char:FlxSprite;
+
+	override function beatHit()
+	{
+		@:privateAccess
+		if (curBeat % 2 == 0 && char.animation.getByName("idle") != null && !char.animation.getByName("idle").looped)
+			char.animation.play("idle");
+		super.beatHit();
+	}
 
 	override function create()
 	{
@@ -167,7 +190,36 @@ class MainMenuState extends MusicBeatState
 		// NG.core.calls.event.logEvent('swag').send();
 
 		changeItem();
-
+		var possibleChars:Array<MainMenuChar> = [];
+		for (json in FileSystem.readDirectory("assets/images/menuMainChars"))
+		{
+			if (FileSystem.isDirectory("assets/images/menuMainChars/" + json))
+				continue;
+			possibleChars.push(haxe.Json.parse(File.getContent(Sys.getCwd() + "assets/images/menuMainChars/" + json)));
+		}
+		var charChosen = FlxG.random.getObject(possibleChars);
+		char = new FlxSprite();
+		if (charChosen.isAnimated)
+		{
+			if (charChosen.isChar)
+				char.frames = Paths.getSparrowAtlas("characters/" + charChosen.name);
+			else
+				char.frames = Paths.getSparrowAtlas("menuMainChars/images/" + charChosen.name);
+			if (charChosen.name.contains("bamb") && charChosen.name.contains("exo"))
+				char.animation.addByPrefix("idle", charChosen.idle, charChosen.fps, true);
+			else
+				char.animation.addByPrefix("idle", charChosen.idle, charChosen.fps, false);
+		}
+		else
+			char.loadGraphic(Paths.image("menuMainChars/images/" + charChosen.name));
+		char.scale.set(charChosen.scale, charChosen.scale);
+		if (charChosen.isAnimated)
+			char.animation.play("idle");
+		char.screenCenter();
+		char.x += charChosen.pos[0];
+		char.y += charChosen.pos[1];
+		char.flipX = charChosen.flipX;
+		add(char);
 		super.create();
 	}
 
@@ -175,6 +227,7 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		Conductor.songPosition = FlxG.sound.music.time;
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;

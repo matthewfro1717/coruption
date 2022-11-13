@@ -219,7 +219,7 @@ class PlayState extends MusicBeatState
 	public var modchartsDisabled:Bool = false;
 
 	public var botplaySine:Float = 0;
-	public var botplayTxt:FlxText;
+	public var botplayTxt:FlxSprite;
 
 	var judgementCounter:FlxText;
 	var screwYouTxt:FlxText;
@@ -827,74 +827,10 @@ class PlayState extends MusicBeatState
 		watermarkTxt.updateHitbox();
 		watermarkTxt.alpha = 0.6;
 		add(watermarkTxt);
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "FUCK YOU CHEATER!!!
-		
-		7 Reasons Why You Shouldn’t Cheat in School
-
-		1. You Won’t Learn Anything
-		It is not a secret: high achieving students do not cheat. Relying on your own abilities will help you build your self-esteem and positively impact your long-term academic performance.
-		
-		On the other hand, even if they are not caught, cheaters won’t learn anything about the information on the exam. When a student cheats on a test, they usually plan to do it in advance, which means that they don’t take the time to learn the material that will be on the exam. They won’t pay attention in class, they won’t learn the material, and then taking the class will be for naught.
-		
-		When a student copies another student’s answers during an exam, they do not learn the material they are copying. It takes time to learn, and if a student wastes that time finding the answers from somebody else’s work, then they will never truly own the material.
-		
-		When a student cheats, even if they know a lot of the information that will be on an exam, they will not remember any of the material that is on the test because they did not take the time to study and memorize the information, so they won’t be able to use that information in the future when they need it.
-		
-		Students who cheat won’t be able to learn as well in the future because the future lessons build on the past lessons. Not many students think that they need to build on what they have learned in the past, and this mindset will lead to confusion in classes in the future. (Source)
-		
-		2. Cheating Is a Vicious Cycle
-		College and high school students who are rewarded for their hard work get a boost of self-esteem. On the other hand, many cheaters suffer from impostor syndrome.
-		
-		When a student cheats on an exam, school generally becomes harder for them. It becomes harder for them because their teachers no longer trust them and are constantly watching them, and because they don’t have information that they need to build on to continue their education.
-		
-		As a student’s education continues, their exams become more challenging, and the information on those exams becomes more complicated. If a student cheats on an exam because they did not take the time that they needed to learn the material, then they don’t have information to build on and they will become discouraged and frustrated when they don’t understand the material being taught.
-		
-		This frustration will make them want to cheat on the next exam because they feel that they won’t be able to pass the class without cheating, even though the teachers may catch them and they have the risk of being expelled.
-		
-		If schooling becomes more difficult for a student, their grades may drop, and they may not be accepted into a university, which can negatively affect their chances of getting a good job. Although this might seem like an exaggeration, it is not. While people can be successful without going to a university, many jobs require a degree nowadays.
-		
-		After students cheat on an exam, their teachers keep an extra close eye on them during future exams. This extra scrutiny adds pressure to a student, which can negatively affect their ability to remember what they have learned. Students are in a high-stress environment when they are taking an exam, and they will likely crumble under any extra pressure that is added to them, which will make them fail the exam even if they studied and thought they would do well on it.
-		
-		3. You Can Get Suspended
-		When a student is caught cheating on an exam, they can get suspended from school for an indefinite amount of time. The amount of time that the cheating student will be suspended will vary depending on the school’s cheating policies, the importance of the exam that the student cheated on, and the number of times that student has gotten in trouble while at school.
-		
-		If a student cheats on a minor test, they will likely get suspended for only a few days, especially if the student doesn’t have any previous misbehavior on record. However, if a student cheats on a very important test, and they have gotten in trouble at school in the past, they may be suspended for a few weeks or get expelled from school. (Source)
-		
-		4. You Can Even Get Expelled
-		Another possible consequence of cheating is expulsion. If a student gets caught and has gotten in trouble at school many times or has cheated in the past, he will likely be expelled.
-		
-		However, if a school has very relaxed cheating policies, and the exam that the student cheated on is not very important, then a student will likely not be expelled the first time that they cheat on an exam. However, many universities have no tolerance policies when it comes to cheating on exams and will expel a student immediately.
-		
-		If the exam that a student cheated on is a state test, they will be expelled immediately because state tests are very important, and the state has no tolerance for cheating students.
-		
-		In summary, cheating is not worth the consequences that follow.
-		
-		5. Embarrassment
-		When a student is caught cheating on an exam, it is very awkward for them. When a teacher catches a student cheating on an exam, they usually call the student out in front of all of their classmates. Teachers often don’t pull the student aside when they accuse them of cheating because they want to find out the truth immediately, and they don’t want to give the cheating student a chance to come up with an excuse.
-		
-		When a teacher accuses a student of cheating, the entire class watches the interaction, which makes the cheating student embarrassed while they try to defend themselves from the accusation.
-		
-		It is also embarrassing because cheating students are brought to the school administration, and their parents are usually called and told what happened. Then they have to face their parents, and potentially their siblings when they get home and be embarrassed all over again. They also may be lectured by their parents and sent home for the day by the school administration.
-		
-		It is especially embarrassing because everyone who witnessed it can become judgemental from that point forward.
-		
-		6. Cheaters Frustrate Other Students
-		When a student is accused of cheating, the other students in the room feel cheated themselves because they studied and have been taking the test honestly, while the cheating student cut corners to get a good grade.
-		
-		When a student cheats, they are telling their classmates that they are above the rest of them and the rules don’t matter to them. This is extremely frustrating to other students, and it might make them less willing to study in the future. What’s the point in studying if your classmates are going to cheat to get a better grade than you?
-		
-		7. Cheating Is Disrespectful to Your Teacher
-		Cheating is disrespectful to the teacher who created and is administering the exam. When a student cheats, they are basically telling the teacher or professor that they don’t want to take the time to study, and they aren’t actually taking the class to learn—rather, they just want a good grade.
-		
-		Even if this is true, it is very disrespectful towards the teacher who created the exam. They spent a lot of time creating the test and making sure that their students have the resources that they need to pass the test. Cheating is disrespectful to teachers and professors and the amount of work that they put into making sure that their students can learn the material effectively.
-		
-		Cheating is also disrespectful towards teachers because it tells them that the cheating student thinks that the teacher isn’t smart enough to tell when a student is cheating during an exam. Signs that a student is cheating while taking an exam are obvious, and teachers are trained to catch cheating students.",
-			32);
-
-		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.WHITE);
+		botplayTxt = new FlxSprite(400, timeBarBG.y + 55).loadGraphic(Paths.image("do not"));
 		botplayTxt.scrollFactor.set();
-		botplayTxt.borderSize = 1.25;
 		botplayTxt.visible = cpuControlled;
+		botplayTxt.screenCenter(X);
 		add(botplayTxt);
 		if (ClientPrefs.downScroll)
 		{
@@ -1390,7 +1326,7 @@ class PlayState extends MusicBeatState
 			}
 			psychDialogue.nextDialogueThing = startNextDialogue;
 			psychDialogue.skipDialogueThing = skipDialogue;
-			psychDialogue.cameras = [camHUD];
+			psychDialogue.cameras = [camOther]; // ok listen its so cool stuff and doesnt overlapses and stuffs
 			add(psychDialogue);
 		}
 		else
@@ -3226,7 +3162,7 @@ class PlayState extends MusicBeatState
 		{
 			var achieve:String = checkForAchievement([
 				"week1dave_completion", "week2expunged_completion", "week3bambi_completion", "week3p5tristan_completion", "week4exosphere_completion",
-				        "baked_unlock",           "nemesis_unlock",      "purgatory_unlock",      "atmospherical_unlock",          "charlatan_unlock"
+				"riftsomewhere", "baked_unlock", "nemesis_unlock", "purgatory_unlock", "atmospherical_unlock", "charlatan_unlock"
 			]);
 
 			if (achieve != null)
@@ -3776,17 +3712,7 @@ class PlayState extends MusicBeatState
 				}
 			});
 
-			if (parsedHoldArray.contains(true) && !endingSong)
-			{
-				#if ACHIEVEMENTS_ALLOWED
-				var achieve:String = checkForAchievement(['oversinging']);
-				if (achieve != null)
-				{
-					startAchievement(achieve);
-				}
-				#end
-			}
-			else if (boyfriend.animation.curAnim != null
+			if (boyfriend.animation.curAnim != null
 				&& boyfriend.holdTimer > Conductor.stepCrochet * (0.0011 / FlxG.sound.music.pitch) * boyfriend.singDuration
 					&& boyfriend.animation.curAnim.name.startsWith('sing')
 					&& !boyfriend.animation.curAnim.name.endsWith('miss'))
@@ -4411,7 +4337,10 @@ class PlayState extends MusicBeatState
 	{
 		var usedPractice:Bool = (ClientPrefs.getGameplaySetting('practice', false) || ClientPrefs.getGameplaySetting('botplay', false))
 			|| chartingMode
-			|| modchartsDisabled;
+			|| modchartsDisabled
+			|| playbackRate < 1;
+		if (usedPractice)
+			return null;
 		for (i in 0...achievesToCheck.length)
 		{
 			var achievementName:String = achievesToCheck[i];
@@ -4421,11 +4350,19 @@ class PlayState extends MusicBeatState
 
 				if (achievementName.toLowerCase() == (WeekData.getWeekFileName() + "_completion"))
 				{
-					if (isStoryMode && storyPlaylist.length <= 1 && !changedDifficulty && !usedPractice)
+					if (isStoryMode && storyPlaylist.length <= 1 && !changedDifficulty)
 						unlock = true;
 				}
+
+				var formattedSongName = Paths.formatToSongPath(SONG.song);
 				switch (achievementName)
 				{
+					case "riftsomewhere":
+						if (formattedSongName == "endearment")
+							unlock = true;
+					case "baked_unlock":
+						if (formattedSongName == "disappointment" && songMisses < 1)
+							unlock = true;
 				}
 
 				if (unlock)

@@ -1,0 +1,13 @@
+{
+    "name": "exophericbamb",
+    "idle": "exophericbamb idle",
+    "fps": 10,
+    "pos": [
+        360,
+        -5
+    ],
+    "scale": 0.85,
+    "isChar": true,
+    "isAnimated": true,
+    "flipX": true
+}

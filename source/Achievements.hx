@@ -18,6 +18,7 @@ class Achievements
 		["Bugged", "Beat Bambi's Week.", "week3bambi_completion", false],
 		["Puppeted", "Beat Tristan's Week.", "week3p5tristan_completion", false],
 		["Incorruptible", "Beat Exosphere's Week.", "week4exosphere_completion", false],
+		["The Rift to Somewhere", "Beat Endearment.", "riftsomewhere", false],
 		["Disappointment", "FC Disappointment. [Unlocks Baked]", "baked_unlock", false],
 		[
 			"Hydromaniac",

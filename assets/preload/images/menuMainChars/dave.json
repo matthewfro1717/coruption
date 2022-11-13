@@ -1,0 +1,13 @@
+{
+    "name": "davehapy",
+    "idle": "davehapy idle",
+    "fps": 14,
+    "pos": [
+        320,
+        55
+    ],
+    "scale": 1,
+    "isChar": true,
+    "isAnimated": true,
+    "flipX": true
+}
