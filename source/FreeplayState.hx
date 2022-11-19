@@ -1,5 +1,7 @@
 package;
 
+import flixel.group.FlxSpriteGroup;
+import flixel.effects.FlxFlicker;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
 import flash.text.TextField;
@@ -437,18 +439,28 @@ class FreeplayState extends MusicBeatState
 				poop = songLowercase;
 				curDifficulty = 1;
 			}
-			trace(poop);
 
 			PlayState.SONG = Song.loadFromJson(poop, songLowercase);
 			PlayState.isStoryMode = false;
 			PlayState.storyDifficulty = curDifficulty;
+			FlxG.sound.play(Paths.sound('confirmMenu'));
 
-			trace('CURRENT WEEK: ' + WeekData.getWeekFileName());
-			LoadingState.loadAndSwitchState(new PlayState());
-
-			FlxG.sound.music.volume = 0;
-
-			destroyFreeplayVocals();
+			for (i in 0...grpSongs.members.length)
+			{
+				if (i == curSelected)
+					continue;
+				FlxTween.tween(grpSongs.members[i], {alpha: 0}, 0.375, {ease: FlxEase.sineOut});
+				FlxTween.tween(iconArray[i], {alpha: 0}, 0.375, {ease: FlxEase.sineOut});
+			}
+			var spriteGroup = new FlxSpriteGroup();
+			spriteGroup.add(grpSongs.members[curSelected]);
+			spriteGroup.add(iconArray[curSelected]);
+			FlxFlicker.flicker(spriteGroup, 1, 0.1, function(_)
+			{
+				LoadingState.loadAndSwitchState(new PlayState());
+				FlxG.sound.music.volume = 0;
+				destroyFreeplayVocals();
+			});
 		}
 		else if (controls.RESET)
 		{

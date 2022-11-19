@@ -1687,6 +1687,7 @@ class PlayState extends MusicBeatState
 			vocals.pause();
 		}
 
+
 		// Song duration in a float, useful for the time left feature
 		songLength = FlxG.sound.music.length;
 		FlxTween.tween(timeBar, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
