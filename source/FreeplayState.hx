@@ -332,6 +332,7 @@ class FreeplayState extends MusicBeatState
 					GoToActualFreeplay();
 					InMainFreeplayState = true;
 					loadingPack = false;
+					changeSelection(0);
 				});
 			}
 			if (controls.BACK)
