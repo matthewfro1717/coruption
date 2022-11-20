@@ -276,7 +276,10 @@ class FreeplayState extends MusicBeatState
 	override function beatHit()
 	{
 		super.beatHit();
-		FlxTween.tween(FlxG.camera, {zoom: 1.05}, 0.3, {ease: FlxEase.quadOut, type: BACKWARD});
+		if (loadingPack)
+			return;
+		FlxG.camera.zoom = 1.05;
+		FlxTween.tween(FlxG.camera, {zoom: 1}, 0.3, {ease: FlxEase.quadOut});
 	}
 
 	public function addWeek(songs:Array<String>, color:FlxColor, ?songCharacters:Array<String>, ?isLocked:Bool = false, ?isAchievement:Bool = false)
@@ -322,6 +325,7 @@ class FreeplayState extends MusicBeatState
 				FlxTween.tween(categoryIcons[CurrentPack], {alpha: 0, y: categoryIcons[CurrentPack].y + 200}, 0.2, {
 					ease: FlxEase.cubeInOut,
 				});
+				FlxTween.completeTweensOf(FlxG.camera);
 				new FlxTimer().start(0.5, function(Dumbshit:FlxTimer)
 				{
 					FlxG.camera.zoom = 1;
@@ -444,7 +448,7 @@ class FreeplayState extends MusicBeatState
 			PlayState.isStoryMode = false;
 			PlayState.storyDifficulty = curDifficulty;
 			FlxG.sound.play(Paths.sound('confirmMenu'));
-
+			loadingPack = true;
 			for (i in 0...grpSongs.members.length)
 			{
 				if (i == curSelected)
@@ -499,6 +503,8 @@ class FreeplayState extends MusicBeatState
 
 	function changeSelection(change:Int = 0)
 	{
+		if (loadingPack)
+			return;
 		curSelected += change;
 
 		if (curSelected < 0)
