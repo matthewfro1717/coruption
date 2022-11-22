@@ -66,7 +66,18 @@ class FreeplayState extends MusicBeatState
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
-
+		var hiddenSongsJson = haxe.Json.parse(Assets.getText("assets/weeks/hidden.json"));
+		var hasHidden = false;
+		for (songData in cast(hiddenSongsJson.songs, Array<Dynamic>))
+		{
+			if (ClientPrefs.songPlayedHidden.exists(Paths.formatToSongPath(songData[0])))
+			{
+				hasHidden = true;
+				break;
+			}
+		}
+		if (!hasHidden)
+			AllPossibleSongs.remove("hidden");
 		for (i in 0...AllPossibleSongs.length)
 		{
 			var categoryIcon = new FlxSprite().loadGraphic(Paths.image('week_icons_' + (AllPossibleSongs[i].toLowerCase())));
@@ -129,6 +140,8 @@ class FreeplayState extends MusicBeatState
 		var packJson = haxe.Json.parse(Assets.getText("assets/weeks/" + pack + ".json"));
 		for (songData in cast(packJson.songs, Array<Dynamic>))
 		{
+			if (pack == "hidden" && !ClientPrefs.songPlayedHidden.exists(Paths.formatToSongPath(songData[0]))) // dont get (thats stupid)
+				continue;
 			// this code sucks (and is very dangerous) but is better than hard-coded
 			if (["disheartened", "divine-punishment", "fractured-incantation", "numbskull"].contains(Paths.formatToSongPath(songData[0])))
 				addSong(songData[0], FlxColor.fromRGB(songData[2][0], songData[2][1], songData[2][2]), songData[1], true, false);

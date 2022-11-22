@@ -19,7 +19,8 @@ class ClientPrefs
 		"atmospherical" => false,
 		"nemesis" => false,
 		"baked" => false
-	];
+	]; // for secret songs
+	public static var songPlayedHidden:Map<String, Bool> = []; // for hidden songs
 	public static var downScroll:Bool = false;
 	public static var middleScroll:Bool = false;
 	public static var opponentStrums:Bool = true;
@@ -107,6 +108,7 @@ class ClientPrefs
 
 	public static function saveSettings()
 	{
+		FlxG.save.data.songPlayedHidden = songPlayedHidden;
 		FlxG.save.data.judgement = judgement;
 		FlxG.save.data.underlaneVisibility = underlaneVisibility;
 		FlxG.save.data.opponentUnderlaneVisibility = opponentUnderlaneVisibility;
@@ -159,6 +161,10 @@ class ClientPrefs
 
 	public static function loadPrefs()
 	{
+		if (FlxG.save.data.songPlayedHidden != null)
+		{
+			songPlayedHidden = FlxG.save.data.songPlayedHidden;
+		}
 		if (FlxG.save.data.judgement != null)
 		{
 			judgement = FlxG.save.data.judgement;

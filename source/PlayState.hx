@@ -309,6 +309,11 @@ class PlayState extends MusicBeatState
 			ClientPrefs.songPlayed.set(Paths.formatToSongPath(SONG.song), true);
 			ClientPrefs.saveSettings();
 		}
+		if (!ClientPrefs.songPlayedHidden.exists(Paths.formatToSongPath(SONG.song)))
+		{
+			ClientPrefs.songPlayedHidden.set(Paths.formatToSongPath(SONG.song), true);
+			ClientPrefs.saveSettings(); // should i save everything?
+		}
 		// trace('Playback Rate: ' + playbackRate);
 		Paths.clearStoredMemory();
 
@@ -1121,7 +1126,7 @@ class PlayState extends MusicBeatState
 		}
 		playbackRate = value;
 		FlxAnimationController.globalSpeed = value;
-		trace('Anim speed: ' + FlxAnimationController.globalSpeed);
+		// trace('Anim speed: ' + FlxAnimationController.globalSpeed);
 		Conductor.safeZoneOffset = (ClientPrefs.safeFrames / 60) * 1000 * value;
 		setOnLuas('playbackRate', playbackRate);
 		return value;
@@ -1686,7 +1691,6 @@ class PlayState extends MusicBeatState
 			FlxG.sound.music.pause();
 			vocals.pause();
 		}
-
 
 		// Song duration in a float, useful for the time left feature
 		songLength = FlxG.sound.music.length;
