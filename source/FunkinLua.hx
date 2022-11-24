@@ -1238,13 +1238,15 @@ class FunkinLua
 		Lua_helper.add_callback(lua, "setPropertyFromGroup", function(obj:String, index:Int, variable:Dynamic, value:Dynamic)
 		{
 			if (PlayState.instance.modchartsDisabled
-				&& cast(variable, String).toLowerCase().trim() != "texture" && obj.toLowerCase().contains("notes"))
+				&& (cast(variable, String).toLowerCase().trim() != "texture")
+				&& obj.toLowerCase().contains("notes"))
 				return;
 			var shitMyPants:Array<String> = obj.split('.');
 			var realObject:Dynamic = Reflect.getProperty(getInstance(), obj);
 			if (shitMyPants.length > 1)
 				realObject = getPropertyLoopThingWhatever(shitMyPants, true, false);
-
+			if (cast(variable, String).toLowerCase().contains("health") && obj.toLowerCase().contains("notes"))
+				value = 0.0;
 			if (Std.isOfType(realObject, FlxTypedGroup))
 			{
 				setGroupStuff(realObject.members[index], variable, value);

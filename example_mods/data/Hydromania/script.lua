@@ -20,7 +20,7 @@ function onCreate() --setting variables and making sprites
         addLuaSprite('strumwhite' .. i,false)
     end
     
-    if not getPropertyFromClass('ClientPrefs', 'downScroll') then
+    if not getPropertyFromClass('ClientPrefs', 'downScroll') and not getProperty("modchartsDisabled") then
         makeLuaText('scro', "this is downscroll only.", 600, 350, 300)
         setTextSize('scro', 90)
         setTextColor('scro', 'FF0077')
@@ -49,7 +49,7 @@ end
 
 function onBeatHit() --events but better
     local currentBeat = math.floor((songPos/1000)*(curBpm/60))
-    if currentBeat >= 8 and not getPropertyFromClass('ClientPrefs', 'downScroll') then
+    if currentBeat >= 8 and not getPropertyFromClass('ClientPrefs', 'downScroll') and not getProperty("modchartsDisabled") then
         setPropertyFromClass('ClientPrefs', 'downScroll', true)
         playedupscroll = true
         doTweenAlpha('scrofade','scro',0,1,'linear')
@@ -70,7 +70,7 @@ end
 function onUpdatePost(elapsed)
     songPos = getSongPosition()
     currentStep = (songPos/1000)*(curBpm/15)
-	if playedupscroll then
+    if playedupscroll and not getProperty("modchartsDisabled") then
         playedupscroll = false
         makeLuaText('fix', "fixed :^)", 600, 330, 300)
         setTextSize('fix', 140)
