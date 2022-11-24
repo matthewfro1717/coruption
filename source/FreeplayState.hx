@@ -112,28 +112,6 @@ class FreeplayState extends MusicBeatState
 	var bottomInfoText:FlxText;
 	var defbottomText:String = "";
 
-	var songColors:Array<FlxColor> = [
-		0xFF000000, // black 0
-		0xFF008000, // green 1
-		0xFFff0000, // red 2
-		0xFFffffff, // white 3
-		0xFF0e0e0e, // lighter black 4
-		0xFFFF7F00, // orange 5
-		0xFFffff00, // yellow 6
-		0xFFFFC0CB, // pink 7
-		0xFF0000ff, // blue 8
-		0xFF006400, // darker green 9
-		0xFF800080, // purple 10
-		0xFF0d0310, // darker purple 11
-		0xFF00008b, // dark blue 12
-		0xFFfdfd96, // brighter yellow 13
-		0xFFa50b5e, // magenta 14
-		0xFF48d1cc, // teal 15
-		0xFFbdb76b, // dark but bright yellow 16
-		0xFF273be2, // light blue 17
-		0xFF00fa9a, // lighter green 18
-	];
-
 	public function LoadProperPack()
 	{
 		var pack:String = AllPossibleSongs[CurrentPack].toLowerCase();

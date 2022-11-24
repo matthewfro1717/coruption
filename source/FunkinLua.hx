@@ -1238,7 +1238,9 @@ class FunkinLua
 		Lua_helper.add_callback(lua, "setPropertyFromGroup", function(obj:String, index:Int, variable:Dynamic, value:Dynamic)
 		{
 			if (PlayState.instance.modchartsDisabled
-				&& (cast(variable, String).toLowerCase().trim() != "texture")
+				&& (cast(variable, String).toLowerCase().trim() != "texture"
+					&& cast(variable, String).toLowerCase().trim() != "hitCausesMiss"
+						&& cast(variable, String).toLowerCase().trim() != "ignoreNote")
 				&& obj.toLowerCase().contains("notes"))
 				return;
 			var shitMyPants:Array<String> = obj.split('.');
@@ -1353,7 +1355,7 @@ class FunkinLua
 		// gay ass tweens
 		Lua_helper.add_callback(lua, "doTweenX", function(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 		{
-			if (PlayState.instance.modchartsDisabled && vars.toLowerCase().contains("cam"))
+			if (PlayState.instance.modchartsDisabled && !vars.toLowerCase().contains("cam"))
 				return;
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if (penisExam != null)
@@ -1374,7 +1376,7 @@ class FunkinLua
 		});
 		Lua_helper.add_callback(lua, "doTweenY", function(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 		{
-			if (PlayState.instance.modchartsDisabled && vars.toLowerCase().contains("cam"))
+			if (PlayState.instance.modchartsDisabled && !vars.toLowerCase().contains("cam"))
 				return;
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if (penisExam != null)
@@ -1395,7 +1397,7 @@ class FunkinLua
 		});
 		Lua_helper.add_callback(lua, "doTweenAngle", function(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 		{
-			if (PlayState.instance.modchartsDisabled && vars.toLowerCase().contains("cam"))
+			if (PlayState.instance.modchartsDisabled && (!vars.toLowerCase().contains("cam") && !vars.toLowerCase().contains("icon")))
 				return;
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if (penisExam != null)
@@ -1416,7 +1418,7 @@ class FunkinLua
 		});
 		Lua_helper.add_callback(lua, "doTweenAlpha", function(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 		{
-			if (PlayState.instance.modchartsDisabled && vars.toLowerCase().contains("cam"))
+			if (PlayState.instance.modchartsDisabled && !vars.toLowerCase().contains("cam"))
 				return;
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if (penisExam != null)
@@ -1437,7 +1439,7 @@ class FunkinLua
 		});
 		Lua_helper.add_callback(lua, "doTweenZoom", function(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 		{
-			if (PlayState.instance.modchartsDisabled && vars.toLowerCase().contains("cam"))
+			if (PlayState.instance.modchartsDisabled && !vars.toLowerCase().contains("cam"))
 				return;
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if (penisExam != null)
@@ -1458,7 +1460,7 @@ class FunkinLua
 		});
 		Lua_helper.add_callback(lua, "doTweenColor", function(tag:String, vars:String, targetColor:String, duration:Float, ease:String)
 		{
-			if (PlayState.instance.modchartsDisabled && vars.toLowerCase().contains("cam"))
+			if (PlayState.instance.modchartsDisabled && !vars.toLowerCase().contains("cam"))
 				return;
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if (penisExam != null)
