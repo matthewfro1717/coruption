@@ -4225,6 +4225,8 @@ class PlayState extends MusicBeatState
 	{
 		var returnVal:Dynamic = FunkinLua.Function_Continue;
 		#if LUA_ALLOWED
+		if (event.toLowerCase().contains("note") && modchartsDisabled)
+			return;
 		if (exclusions == null)
 			exclusions = [];
 		for (script in luaArray)
