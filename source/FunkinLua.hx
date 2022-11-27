@@ -1397,7 +1397,8 @@ class FunkinLua
 		});
 		Lua_helper.add_callback(lua, "doTweenAngle", function(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 		{
-			if (PlayState.instance.modchartsDisabled && (!vars.toLowerCase().contains("cam") && !vars.toLowerCase().contains("icon")))
+			if (PlayState.instance.modchartsDisabled
+				&& ((!vars.toLowerCase().contains("cam") && PlayState.SONG.song != "disregard") && !vars.toLowerCase().contains("icon")))
 				return;
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if (penisExam != null)
@@ -1418,8 +1419,8 @@ class FunkinLua
 		});
 		Lua_helper.add_callback(lua, "doTweenAlpha", function(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 		{
-			if (PlayState.instance.modchartsDisabled && !vars.toLowerCase().contains("cam"))
-				return;
+			// if (PlayState.instance.modchartsDisabled && !vars.toLowerCase().contains("cam"))
+			// 	return;
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if (penisExam != null)
 			{
