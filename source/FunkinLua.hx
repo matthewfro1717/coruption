@@ -1237,21 +1237,16 @@ class FunkinLua
 		});
 		Lua_helper.add_callback(lua, "setPropertyFromGroup", function(obj:String, index:Int, variable:Dynamic, value:Dynamic)
 		{
-			if (PlayState.instance.modchartsDisabled
-				&& (cast(variable, String).toLowerCase().trim() != "texture"
-					&& cast(variable, String).toLowerCase().trim() != "hitCausesMiss"
-						&& cast(variable, String).toLowerCase().trim() != "ignoreNote")
-				&& obj.toLowerCase().contains("notes"))
-				return;
 			var shitMyPants:Array<String> = obj.split('.');
 			var realObject:Dynamic = Reflect.getProperty(getInstance(), obj);
+			var realValue = value;
 			if (shitMyPants.length > 1)
 				realObject = getPropertyLoopThingWhatever(shitMyPants, true, false);
-			if (cast(variable, String).toLowerCase().contains("health") && obj.toLowerCase().contains("notes"))
-				value = 0.0;
+			if ((cast(variable, String) == "hitHealth" || cast(variable, String) == "missHealth") && obj.toLowerCase().contains("notes"))
+				realValue = '0.0';
 			if (Std.isOfType(realObject, FlxTypedGroup))
 			{
-				setGroupStuff(realObject.members[index], variable, value);
+				setGroupStuff(realObject.members[index], variable, realValue);
 				return;
 			}
 
@@ -1260,10 +1255,10 @@ class FunkinLua
 			{
 				if (Type.typeof(variable) == ValueType.TInt)
 				{
-					leArray[variable] = value;
+					leArray[variable] = realValue;
 					return;
 				}
-				setGroupStuff(leArray, variable, value);
+				setGroupStuff(leArray, variable, realValue);
 			}
 		});
 		Lua_helper.add_callback(lua, "removeFromGroup", function(obj:String, index:Int, dontDestroy:Bool = false)

@@ -1472,7 +1472,7 @@ class PlayState extends MusicBeatState
 						FlxG.sound.play(Paths.sound('intro3' + introSoundsSuffix), 0.6);
 					case 1:
 						countdownReady = new FlxSprite().loadGraphic(Paths.image(introAlts[0]));
-						countdownReady.cameras = [camHUD];
+						countdownReady.cameras = [camOther];
 						countdownReady.scrollFactor.set();
 						countdownReady.updateHitbox();
 
@@ -1490,7 +1490,7 @@ class PlayState extends MusicBeatState
 						FlxG.sound.play(Paths.sound('intro2' + introSoundsSuffix), 0.6);
 					case 2:
 						countdownSet = new FlxSprite().loadGraphic(Paths.image(introAlts[1]));
-						countdownSet.cameras = [camHUD];
+						countdownSet.cameras = [camOther];
 						countdownSet.scrollFactor.set();
 
 						countdownSet.screenCenter();
@@ -1507,7 +1507,7 @@ class PlayState extends MusicBeatState
 						FlxG.sound.play(Paths.sound('intro1' + introSoundsSuffix), 0.6);
 					case 3:
 						countdownGo = new FlxSprite().loadGraphic(Paths.image(introAlts[2]));
-						countdownGo.cameras = [camHUD];
+						countdownGo.cameras = [camOther];
 						countdownGo.scrollFactor.set();
 
 						countdownGo.updateHitbox();
@@ -2537,7 +2537,7 @@ class PlayState extends MusicBeatState
 						opponentNoteHit(daNote);
 					}
 
-					if (!daNote.blockHit && daNote.mustPress && cpuControlled && daNote.canBeHit)
+					if (!daNote.blockHit && daNote.mustPress && cpuControlled && daNote.canBeHit && !daNote.ignoreNote && !daNote.hitCausesMiss)
 					{
 						if (daNote.isSustainNote)
 						{
@@ -2585,7 +2585,11 @@ class PlayState extends MusicBeatState
 					// Kill extremely late notes and cause misses
 					if (Conductor.songPosition > noteKillOffset + daNote.strumTime)
 					{
-						if (daNote.mustPress && !cpuControlled && !daNote.ignoreNote && !endingSong && (daNote.tooLate || !daNote.wasGoodHit))
+						if (daNote.mustPress
+							&& !cpuControlled
+							&& (!daNote.hitCausesMiss && !daNote.ignoreNote)
+							&& !endingSong
+							&& (daNote.tooLate || !daNote.wasGoodHit))
 						{
 							noteMiss(daNote);
 						}

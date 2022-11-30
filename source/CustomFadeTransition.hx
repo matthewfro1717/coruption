@@ -25,12 +25,15 @@ class CustomFadeTransition extends MusicBeatSubstate
 	var isTransIn:Bool = false;
 	var transBlack:FlxSprite;
 	var transGradient:FlxSprite;
+	var imageName:String;
+	var imageOffset:Float = 0;
 
 	public function new(duration:Float, isTransIn:Bool, ?imageName:String)
 	{
 		super();
 
 		this.isTransIn = isTransIn;
+		this.imageName = imageName;
 		var zoom:Float = CoolUtil.boundTo(FlxG.camera.zoom, 0.05, 1);
 		var width:Int = Std.int(FlxG.width / zoom);
 		var height:Int = Std.int(FlxG.height / zoom);
@@ -42,12 +45,16 @@ class CustomFadeTransition extends MusicBeatSubstate
 			transBlack = new FlxSprite().makeGraphic(width, height + 400, FlxColor.BLACK);
 		}
 		else
-			transBlack = new FlxSprite().loadGraphic(Paths.image("loadingScreens/" + imageName));
+		{
+			transBlack = new FlxSprite().loadGraphic(Paths.image("loadingscreens/" + imageName));
+			imageOffset = height - transBlack.height;
+		}
 		transBlack.scrollFactor.set();
 		add(transBlack);
 
 		transGradient.x -= (width - FlxG.width) / 2;
-		transBlack.x = transGradient.x;
+		if (imageName == null)
+			transBlack.x = transGradient.x;
 
 		if (isTransIn)
 		{
@@ -63,7 +70,8 @@ class CustomFadeTransition extends MusicBeatSubstate
 		else
 		{
 			transGradient.y = -transGradient.height;
-			transBlack.y = transGradient.y - transBlack.height + 50;
+			if (imageName == null)
+				transBlack.y = transGradient.y - transBlack.height + 50;
 			leTween = FlxTween.tween(transGradient, {y: transGradient.height + 50}, duration, {
 				onComplete: function(twn:FlxTween)
 				{
@@ -86,6 +94,22 @@ class CustomFadeTransition extends MusicBeatSubstate
 
 	override function update(elapsed:Float)
 	{
+		if (imageName == null)
+		{
+			notImageMove();
+			super.update(elapsed);
+			notImageMove();
+		}
+		else
+		{
+			imageMove();
+			super.update(elapsed);
+			imageMove();
+		}
+	}
+
+	function notImageMove()
+	{
 		if (isTransIn)
 		{
 			transBlack.y = transGradient.y + transGradient.height;
@@ -94,14 +118,17 @@ class CustomFadeTransition extends MusicBeatSubstate
 		{
 			transBlack.y = transGradient.y - transBlack.height;
 		}
-		super.update(elapsed);
+	}
+
+	function imageMove()
+	{
 		if (isTransIn)
 		{
-			transBlack.y = transGradient.y + transGradient.height;
+			transBlack.y = CoolUtil.boundTo(transGradient.y + transBlack.height - imageOffset, -1000, 720);
 		}
 		else
 		{
-			transBlack.y = transGradient.y - transBlack.height;
+			transBlack.y = CoolUtil.boundTo(transGradient.y - transBlack.height - imageOffset, -1000, 0);
 		}
 	}
 
