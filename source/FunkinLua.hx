@@ -1242,8 +1242,6 @@ class FunkinLua
 			var realValue = value;
 			if (shitMyPants.length > 1)
 				realObject = getPropertyLoopThingWhatever(shitMyPants, true, false);
-			if ((cast(variable, String) == "hitHealth" || cast(variable, String) == "missHealth") && obj.toLowerCase().contains("notes"))
-				realValue = '0.0';
 			if (Std.isOfType(realObject, FlxTypedGroup))
 			{
 				setGroupStuff(realObject.members[index], variable, realValue);

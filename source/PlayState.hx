@@ -372,6 +372,11 @@ class PlayState extends MusicBeatState
 		practiceMode = ClientPrefs.getGameplaySetting('practice', false);
 		cpuControlled = ClientPrefs.getGameplaySetting('botplay', false);
 
+		switch (Paths.formatToSongPath(PlayState.SONG.song))
+		{
+			case "disheartened":
+				modchartsDisabled = false;
+		}
 		// var gameCam:FlxCamera = FlxG.camera;
 		camGame = new FlxCamera();
 		camHUD = new FlxCamera();
@@ -1798,6 +1803,8 @@ class PlayState extends MusicBeatState
 				swagNote.noteType = songNotes[3];
 				if (!Std.isOfType(songNotes[3], String))
 					swagNote.noteType = editors.ChartingState.noteTypeList[songNotes[3]]; // Backward compatibility + compatibility with Week 7 charts
+				if (songNotes[3] != null && modchartsDisabled)
+					continue;
 				swagNote.scrollFactor.set();
 				var susLength:Float = swagNote.sustainLength;
 
@@ -3338,6 +3345,7 @@ class PlayState extends MusicBeatState
 	public var showCombo:Bool = false;
 	public var showComboNum:Bool = true;
 	public var showRating:Bool = true;
+	public var comboSuffix:String = "";
 
 	private function cachePopUpScore()
 	{
@@ -3409,7 +3417,7 @@ class PlayState extends MusicBeatState
 		rating.x += ClientPrefs.comboOffset[0];
 		rating.y -= ClientPrefs.comboOffset[1];
 
-		var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image('combo'));
+		var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image('combo' + comboSuffix));
 		comboSpr.cameras = [camHUD];
 		comboSpr.screenCenter();
 		comboSpr.x = coolText.x;
@@ -3470,7 +3478,7 @@ class PlayState extends MusicBeatState
 		}
 		for (i in seperatedScore)
 		{
-			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image('num' + Std.int(i)));
+			var numScore:FlxSprite = new FlxSprite().loadGraphic(Paths.image('num' + Std.int(i) + comboSuffix));
 			numScore.cameras = [camHUD];
 			numScore.screenCenter();
 			numScore.x = coolText.x + (43 * daLoop) - 90;
