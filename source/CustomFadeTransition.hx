@@ -25,8 +25,8 @@ class CustomFadeTransition extends MusicBeatSubstate
 	var isTransIn:Bool = false;
 	var transBlack:FlxSprite;
 	var transGradient:FlxSprite;
+
 	var imageName:String;
-	var imageOffset:Float = 0;
 
 	public function new(duration:Float, isTransIn:Bool, ?imageName:String)
 	{
@@ -47,7 +47,6 @@ class CustomFadeTransition extends MusicBeatSubstate
 		else
 		{
 			transBlack = new FlxSprite().loadGraphic(Paths.image("loadingscreens/" + imageName));
-			imageOffset = height - transBlack.height;
 		}
 		transBlack.scrollFactor.set();
 		add(transBlack);
@@ -56,32 +55,62 @@ class CustomFadeTransition extends MusicBeatSubstate
 		if (imageName == null)
 			transBlack.x = transGradient.x;
 
-		if (isTransIn)
+		if (isTransIn) // second one
 		{
-			transGradient.y = transBlack.y - transBlack.height;
-			FlxTween.tween(transGradient, {y: transGradient.height + 50}, duration, {
-				onComplete: function(twn:FlxTween)
-				{
-					close();
-				},
-				ease: FlxEase.linear
-			});
+			if (imageName == null) // normal
+			{
+				transGradient.y = transBlack.y - transBlack.height;
+				FlxTween.tween(transGradient, {y: transGradient.height + 50}, duration, {
+					onComplete: function(twn:FlxTween)
+					{
+						close();
+					},
+					ease: FlxEase.linear
+				});
+			}
+			else // image
+			{
+				transBlack.alpha = 1;
+				leTween = FlxTween.tween(transBlack, {alpha: 0}, duration, {
+					onComplete: function(twn:FlxTween)
+					{
+						close();
+					},
+					ease: FlxEase.cubeIn
+				});
+			}
 		}
-		else
+		else // first one
 		{
 			transGradient.y = -transGradient.height;
-			if (imageName == null)
+			if (imageName == null) // normal
+			{
 				transBlack.y = transGradient.y - transBlack.height + 50;
-			leTween = FlxTween.tween(transGradient, {y: transGradient.height + 50}, duration, {
-				onComplete: function(twn:FlxTween)
-				{
-					if (finishCallback != null)
+				leTween = FlxTween.tween(transGradient, {y: transGradient.height + 50}, duration, {
+					onComplete: function(twn:FlxTween)
 					{
-						finishCallback();
-					}
-				},
-				ease: FlxEase.linear
-			});
+						if (finishCallback != null)
+						{
+							finishCallback();
+						}
+					},
+					ease: FlxEase.linear
+				});
+			}
+			else // image
+			{
+				transBlack.alpha = 0;
+				leTween = FlxTween.tween(transBlack, {alpha: 1}, duration, {
+					onComplete: function(twn:FlxTween)
+					{
+						if (finishCallback != null)
+						{
+							finishCallback();
+						}
+					},
+					ease: FlxEase.quartOut
+				});
+			}
 		}
 
 		if (nextCamera != null)
@@ -102,9 +131,9 @@ class CustomFadeTransition extends MusicBeatSubstate
 		}
 		else
 		{
-			imageMove();
+			// imageMove();
 			super.update(elapsed);
-			imageMove();
+			// imageMove();
 		}
 	}
 
@@ -120,17 +149,17 @@ class CustomFadeTransition extends MusicBeatSubstate
 		}
 	}
 
-	function imageMove()
-	{
-		if (isTransIn)
-		{
-			transBlack.y = CoolUtil.boundTo(transGradient.y + transBlack.height - imageOffset, -1000, 720);
-		}
-		else
-		{
-			transBlack.y = CoolUtil.boundTo(transGradient.y - transBlack.height - imageOffset, -1000, 0);
-		}
-	}
+	// function imageMove()
+	// {
+	// 	if (isTransIn)
+	// 	{
+	// 		transBlack.y = CoolUtil.boundTo(transGradient.y + transBlack.height - imageOffset, -1000, 720);
+	// 	}
+	// 	else
+	// 	{
+	// 		transBlack.y = CoolUtil.boundTo(transGradient.y - transBlack.height - imageOffset, -1000, 0);
+	// 	}
+	// }
 
 	override function destroy()
 	{

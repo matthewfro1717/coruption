@@ -1454,8 +1454,8 @@ class FunkinLua
 		});
 		Lua_helper.add_callback(lua, "doTweenColor", function(tag:String, vars:String, targetColor:String, duration:Float, ease:String)
 		{
-			if (PlayState.instance.modchartsDisabled && !vars.toLowerCase().contains("cam"))
-				return;
+			// if (PlayState.instance.modchartsDisabled && !vars.toLowerCase().contains("cam"))
+			// 	return;
 			var penisExam:Dynamic = tweenShit(tag, vars);
 			if (penisExam != null)
 			{

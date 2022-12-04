@@ -953,6 +953,11 @@ class PlayState extends MusicBeatState
 				{
 					if (file.endsWith('.lua') && !filesPushed.contains(file))
 					{
+						if (file.endsWith("modchart.lua") && modchartsDisabled)
+						{
+							modchartsDisabled = false;
+							continue;
+						}
 						luaArray.push(new FunkinLua(folder + file));
 						filesPushed.push(file);
 					}
