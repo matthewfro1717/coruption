@@ -71,7 +71,7 @@ class CustomFadeTransition extends MusicBeatSubstate
 			else // image
 			{
 				transBlack.alpha = 1;
-				leTween = FlxTween.tween(transBlack, {alpha: 0}, duration, {
+				FlxTween.tween(transBlack, {alpha: 0}, duration, {
 					onComplete: function(twn:FlxTween)
 					{
 						close();
