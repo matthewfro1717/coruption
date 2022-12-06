@@ -8,6 +8,7 @@ import Controls;
 
 class ClientPrefs
 {
+	public static var gorestuff:Bool = true; // oh snap
 	public static var judgement:Bool = true;
 	public static var songPlayed:Map<String, Bool> = [
 		"disheartened" => false,
@@ -18,7 +19,7 @@ class ClientPrefs
 		"charlatan" => false,
 		"atmospherical" => false,
 		"nemesis" => false,
-		"baked" => false
+		"supreme" => false
 	]; // for secret songs
 	public static var songPlayedHidden:Map<String, Bool> = []; // for hidden songs
 	public static var downScroll:Bool = false;
@@ -108,6 +109,7 @@ class ClientPrefs
 
 	public static function saveSettings()
 	{
+		FlxG.save.data.gorestuff = gorestuff;
 		FlxG.save.data.songPlayedHidden = songPlayedHidden;
 		FlxG.save.data.judgement = judgement;
 		FlxG.save.data.underlaneVisibility = underlaneVisibility;
@@ -161,6 +163,10 @@ class ClientPrefs
 
 	public static function loadPrefs()
 	{
+		if (FlxG.save.data.gorestuff != null)
+		{
+			gorestuff = FlxG.save.data.gorestuff;
+		}
 		if (FlxG.save.data.songPlayedHidden != null)
 		{
 			songPlayedHidden = FlxG.save.data.songPlayedHidden;

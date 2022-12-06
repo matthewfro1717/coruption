@@ -37,7 +37,7 @@ class StoryMenuState extends MusicBeatState
 	private static var curWeek:Int = 0;
 
 	var txtTracklist:FlxText;
-	var etas:Array<Int> = [12, 10, 15, 13, 15, 0, 4, 10];
+	var etas:Array<Int> = [10, 14, 14, 9, 20, 4, 4, 10, 10, 10, 13, 13];
 	var etaText:FlxText;
 
 	var grpWeekText:FlxTypedGroup<MenuItem>;

@@ -372,11 +372,6 @@ class PlayState extends MusicBeatState
 		practiceMode = ClientPrefs.getGameplaySetting('practice', false);
 		cpuControlled = ClientPrefs.getGameplaySetting('botplay', false);
 
-		switch (Paths.formatToSongPath(PlayState.SONG.song))
-		{
-			case "disheartened":
-				modchartsDisabled = false;
-		}
 		// var gameCam:FlxCamera = FlxG.camera;
 		camGame = new FlxCamera();
 		camHUD = new FlxCamera();
@@ -1164,7 +1159,7 @@ class PlayState extends MusicBeatState
 	{
 		healthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
 			FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));
-
+		timeBar.color = FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]);
 		healthBar.updateBar();
 	}
 
@@ -3183,7 +3178,7 @@ class PlayState extends MusicBeatState
 		{
 			var achieve:String = checkForAchievement([
 				"week1dave_completion", "week2expunged_completion", "week3bambi_completion", "week3p5tristan_completion", "week4exosphere_completion",
-				"riftsomewhere", "baked_unlock", "nemesis_unlock", "purgatory_unlock", "atmospherical_unlock", "charlatan_unlock"
+				"riftsomewhere", "supreme_unlock", "nemesis_unlock", "purgatory_unlock", "atmospherical_unlock", "charlatan_unlock"
 			]);
 
 			if (achieve != null)
@@ -4361,7 +4356,7 @@ class PlayState extends MusicBeatState
 	{
 		var usedPractice:Bool = (ClientPrefs.getGameplaySetting('practice', false) || ClientPrefs.getGameplaySetting('botplay', false))
 			|| chartingMode
-			|| modchartsDisabled
+			|| ClientPrefs.getGameplaySetting('modchart', false)
 			|| playbackRate < 1;
 		if (usedPractice)
 			return null;
@@ -4384,8 +4379,21 @@ class PlayState extends MusicBeatState
 					case "riftsomewhere":
 						if (formattedSongName == "endearment")
 							unlock = true;
-					case "baked_unlock":
+					case "supreme_unlock":
 						if (formattedSongName == "disappointment" && songMisses < 1)
+							unlock = true;
+					case "nemesis_unlock":
+						if (formattedSongName == "hydromania" && songMisses <= 75)
+							unlock = true;
+					case "purgatory_unlock":
+						if (formattedSongName == "intrusion" && songMisses < 1)
+							unlock = true;
+					case "atmospherical_unlock":
+						if (formattedSongName == "atmospheric-anomaly" && songMisses < 1)
+							unlock = true;
+					case "charlatan_unlock":
+						if ((Highscore.getScore("omnipotent", 2) > 0 && Highscore.getScore("resilient", 2) > 0)
+							&& (formattedSongName == "omnipotent" || formattedSongName == "resilient"))
 							unlock = true;
 				}
 

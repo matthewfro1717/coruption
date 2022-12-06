@@ -133,6 +133,9 @@ class MusicBeatState extends FlxUIState
 		var imageName = null;
 		switch (Paths.formatToSongPath(PlayState.SONG.song))
 		{
+			default: // dont need to explain
+				imageName = "default";
+
 			case "quantum", "valley": // dave
 				imageName = "davefnf";
 			case "uprising-terror":
@@ -147,8 +150,27 @@ class MusicBeatState extends FlxUIState
 			case "insane", "oblivious":
 				imageName = "insaneloud";
 
+			case "resentful", "fuming": // bambi
+				imageName = "bambi";
+			case "dereliction":
+				imageName = "blackout";
+			case "doomed":
+				imageName = "glitchcorn";
+			case "glitchcorn":
+				imageName = "glitchedcorn";
+
+			case "homework", "lesson", "grounded":
+				imageName = "hairman";
+			case "defiance":
+				imageName = "nohairman";
+
 			case "devoid", "overlord", "inevitable", "violence", "exospheric", "gloomy-despair": // exosphere
 				imageName = "exosphere";
+
+			case "archangel", "precariousness": // flyhigh
+				imageName = "flyperson";
+			case "intrusion":
+				imageName = "homeinvasion";
 
 			case "idiocy": // bandumb
 				imageName = "epicloadignscrene";
@@ -157,13 +179,39 @@ class MusicBeatState extends FlxUIState
 			case "gobstopper", "numbskull":
 				imageName = "truebandumb";
 
+			case "annoyance": // zander
+				imageName = "anoy";
+			case "half-sided":
+				imageName = "halfsid";
+			case "half-hearted":
+				imageName = "noheart";
+			case "standoff":
+				imageName = "stand";
+
 			case "greetings", "room-tour": // allure
 				imageName = "allure1";
 			case "imprisonment", "anathematized":
 				imageName = "allure2";
 
+			case "disregard": // yes
+				imageName = "unregardant";
+
 			case "atmospherical": // secret songs
 				imageName = "atmosphere";
+			case "purgatory":
+				imageName = "purgate";
+			case "disheartened":
+				imageName = "blackout";
+				if (ClientPrefs.gorestuff)
+					imageName = "thisheartand";
+			case "fractured-incantation":
+				imageName = "plush";
+			case "charlatan":
+				imageName = "chartan";
+			case "supreme":
+				imageName = "suspreme";
+			case "divine-punishment":
+				imageName = "apunishmentintime";
 		}
 		return imageName;
 	}

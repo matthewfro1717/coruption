@@ -34,6 +34,7 @@ class FreeplayState extends MusicBeatState
 	var bg:FlxSprite;
 	var scoreBG:FlxSprite;
 	var scoreText:FlxText;
+	var freeplayDifficulty:FlxSprite;
 	var lerpScore:Int = 0;
 	var lerpRating:Float = 0;
 	var intendedScore:Int = 0;
@@ -123,7 +124,7 @@ class FreeplayState extends MusicBeatState
 			// this code sucks (and is very dangerous) but is better than hard-coded
 			if (["disheartened", "divine-punishment", "fractured-incantation", "numbskull"].contains(Paths.formatToSongPath(songData[0])))
 				addSong(songData[0], FlxColor.fromRGB(songData[2][0], songData[2][1], songData[2][2]), songData[1], true, false);
-			else if (["purgatory", "baked", "nemesis", "atmospherical", "charlatan"].contains(Paths.formatToSongPath(songData[0])))
+			else if (["purgatory", "supreme", "nemesis", "atmospherical", "charlatan"].contains(Paths.formatToSongPath(songData[0])))
 				addSong(songData[0], FlxColor.fromRGB(songData[2][0], songData[2][1], songData[2][2]), songData[1], true, true);
 			else
 				addSong(songData[0], FlxColor.fromRGB(songData[2][0], songData[2][1], songData[2][2]), songData[1], false, false);
@@ -138,7 +139,7 @@ class FreeplayState extends MusicBeatState
 			var locked = true;
 			if (ClientPrefs.songPlayed.get(song))
 				locked = false;
-			else if ((["baked", "nemesis", "atmospherical", "purgatory", "charlatan"].contains(song)
+			else if ((["supreme", "nemesis", "atmospherical", "purgatory", "charlatan"].contains(song)
 				&& Achievements.isAchievementUnlocked(song + "_unlock"))
 				&& achievementUnlockAllow) // achievement songs
 				locked = false;
@@ -201,6 +202,9 @@ class FreeplayState extends MusicBeatState
 
 		scoreBG = new FlxSprite(scoreText.x - 13, 0).makeGraphic(520, 45, 0xFF000000);
 		scoreBG.alpha = 0.5;
+		freeplayDifficulty = new FlxSprite();
+		reloadFreeplayDifficulty();
+		add(freeplayDifficulty);
 		add(scoreBG);
 		add(scoreText);
 		add(bottomInfoTextBG);
@@ -511,6 +515,9 @@ class FreeplayState extends MusicBeatState
 		if (curDifficulty > 2)
 			curDifficulty = 2;
 
+		if (change != 0)
+			reloadFreeplayDifficulty();
+
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
 		intendedRating = Highscore.getRating(songs[curSelected].songName, curDifficulty);
@@ -556,6 +563,52 @@ class FreeplayState extends MusicBeatState
 				colorTween = null;
 			}
 		});
+	}
+
+	function reloadFreeplayDifficulty()
+	{
+		freeplayDifficulty.loadGraphic(Paths.image("freeplaydifficulty/" + getFreeplayDifficulty()));
+		freeplayDifficulty.setGraphicSize(600);
+		freeplayDifficulty.updateHitbox();
+		freeplayDifficulty.setPosition(FlxG.width - freeplayDifficulty.width / 1.25, FlxG.height - freeplayDifficulty.height / 1.25);
+	}
+
+	function getFreeplayDifficulty()
+	{
+		switch (Paths.formatToSongPath(songs[curSelected].songName))
+		{
+			case "scythe", "kysophobia":
+				return "peaceful";
+
+			case "greetings":
+				return "easy";
+
+			case "quantum", "valley", "uprising-terror", "farm", "starch", "homework", "lesson", "grounded", "violence", "precariousness", "idiocy",
+				"room-tour", "obliteration", "toothpicked", "exotron", "apeirogon", "effulgence", "overwhelm", "devorial":
+				return "normal";
+
+			case "censure", "epitome", "oblivious", "defiance", "resentful", "fuming", "devoid", "overlord", "endearment", "archangel", "intrusion",
+				"annoyance", "half-sided", "half-hearted", "imprisonment", "anathematized", "epsilokorasiophobia", "omission", "disoriented",
+				"defenestration", "spyware", "outerspace", "preimminent", "anemoia", "septuagint", "yard", "convenience", "encore", "disarranging",
+				"soundless", "approaching-yourself", "dead-dream", "real-delirium", "real-nemesis", "dimensional", "skill-issue", "stand-off":
+				return "hard";
+
+			case "insane", "dereliction", "doomed", "glitchcorn", "inevitable", "exospheric", "gloomy-despair", "gobstopper", "reality-breaking", "hyperness",
+				"computer-virus", "lolipop", "resilient", "pentagon", "jinxed", "demigod", "holy-flame", "omnipotent", "screwed", "atmospheric-anomaly":
+				return "difficult";
+
+			case "pseptuagint5", "unexpected", "aichmophobia", "quadriplegia", "hydromania", "atmospherical", "charlatan", "purgatory":
+				return "severe";
+
+			case "disregard", "seraphic", "undercharted", "fractured-incantation", "supreme", "nemesis":
+				return "intense";
+
+			case "disheartened", "numbskull":
+				return "extreme";
+			case "divine-punishment":
+				return "divine";
+		}
+		return ""; // default
 	}
 }
 
