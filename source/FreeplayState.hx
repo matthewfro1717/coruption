@@ -567,6 +567,13 @@ class FreeplayState extends MusicBeatState
 
 	function reloadFreeplayDifficulty()
 	{
+		if (songs[curSelected].isLocked && isSongLocked(songs[curSelected].songName, false))
+	{
+		freeplayDifficulty.visible = false; 
+		return;// useless to update when invis
+	}
+		else
+			freeplayDifficulty.visible = true;
 		freeplayDifficulty.loadGraphic(Paths.image("freeplaydifficulty/" + getFreeplayDifficulty()));
 		freeplayDifficulty.setGraphicSize(600);
 		freeplayDifficulty.updateHitbox();
