@@ -381,6 +381,66 @@ class FunkinLua
 				ease: getFlxEaseByString(ease),
 			});
 		});
+		Lua_helper.add_callback(lua, "doChromaticPulse", function(camera:String, newOffset:Float = 0.03, length:Float = 0.25, ease:String = "linear")
+		{
+			var googlechrom:Shaders.ChromaticAberrationEffect = null; // to shut haxe up
+			switch (camera.toLowerCase())
+			{
+				case 'camhud' | 'hud':
+					for (effect in PlayState.instance.camHUDShaders)
+					{
+						if (Std.isOfType(effect, Shaders.ChromaticAberrationEffect))
+						{
+							googlechrom = effect;
+							break;
+						}
+					}
+				case 'camother' | 'other':
+					for (effect in PlayState.instance.camOtherShaders)
+					{
+						if (Std.isOfType(effect, Shaders.ChromaticAberrationEffect))
+						{
+							googlechrom = effect;
+							break;
+						}
+					}
+				case 'camgame' | 'game':
+					for (effect in PlayState.instance.camGameShaders)
+					{
+						if (Std.isOfType(effect, Shaders.ChromaticAberrationEffect))
+						{
+							googlechrom = effect;
+							break;
+						}
+					}
+				default:
+					if (PlayState.instance.modchartSprites.exists(camera))
+					{
+						var shaderObj = Reflect.getProperty(PlayState.instance.modchartSprites.get(camera), "shader");
+						if (Std.isOfType(shaderObj, Shaders.ChromaticAberrationEffect))
+							googlechrom = shaderObj;
+					}
+					else if (PlayState.instance.modchartTexts.exists(camera))
+					{
+						var shaderObj = Reflect.getProperty(PlayState.instance.modchartTexts.get(camera), "shader");
+						if (Std.isOfType(shaderObj, Shaders.ChromaticAberrationEffect))
+							googlechrom = shaderObj;
+					}
+					else
+					{
+						var obj = Reflect.getProperty(PlayState.instance, camera);
+						var shaderObj = Reflect.getProperty(obj, "shader");
+						if (Std.isOfType(shaderObj, Shaders.ChromaticAberrationEffect))
+							googlechrom = shaderObj;
+					}
+			}
+			if (googlechrom == null)
+				return;
+			googlechrom.offset = newOffset;
+			FlxTween.tween(googlechrom, {offset: 0.0}, length, {
+				ease: getFlxEaseByString(ease),
+			});
+		});
 		Lua_helper.add_callback(lua, "clearEffects", function(camera:String)
 		{
 			PlayState.instance.clearShaderFromCamera(camera);

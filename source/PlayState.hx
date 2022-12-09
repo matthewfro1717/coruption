@@ -4380,10 +4380,10 @@ class PlayState extends MusicBeatState
 						if (formattedSongName == "endearment")
 							unlock = true;
 					case "supreme_unlock":
-						if (formattedSongName == "disappointment" && songMisses < 1)
+						if (formattedSongName == "stand-off" && songMisses < 1)
 							unlock = true;
 					case "nemesis_unlock":
-						if (formattedSongName == "hydromania" && songMisses <= 75)
+						if (formattedSongName == "hydromania")
 							unlock = true;
 					case "purgatory_unlock":
 						if (formattedSongName == "intrusion" && songMisses < 1)
@@ -4392,8 +4392,7 @@ class PlayState extends MusicBeatState
 						if (formattedSongName == "atmospheric-anomaly" && songMisses < 1)
 							unlock = true;
 					case "charlatan_unlock":
-						if ((Highscore.getScore("omnipotent", 2) > 0 && Highscore.getScore("resilient", 2) > 0)
-							&& (formattedSongName == "omnipotent" || formattedSongName == "resilient"))
+						if (formattedSongName == "omnipotent")
 							unlock = true;
 				}
 

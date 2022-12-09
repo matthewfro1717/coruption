@@ -210,6 +210,8 @@ class MusicBeatState extends FlxUIState
 				imageName = "chartan";
 			case "supreme":
 				imageName = "suspreme";
+			case "nemesis":
+				imageName = "nemesus";
 			case "divine-punishment":
 				imageName = "apunishmentintime";
 		}
@@ -229,22 +231,17 @@ class MusicBeatState extends FlxUIState
 		if (!FlxTransitionableState.skipNextTransIn)
 		{
 			leState.openSubState(new CustomFadeTransition(0.6, false, imageName));
-			if (nextState == FlxG.state)
-			{
+			if (FlxG.state == nextState)
 				CustomFadeTransition.finishCallback = function()
 				{
 					FlxG.resetState();
 				};
-				// trace('resetted');
-			}
 			else
-			{
 				CustomFadeTransition.finishCallback = function()
 				{
 					FlxG.switchState(nextState);
 				};
-				// trace('changed state');
-			}
+			// trace('changed state');
 			return;
 		}
 		FlxTransitionableState.skipNextTransIn = false;

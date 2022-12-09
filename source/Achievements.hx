@@ -19,10 +19,10 @@ class Achievements
 		["Puppeted", "Beat Tristan's Week.", "week3p5tristan_completion", false],
 		["Incorruptible", "Beat Exosphere's Week.", "week4exosphere_completion", false],
 		["The Rift to Somewhere", "Beat Endearment.", "riftsomewhere", false],
-		["Standoff", "FC Standoff. [Unlocks Supreme]", "supreme_unlock", false],
+		["Standoff", "FC Stand-off. [Unlocks Supreme]", "supreme_unlock", false],
 		[
 			"Hydromaniac",
-			"Beat Hydromania with less than 75 misses. [Unlocks Nemesis]",
+			"Beat Hydromania. [Unlocks Nemesis]",
 			"nemesis_unlock",
 			false
 		],
@@ -33,14 +33,14 @@ class Achievements
 			false
 		],
 		[
-			"Out of this World",
+			"Atmospheric",
 			"FC Atmospheric Anomaly. [Unlocks Atmospherical]",
 			"atmospherical_unlock",
 			false
 		],
 		[
 			"Deranged",
-			"Beat Omnipotent and Resilient. [Unlocks Charlatan]",
+			"Beat Omnipotent. [Unlocks Charlatan]",
 			"charlatan_unlock",
 			false
 		],
