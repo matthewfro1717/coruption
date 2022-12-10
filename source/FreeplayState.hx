@@ -568,10 +568,10 @@ class FreeplayState extends MusicBeatState
 	function reloadFreeplayDifficulty()
 	{
 		if (songs[curSelected].isLocked && isSongLocked(songs[curSelected].songName, false))
-	{
-		freeplayDifficulty.visible = false; 
-		return;// useless to update when invis
-	}
+		{
+			freeplayDifficulty.visible = false;
+			return; // useless to update when invis
+		}
 		else
 			freeplayDifficulty.visible = true;
 		freeplayDifficulty.loadGraphic(Paths.image("freeplaydifficulty/" + getFreeplayDifficulty()));
@@ -597,17 +597,18 @@ class FreeplayState extends MusicBeatState
 			case "censure", "epitome", "oblivious", "defiance", "resentful", "fuming", "devoid", "overlord", "endearment", "archangel", "intrusion",
 				"annoyance", "half-sided", "half-hearted", "imprisonment", "anathematized", "epsilokorasiophobia", "omission", "disoriented",
 				"defenestration", "spyware", "outerspace", "preimminent", "anemoia", "septuagint", "yard", "convenience", "encore", "disarranging",
-				"soundless", "approaching-yourself", "dead-dream", "real-delirium", "real-nemesis", "dimensional", "skill-issue", "stand-off":
+				"soundless", "approaching-yourself", "dead-dream", "real-delirium", "real-nemesis", "dimensional", "skill-issue":
 				return "hard";
 
 			case "insane", "dereliction", "doomed", "glitchcorn", "inevitable", "exospheric", "gloomy-despair", "gobstopper", "reality-breaking", "hyperness",
-				"computer-virus", "lolipop", "resilient", "pentagon", "jinxed", "demigod", "holy-flame", "omnipotent", "screwed", "atmospheric-anomaly":
+				"computer-virus", "lolipop", "resilient", "pentagon", "jinxed", "demigod", "holy-flame", "omnipotent", "screwed", "atmospheric-anomaly",
+				"stand-off", "supreme", "fractured-incantation":
 				return "difficult";
 
 			case "pseptuagint5", "unexpected", "aichmophobia", "quadriplegia", "hydromania", "atmospherical", "charlatan", "purgatory":
 				return "severe";
 
-			case "disregard", "seraphic", "undercharted", "fractured-incantation", "supreme", "nemesis":
+			case "disregard", "seraphic", "undercharted", "nemesis":
 				return "intense";
 
 			case "disheartened", "numbskull":
