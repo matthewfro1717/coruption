@@ -4374,28 +4374,29 @@ class PlayState extends MusicBeatState
 				}
 
 				var formattedSongName = Paths.formatToSongPath(SONG.song);
+				var didAFC = songMisses < 1;
 				switch (achievementName)
 				{
 					case "riftsomewhere":
 						if (formattedSongName == "endearment")
 							unlock = true;
 					case "supreme_unlock":
-						if (formattedSongName == "stand-off" && songMisses < 1)
+						if (formattedSongName == "stand-off" && didAFC)
 							unlock = true;
 					case "nemesis_unlock":
 						if (formattedSongName == "hydromania")
 							unlock = true;
 					case "purgatory_unlock":
-						if (formattedSongName == "intrusion" && songMisses < 1)
+						if (formattedSongName == "intrusion" && didAFC)
 							unlock = true;
 					case "atmospherical_unlock":
-						if (formattedSongName == "atmospheric-anomaly" && songMisses < 1)
+						if (formattedSongName == "atmospheric-anomaly" && didAFC)
 							unlock = true;
 					case "charlatan_unlock":
 						if (formattedSongName == "omnipotent")
 							unlock = true;
 					case "divinegaming":
-						if (formattedSongName == "divine-punishment" && songMisses < 1)
+						if (formattedSongName == "divine-punishment" && didAFC)
 							unlock = true;
 				}
 
