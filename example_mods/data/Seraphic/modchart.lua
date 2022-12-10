@@ -13,10 +13,6 @@ function onCreate() --setting variables and making sprites and da time bar :trol
     end
 end
 
-function onSongStart()
-    setProperty('songLength', 45000)
-end
-
 function onCreatePost() --extra stuff
     for i = 0, 7 do
         setPropertyFromGroup('strumLineNotes', i, 'y', -110)
