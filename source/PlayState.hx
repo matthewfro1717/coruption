@@ -3178,7 +3178,7 @@ class PlayState extends MusicBeatState
 		{
 			var achieve:String = checkForAchievement([
 				"week1dave_completion", "week2expunged_completion", "week3bambi_completion", "week3p5tristan_completion", "week4exosphere_completion",
-				"riftsomewhere", "supreme_unlock", "nemesis_unlock", "purgatory_unlock", "atmospherical_unlock", "charlatan_unlock"
+				"riftsomewhere", "supreme_unlock", "nemesis_unlock", "purgatory_unlock", "atmospherical_unlock", "charlatan_unlock", "divinegaming"
 			]);
 
 			if (achieve != null)
@@ -4393,6 +4393,9 @@ class PlayState extends MusicBeatState
 							unlock = true;
 					case "charlatan_unlock":
 						if (formattedSongName == "omnipotent")
+							unlock = true;
+					case "divinegaming":
+						if (formattedSongName == "divine-punishment" && songMisses < 1)
 							unlock = true;
 				}
 

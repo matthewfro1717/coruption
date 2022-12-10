@@ -38,12 +38,17 @@ local modchartY13 = 0;
 local modchartY14 = 0;
 local modchartY15 = 0;
 local modchartY16 = 0;
+local beatnum = 0;
 local windowspeed = 0.03;
 local modchartspeed = 0.1
 local modchartN1 = 0;
 local modchartN2 = 0
-local beatnum = 0;
+local attemptedPause = false
 local defaultNotePos = {};
+
+function onStartCountdown()
+  setProperty('health', 2)
+  end
 
 function onCreate()
     windowX1 = getPropertyFromClass('openfl.Lib', 'application.window.x')+11050
@@ -52,6 +57,10 @@ function onCreate()
   windowY2 = getPropertyFromClass('openfl.Lib', 'application.window.y')+10000
   windowX3 = getPropertyFromClass('openfl.Lib', 'application.window.x')+10000
   windowY3 = getPropertyFromClass('openfl.Lib', 'application.window.y')+10000
+
+    makeLuaText('pausestopper', "Hi Youtube! Are they having a reaction? - Exosphere", 600, 350, 175)
+    setTextSize('pausestopper', 80)
+    setTextColor('pausestopper', 'FFFFFF')
 end
 
 function onSongStart()
@@ -65,8 +74,29 @@ function onSongStart()
 end
 
 
-function onUpdate(elapsed)
+function randomNote()
+  for i = 0,3 do 
+      setPropertyFromGroup('strumLineNotes', i, 'x', 
+      defaultNotePos[i + 1][1] + math.floor(math.random(-150,150)))
 
+      if downscroll == true then 
+          ylowest = 50;
+          yhighest = -150;
+      else 
+          ylowest = -150
+          yhighest = 150;
+      end
+
+      setPropertyFromGroup('strumLineNotes', i, 'y', 
+      defaultNotePos[i + 1][2] + math.floor(math.random(ylowest,yhighest)))
+  end
+end
+
+function onUpdate(elapsed)
+  health = getProperty('health')
+  if attemptedPause then
+      setProperty('health', health-0.01);
+  end
   songPos = getSongPosition()
   local currentBeat = (songPos/1000)*(bpm/60)
   local currentStep = math.floor((songPos/1000)*(bpm/15))
@@ -90,6 +120,53 @@ function onUpdate(elapsed)
   if math.floor(currentBeat) == 16 then
     windowX1 = windowX3+1000
     windowX2 = windowX3
+  end
+  if math.floor(currentBeat) >= 80 and math.floor(currentBeat) <= 143 then
+    if math.fmod(math.floor(currentStep+64),128) == 4 and beatnum == 0 then
+      shakespeed = 0.05
+      shakevar = 50
+      beatnum = 1
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 6 and beatnum == 1 then
+      shakevar = 50
+      beatnum = 2
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 8 and beatnum == 2 then
+      shakevar = 50
+      beatnum = 3
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 10 and beatnum == 3 then
+      shakevar = 50
+      beatnum = 4
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 20 and beatnum == 4 then
+      shakevar = 50
+      beatnum = 5
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 22 and beatnum == 5 then
+      shakevar = 50
+      beatnum = 6
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 36 and beatnum == 6 then
+      shakevar = 50
+      beatnum = 7
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 38 and beatnum == 7 then
+      shakevar = 50
+      beatnum = 8
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 40 and beatnum == 8 then
+      shakevar = 50
+      beatnum = 9
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 42 and beatnum == 9 then
+      shakevar = 50
+      beatnum = 10
+    end
+    if math.fmod(math.floor(currentStep+64),128) == 48 and beatnum == 10 then
+      shakevar = 250
+      beatnum = 0
+    end
   end
   if math.floor(currentBeat) >= 144 and math.floor(currentBeat) <= 151 then
     modchartX1 = 200
@@ -284,26 +361,6 @@ function onUpdate(elapsed)
   setPropertyFromClass('openfl.Lib','application.window.y',math.fmod(windowY1,2000) - 1000 + math.random((shakevar*-1),shakevar))
 end
 
-
-function randomNote()
-  for i = 0,3 do 
-      setPropertyFromGroup('strumLineNotes', i, 'x', 
-      defaultNotePos[i + 1][1] + math.floor(math.random(-150,150)))
-
-      if downscroll == true then 
-          ylowest = 50;
-          yhighest = -150;
-      else 
-          ylowest = -150
-          yhighest = 150;
-      end
-
-      setPropertyFromGroup('strumLineNotes', i, 'y', 
-      defaultNotePos[i + 1][2] + math.floor(math.random(ylowest,yhighest)))
-  end
-end
-
-
 function opponentNoteHit(ipiss, piss2, piss3, sus) -- SUS? SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?
   if piss2 == 0 then
     randomNote()
@@ -325,10 +382,19 @@ function opponentNoteHit(ipiss, piss2, piss3, sus) -- SUS? SUS?SUS?SUS?SUS?SUS?S
   if mustHitSection == false then
     randomNote()
       health = getProperty('health')
-      if getProperty('health') > 0.05 then
-          setProperty('health', health- 0.013);
+      if getProperty('health') > 0.1 then
+          setProperty('health', health- 0.012);
       end
   end
 end
 
+function goodNoteHit()
+  hp = getProperty('health')
+  setProperty('health',hp+0.02)
+end
 
+function onPause()
+  addLuaText('pausestopper')
+  attemptedPause = true
+return Function_Stop;
+end

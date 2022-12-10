@@ -20,12 +20,7 @@ class Achievements
 		["Incorruptible", "Beat Exosphere's Week.", "week4exosphere_completion", false],
 		["The Rift to Somewhere", "Beat Endearment.", "riftsomewhere", false],
 		["Standoff", "FC Stand-off. [Unlocks Supreme]", "supreme_unlock", false],
-		[
-			"Hydromaniac",
-			"Beat Hydromania. [Unlocks Nemesis]",
-			"nemesis_unlock",
-			false
-		],
+		["Hydromaniac", "Beat Hydromania. [Unlocks Nemesis]", "nemesis_unlock", false],
 		[
 			"Flawless Victory",
 			"FC Intrusion. [Unlocks Purgatory]",
@@ -38,12 +33,8 @@ class Achievements
 			"atmospherical_unlock",
 			false
 		],
-		[
-			"Deranged",
-			"Beat Omnipotent. [Unlocks Charlatan]",
-			"charlatan_unlock",
-			false
-		],
+		["Deranged", "Beat Omnipotent. [Unlocks Charlatan]", "charlatan_unlock", false],
+		["Divine Punishment", "FC Divine Punishment.", "divinegaming", true]
 	];
 	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
 	public static var henchmenDeath:Int = 0;
