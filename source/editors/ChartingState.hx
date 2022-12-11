@@ -431,8 +431,8 @@ class ChartingState extends MusicBeatState
 
 		var reloadSongJson:FlxButton = new FlxButton(reloadSong.x, saveButton.y + 30, "Reload JSON", function()
 		{
-			if (ClientPrefs.songPlayed.exists(Paths.formatToSongPath(_song.song)))
-				openfl.system.System.exit(0);
+			// if (ClientPrefs.songPlayed.exists(Paths.formatToSongPath(_song.song)))
+			// 	openfl.system.System.exit(0);
 			openSubState(new Prompt('This action will clear current progress.\n\nProceed?', 0, function(){loadJson(_song.song.toLowerCase()); }, null,ignoreWarnings));
 		});
 

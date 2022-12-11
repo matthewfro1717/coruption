@@ -41,7 +41,7 @@ class CreditsState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("Looking at the Credits", null);
 		#end
 
 		persistentUpdate = true;
@@ -81,6 +81,74 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['EC Developers'],
+			['ReeVrze',             'ree',              'Director, Composer, Charter, Artist, and Voicr Actor of Azstroth',             'https://www.youtube.com/c/ReeVrze',                                      'ba3915'],
+			['Emperor Yami',        'yami',             'Composer and Voice Actor',                                                     'https://www.youtube.com/channel/UCGYq0oofj5gUxXacghgxsDw',               'b3b3b3'],
+			['polyoah',             'polyoah',          'Artist and Animator',                                                          'https://www.youtube.com/channel/UCXEX7pWCLVHHQpSGG-FJTAA',               'ffffff'],
+			['null_y34r',           'null',             'Composer',                                                                     'https://www.youtube.com/channel/UCJWH0H_qSgPCIbI8Plc5Emw',               'fef1fa'], 
+			['Farjd',               'farjd',            'Composer and Charter',                                                         'https://www.youtube.com/channel/UCj6b9fttoy5_2WSSm3_mIqg',               'afb3b6'],
+			['ToxicFlame',          'toxic',            'Composer and Charter',                                                         'https://www.youtube.com/channel/UCKBgCgsxSpdqFPryS7NAWWQ',               'ffdc6a'],
+			['hydration',           'hydration',        'Lua Coder',                                                                    'https://www.youtube.com/channel/UCoIiLmqinRdOTRcVs3W990w',               '2f5aaa'],
+			['Reginald Reborn',     'reginald',         'Artist',                                                                       'https://www.youtube.com/channel/UCEqHSAUTzOAssJe8j4ZI3iw',               '333333'],
+			['Skrimblo',            'skrimblo',         'Voice Actor: Exosphere / FlyHigh',                                             'https://www.youtube.com/channel/UCuvxHrBJ8iIMx9_GzJJm1Gg',               'd8d8d8'],
+			['SolarSonia',          'soniya',           'Artist',                                                                       'https://www.youtube.com/channel/UCRUXoMt73UbJ6agMfV8a2ig',               'e8ccb0'],
+			['MinecraftBoy2038',    'mcboy',            'Source and Lua Coder',                                                         'https://www.youtube.com/c/MinecraftBoy2038',                             'a81022'],
+			['SpiralGraveStudios',  'spiral',           'Artist',                                                                       'https://www.youtube.com/channel/UCDcJgi_SkoeeRIk5r2E7FJQ',               '00c3ff'],
+			['mikey!!',             'mikey',            'Artist',                                                                       'https://www.youtube.com/channel/UCJFqBfVUoOoHhiIllaKraqw',               'ffc13b'],
+			['hortas',              'hortas',           'Composer',                                                                     'https://www.youtube.com/channel/UCvR1oxdjnB9hV-MLeH339Kg',               'aa4eff'],
+			['Gabelex',             'gablex',           'Artist',                                                                       'https://www.youtube.com/channel/UCIgEqfx8e2Elm3bxmh0mJ4A',               '0077ff'],
+			['GoddessAwe',          'awe',              'Composer',                                                                     'https://www.youtube.com/channel/UCm_J_m6_tbNKHwlV1YBH7cw',               'ce3643'], 
+			['Vtolligunt',          'vtol',             'Artist / Chromatics [Allure]',                                                 'https://www.youtube.com/channel/UCzoX8AupSUeQ8QSix3sa1Ww',               'b363ff'], 
+			['HenZawu',             'hen',              'Artist',                                                                       'https://www.youtube.com/channel/UCI4hh3AYm8_3JzVfuFDW1vg',               'fa1a04'],
+			['EpicRandomness11',    'random',           'Composer',                                                                     'https://www.youtube.com/channel/UCltC-E3CBWfvZXgLypAKIyQ',               'ffffff'],
+			['Kyson',               'kyson',            'Charter',                                                                      'https://www.youtube.com/channel/UCPfz7f4ecd_gLhfx7Uy2Sew',               '3698ff'],
+			['RafPlayz69YT',        'raf',              'Source Coder',                                                                 'https://www.youtube.com/channel/UCmXh1HTaH_KRwisl0892KLA',               '919191'],
+			['Light',               'light',            'Artist',                                                                       'https://www.youtube.com/channel/UCth0bT8vQiLl9wVPzZ7BGGw',               'ffffff'],
+			['Ufer',                'ufer',             'Charter',                                                                      'https://www.youtube.com/channel/UCmkClt8tBygJXxTPSkSBhvQ',               '454545'],
+			['cyanrio',             'cyan',             'Artist and Voice Actor',                                                       'https://www.youtube.com/channel/UCUSmB_ZQdiBhPLNmmywj1UA',               '0c0c69'],
+			['TeeJay',              'blank',            'Sprite Animator',                                                              'https://www.youtube.com/channel/UChV3iaDk2iEyLrkUrF6m0vA',               'FFFFFF'], // NO CREDIT ICON
+			[''],
+			['EC Contributors'],
+			['OOF PRODUCTIONS',     'oof',              'Coder and Sprite Artist',                                      'https://www.youtube.com/channel/UCVAf4TewS2ckoiHa8s8QiQg',               'f1f18e'],
+			['LooshGamer12',        'blank',            'Artist',                                                       'https://www.youtube.com/channel/UC4Upl0VpIIEqq19VLwXDV-Q',               'FFFFFF'],
+			['hafp',                'blank',            'Composer',                                                     'https://www.youtube.com/channel/UCCiNV343OnSg_q2ylmQ28Pg',               'FFFFFF'],
+			['Oxy',                 'blank',            'Composer',                                                     'https://www.youtube.com/channel/UCgTW7cQcfqduIqlu-bSZGZg',               'FFFFFF'],
+			['Strats',              'blank',            'Composer',                                                     'https://www.youtube.com/channel/UCn_lq7My-uJnqZVKosKt35g',               'FFFFFF'],
+			['rembulous',           'rem',              'Vocals: Gloomy Despair',                                       'https://twitter.com/rembulous',                                          'efe9f1'],
+			['JammedCassette',      'blank',            'Composer',                                                     '???',                                  'FFFFFF'], // NO SOCIAL LINK
+			['ShiftyTM',            'blank',            'Composer',                                                     'https://www.youtube.com/channel/UC8NHfjpy6tNWgnM7889S1Ew',               'FFFFFF'],
+			['vvxrthy',             'blank',            'Composer',                                                     'https://www.youtube.com/channel/UC_lJmvYgeAwzcYaeYXlZ7vg',               'FFFFFF'],
+			['ThiccWandMoment',     'blank',            'Icon Artist',                                                  '???',                                  'FFFFFF'], // NO SOCIAL LINK
+			['DJ Jayden',           'blank',            'Original Composer of Blocked Forever',                         '???',                                  'FFFFFF'], // NO SOCIAL LINK
+			['Roundcat',            'blank',            'Opppsition Expunged Sprites',                                  '???',                                  'FFFFFF'], // NO SOCIAL LINK
+			['Cheese Farmer',       'blank',            'GF Phone Sprites',                                             '???',                                  'FFFFFF'], // NO SOCIAL LINK
+			['NerRuiAnte',          'blank',            'Artist',                                                       '???',                                  'FFFFFF'], // NO SOCIAL LINK
+			['Top 10 Awesome',      'T1A',              'Funni Composer',                                               'https://www.youtube.com/channel/UC6NtPGdUgKSC8Wx1F-GN4tg',               'ffee00'],
+			['Devoid',              'Void',             'Credit Icon Artist',                                           'https://www.youtube.com/channel/UCKWc85Z--5Xb6enYFEkw2TQ',               '969ab0'],
+			['joolian',             'joolian',          'Composer',                                                     'https://www.youtube.com/channel/UCodhrSzni1q310Xpx72Ehzg',               '0033ff'],
+			['Delta',               'blank',            'Original Freeplay and Judgement Counter Code',                 'https://www.youtube.com/channel/UCdFBiot5gdR8y8sCazo4dVg',               'FFFFFF'],
+			[''],
+			['Special Thanks'],
+			['ThearchyExpungedOfficial', 'thearchy',    'Tried to help',                                                'https://www.youtube.com/channel/UCbgMNTmUX5xqT52-3qU1Xog',               'ffffff'], 
+			['Danimates',           'dan',              'Crumb Edition Collab + Chromatic for Starch Remix',            'https://www.youtube.com/c/DanimatesYoutube',                             '880015'],
+			['Lucho_Gamer',         'lucho',            'Animated Health Bar',                                          'https://www.youtube.com/channel/UCwOUVKrxdHb6IbI-Z-4gnnw',               'dca045'],
+			['notweuz_',            'weuz',             'Code parts from OS Engine',                                    'https://twitter.com/notweuz_',                                           '8633F2'],
+			['nelifs',              'nelifs',           'Another Programmer from OS Engine',                            'https://github.com/nelifs',                                              '1C1C1C'],
+			['SillyFangirl',        'blank',            'Support',                                                      'https://www.youtube.com/c/SillyFangirlosu',                              'FFFFFF'], 
+			['Dever',               'dever',            'Support + Chromatics for Dever',                               'https://www.youtube.com/@deverfnf',                                      '3dd650'], 
+			['NSR',                 'NSR',              'Support',                                                      'https://www.youtube.com/@NSR',                                           'd11f64'],
+			['bobyt',               'blank',            'Support and being cool',                                       'https://www.youtube.com/channel/UCb3IwHNuPgT2w2pr31LOFbg',               'FFFFFF'], // NO CREDIT ICON
+			['Lylcaruis',           'blank',            'Support',                                                      'https://www.youtube.com/@Lylcaruis',                                     'FFFFFF'], // NO CREDIT ICON
+			['RhythmShadow',        'blank',            'Support',                                                      'https://www.youtube.com/channel/UChAT-I3TjfdL0z-FOpJKmJQ',               'FFFFFF'], // NO CREDIT ICON
+			['RVGames',             'blank',            'Support',                                                      'https://www.youtube.com/@RVGames2003',                                   'FFFFFF'], // NO CREDIT ICON
+			['Used Napkin',         'blank',            'Support',                                                      'https://www.youtube.com/@UsedNapkin',                                    'FFFFFF'], // NO CREDIT ICON
+			['And You!',            'You!',             'Yes, you! Thank you for playing Exospheric Corruption :)',     'https://twitter.com/Exozphere',                                          'cb7d5c'], // Hold up, does this need a credit icon????     
+			[''],
+			['Socials'],
+			['Discord Server',      'discord',          'Press Enter / Space to join the Discord!',                     'https://discord.gg/wvUPHxFudk',        '5165f6'],
+			['Twitter',             'twitter',          'Press Enter / Space to follow us! (@Exozphere)',               'https://twitter.com/Exozphere',        '55acee'],
+			[''],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],

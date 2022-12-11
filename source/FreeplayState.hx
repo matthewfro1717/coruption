@@ -104,7 +104,7 @@ class FreeplayState extends MusicBeatState
 		defbottomText = "Press RESET to Reset your Score and Accuracy.";
 		#end
 		bottomInfoText = new FlxText(bottomInfoTextBG.x + -10, bottomInfoTextBG.y + 3, FlxG.width, defbottomText, 21);
-		bottomInfoText.setFormat(Paths.font("comic.ttf"), 18, FlxColor.WHITE, RIGHT);
+		bottomInfoText.setFormat(Paths.font("comicsanslol.ttf"), 18, FlxColor.WHITE, RIGHT);
 		bottomInfoText.scrollFactor.set();
 		super.create();
 	}
@@ -292,6 +292,7 @@ class FreeplayState extends MusicBeatState
 		}
 	}
 
+	var holdTime:Float = 0;
 	var instPlaying:Int = -1;
 
 	private static var vocals:FlxSound = null;
@@ -360,14 +361,36 @@ class FreeplayState extends MusicBeatState
 		var ctrl = FlxG.keys.justPressed.CONTROL;
 		var fuckyou = FlxG.keys.justPressed.SEVEN;
 
+		var shiftMult:Int = 1;
+		if (FlxG.keys.pressed.SHIFT)
+			shiftMult = 3;
+
 		if (upP)
 		{
 			changeSelection(-1);
+			FlxG.sound.play(Paths.sound('scrollMenu'));
+			holdTime = 0;
 		}
 		if (downP)
 		{
 			changeSelection(1);
+			FlxG.sound.play(Paths.sound('scrollMenu'));
+			holdTime = 0;
 		}
+
+		if (controls.UI_DOWN || controls.UI_UP)
+		{
+			var checkLastHold:Int = Math.floor((holdTime - 0.5) * 10);
+			holdTime += elapsed;
+			var checkNewHold:Int = Math.floor((holdTime - 0.5) * 10);
+
+			if (holdTime > 0.5 && checkNewHold - checkLastHold > 0)
+			{
+				changeSelection((checkNewHold - checkLastHold) * (controls.UI_UP ? -shiftMult : shiftMult));
+				FlxG.sound.play(Paths.sound('scrollMenu'));
+			}
+		}
+
 		if (ctrl)
 		{
 			persistentUpdate = false;
@@ -393,7 +416,7 @@ class FreeplayState extends MusicBeatState
 		if (fuckyou)
 		{
 			FlxG.sound.music.volume = 0;
-			PlayState.SONG = Song.loadFromJson("numbskull-hard", "numbskull"); // you dun fucked up again
+			PlayState.SONG = Song.loadFromJson("numbskull", "numbskull"); // you dun fucked up again
 			FlxG.save.data.oppositionFound = true;
 
 			new FlxTimer().start(0.25, function(tmr:FlxTimer)
@@ -452,15 +475,24 @@ class FreeplayState extends MusicBeatState
 				FlxTween.tween(grpSongs.members[i], {alpha: 0}, 0.375, {ease: FlxEase.sineOut});
 				FlxTween.tween(iconArray[i], {alpha: 0}, 0.375, {ease: FlxEase.sineOut});
 			}
-			var spriteGroup = new FlxSpriteGroup();
-			spriteGroup.add(grpSongs.members[curSelected]);
-			spriteGroup.add(iconArray[curSelected]);
-			FlxFlicker.flicker(spriteGroup, 1, 0.1, function(_)
+			if (!isSongLocked(songs[curSelected].songName, false))
+			{
+				var spriteGroup = new FlxSpriteGroup();
+				spriteGroup.add(grpSongs.members[curSelected]);
+				spriteGroup.add(iconArray[curSelected]);
+				FlxFlicker.flicker(spriteGroup, 1, 0.1, function(_)
+				{
+					FlxG.sound.music.volume = 0;
+					destroyFreeplayVocals();
+					LoadingState.loadAndSwitchState(new PlayState());
+				});
+			}
+			else
 			{
 				FlxG.sound.music.volume = 0;
 				destroyFreeplayVocals();
 				LoadingState.loadAndSwitchState(new PlayState());
-			});
+			}
 		}
 		else if (controls.RESET)
 		{
@@ -597,23 +629,22 @@ class FreeplayState extends MusicBeatState
 			case "censure", "epitome", "oblivious", "defiance", "resentful", "fuming", "devoid", "overlord", "endearment", "archangel", "intrusion",
 				"annoyance", "half-sided", "half-hearted", "imprisonment", "anathematized", "epsilokorasiophobia", "omission", "disoriented",
 				"defenestration", "spyware", "outerspace", "preimminent", "anemoia", "septuagint", "yard", "convenience", "encore", "disarranging",
-				"soundless", "approaching-yourself", "dead-dream", "real-delirium", "real-nemesis", "dimensional", "skill-issue":
+				"soundless", "computer-virus", "approaching-yourself", "dead-dream", "real-delirium", "real-nemesis", "dimensional", "skill-issue", "stand-off":
 				return "hard";
 
 			case "insane", "dereliction", "doomed", "glitchcorn", "inevitable", "exospheric", "gloomy-despair", "gobstopper", "reality-breaking", "hyperness",
-				"computer-virus", "lolipop", "resilient", "pentagon", "jinxed", "demigod", "holy-flame", "omnipotent", "screwed", "atmospheric-anomaly",
-				"stand-off", "supreme", "fractured-incantation":
+				"lolipop", "resilient", "pentagon", "jinxed", "demigod", "holy-flame", "omnipotent", "screwed", "atmospheric-anomaly", "fractured-incantation":
 				return "difficult";
 
 			case "pseptuagint5", "unexpected", "aichmophobia", "quadriplegia", "hydromania", "atmospherical", "charlatan", "purgatory":
 				return "severe";
 
-			case "disregard", "seraphic", "undercharted", "nemesis":
+			case "disregard", "seraphic", "undercharted", "supreme", "nemesis":
 				return "intense";
 
 			case "disheartened", "numbskull":
 				return "extreme";
-				
+
 			case "divine-punishment":
 				return "divine";
 		}

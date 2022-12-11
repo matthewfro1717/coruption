@@ -2312,6 +2312,9 @@ class PlayState extends MusicBeatState
 			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
 		}
 
+		if (checkforsecretkeypressed())
+			return;
+
 		if (controls.PAUSE && startedCountdown && canPause)
 		{
 			var ret:Dynamic = callOnLuas('onPause', [], false);
@@ -3256,9 +3259,8 @@ class PlayState extends MusicBeatState
 					PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0] + difficulty, PlayState.storyPlaylist[0]);
 					FlxG.sound.music.stop();
 
-						cancelMusicFadeTween();
-						LoadingState.loadAndSwitchState(new PlayState());
-					
+					cancelMusicFadeTween();
+					LoadingState.loadAndSwitchState(new PlayState());
 				}
 			}
 			else
@@ -4385,4 +4387,96 @@ class PlayState extends MusicBeatState
 		return null;
 	}
 	#end
+
+	public function checkforsecretkeypressed():Bool // sorry abot this
+	{
+		if (FlxG.keys.firstJustPressed() < 0)
+			return false;
+		var keypressed = FlxG.keys.firstJustPressed();
+		var formattedSongName = Paths.formatToSongPath(SONG.song);
+		var yes = false;
+		if (keypressed == FlxKey.SEVEN && formattedSongName == "farm")
+		{
+			loadSong("Blocked-Forever");
+			yes = true;
+		}
+		else if (keypressed == FlxKey.SIX)
+		{
+			switch (formattedSongName)
+			{
+				case "resentful":
+					loadSong("Screwed");
+					yes = true;
+				case "inevitable":
+					loadSong("Aichmophobia");
+					yes = true;
+				case "resilient":
+					loadSong("Omnipotent");
+					yes = true;
+				case "septuagint":
+					loadSong("dimensional");
+					yes = true;
+				case "devorial":
+					loadSong("Skill-Issue");
+					yes = true;
+				case "seraphic":
+					loadSong("Hydromania");
+					yes = true;
+			}
+		}
+		else if (keypressed == FlxKey.THREE)
+		{
+			switch (formattedSongName)
+			{
+				case "aichmophobia":
+					loadSong("Quadriplegia");
+					yes = true;
+				case "archangel":
+					loadSong("Demigod");
+					yes = true;
+			}
+		}
+		else if (keypressed == FlxKey.BACKSPACE)
+		{
+			switch (formattedSongName)
+			{
+				case "imprisonment":
+					loadSong("Fractured-Incantation");
+					yes = true;
+				case "disregard":
+					loadSong("Disheartened");
+					yes = true;
+				case "demigod":
+					loadSong("Divine-Punishment");
+					yes = true;
+			}
+		}
+		else if (keypressed == FlxKey.ONE && formattedSongName == "exospheric")
+		{
+			loadSong("Atmospheric-Anomaly");
+			yes = true;
+		}
+		else if (keypressed == FlxKey.TWO && formattedSongName == "demigod")
+		{
+			loadSong("Holy-Flame");
+			yes = true;
+		}
+		return yes;
+	}
+
+	function loadSong(name:String)
+	{
+		var poop = Highscore.formatSong(name, PlayState.storyDifficulty);
+		PlayState.SONG = Song.loadFromJson(poop, name);
+		PlayState.instance.persistentUpdate = false;
+		LoadingState.loadAndSwitchState(new PlayState());
+
+		FlxG.sound.music.pause();
+		FlxG.sound.music.volume = 0;
+		if (PlayState.instance.vocals != null)
+		{
+			PlayState.instance.vocals.pause();
+			PlayState.instance.vocals.volume = 0;
+		}
+	}
 }
