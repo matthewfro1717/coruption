@@ -616,7 +616,7 @@ class FreeplayState extends MusicBeatState
 			case "divine-punishment":
 				return "divine";
 		}
-		return ""; // default
+		return "normal"; // default
 	}
 }
 
