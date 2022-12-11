@@ -457,9 +457,9 @@ class FreeplayState extends MusicBeatState
 			spriteGroup.add(iconArray[curSelected]);
 			FlxFlicker.flicker(spriteGroup, 1, 0.1, function(_)
 			{
-				LoadingState.loadAndSwitchState(new PlayState());
 				FlxG.sound.music.volume = 0;
 				destroyFreeplayVocals();
+				LoadingState.loadAndSwitchState(new PlayState());
 			});
 		}
 		else if (controls.RESET)
@@ -613,6 +613,7 @@ class FreeplayState extends MusicBeatState
 
 			case "disheartened", "numbskull":
 				return "extreme";
+				
 			case "divine-punishment":
 				return "divine";
 		}
