@@ -19,7 +19,7 @@ function onCustomSubstateCreate(name)
         setProperty("deadboif.alpha", 0)
         addLuaSprite("deadboif", true)
         local alphaEnd = 1
-        if getPropertyFromClass("ClientPrefs", "gorestuff") then
+        if not getPropertyFromClass("ClientPrefs", "gorestuff") then
             alphaEnd = 0
         end
         doTweenAlpha("deathent", "deadboif", alphaEnd, length, tweenEase)

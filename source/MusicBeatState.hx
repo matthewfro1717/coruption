@@ -179,14 +179,14 @@ class MusicBeatState extends FlxUIState
 			case "gobstopper", "numbskull":
 				imageName = "truebandumb";
 
-			case "annoyance": // zander
-				imageName = "anoy";
-			case "half-sided":
-				imageName = "halfsid";
-			case "half-hearted":
+			case "annoyance":
 				imageName = "noheart";
-			case "standoff":
+			case "half-sided":
 				imageName = "stand";
+			case "half-hearted": // zander
+				imageName = "anoy";
+			case "stand-off":
+				imageName = "halfsid";
 
 			case "greetings", "room-tour": // allure
 				imageName = "allure1";
