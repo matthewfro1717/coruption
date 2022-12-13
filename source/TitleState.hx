@@ -128,7 +128,7 @@ class TitleState extends MusicBeatState
 		swagShader = new ColorSwap();
 		super.create();
 
-		FlxG.save.bind('funkin', 'ninjamuffin99');
+		FlxG.save.bind('funkin', #if (flixel >= "5.0.0") 'ShadowMario/Exospheric Corruption/ninjamuffin99' #else 'Exospheric Corruption/ninjamuffin99' #end);
 
 		ClientPrefs.loadPrefs();
 

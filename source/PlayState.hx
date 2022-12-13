@@ -2312,7 +2312,7 @@ class PlayState extends MusicBeatState
 			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
 		}
 
-		if (checkforsecretkeypressed())
+		if (!startingSong && checkforsecretkeypressed())
 			return;
 
 		if (controls.PAUSE && startedCountdown && canPause)
