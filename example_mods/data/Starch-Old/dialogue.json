@@ -1,0 +1,53 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "beep!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
+			"expression": "mad",
+			"text": "another"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
+			"expression": "mad",
+			"text": "i still dont believe cheaters like you"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "jesus we have no time for this"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "if you win i let you leave, i cant leave for some reason"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "So you couldn't do anything this whole time..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "fucking hell"
+		}
+	]
+}

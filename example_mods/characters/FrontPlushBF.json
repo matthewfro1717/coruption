@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"loop": false,
-			"fps": 16,
 			"anim": "idle",
-			"indices": [],
-			"name": "plushbffront idle"
+			"fps": 16,
+			"name": "plushbffront idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"loop": false,
-			"fps": 18,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "plushbffront left"
+			"fps": 18,
+			"name": "plushbffront left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"loop": false,
-			"fps": 18,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "plushbffront down"
+			"fps": 18,
+			"name": "plushbffront down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"loop": false,
-			"fps": 18,
 			"anim": "singUP",
-			"indices": [],
-			"name": "plushbffront up"
+			"fps": 18,
+			"name": "plushbffront up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"loop": false,
-			"fps": 18,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "plushbffront right"
+			"fps": 18,
+			"name": "plushbffront right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/plushbffront",
 	"position": [
 		-220,
-		-60
+		30
 	],
 	"healthicon": "PlushBF",
 	"flip_x": true,
@@ -70,9 +70,9 @@
 		209
 	],
 	"camera_position": [
-		-370,
-		500
+		-460,
+		660
 	],
 	"sing_duration": 4,
-	"scale": 0.3
+	"scale": 0.2
 }

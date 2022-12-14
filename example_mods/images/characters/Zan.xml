@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Zan.png"><SubTexture name="Zan leftmiss0000" x="0" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan leftmiss0001" x="773" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan upmiss0000" x="1546" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan upmiss0001" x="2319" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan rightmiss0000" x="3092" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan rightmiss0001" x="0" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan downmiss0000" x="773" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan downmiss0001" x="1546" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan left0000" x="2319" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan left0001" x="3092" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan left0002" x="0" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan left0003" x="773" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan idle0000" x="1546" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan idle0001" x="2319" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan idle0002" x="3092" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan idle0003" x="0" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan up0000" x="773" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan up0001" x="1546" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan up0002" x="2319" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan up0003" x="3092" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan down0000" x="0" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan down0001" x="773" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan down0002" x="1546" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan down0003" x="2319" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan right0000" x="3092" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan right0001" x="0" y="3780" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan right0002" x="773" y="3780" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zan right0003" x="1546" y="3780" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+</TextureAtlas>

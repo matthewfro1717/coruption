@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="multicorn.png"><SubTexture name="multicorn down0000" x="0" y="0" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn down0001" x="1004" y="0" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn down0002" x="2008" y="0" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn idle0000" x="0" y="1004" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn idle0001" x="1004" y="1004" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn idle0002" x="2008" y="1004" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn idle0003" x="0" y="2008" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn left0000" x="1004" y="2008" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn left0001" x="2008" y="2008" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn right0000" x="0" y="3012" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn right0001" x="1004" y="3012" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn right0002" x="2008" y="3012" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn up0000" x="0" y="4016" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+<SubTexture name="multicorn up0001" x="1004" y="4016" width="1004" height="1004" frameX="0" frameY="0" frameWidth="1004" frameHeight="1004" />
+</TextureAtlas>

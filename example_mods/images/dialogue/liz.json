@@ -1,0 +1,128 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		-20
+	],
+	"scale": 1.65,
+	"animations": [
+		{
+			"loop_name": "Liz excited",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Liz excited0000",
+			"anim": "excited",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Liz happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Liz happy0000",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Liz embarassed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Liz embarassed0000",
+			"anim": "embarassed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Liz surprised",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Liz surprised0000",
+			"anim": "surprised",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Liz oh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Liz oh0000",
+			"anim": "oh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Liz erm",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Liz erm0000",
+			"anim": "erm",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Liz nervous",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Liz nervous0000",
+			"anim": "nervous",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Liz smug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Liz smug0000",
+			"anim": "smug",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Liz mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Liz mad0000",
+			"anim": "mad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Liz"
+}

@@ -1,49 +1,101 @@
 {
 	"position": [
-		40,
-		-30
+		0,
+		50
 	],
 	"dialogue_pos": "left",
-	"scale": 1.4,
-	"image": "exosphere",
+	"scale": 0.65,
+	"image": "exosphere_dialogue",
 	"animations": [
 		{
-			"loop_offsets": [
-				-60,
-				30
-			],
-			"anim": "happy",
 			"idle_offsets": [
-				-60,
-				30
+				350,
+				731
 			],
-			"loop_name": "exohappy",
-			"idle_name": "exohappy0001"
+			"loop_offsets": [
+				350,
+				731
+			],
+			"anim": "talk",
+			"idle_name": "exosphere_dialogue talk",
+			"loop_name": "exosphere_dialogue talk"
 		},
 		{
-			"loop_name": "exotalk",
-			"idle_offsets": [
-				0,
-				30
-			],
-			"idle_name": "exotalk0001",
-			"anim": "neutrual",
 			"loop_offsets": [
-				0,
-				30
+				350,
+				731
+			],
+			"anim": "idle",
+			"idle_offsets": [
+				350,
+				731
+			],
+			"loop_name": "exosphere_dialogue idle",
+			"idle_name": "exosphere_dialogue idle"
+		},
+		{
+			"loop_name": "exosphere_dialogue smug",
+			"idle_offsets": [
+				350,
+				731
+			],
+			"idle_name": "exosphere_dialogue smug",
+			"anim": "smug",
+			"loop_offsets": [
+				350,
+				731
 			]
 		},
 		{
-			"loop_name": "exoreallyhappy",
+			"loop_name": "exosphere_dialogue worried",
 			"idle_offsets": [
-				-50,
-				40
+				350,
+				731
 			],
-			"idle_name": "exoreallyhappy0001",
-			"anim": "intimidating",
+			"idle_name": "exosphere_dialogue worried",
+			"anim": "worried",
 			"loop_offsets": [
-				-50,
-				40
+				350,
+				731
+			]
+		},
+		{
+			"loop_name": "exosphere_dialogue agitated",
+			"idle_offsets": [
+				350,
+				731
+			],
+			"idle_name": "exosphere_dialogue agitated",
+			"anim": "agitated",
+			"loop_offsets": [
+				350,
+				731
+			]
+		},
+		{
+			"loop_name": "exosphere_dialogue confused",
+			"idle_offsets": [
+				350,
+				731
+			],
+			"idle_name": "exosphere_dialogue confused",
+			"anim": "confused",
+			"loop_offsets": [
+				350,
+				731
+			]
+		},
+		{
+			"loop_name": "exosphere_dialogue enraged",
+			"idle_offsets": [
+				350,
+				731
+			],
+			"idle_name": "exosphere_dialogue enraged",
+			"anim": "enraged",
+			"loop_offsets": [
+				350,
+				731
 			]
 		}
 	]

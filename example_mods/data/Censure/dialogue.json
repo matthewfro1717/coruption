@@ -1,52 +1,52 @@
 {
 	"dialogue": [
 		{
-                                    "sound": "davespeak",
-			"speed": 0.05,
-			"portrait": "Dave",
-			"boxState": "angry",
 			"expression": "pain",
-			"text": "THE PAIN... IS UNBEARABLE!"
+			"text": "THE PAIN... IS UNBEARABLE!",
+			"boxState": "angry",
+			"sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Daveold"
 		},
 		{
-                                    "sound": "bfspeak",
-			"speed": 0.05,
-			"portrait": "bf",
+			"expression": "shocked",
+			"text": "BEEP!",
 			"boxState": "normal",
-			"expression": "shocked",
-			"text": "BEEP!"
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend"
 		},
 		{
-                                    "sound": "gfspeak",
+			"expression": "shocked",
+			"text": "HOLY FUCK!",
+			"boxState": "angry",
+			"sound": "gfspeak",
 			"speed": 0.01,
-			"portrait": "gf",
-			"boxState": "angry",
-			"expression": "shocked",
-			"text": "HOLY FUCK!"
+			"portrait": "gf"
 		},
 		{
-                                    "sound": "davespeak",
-			"speed": 0.05,
-			"portrait": "Dave",
-			"boxState": "angry",
 			"expression": "pain",
-			"text": "NO WONDER SOMETHING WASN'T RIGHT!"
+			"text": "NO WONDER SOMETHING WASN'T RIGHT!",
+			"boxState": "angry",
+			"sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Daveold"
 		},
 		{
-                                    "sound": "davespeak",
-			"speed": 0.05,
-			"portrait": "Dave",
-			"boxState": "angry",
 			"expression": "pain",
-			"text": "I CAN'T KEEP CONTROL OF MYSELF!"
+			"text": "I CAN'T KEEP CONTROL OF MYSELF!",
+			"boxState": "angry",
+			"sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Daveold"
 		},
 		{
-                                    "sound": "davespeak",
-			"speed": 0.05,
-			"portrait": "Dave",
-			"boxState": "angry",
 			"expression": "pain",
-			"text": "SOMEONE JUST HELP ME ALREADY!!"
+			"text": "SOMEONE JUST HELP ME ALREADY!!",
+			"boxState": "angry",
+			"sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "Daveold"
 		}
 	]
 }

@@ -1,11 +1,86 @@
 {
 	"song": {
-		"speed": 2.9,
-		"stage": "Yard",
-		"player1": "Boyfriend",
-		"player2": "worrieddave",
-		"player3": null,
 		"events": [
+			[
+				0,
+				[
+					[
+						"MoveArrow",
+						"0",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				3.67647058823529,
+				[
+					[
+						"MoveArrow",
+						"1",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				7.35294117647059,
+				[
+					[
+						"MoveArrow",
+						"2",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				11.0294117647059,
+				[
+					[
+						"MoveArrow",
+						"3",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				14.7058823529412,
+				[
+					[
+						"MoveArrow",
+						"4",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				18.3823529411765,
+				[
+					[
+						"MoveArrow",
+						"5",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				22.0588235294118,
+				[
+					[
+						"MoveArrow",
+						"7",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				25.7352941176471,
+				[
+					[
+						"MoveArrow",
+						"6",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
 			[
 				5647.05882352941,
 				[
@@ -87,6 +162,26 @@
 				]
 			],
 			[
+				134911.764705882,
+				[
+					[
+						"Subtitles",
+						"Oh",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				135176.470588235,
+				[
+					[
+						"Subtitles",
+						"Oh shit...",
+						"FFFFFF"
+					]
+				]
+			],
+			[
 				135529.411764706,
 				[
 					[
@@ -97,7 +192,17 @@
 				]
 			],
 			[
-				135529.411764706,
+				135533.088235294,
+				[
+					[
+						"Change Character",
+						"0",
+						"ScaredBoyfriend"
+					]
+				]
+			],
+			[
+				135536.764705882,
 				[
 					[
 						"Change Character",
@@ -107,24 +212,165 @@
 				]
 			],
 			[
-				135529.411764706,
+				135558.823529412,
 				[
 					[
-						"Change Character",
-						"0",
-						"ScaredBoyfriend"
+						"Subtitles",
+						"Oh shit...",
+						""
+					]
+				]
+			],
+			[
+				184852.94117647,
+				[
+					[
+						"Subtitles",
+						"Je",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				185029.411764706,
+				[
+					[
+						"Subtitles",
+						"Jesus",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				185294.117647058,
+				[
+					[
+						"Subtitles",
+						"Jesus H",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				185558.823529411,
+				[
+					[
+						"Subtitles",
+						"Jesus H Christ",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				187279.411764706,
+				[
+					[
+						"Subtitles",
+						"What",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				187411.764705882,
+				[
+					[
+						"Subtitles",
+						"What the",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				187632.352941176,
+				[
+					[
+						"Subtitles",
+						"What the fuck",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				187764.705882353,
+				[
+					[
+						"Subtitles",
+						"What the fuck is",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				188029.411764706,
+				[
+					[
+						"Subtitles",
+						"What the fuck is happening",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				188470.588235294,
+				[
+					[
+						"Subtitles",
+						"What the fuck is happening to ",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				188602.94117647,
+				[
+					[
+						"Subtitles",
+						"What the fuck is happening to me",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				190058.823529411,
+				[
+					[
+						"Subtitles",
+						"Help",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				190323.529411764,
+				[
+					[
+						"Subtitles",
+						"Help me",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				192000,
+				[
+					[
+						"Subtitles",
+						"Help",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				193411.764705882,
+				[
+					[
+						"Subtitles",
+						"",
+						"FFFFFF"
 					]
 				]
 			]
-			
-		],
-		"notes": [],
-		"splashSkin": "noteSplashes",
-		"validScore": false,
-		"gfVersion": "gf",
-		"bpm": 170,
-		"arrowSkin": "",
-		"needsVoices": true,
-		"song": "Uprising-Terror"
+		]
 	}
 }

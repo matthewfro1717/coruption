@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				180,
+				460
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Zand0r idle"
+		},
+		{
+			"offsets": [
+				292,
+				441
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Zand0r left"
+		},
+		{
+			"offsets": [
+				210,
+				395
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Zand0r down"
+		},
+		{
+			"offsets": [
+				220,
+				497
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Zand0r up"
+		},
+		{
+			"offsets": [
+				132,
+				424
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Zand0r right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Zand0r",
+	"position": [
+		320,
+		300
+	],
+	"healthicon": "Zand0r",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-50,
+		-360
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Allure.png"><SubTexture name="Allure Shocked0000" x="0" y="0" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure Annoyed0000" x="898" y="0" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure Erm0000" x="1796" y="0" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure Happy0000" x="0" y="1196" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure Talking0000" x="898" y="1196" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure Smiling0000" x="1796" y="1196" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure AltAngry0000" x="0" y="2392" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure AltPOG0000" x="898" y="2392" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure AltCrazed0000" x="1796" y="2392" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure AltSmug0000" x="0" y="3588" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure AltClosedTalking0000" x="898" y="3588" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure AltHolding0000" x="1796" y="3588" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+<SubTexture name="Allure AltTalking0000" x="0" y="4784" width="898" height="1196" frameX="0" frameY="0" frameWidth="898" frameHeight="1196" />
+</TextureAtlas>

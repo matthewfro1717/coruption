@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="TeraT.png"><SubTexture name="TeraT Idle0000" x="1894" y="0" width="830" height="1169" frameX="-1091" frameY="-938" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Idle0001" x="1793" y="2353" width="976" height="1124" frameX="-1067" frameY="-1019" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Idle0002" x="874" y="2353" width="919" height="1132" frameX="-1076" frameY="-1011" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Idle0003" x="0" y="2353" width="874" height="1134" frameX="-1076" frameY="-973" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Idle0004" x="2724" y="0" width="854" height="1152" frameX="-1076" frameY="-955" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Left0000" x="2722" y="3487" width="1163" height="962" frameX="-493" frameY="-1024" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Left0001" x="5000" y="960" width="1113" height="955" frameX="-521" frameY="-1033" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Left0002" x="5000" y="1915" width="925" height="928" frameX="-669" frameY="-1059" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Right0000" x="3578" y="0" width="1422" height="999" frameX="-833" frameY="-989" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Right0001" x="3578" y="1995" width="1369" height="985" frameX="-886" frameY="-979" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Right0002" x="0" y="3487" width="1367" height="977" frameX="-862" frameY="-978" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Right0003" x="1367" y="3487" width="1355" height="968" frameX="-850" frameY="-978" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Up0000" x="0" y="1184" width="1056" height="1169" frameX="-750" frameY="-963" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Up0001" x="0" y="0" width="1063" height="1184" frameX="-753" frameY="-978" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Up0002" x="1056" y="1184" width="1056" height="1155" frameX="-776" frameY="-1006" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Down0000" x="1391" y="4464" width="1471" height="887" frameX="-807" frameY="-1412" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Down0001" x="0" y="4464" width="1391" height="896" frameX="-847" frameY="-1401" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Down0002" x="5000" y="0" width="1322" height="960" frameX="-858" frameY="-1381" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="TeraT Down0003" x="3578" y="999" width="1311" height="996" frameX="-859" frameY="-1369" frameWidth="3000" frameHeight="3000" />
+</TextureAtlas>

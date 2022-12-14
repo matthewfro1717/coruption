@@ -10,6 +10,15 @@ function onStartCountdown()
 	return Function_Continue;
 end
 
+function onCountdownTick(tick)
+    if tick == 1 then
+        loadGraphic('countdownReady', 'og-ready')
+       		elseif tick == 2 then
+        loadGraphic('countdownSet', 'og-set')
+        	elseif tick == 3 then
+        loadGraphic('countdownGo', 'og-go')
+    end
+end
 
 
 function onTimerCompleted(tag, loops, loopsLeft)
@@ -36,9 +45,18 @@ function onUpdate()
 end
 
 function onCreate()
-	makeLuaText('dis', "Resentful by Hortas", 600, 680, 0)
+	makeLuaText('dis', "Resentful Remix by EpicRandomness11", 600, 680, 0)
     doTweenAlpha('disbye','dis',0,8,'linear')
     setTextSize('dis', 20)
     setTextColor('dis', 'FFFFFF')
     addLuaText('dis',true)
+end
+
+function onUpdatePost()
+	setProperty('ratingsData[0].image', 'og-sick')
+    setProperty('ratingsData[1].image', 'og-good')
+    setProperty('ratingsData[2].image', 'og-bad')
+    setProperty('ratingsData[3].image', 'og-shit')
+	setProperty("comboSuffix", "-og") -- HEY IF YOU ARE GONNA USE THIS TYPE OF SCRIPT TO YOUR MOD, THIS WAS ONLY CODED FOR THIS MOD. Thanks Raf
+	setProperty('introSoundsSuffix', '-bambi')
 end

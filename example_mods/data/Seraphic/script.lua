@@ -37,6 +37,12 @@ function onCreate() --setting variables and making sprites and da time bar :trol
     addLuaText('dis2',true)
 end
 
+function onUpdatePost()
+    if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.Z') then
+        setProperty('dis.alpha', 0)
+    end
+end
+
 function opponentNoteHit()
     hp = getProperty('health')
     if hp > 0.5 then
@@ -47,9 +53,7 @@ function goodNoteHit()
     hp = getProperty('health')
     setProperty('health',hp+0.05)
 end
-function onSongStart()
-    setProperty('songLength', 45000)
-end
+
 function noteMiss()
     hp = getProperty('health')
     setProperty('health',hp-0.1)
@@ -58,7 +62,6 @@ function onBeatHit() --events but better
     local currentBeat = math.floor((songPos / 1000) * (curBpm / 60))
     if currentBeat == 128 then
         doFlash(0.8, 1.5, 'FFFFFF')
-        setProperty('songLength', getPropertyFromClass('flixel.FlxG', 'sound.music.length'))
     end
     if currentBeat == 192 then
         doTweenAlpha('funny', 'introfade', 0.95, 0.7, 'linear')

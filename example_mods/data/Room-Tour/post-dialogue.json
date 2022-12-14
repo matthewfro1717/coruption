@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "shocked",
+			"text": "!!!",
+			"boxState": "normal",
+			"sound": "bfspeak",
+			"speed": 0.07,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "gone",
+			"text": "*BF frantically runs away in a state of panic*",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.005,
+			"portrait": "azstroth"
+		},
+		{
+			"expression": "AltTalking",
+			"text": "What are you scared for?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Allure"
+		},
+		{
+			"expression": "AltTalking",
+			"text": "Someone has to take care of you...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Allure"
+		},
+		{
+			"expression": "AltSmug",
+			"text": "Someone needs to keep you safe...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Allure"
+		},
+		{
+			"expression": "AltClosedEyes",
+			"text": "But do not worry",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "Allure"
+		},
+		{
+			"expression": "AltCrazed",
+			"text": "You'll be safe with me... Just stand still and GIVE UP!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.105,
+			"portrait": "Allure"
+		}
+	]
+}

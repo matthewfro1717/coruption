@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				255,
+				460
+			],
+			"loop": false,
+			"fps": 19,
+			"anim": "idle",
+			"indices": [],
+			"name": "Bambi_new idle"
+		},
+		{
+			"offsets": [
+				252,
+				459
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bambi_new left"
+		},
+		{
+			"offsets": [
+				255,
+				461
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bambi_new down"
+		},
+		{
+			"offsets": [
+				255,
+				459
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bambi_new up"
+		},
+		{
+			"offsets": [
+				258,
+				460
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bambi_new right"
+		},
+		{
+			"offsets": [
+				259,
+				462
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "Bambi_new smash"
+		},
+		{
+			"offsets": [
+				259,
+				462
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "Bambi_new smash"
+		},
+		{
+			"offsets": [
+				259,
+				462
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "Bambi_new smash"
+		},
+		{
+			"offsets": [
+				259,
+				462
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "Bambi_new smash"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Bambi_new",
+	"position": [
+		0,
+		380
+	],
+	"healthicon": "bambiaggrivated",
+	"flip_x": false,
+	"healthbar_colors": [
+		15,
+		226,
+		0
+	],
+	"camera_position": [
+		130,
+		-260
+	],
+	"sing_duration": 4,
+	"scale": 0.6
+}

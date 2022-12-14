@@ -1,0 +1,84 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Tristan",
+			"boxState": "normal",
+			"expression": "joyful",
+			"text": "That was pretty fun!"
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "joyful",
+			"text": "Bap!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Tristan",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Though I wonder where Dad and Mr. Bambi went."
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.11,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "what",
+			"text": "Erm.... well... something happened."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "W-what happened to them?"
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "Well, there's some weird parasite going around that is posessing everyone in their path."
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.075,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "Unfortunately two of them were your Dad and Mr. Bambi."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": ""
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "Don't cry, we'll try and get them back. Maybe another song could help break tension?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": ""
+		}
+	]
+}

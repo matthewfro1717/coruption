@@ -1,0 +1,9 @@
+{
+	"directory": "weekbandumb",
+	"defaultZoom": 0.9,
+	"isPixelStage": false,
+
+	"boyfriend": [620, 20],
+	"girlfriend": [835, 70],
+	"opponent": [30, 20]
+}

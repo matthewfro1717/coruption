@@ -5,7 +5,3 @@ function onCreate()
     addLuaSprite('FliHi')
 	scaleObject('background', 4,4);
 end
-
-function onCreatePost()
-    addGlitchEffect('FliHi', 4, 4);
-end

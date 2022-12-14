@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				90,
 				261
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "idle"
+			"fps": 24,
+			"name": "Yambi idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-40,
-				111
+				100,
+				211
 			],
-			"indices": [],
-			"fps": 20,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "down"
+			"fps": 20,
+			"name": "Yambi down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-30,
-				111
+				90,
+				201
 			],
-			"indices": [],
-			"fps": 20,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "right"
+			"fps": 20,
+			"name": "Yambi right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-130,
-				151
+				200,
+				221
 			],
-			"indices": [],
-			"fps": 20,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "left"
+			"fps": 20,
+			"name": "Yambi left",
+			"indices": []
 		},
 		{
-			"offsets": [
-				20,
-				261
-			],
-			"indices": [],
-			"fps": 20,
-			"anim": "singUP",
 			"loop": false,
-			"name": "up"
+			"offsets": [
+				100,
+				251
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "Yambi up",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

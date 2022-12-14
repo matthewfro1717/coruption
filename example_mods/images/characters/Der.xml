@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Der.png"><SubTexture name="Der leftmiss0000" x="0" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der leftmiss0001" x="773" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der downmiss0000" x="1546" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der downmiss0001" x="2319" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der upmiss0000" x="3092" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der upmiss0001" x="0" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der rightmiss0000" x="773" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der rightmiss0001" x="1546" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der down0000" x="2319" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der down0001" x="3092" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der down0002" x="0" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der down0003" x="773" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der right0000" x="1546" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der right0001" x="2319" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der right0002" x="3092" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der up0000" x="0" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der up0001" x="773" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der up0002" x="1546" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der up0003" x="2319" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der left0000" x="3092" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der left0001" x="0" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der left0002" x="773" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der left0003" x="1546" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der idle0000" x="2319" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der idle0001" x="3092" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der idle0002" x="0" y="3780" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der idle0003" x="773" y="3780" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Der idle0004" x="1546" y="3780" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+</TextureAtlas>

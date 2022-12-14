@@ -1,11 +1,22 @@
 {
 	"song": {
-		"speed": 3.3,
+		"speed": 3.5,
 		"stage": "FarmWalls",
 		"player1": "bf",
 		"player2": "pissedman",
 		"player3": null,
-		"events": [],
+		"events": [
+			[
+				132000,
+				[
+					[
+						"Image Flash",
+						"Blackout",
+						"99"
+					]
+				]
+			]
+		],
 		"notes": [],
 		"splashSkin": null,
 		"validScore": false,

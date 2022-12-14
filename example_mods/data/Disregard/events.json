@@ -1,241 +1,6 @@
 {
 	"song": {
-		"speed": 3.7,
-		"stage": "ControlledVoid",
-		"player1": "bfscared",
-		"player2": "exosphereangry",
-		"player3": null,
 		"events": [
-			[
-				16879.1208791209,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				25318.6813186813,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				33758.2417582418,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				42197.8021978022,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				42725.2747252748,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				43252.7472527473,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				43780.2197802198,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				44307.6923076923,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				44835.1648351649,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				45362.6373626374,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				45890.1098901099,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				46417.5824175824,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				50637.3626373627,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				51164.8351648352,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				51692.3076923077,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				52219.7802197803,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				52747.2527472528,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				53274.7252747253,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				53802.1978021978,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				54329.6703296704,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				54857.1428571429,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				63296.7032967033,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				67516.4835164836,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
 			[
 				71208.7912087912,
 				[
@@ -273,26 +38,6 @@
 						"Arrow flip",
 						"1",
 						"0.1"
-					]
-				]
-			],
-			[
-				71736.2637362638,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
-				78263.7362637363,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
 					]
 				]
 			],
@@ -463,16 +208,6 @@
 						"ScreenStuff",
 						"0",
 						"0.2"
-					]
-				]
-			],
-			[
-				105494.505494506,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
 					]
 				]
 			],
@@ -1237,92 +972,12 @@
 				]
 			],
 			[
-				185670.329670329,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				186197.802197802,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
-					]
-				]
-			],
-			[
-				186725.274725274,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				187252.747252747,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
-					]
-				]
-			],
-			[
-				187780.219780219,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				188307.692307692,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
-					]
-				]
-			],
-			[
-				188835.164835164,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
-			],
-			[
 				188835.164835164,
 				[
 					[
 						"ScreenStuff",
 						"10",
 						"0.3"
-					]
-				]
-			],
-			[
-				189098.9010989,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
 					]
 				]
 			],
@@ -1337,32 +992,12 @@
 				]
 			],
 			[
-				189362.637362637,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
-					]
-				]
-			],
-			[
 				189379.12087912,
 				[
 					[
 						"ScreenStuff",
 						"10",
 						"0.3"
-					]
-				]
-			],
-			[
-				189626.373626373,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
 					]
 				]
 			],
@@ -1377,92 +1012,12 @@
 				]
 			],
 			[
-				194109.890109889,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				194637.362637362,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
-					]
-				]
-			],
-			[
-				195164.835164834,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				195692.307692307,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
-					]
-				]
-			],
-			[
-				196219.780219779,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
-				196747.252747252,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
-					]
-				]
-			],
-			[
-				197274.725274725,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
-					]
-				]
-			],
-			[
 				197291.208791208,
 				[
 					[
 						"ScreenStuff",
 						"20",
 						"0.3"
-					]
-				]
-			],
-			[
-				197538.461538461,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
 					]
 				]
 			],
@@ -1477,32 +1032,12 @@
 				]
 			],
 			[
-				197802.197802197,
-				[
-					[
-						"Change Character",
-						"1",
-						"phobiadave"
-					]
-				]
-			],
-			[
 				197818.681318681,
 				[
 					[
 						"ScreenStuff",
 						"20",
 						"0.3"
-					]
-				]
-			],
-			[
-				198065.934065933,
-				[
-					[
-						"Change Character",
-						"1",
-						"exophericbamb"
 					]
 				]
 			],
@@ -1515,25 +1050,7 @@
 						"0.3"
 					]
 				]
-			],
-			[
-				202549.45054945,
-				[
-					[
-						"Change Character",
-						"1",
-						"exosphereangry"
-					]
-				]
 			]
-		],
-		"notes": [],
-		"splashSkin": "ChromaticAbNoteSplashes",
-		"validScore": false,
-		"gfVersion": "gfinvisible",
-		"bpm": 227.5,
-		"arrowSkin": "ChromaticAbNotes_assets",
-		"needsVoices": true,
-		"song": "Disregard"
+		]
 	}
 }

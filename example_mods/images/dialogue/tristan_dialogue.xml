@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tristan_dialogue.png"><SubTexture name="tristan_dialogue scrunkle0000" x="0" y="0" width="541" height="1058" frameX="-498" frameY="-441" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="tristan_dialogue what0000" x="541" y="0" width="541" height="1058" frameX="-498" frameY="-441" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="tristan_dialogue crying0000" x="1082" y="0" width="541" height="1058" frameX="-498" frameY="-441" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="tristan_dialogue sobbing0000" x="1623" y="0" width="541" height="1058" frameX="-498" frameY="-441" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="tristan_dialogue surprised0000" x="0" y="1058" width="541" height="1058" frameX="-498" frameY="-441" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="tristan_dialogue worried0000" x="541" y="1058" width="541" height="1058" frameX="-498" frameY="-441" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="tristan_dialogue joyful0000" x="1082" y="1058" width="541" height="1058" frameX="-498" frameY="-441" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="tristan_dialogue talk0000" x="1623" y="1058" width="541" height="1058" frameX="-498" frameY="-441" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="tristan_dialogue idle0000" x="2164" y="0" width="541" height="1058" frameX="-498" frameY="-441" frameWidth="1500" frameHeight="2000" />
+</TextureAtlas>

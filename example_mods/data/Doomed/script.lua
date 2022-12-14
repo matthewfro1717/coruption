@@ -1,177 +1,189 @@
-local allowCountdown = false
+
+local s1 = 1
+local s2 = 1
+local flip = 1
+
 function onStartCountdown()
-	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
-	if not allowCountdown and isStoryMode and not seenCutscene then
-		setProperty('inCutscene', true);
-		runTimer('startDialogue', 0.8);
-		allowCountdown = true;
-		return Function_Stop;
-	end
-	return Function_Continue;
-end
-
-function onTimerCompleted(tag, loops, loopsLeft)
-	if tag == 'startDialogue' then -- Timer completed, play dialogue
-		startDialogue('dialogue', 'canzies');
-	end
-end
-
-function onUpdate(elapsed)
-	if curBeat >= 112 then
-		doTweenColor("colorBR", "dad", "00FF00", 0.001, "sineInOut")
-		doTweenColor("coloUH", "background", "00FF00", 0.001, "sineInOut")
-		doTweenZoom('OhSHIT', 'camGame', 1.5, 0.13, 'sineOut')
-		setProperty('timeBar.color', getColorFromHex('00ff00'))
-		setProperty('timeBarBG.color', getColorFromHex('00ff00'))
-	end
-
-	if curBeat >= 119 then
-		doTweenColor("colorBR", "dad", "FF0000", 0.001, "sineInOut")
-		doTweenColor("coloUH", "background", "FF0000", 0.001, "sineInOut")
-		doTweenZoom('OhSHIT', 'camGame', 1.3, 0.13, 'sineOut')
-		setProperty('timeBar.color', getColorFromHex('850101'))
-		setProperty('timeBarBG.color', getColorFromHex('850101'))
-	end
-
-	if curBeat >= 120 then
-		doTweenColor("colorBR", "dad", "00FF00", 0.001, "sineInOut")
-		doTweenColor("coloUH", "background", "00FF00", 0.001, "sineInOut")
-		doTweenZoom('OhSHIT', 'camGame', 1.5, 0.13, 'sineOut')
-		setProperty('timeBar.color', getColorFromHex('00ff00'))
-		setProperty('timeBarBG.color', getColorFromHex('00ff00'))
-	end
-
-	if curBeat >= 121 then
-		doTweenColor("colorBR", "dad", "FF0000", 0.001, "sineInOut")
-		doTweenColor("coloUH", "background", "FF0000", 0.001, "sineInOut")
-		doTweenZoom('OhSHIT', 'camGame', 1.3, 0.13, 'sineOut')
-		setProperty('timeBar.color', getColorFromHex('850101'))
-		setProperty('timeBarBG.color', getColorFromHex('850101'))
-	end
-
-	if curStep >= 486 then
-		doTweenColor("colorBR", "dad", "00FF00", 0.001, "sineInOut")
-		doTweenColor("coloUH", "background", "00FF00", 0.001, "sineInOut")
-		doTweenZoom('OhSHIT', 'camGame', 1.5, 0.13, 'sineOut')
-		setProperty('timeBar.color', getColorFromHex('00ff00'))
-		setProperty('timeBarBG.color', getColorFromHex('00ff00'))
-	end
-
-	if curBeat >= 122 then
-		doTweenColor("colorBR", "dad", "FF0000", 0.001, "sineInOut")
-		doTweenColor("coloUH", "background", "FF0000", 0.001, "sineInOut")
-		doTweenZoom('OhSHIT', 'camGame', 1.3, 0.13, 'sineOut')
-		setProperty('timeBar.color', getColorFromHex('850101'))
-		setProperty('timeBarBG.color', getColorFromHex('850101'))
-	end
-
-	if curStep >= 490 then
-		doTweenColor("colorBR", "dad", "00FF00", 0.001, "sineInOut")
-		doTweenColor("coloUH", "background", "00FF00", 0.001, "sineInOut")
-		doTweenZoom('OhSHIT', 'camGame', 1.5, 0.13, 'sineOut')
-		setProperty('timeBar.color', getColorFromHex('00ff00'))
-		setProperty('timeBarBG.color', getColorFromHex('00ff00'))
-	end
-
-	if curBeat >= 123 then
-		doTweenColor("colorBR", "dad", "FF0000", 0.001, "sineInOut")
-		doTweenColor("coloUH", "background", "FF0000", 0.001, "sineInOut")
-		doTweenZoom('OhSHIT', 'camGame', 1.3, 0.13, 'sineOut')
-		setProperty('timeBar.color', getColorFromHex('850101'))
-		setProperty('timeBarBG.color', getColorFromHex('850101'))
-	end
-
-	if curBeat >= 224 then
-		doTweenColor("colorBR", "dad", "505050", 1, "quadOut")
-		doTweenColor("coloUH", "background", "505050", 1, "quadOut")
-		doTweenZoom('OhSHIT', 'camGame', 1.3, 0.13, 'sineOut')
-		doTweenColor("colortime", "timeBar", "505050", 1, "quadOut")
-		doTweenColor("colotimebg", "timeBarBG", "505050", 1, "quadOut")
-    end
-	noteTweenAlpha('itsnothere',0, 0.4, 0.001, 'sineOut')
-    noteTweenAlpha('itsnothere1',1, 0.4, 0.001, 'sineOut')
-    noteTweenAlpha('itsnothere2',2, 0.4, 0.001, 'sineOut')
-    noteTweenAlpha('itsnothere3',3, 0.4, 0.001, 'sineOut')
-end
-
-
+      -- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
+      if not allowCountdown and isStoryMode and not seenCutscene then
+          setProperty('inCutscene', true);
+          runTimer('startDialogue', 0.8);
+          allowCountdown = true;
+          return Function_Stop;
+      end
+      return Function_Continue;
+  end
+  
+  function onTimerCompleted(tag, loops, loopsLeft)
+      if tag == 'startDialogue' then -- Timer completed, play dialogue
+          startDialogue('dialogue', 'canzies');
+      end
+  end
 
 function onCreate()
+    makeLuaSprite('offsettween','',0,0)
+    setProperty('offsettween.alpha',0.25)
+    makeLuaSprite('offsettween2','',0,0)
+    makeLuaSprite('epicflash','',0,0)
+    makeGraphic('epicflash',3000,3000,'FFFFFF')
+    setObjectCamera('epicflash','other')
+    addLuaSprite('epicflash',true)
+    setProperty('epicflash.alpha', 0)
+    setTextFont('kadeEngineWatermark', 'Hacked-KerX.ttf')
+	if downscroll then
+		setProperty('kadeEngineWatermark.y', screenHeight * 0.9 + 49)
+	end
 
-	setProperty('timeBar.color', getColorFromHex('505050'))
-	setProperty('timeBarBG.color', getColorFromHex('505050'))
+	-- Hides the watermark to replace the new one
+	setProperty("watermarkTxt.alpha", 0)
 
-    windowX1 = getPropertyFromClass('openfl.Lib', 'application.window.x')+11050
-    windowY1 = getPropertyFromClass('openfl.Lib', 'application.window.y')+11000
-  windowX2 = getPropertyFromClass('openfl.Lib', 'application.window.x')+10050
-  windowY2 = getPropertyFromClass('openfl.Lib', 'application.window.y')+10000
-  windowX3 = getPropertyFromClass('openfl.Lib', 'application.window.x')+10000
-  windowY3 = getPropertyFromClass('openfl.Lib', 'application.window.y')+10000
-  setProperty("dad.scale.x", 0.6)
-  setProperty("dad.scale.y", 0.6)
-  setProperty("boyfriend.scale.x", 0.6)
-  setProperty("boyfriend.scale.y", 0.6)
-
-	setProperty("gf.alpha", 0)
-	makeLuaText('dis', "Doomed by Oxy", 600, 680, 0)
-    doTweenAlpha('disbye','dis',0,8,'linear')
-    setTextSize('dis', 20)
-    setTextColor('dis', 'FFFFFF')
-    addLuaText('dis',true)
+	-- Resets the fonts to the Crumb Edition ones
+	setTextFont('scoreTxt','Hacked-KerX.ttf')
+	setTextFont('missesTxt','Hacked-KerX.ttf')
+	setTextFont('judgementCounterTxt', 'Hacked-KerX.ttf')
+	setTextFont('timeTxt','Hacked-KerX.ttf')
+    strumx1 = 240
+    strumx2 = 900
+    strumy = 60
+    mult = 1
+    if downscroll then
+        strumy = 550
+        mult = -1
+    end
+    for i = 0,7 do
+        makeLuaSprite('notes' .. i,'',0,0)
+    end
+    for i = 4,7 do
+        setProperty('notes' .. i .. '.x',-330)
+        setProperty('notes' .. i .. '.y',900)
+        doTweenY('notes1' .. i,'notes' .. i,0,crochet*0.004,'backOut')
+    end
 end
-
-
-easingstyle = "sineInOut"
-
 function onSongStart()
-	notePosX0 = getPropertyFromGroup('opponentStrums', 0, 'x')
-	notePosX1 = getPropertyFromGroup('opponentStrums', 1, 'x')
-	notePosX2 = getPropertyFromGroup('opponentStrums', 2, 'x')
-	notePosX3 = getPropertyFromGroup('opponentStrums', 3, 'x')
-	notePosX4 = getPropertyFromGroup('playerStrums', 0, 'x')
-	notePosX5 = getPropertyFromGroup('playerStrums', 1, 'x')
-	notePosX6 = getPropertyFromGroup('playerStrums', 2, 'x')
-	notePosX7 = getPropertyFromGroup('playerStrums', 3, 'x')
-
-	noteTweenX("0", 0, (notePosX0 + 600), 0.5, easingstyle)
-	noteTweenX("02", 1, (notePosX1 + 600), 0.5, easingstyle)
-	noteTweenX("03", 2, (notePosX2 + 600), 0.5, easingstyle)
-	noteTweenX("04", 3, (notePosX3 + 600), 0.5, easingstyle)
-	noteTweenX("05", 4, (notePosX4 - 600), 0.5, easingstyle)
-	noteTweenX("06", 5, (notePosX5 - 600), 0.5, easingstyle)
-	noteTweenX("07", 6, (notePosX6 - 600), 0.5, easingstyle)
-	noteTweenX("08", 7, (notePosX7 - 600), 0.5, easingstyle)
+    flip = -flip
+    setProperty('offsettween.y',flip*30)
+    setProperty('camGame.zoom',1.02)
+    doTweenZoom('zoom1','camGame',1,crochet*0.001,'sineOut')
+    doTweenY('notes2','offsettween',0,crochet*0.001,'sineOut')
+    setProperty('offsettween.angle',40)
 end
+function onStepHit()
+    floorStep = math.floor(currentStep)
+    if floorStep < 64 then
+        for i = 0,3 do
+            if floorStep % 8 == i then
+            setProperty('offsettween.angle',(4-i)*10)
+            end
+        end
+        for i = 4,7 do
+            if floorStep % 8 == i then
+            setProperty('offsettween.angle',(8-i)*-10)
+            end
+        end
+        if floorStep % 8 == 0 then
+            setProperty('offsettween.y',-30)
+            setProperty('camGame.zoom',1.02)
+            doTweenZoom('zoom1','camGame',1,crochet*0.001,'sineOut')
+            doTweenY('notes2','offsettween',0,crochet*0.001,'sineOut')
+        end
+        if floorStep % 8 == 4 then
+            setProperty('offsettween.y',30)
+            setProperty('camGame.zoom',1.02)
+            doTweenZoom('zoom1','camGame',1,crochet*0.001,'sineOut')
+            doTweenY('notes2','offsettween',0,crochet*0.001,'sineOut')
+        end
+    end
+    if (floorStep >= 64 and floorStep < 448) or (floorStep >= 512 and floorStep < 832) then
+        if floorStep % 8 == 0 then
+            setProperty('offsettween.x',-80)
+            doTweenX('p1','offsettween',0,stepCrochet*0.0018,'backIn')
+        end
+        if floorStep % 8 == 2 then
+            setProperty('offsettween.y',50)
+            doTweenY('p2','offsettween',0,stepCrochet*0.0038,'expoOut')
+        end
+        if floorStep % 8 == 5 then
+            setProperty('offsettween.x',80)
+            doTweenX('p3','offsettween',0,stepCrochet*0.0008,'linear')
+        end
+        if floorStep % 8 == 6 then
+            setProperty('offsettween.y',-50)
+            doTweenY('p4','offsettween',0,stepCrochet*0.0018,'expoOut')
+        end
+    end
+    if floorStep >= 448 and floorStep < 504 then
+        setProperty('offsettween.alpha',0.1)
+        if floorStep % 4 == 0 then
+            for i = 4,7 do
+                setProperty('notes' .. i .. '.y',-110)
+                doTweenY('epic' .. i,'notes' .. i,110,crochet*0.001,'linear')
+            end
+            setProperty('offsettween.x',40)
+            doTweenX('bruh','offsettween',0,crochet*0.001,'sineOut')
+        end
+        setProperty('offsettween.y',getProperty('offsettween.y')+0.25)
+    end
+    if floorStep == 504 then
+        doTweenAlpha('alph','offsettween',0.25,crochet*0.002,'sineOut')
+            for i = 4,7 do
+                doTweenY('epic' .. i,'notes' .. i,0,crochet*0.002,'sineOut')
+            end
+            setProperty('offsettween.x',90)
+            doTweenX('bruh1','offsettween',0,crochet*0.002,'sineOut')
+            doTweenY('bruh2','offsettween',12,crochet*0.002,'sineOut')
+    end
+end
+function onUpdatePost()
+    setProperty('introSoundsSuffix', '-bambi')
+    setProperty('camHUD.zoom',0.8)
+    setProperty('timeBar.alpha',0)
+    setProperty('timeTxt.alpha',0)
+    setProperty('healthBar.alpha',0)
+    setProperty('iconP1.alpha',0)
+    setProperty('iconP2.alpha',0)
+    setProperty('scoreTxt.alpha',0)
+    setProperty('boyfriend.scale.x',0.6)
+    setProperty('boyfriend.scale.y',0.6)
+    setProperty('dad.scale.x',0.6)
+    setProperty('dad.scale.y',0.6)
+    songPos = getSongPosition()
+    currentStep = (songPos/1000)*(curBpm/15)
+    offset1 = getProperty('offsettween.x')
+    offset2 = getProperty('offsettween.y')
+    offset3 = getProperty('offsettween.angle')
+    speed = getProperty('offsettween.alpha')
+    triggerEvent('Change Scroll Speed',speed, 0.001)
+    s1 = -s1
+    if s1 == 1 then
+        s2 = -s2
+    end
+    for i = 0,3 do
+        setPropertyFromGroup('strumLineNotes',i,'x',strumx1+(i-1.5)*110+getProperty('notes' .. i .. '.x'))
+        setPropertyFromGroup('strumLineNotes',i,'y',strumy+getProperty('notes' .. i .. '.y')*mult)
+        setPropertyFromGroup('strumLineNotes',i,'alpha',0)
+    end
+    for i = 4,7 do
+        setPropertyFromGroup('strumLineNotes',i,'x',strumx2+(i-5.5)*110+getProperty('notes' .. i .. '.x'))
+        setPropertyFromGroup('strumLineNotes',i,'y',strumy+getProperty('notes' .. i .. '.y')*mult)
+    end
+    if currentStep > 0 and currentStep < 64 then
+        for i = 4,7 do
+            setProperty('notes' .. i .. '.x',-330+math.sin((currentStep/4)*math.pi)*30)
+            setProperty('notes' .. i .. '.y',math.sin((i/1.5+currentStep/16)*math.pi)*offset3)
+            setPropertyFromGroup('strumLineNotes',i,'angle',offset3*0.5)
 
-function onTweenCompleted(tag)
-	notePosX0 = getPropertyFromGroup('opponentStrums', 0, 'x')
-	notePosX1 = getPropertyFromGroup('opponentStrums', 1, 'x')
-	notePosX2 = getPropertyFromGroup('opponentStrums', 2, 'x')
-	notePosX3 = getPropertyFromGroup('opponentStrums', 3, 'x')
-	notePosX4 = getPropertyFromGroup('playerStrums', 0, 'x')
-	notePosX5 = getPropertyFromGroup('playerStrums', 1, 'x')
-	notePosX6 = getPropertyFromGroup('playerStrums', 2, 'x')
-	notePosX7 = getPropertyFromGroup('playerStrums', 3, 'x')
-
-	if tag == "0" then
-		noteTweenX("1", 0, (notePosX0 - 600), 0.5, easingstyle)
-		noteTweenX("12", 1, (notePosX1 - 600), 0.5, easingstyle)
-		noteTweenX("13", 2, (notePosX2 - 600), 0.5, easingstyle)
-		noteTweenX("14", 3, (notePosX3 - 600), 0.5, easingstyle)
-
-		noteTweenX("15", 4, (notePosX4 + 600), 0.5, easingstyle)
-		noteTweenX("16", 5, (notePosX5 + 600), 0.5, easingstyle)
-		noteTweenX("17", 6, (notePosX6 + 600), 0.5, easingstyle)
-		noteTweenX("18", 7, (notePosX7 + 600), 0.5, easingstyle)
-	end
-	if tag == "1" then
-		noteTweenX("0", 0, (notePosX0 + 600), 0.5, easingstyle)
-		noteTweenX("02", 1, (notePosX1 + 600), 0.5, easingstyle)
-		noteTweenX("03", 2, (notePosX2 + 600), 0.5, easingstyle)
-		noteTweenX("04", 3, (notePosX3 + 600), 0.5, easingstyle)
-		noteTweenX("05", 4, (notePosX4 - 600), 0.5, easingstyle)
-		noteTweenX("06", 5, (notePosX5 - 600), 0.5, easingstyle)
-		noteTweenX("07", 6, (notePosX6 - 600), 0.5, easingstyle)
-		noteTweenX("08", 7, (notePosX7 - 600), 0.5, easingstyle)
-	end
+        end
+    end
+    if (currentStep >= 64 and currentStep < 448) or (currentStep >= 512 and currentStep < 832) then
+        for i = 4,7 do
+            setPropertyFromGroup('strumLineNotes',i,'angle',0)
+            setProperty('notes' .. i .. '.x',-330+offset2)
+            setProperty('notes' .. i .. '.y',0+math.sin((i/3+currentStep/13)*math.pi)*offset1)
+        end
+    end
+    if currentStep >= 448 and currentStep < 512 then
+        for i = 4,7 do
+            setProperty('notes' .. i .. '.x',-330+math.sin((i/2+currentStep/-16+offset2)*math.pi)*offset1)
+        end
+    end
 end

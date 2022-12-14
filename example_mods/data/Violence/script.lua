@@ -10,3 +10,7 @@ function onCreate()
     setTextColor('dis', 'FFFFFF')
     addLuaText('dis',true)
 end
+
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-exosphere')
+end

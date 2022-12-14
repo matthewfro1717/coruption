@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Dave_New.png"><SubTexture name="Dave_New idle0000" x="0" y="2225" width="668" height="1078" frameX="-243" frameY="-219" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New idle0001" x="668" y="2225" width="653" height="1060" frameX="-243" frameY="-253" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New idle0002" x="3265" y="1084" width="659" height="1074" frameX="-243" frameY="-234" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New idle0003" x="3265" y="0" width="662" height="1084" frameX="-243" frameY="-223" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New idle0004" x="1321" y="2225" width="673" height="1057" frameX="-243" frameY="-209" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New left0000" x="0" y="1131" width="865" height="1094" frameX="-36" frameY="-218" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New left0001" x="865" y="1131" width="862" height="1093" frameX="-39" frameY="-220" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New left0002" x="1861" y="0" width="847" height="1095" frameX="-44" frameY="-220" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New down0000" x="2551" y="2225" width="557" height="1052" frameX="-243" frameY="-240" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New down0001" x="3108" y="2225" width="557" height="1036" frameX="-243" frameY="-259" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New down0002" x="1994" y="2225" width="557" height="1054" frameX="-243" frameY="-239" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New up0000" x="1231" y="0" width="630" height="1117" frameX="-243" frameY="-202" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New up0001" x="0" y="0" width="616" height="1131" frameX="-243" frameY="-187" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New up0002" x="616" y="0" width="615" height="1118" frameX="-243" frameY="-203" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New right0000" x="2708" y="1089" width="557" height="1088" frameX="-243" frameY="-224" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New right0001" x="1727" y="1131" width="572" height="1093" frameX="-243" frameY="-222" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_New right0002" x="2708" y="0" width="557" height="1089" frameX="-243" frameY="-222" frameWidth="1084" frameHeight="1463" />
+</TextureAtlas>

@@ -20,3 +20,7 @@ function onBeatHit()
         doTweenColor('epic1','iconP2','FFFFFF',crochet*0.001-0.01,'linear')
     end
 end
+
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-exosphere')
+end

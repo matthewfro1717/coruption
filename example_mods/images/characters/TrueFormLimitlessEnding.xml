@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="TrueFormLimitlessEnding.png"><SubTexture name="TrueFormLimitlessEnding down0000" x="0" y="0" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding down0001" x="1204" y="0" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding down0002" x="2408" y="0" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding down0003" x="3612" y="0" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding down0004" x="4816" y="0" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding down0005" x="0" y="1204" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding down0006" x="1204" y="1204" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding idle0000" x="2408" y="1204" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding idle0001" x="3612" y="1204" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding idle0002" x="4816" y="1204" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding idle0003" x="0" y="2408" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding left0000" x="1204" y="2408" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding left0001" x="2408" y="2408" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding left0002" x="3612" y="2408" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding left0003" x="4816" y="2408" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding left0004" x="0" y="3612" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding left0005" x="1204" y="3612" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding left0006" x="2408" y="3612" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding left0007" x="3612" y="3612" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding right0000" x="4816" y="3612" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding right0001" x="0" y="4816" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding right0002" x="1204" y="4816" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding right0003" x="2408" y="4816" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding right0004" x="3612" y="4816" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding right0005" x="4816" y="4816" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding right0006" x="0" y="6020" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding right0007" x="1204" y="6020" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding up0000" x="2408" y="6020" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding up0001" x="3612" y="6020" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding up0002" x="4816" y="6020" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding up0003" x="0" y="7224" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding up0004" x="1204" y="7224" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding up0005" x="2408" y="7224" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding up0006" x="3612" y="7224" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+<SubTexture name="TrueFormLimitlessEnding up0007" x="4816" y="7224" width="1204" height="1204" frameX="0" frameY="0" frameWidth="1204" frameHeight="1204" />
+</TextureAtlas>

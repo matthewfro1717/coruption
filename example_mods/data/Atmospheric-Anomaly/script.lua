@@ -43,3 +43,9 @@ function onUpdate()
     noteTweenAlpha('itsnothere2',2, 0, 0.001, 'sineOut')
     noteTweenAlpha('itsnothere3',3, 0, 0.001, 'sineOut')
 end
+
+function onCountdownStarted()
+	for i = 0, 3 do
+		setPropertyFromGroup('opponentStrums', i, 'x', -900);
+	end
+end

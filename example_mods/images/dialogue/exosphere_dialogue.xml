@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="exosphere_dialogue.png"><SubTexture name="exosphere_dialogue enraged0000" x="0" y="1845" width="1500" height="1845" frameX="0" frameY="0" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="exosphere_dialogue anxious0000" x="1500" y="1845" width="1500" height="1845" frameX="0" frameY="0" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="exosphere_dialogue worried0000" x="3000" y="1845" width="1500" height="1845" frameX="0" frameY="0" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="exosphere_dialogue agitated0000" x="4500" y="0" width="1500" height="1845" frameX="0" frameY="0" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="exosphere_dialogue confused0000" x="4500" y="1845" width="1500" height="1845" frameX="0" frameY="0" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="exosphere_dialogue smug0000" x="0" y="0" width="1500" height="1845" frameX="0" frameY="0" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="exosphere_dialogue talk0000" x="1500" y="0" width="1500" height="1845" frameX="0" frameY="0" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="exosphere_dialogue idle0000" x="3000" y="0" width="1500" height="1845" frameX="0" frameY="0" frameWidth="1500" frameHeight="2000" />
+</TextureAtlas>

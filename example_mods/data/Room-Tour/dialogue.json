@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "Smiling",
+			"text": "Looks like the storm is getting worse..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Say... do you wan't to stay here for the night until the storm clears up?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beep!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "Happy",
+			"text": "Sweet! "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'll be leading you to your room for tonight, hopefully the power doesnt go out."
+		}
+	]
+}

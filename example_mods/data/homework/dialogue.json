@@ -1,0 +1,92 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Well, I think thats all the chores Dad gave me for the day.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Tristan"
+		},
+		{
+			"expression": "idle",
+			"text": "But I can't seem to find him or Mr. Bambi anywhere...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Tristan"
+		},
+		{
+			"expression": "talk",
+			"text": "Bah!",
+			"boxState": "normal",
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "joyful",
+			"text": "Oh Hi Tristan! Thank goodness you're still here.",
+			"boxState": "normal",
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "joyful",
+			"text": "Oh hey, it's you guys!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan"
+		},
+		{
+			"expression": "idle",
+			"text": "I'm just kind of worried right now.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan"
+		},
+		{
+			"expression": "talk",
+			"text": "I can't seem to find my Dad or Mr. Bambi anywhere. Have you seen them?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan"
+		},
+		{
+			"expression": "idle",
+			"text": "Behhhhhhh...",
+			"boxState": "normal",
+			"sound": "bfspeak",
+			"speed": 0.115,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "what",
+			"text": "Oh.... well.....",
+			"boxState": "normal",
+			"sound": "gfspeak",
+			"speed": 0.09,
+			"portrait": "gf"
+		},
+		{
+			"expression": "joyful",
+			"text": "How about a song first? I don't think it'll hurt and it has been a good while.",
+			"boxState": "normal",
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Ok! Maybe they'll come back after.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Tristan"
+		}
+	]
+}

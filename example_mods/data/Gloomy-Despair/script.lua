@@ -7,3 +7,7 @@ function onCreate() --setting variables and making sprites
     setTextColor('dis', 'FFFFFF')
     addLuaText('dis',true)
 end
+
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-exosphere')
+end

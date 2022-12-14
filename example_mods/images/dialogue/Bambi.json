@@ -1,50 +1,102 @@
 {
-	"position": [
-		-140,
-		-200
-	],
 	"dialogue_pos": "left",
-	"scale": 0.85,
-	"image": "Bambi",
+	"position": [
+		0,
+		50
+	],
+	"scale": 1,
 	"animations": [
 		{
-			"loop_offsets": [
-				0,
-				0
-			],
-			"anim": "mad",
-			"idle_offsets": [
-				0,
-				0
-			],
-			"loop_name": "Bambi mad",
-			"idle_name": "bambi mad0001"
-		},
-		{
-			"loop_offsets": [
-				0,
-				0
-			],
 			"anim": "talk",
-			"idle_offsets": [
-				0,
-				0
+			"loop_offsets": [
+				280,
+				331
 			],
-			"loop_name": "Bambi talk",
-			"idle_name": "Bambi talk0002"
+			"idle_offsets": [
+				280,
+				331
+			],
+			"loop_name": "bambi_dialogue mad",
+			"idle_name": "bambi_dialogue mad"
 		},
 		{
-			"loop_name": "Bambi sickly",
+			"loop_name": "bambi_dialogue smug",
 			"idle_offsets": [
-				0,
-				0
+				280,
+				331
 			],
-			"idle_name": "Bambi sickly0001",
-			"anim": "sickly",
+			"idle_name": "bambi_dialogue smug",
+			"anim": "smug",
 			"loop_offsets": [
-				0,
-				0
+				280,
+				331
+			]
+		},
+		{
+			"loop_name": "bambi_dialogue worried",
+			"idle_offsets": [
+				280,
+				331
+			],
+			"idle_name": "bambi_dialogue worried",
+			"anim": "worried",
+			"loop_offsets": [
+				280,
+				331
+			]
+		},
+		{
+			"loop_name": "bambi_dialogue sad",
+			"idle_offsets": [
+				280,
+				331
+			],
+			"idle_name": "bambi_dialogue sad",
+			"anim": "sad",
+			"loop_offsets": [
+				280,
+				331
+			]
+		},
+		{
+			"loop_name": "bambi_dialogue shocked",
+			"idle_offsets": [
+				280,
+				331
+			],
+			"idle_name": "bambi_dialogue shocked",
+			"anim": "shocked",
+			"loop_offsets": [
+				280,
+				331
+			]
+		},
+		{
+			"loop_name": "bambi_dialogue idle",
+			"idle_offsets": [
+				280,
+				331
+			],
+			"idle_name": "bambi_dialogue idle",
+			"anim": "idle",
+			"loop_offsets": [
+				280,
+				331
+			]
+		},
+		{
+			"loop_name": "bambi_dialogue screwed",
+			"idle_offsets": [
+				280,
+				331
+			],
+			"idle_name": "bambi_dialogue screwed",
+			"anim": "screwed",
+			"loop_offsets": [
+				280,
+				331
 			]
 		}
-	]
+	],
+	"image": "bambi_dialogue"
 }

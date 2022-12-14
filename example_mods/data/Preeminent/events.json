@@ -1,0 +1,66 @@
+{
+	"song": {
+		"events": [
+			[
+				16000,
+				[
+					[
+						"Change Scroll Speed",
+						"1.7",
+						"1"
+					]
+				]
+			],
+			[
+				94000,
+				[
+					[
+						"Subtitles",
+						"THREE",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				94500,
+				[
+					[
+						"Subtitles",
+						"TWO",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				95000,
+				[
+					[
+						"Subtitles",
+						"ONE",
+						"FFFFFF"
+					]
+				]
+			],
+			[
+				95500,
+				[
+					[
+						"Subtitles",
+						"GO",
+						"FF0000"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Subtitles",
+						"",
+						"FF0000"
+					]
+				]
+			]
+		]
+	}
+}

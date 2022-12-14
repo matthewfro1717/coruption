@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				255,
+				460
+			],
+			"anim": "idle",
+			"fps": 15,
+			"name": "Enraged_Bambi_New idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				255,
+				459
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "Enraged_Bambi_New up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				252,
+				459
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "Enraged_Bambi_New left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				255,
+				461
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "Enraged_Bambi_New down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				258,
+				460
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "Enraged_Bambi_New right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				259,
+				462
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 16,
+			"name": "Enraged_Bambi_New RIGHT-alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				259,
+				462
+			],
+			"anim": "singUP-alt",
+			"fps": 16,
+			"name": "Enraged_Bambi_New UP-alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				259,
+				462
+			],
+			"anim": "singLEFT-alt",
+			"fps": 16,
+			"name": "Enraged_Bambi_New LEFT-alt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				259,
+				462
+			],
+			"anim": "singDOWN-alt",
+			"fps": 16,
+			"name": "Enraged_Bambi_New DOWN-alt",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Enraged_Bambi_New",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "Madman",
+	"flip_x": false,
+	"healthbar_colors": [
+		195,
+		0,
+		0
+	],
+	"camera_position": [
+		130,
+		-260
+	],
+	"sing_duration": 4,
+	"scale": 0.6
+}

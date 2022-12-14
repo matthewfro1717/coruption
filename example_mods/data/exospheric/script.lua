@@ -5,6 +5,7 @@ function onUpdatePost()
 	setProperty('introSoundsSuffix', '-exosphere')
 end
 
+
 function onUpdate()
 	songPos = getSongPosition()
 	setProperty('timeBar.color', getColorFromHex('FFFFFF'))

@@ -1,20 +1,28 @@
 {
 	"dialogue": [
 		{
-			"sound": "glitchbambitalk",
-			"speed": 0.05,
-			"portrait": "exobamb",
+			"expression": "shocked",
+			"text": "?!",
 			"boxState": "angry",
-			"expression": "talk",
-			"text": "I know everything this person has to offer now."
-		},
-		{
 			"sound": "bfspeak",
 			"speed": 0.05,
-			"portrait": "bf",
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "shocked",
+			"text": "WHAT EVEN IS THIS THING??",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "ok"
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "WHAT HAVE THEY DONE TO EVERYONE?!"
 		},
 		{
 			"sound": "glitchbambitalk",
@@ -22,7 +30,7 @@
 			"portrait": "exobamb",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "Hope you liked that warm up, because your final destination will be your own grave."
+			"text": "... his presence belongs to me now."
 		},
 		{
 			"sound": "glitchbambitalk",
@@ -30,15 +38,39 @@
 			"portrait": "exobamb",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "That grave being right where you stand..."
+			"text": "He has the energy I need in order to live freely."
 		},
 		{
-			"sound": "bfspeak",
+			"sound": "glitchbambitalk",
 			"speed": 0.05,
-			"portrait": "bf",
+			"portrait": "exobamb",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "coolswag"
+			"text": "Don't tire yourself out, as I've already gotten used to your friend over here."
+		},
+		{
+			"expression": "talk",
+			"text": "You blue haired midget...",
+			"boxState": "normal",
+			"sound": "glitchbambitalk",
+			"speed": 0.1,
+			"portrait": "exobamb"
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hes 7ft tall lmfao"
+		},
+		{
+			"expression": "shocked",
+			"text": "what",
+			"boxState": "normal",
+			"sound": "glitchbambitalk",
+			"speed": 0.05,
+			"portrait": "exobamb"
 		}
 	]
 }

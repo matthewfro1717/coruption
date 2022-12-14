@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				236,
+				660
+			],
+			"loop": true,
+			"fps": 15,
+			"anim": "idle",
+			"indices": [],
+			"name": "Dave_Worried_New idle"
+		},
+		{
+			"offsets": [
+				236,
+				660
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Dave_Worried_New left"
+		},
+		{
+			"offsets": [
+				236,
+				660
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Dave_Worried_New down"
+		},
+		{
+			"offsets": [
+				236,
+				660
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Dave_Worried_New up"
+		},
+		{
+			"offsets": [
+				236,
+				660
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Dave_Worried_New right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Dave_Worried_New",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "worrieddave",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		80,
+		242
+	],
+	"camera_position": [
+		70,
+		-440
+	],
+	"sing_duration": 4,
+	"scale": 0.6
+}

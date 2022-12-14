@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "beppppp...."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "Shocked",
+			"text": "Oh you're awake!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "BEEP!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh! Don't be scared, I brought you inside as you fell unconscious in a middle of a snowstorm."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "allure",
+			"boxState": "normal",
+			"expression": "Happy",
+			"text": "I can't let anyone die in front of my eyes."
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "joyful",
+			"text": "bep!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "allure",
+			"boxState": "normal",
+			"expression": "Shocked",
+			"text": "Oh, I see you brought a microphone!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "allure",
+			"boxState": "normal",
+			"expression": "Erm",
+			"text": "Maybe, we could sing for a bit... I'm kind of bored and have nothing to do."
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bep!"
+		}
+	]
+}

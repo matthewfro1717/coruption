@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				460
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Der idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				262,
+				461
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Der left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				455
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Der down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				477
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Der up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				152,
+				464
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Der right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				266,
+				472
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Der leftmiss"
+		},
+		{
+			"offsets": [
+				186,
+				452
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Der downmiss"
+		},
+		{
+			"offsets": [
+				206,
+				492
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Der upmiss"
+		},
+		{
+			"offsets": [
+				146,
+				462
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Der rightmiss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Der",
+	"position": [
+		320,
+		300
+	],
+	"healthicon": "Der",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		215,
+		215
+	],
+	"camera_position": [
+		-50,
+		-360
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}

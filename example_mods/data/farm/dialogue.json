@@ -1,52 +1,52 @@
 {
 	"dialogue": [
 		{
-                                   "sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged",
-			"boxState": "normal",
 			"expression": "mad",
-			"text": "you cheat again??"
+			"text": "you cheat again??",
+			"boxState": "normal",
+			"sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged"
 		},
 		{
-                                    "sound": "gfspeak",
-			"speed": 0.05,
-			"portrait": "gf",
+			"expression": "shocked",
+			"text": "Listen, something happened to Dave and we don't know what to do.",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "Listen, something happened to Dave and we don't know what to do."
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf"
 		},
 		{
-                                    "sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged",
-			"boxState": "normal",
 			"expression": "mad",
-			"text": "why would i believe cheater like you??"
+			"text": "why would i believe cheater like you??",
+			"boxState": "normal",
+			"sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged"
 		},
 		{
-                                    "sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "i think dave is fine"
+			"text": "i think dave is fine",
+			"boxState": "normal",
+			"sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged"
 		},
 		{
-                                    "sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged",
+			"expression": "talking",
+			"text": "(even though ive never seen him for long time)",
 			"boxState": "normal",
+			"sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged"
+		},
+		{
 			"expression": "mad",
-			"text": "(even though ive never seen him for long time)"
-		},
-		{
-                                    "sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged",
+			"text": "rap and if you win uhhhhhh.... idk what i can do",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "rap and if you win uhhhhhh.... idk what i can do"
+			"sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged"
 		}
 	]
 }

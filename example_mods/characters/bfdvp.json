@@ -1,0 +1,197 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"name": "Dad idle dance"
+		},
+		{
+			"offsets": [
+				-9,
+				10
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "Dad Sing Note LEFT"
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "Dad Sing Note RIGHT"
+		},
+		{
+			"offsets": [
+				-6,
+				50
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "Dad Sing Note UP"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				140,
+				-100
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "WhatYouKnowAboutRollingDownInTheDeep",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				202
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "bfdvp left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				202
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "bfdvp down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				202
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "bfdvp up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				201
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "bfdvp right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				203
+			],
+			"anim": "singLEFTmiss",
+			"fps": 18,
+			"name": "bfdvp missleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				200
+			],
+			"anim": "singDOWNmiss",
+			"fps": 18,
+			"name": "bfdvp missdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				201
+			],
+			"anim": "singUPmiss",
+			"fps": 18,
+			"name": "bfdvp missup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				202
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 18,
+			"name": "bfdvp missright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "idle",
+			"fps": 18,
+			"name": "bfdvp idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bfdvp",
+	"position": [
+		-450,
+		650
+	],
+	"healthicon": "bfdvp",
+	"flip_x": true,
+	"healthbar_colors": [
+		214,
+		102,
+		255
+	],
+	"camera_position": [
+		15,
+		-530
+	],
+	"sing_duration": 6.1,
+	"scale": 1.4
+}

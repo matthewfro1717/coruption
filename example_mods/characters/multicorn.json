@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				201
+			],
+			"anim": "singLEFT",
+			"fps": 14,
+			"name": "multicorn left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				161
+			],
+			"anim": "singDOWN",
+			"fps": 14,
+			"name": "multicorn down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				251
+			],
+			"anim": "singUP",
+			"fps": 14,
+			"name": "multicorn up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				201
+			],
+			"anim": "singRIGHT",
+			"fps": 14,
+			"name": "multicorn right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "idle",
+			"fps": 14,
+			"name": "multicorn idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/multicorn",
+	"position": [
+		-430,
+		-20
+	],
+	"healthicon": "multicorn",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		130,
+		-140
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

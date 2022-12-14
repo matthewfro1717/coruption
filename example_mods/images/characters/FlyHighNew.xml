@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="FlyHighNew.png"><SubTexture name="FlyHighNew down0000" x="0" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew down0001" x="724" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew down0002" x="1448" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0000" x="2172" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0001" x="2896" y="0" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0002" x="0" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0003" x="724" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0004" x="1448" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0005" x="2172" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0006" x="2896" y="724" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0007" x="0" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0008" x="724" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0009" x="1448" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0010" x="2172" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0011" x="2896" y="1448" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew idle0012" x="0" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew left0000" x="724" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew left0001" x="1448" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew left0002" x="2172" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew right0000" x="2896" y="2172" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew right0001" x="0" y="2896" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew right0002" x="724" y="2896" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew up0000" x="1448" y="2896" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew up0001" x="2172" y="2896" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+<SubTexture name="FlyHighNew up0002" x="2896" y="2896" width="724" height="724" frameX="0" frameY="0" frameWidth="724" frameHeight="724" />
+</TextureAtlas>

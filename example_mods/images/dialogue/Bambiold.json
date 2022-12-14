@@ -1,0 +1,50 @@
+{
+	"position": [
+		-140,
+		-200
+	],
+	"dialogue_pos": "left",
+	"scale": 0.85,
+	"image": "Bambi",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Bambi mad",
+			"idle_name": "bambi mad0001"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Bambi talk",
+			"idle_name": "Bambi talk0002"
+		},
+		{
+			"loop_name": "Bambi sickly",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Bambi sickly0001",
+			"anim": "sickly",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

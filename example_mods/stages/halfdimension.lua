@@ -4,32 +4,18 @@ local alphaisfucked = true; --made this since for some fucking reason pb kept ap
 
 function onCreate()
 	-- background shit
-    makeLuaSprite('half', 'halfdimension', -800,-1200)
+    makeLuaSprite('half', 'halfdimension', -2500,-2100)
     setLuaSpriteScrollFactor('half', 0.9, 0.9); 
     addLuaSprite('half')
 	scaleObject('half', 3, 3);
-
-
 end
 
-function onUpdate(elapsed)
+function onUpdate()
     songPos = getSongPosition()
-    local currentBeat = (songPos/5000)*(curBpm/60)
-    setCharacterY('dad',getCharacterY('dad') + (math.sin(currentBeat) * 0.8))
-    function onMoveCamera(focus)
-        if focus == 'boyfriend' then
-            -- called when the camera focus on boyfriend
-        elseif focus == 'dad' then
-            setProperty('camFollowPos.y',getProperty('camFollowPos.y') + (math.sin(currentBeat) * 0.6))
-        end
-    end
+	local currentBeat = (songPos/1000)*(bpm/60)
+    setProperty('half.angle',currentBeat*7)
 end
-
-function onCreatePost()
-    addGlitchEffect('half', 0.5, 0.5);
-    setProperty('gf.alpha', 0)
-end
-
+    
 
 function onBeatHit()
     if curBeat > 0 then

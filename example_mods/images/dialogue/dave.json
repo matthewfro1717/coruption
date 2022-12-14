@@ -1,63 +1,102 @@
 {
-	"dialogue_pos": "left",
 	"position": [
-		40,
-		-30
+		0,
+		50
 	],
-	"scale": 1.4,
+	"dialogue_pos": "left",
+	"scale": 0.85,
+	"image": "dave_dialogue",
 	"animations": [
 		{
-			"loop_name": "Dave rap",
 			"idle_offsets": [
-				0,
-				0
+				410,
+				741
 			],
-			"idle_name": "Dave rap0001",
-			"anim": "rap",
 			"loop_offsets": [
-				0,
-				0
-			]
+				410,
+				741
+			],
+			"anim": "talk",
+			"idle_name": "dave_dialogue talk",
+			"loop_name": "dave_dialogue talk"
 		},
 		{
-			"loop_name": "Dave happy",
-			"idle_offsets": [
-				0,
-				0
-			],
-			"idle_name": "Dave happy0001",
-			"anim": "happy",
 			"loop_offsets": [
-				0,
-				0
-			]
-		},
-		{
-			"loop_name": "Dave worried",
-			"idle_offsets": [
-				0,
-				0
+				410,
+				741
 			],
-			"idle_name": "Dave worried0001",
 			"anim": "worried",
+			"idle_offsets": [
+				410,
+				741
+			],
+			"loop_name": "dave_dialogue worried",
+			"idle_name": "dave_dialogue worried"
+		},
+		{
 			"loop_offsets": [
-				0,
-				0
+				410,
+				741
+			],
+			"anim": "sad",
+			"idle_offsets": [
+				410,
+				741
+			],
+			"loop_name": "dave_dialogue sad",
+			"idle_name": "dave_dialogue sad"
+		},
+		{
+			"loop_offsets": [
+				410,
+				741
+			],
+			"anim": "idle",
+			"idle_offsets": [
+				410,
+				741
+			],
+			"loop_name": "dave_dialogue idle",
+			"idle_name": "dave_dialogue idle"
+		},
+		{
+			"loop_name": "dave_dialogue anxious",
+			"idle_offsets": [
+				410,
+				741
+			],
+			"idle_name": "dave_dialogue anxious",
+			"anim": "anxious",
+			"loop_offsets": [
+				410,
+				741
 			]
 		},
 		{
-			"loop_name": "Dave pain",
+			"loop_name": "dave_dialogue seethe",
 			"idle_offsets": [
-				0,
-				0
+				410,
+				741
 			],
-			"idle_name": "Dave pain0001",
-			"anim": "pain",
+			"idle_name": "dave_dialogue seethe",
+			"anim": "seethe",
 			"loop_offsets": [
-				0,
-				0
+				410,
+				741
+			]
+		},
+		{
+			"loop_name": "dave_dialogue joyful",
+			"idle_offsets": [
+				410,
+				741
+			],
+			"idle_name": "dave_dialogue joyful",
+			"anim": "joyful",
+			"loop_offsets": [
+				410,
+				741
 			]
 		}
-	],
-	"image": "Dave"
+	]
 }

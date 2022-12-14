@@ -1,0 +1,124 @@
+{
+	"dialogue": [
+		{
+			"expression": "worried",
+			"text": "This... would've been the time Dad would ground me for singing with you.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Tristan"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "sobbing",
+			"text": "I'm sorry..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "sobbing",
+			"text": "I'm... really sorry..."
+		},
+		{
+			"sound": "",
+			"speed": 0.125,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "Dad's gone and it's all my fault."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "sobbing",
+			"text": "I could've been there to save him, and Mr.Bambi too."
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "Tristan..."
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "This isn't your fault... there's nothing you could do-"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "B-But I was having too much fun... and I didn't think about them."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "Now I can't save you guys either..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Tristan",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "I..."
+		},
+		{
+			"sound": "",
+			"speed": 0.245,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "crying",
+			"text": "..."
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.11,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "sad",
+			"text": "Tristan..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "normal",
+			"expression": "sobbing",
+			"text": "I'M SORRRRYYYYYY!!!!"
+		}
+	]
+}

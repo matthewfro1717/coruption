@@ -1,0 +1,128 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		50
+	],
+	"scale": 0.6,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				450,
+				691
+			],
+			"idle_offsets": [
+				450,
+				691
+			],
+			"loop_name": "tristan_dialogue talk",
+			"idle_name": "tristan_dialogue talk"
+		},
+		{
+			"idle_offsets": [
+				450,
+				691
+			],
+			"anim": "worried",
+			"loop_offsets": [
+				450,
+				691
+			],
+			"idle_name": "tristan_dialogue worried",
+			"loop_name": "tristan_dialogue worried"
+		},
+		{
+			"idle_offsets": [
+				450,
+				691
+			],
+			"anim": "idle",
+			"loop_offsets": [
+				450,
+				691
+			],
+			"idle_name": "tristan_dialogue idle",
+			"loop_name": "tristan_dialogue idle"
+		},
+		{
+			"loop_offsets": [
+				450,
+				691
+			],
+			"anim": "joyful",
+			"idle_offsets": [
+				450,
+				691
+			],
+			"loop_name": "tristan_dialogue joyful",
+			"idle_name": "tristan_dialogue joyful"
+		},
+		{
+			"loop_name": "tristan_dialogue surprised",
+			"idle_offsets": [
+				450,
+				691
+			],
+			"idle_name": "tristan_dialogue surprised",
+			"anim": "surprised",
+			"loop_offsets": [
+				450,
+				691
+			]
+		},
+		{
+			"loop_name": "tristan_dialogue crying",
+			"idle_offsets": [
+				450,
+				691
+			],
+			"idle_name": "tristan_dialogue crying",
+			"anim": "crying",
+			"loop_offsets": [
+				450,
+				691
+			]
+		},
+		{
+			"loop_name": "tristan_dialogue sobbing",
+			"idle_offsets": [
+				450,
+				691
+			],
+			"idle_name": "tristan_dialogue sobbing",
+			"anim": "sobbing",
+			"loop_offsets": [
+				450,
+				691
+			]
+		},
+		{
+			"loop_name": "tristan_dialogue what",
+			"idle_offsets": [
+				450,
+				691
+			],
+			"idle_name": "tristan_dialogue what",
+			"anim": "what",
+			"loop_offsets": [
+				450,
+				691
+			]
+		},
+		{
+			"loop_name": "tristan_dialogue scrunkle",
+			"idle_offsets": [
+				450,
+				691
+			],
+			"idle_name": "tristan_dialogue scrunkle",
+			"anim": "scrunkle",
+			"loop_offsets": [
+				450,
+				691
+			]
+		}
+	],
+	"image": "tristan_dialogue"
+}

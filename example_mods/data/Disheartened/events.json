@@ -1,10 +1,5 @@
 {
 	"song": {
-		"speed": 3.4,
-		"stage": "TheTrueVoid",
-		"player1": "bf",
-		"player2": "exosphereangry",
-		"player3": null,
 		"events": [
 			[
 				0,
@@ -33,32 +28,17 @@
 						"MoveArrow",
 						"4",
 						"0,0,0,0,0.001"
-					]
-				]
-			],
-			[
-				11.9047619047619,
-				[
+					],
 					[
 						"MoveArrow",
 						"5",
 						"0,0,0,0,0.001"
-					]
-				]
-			],
-			[
-				17.8571428571429,
-				[
+					],
 					[
 						"MoveArrow",
 						"6",
 						"0,0,0,0,0.001"
-					]
-				]
-			],
-			[
-				23.8095238095238,
-				[
+					],
 					[
 						"MoveArrow",
 						"7",
@@ -191,12 +171,42 @@
 				]
 			],
 			[
-				207714.285714285,
+				207428.571428571,
+				[
+					[
+						"Change Character",
+						"2",
+						"phobiadave"
+					]
+				]
+			],
+			[
+				210285.714285714,
 				[
 					[
 						"Change Character",
 						"1",
 						"phobiadave"
+					]
+				]
+			],
+			[
+				210309.523809523,
+				[
+					[
+						"Change Character",
+						"2",
+						"gfinvisible"
+					]
+				]
+			],
+			[
+				226642.857142856,
+				[
+					[
+						"Change Character",
+						"2",
+						"Exopunged"
 					]
 				]
 			],
@@ -217,6 +227,16 @@
 						"ScreenStuff",
 						"10",
 						"1"
+					]
+				]
+			],
+			[
+				228583.333333332,
+				[
+					[
+						"Change Character",
+						"2",
+						"gfinvisible"
 					]
 				]
 			],
@@ -407,6 +427,86 @@
 						"Arrow flip",
 						"1",
 						"0.3"
+					]
+				]
+			],
+			[
+				264857.142857142,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0.05"
+					]
+				]
+			],
+			[
+				264892.857142856,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0.05"
+					]
+				]
+			],
+			[
+				264928.57142857,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0.05"
+					]
+				]
+			],
+			[
+				264964.285714284,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0.05"
+					]
+				]
+			],
+			[
+				264999.999999999,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0.05"
+					]
+				]
+			],
+			[
+				265035.714285713,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0.05"
+					]
+				]
+			],
+			[
+				265071.428571427,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0.05"
+					]
+				]
+			],
+			[
+				265107.142857142,
+				[
+					[
+						"Add Camera Zoom",
+						"0.05",
+						"0.05"
 					]
 				]
 			],
@@ -781,7 +881,7 @@
 				]
 			],
 			[
-				338285.714285714,
+				313142.857142857,
 				[
 					[
 						"Change Character",
@@ -789,15 +889,92 @@
 						"exosphereangry"
 					]
 				]
+			],
+			[
+				324571.428571428,
+				[
+					[
+						"ChangeSecondaryCharacter",
+						"",
+						"phobiadave"
+					]
+				]
+			],
+			[
+				328000,
+				[
+					[
+						"ChangeSecondaryCharacter",
+						"",
+						"Exopunged"
+					],
+					[
+						"ChangeSecondaryCharacter",
+						"",
+						"exophericbamb"
+					]
+				]
+			],
+			[
+				338285.714285714,
+				[
+					[
+						"ChangeSecondaryCharacter",
+						"exophericbamb",
+						"gfinvisible"
+					],
+					[
+						"ChangeSecondaryCharacter",
+						"phobiadave",
+						"gfinvisible"
+					],
+					[
+						"ChangeSecondaryCharacter",
+						"Exopunged",
+						"gfinvisible"
+					]
+				]
+			],
+			[
+				411428.571428572,
+				[
+					[
+						"Change Character",
+						"1",
+						"exosphereguitar"
+					]
+				]
+			],
+			[
+				411452.380952382,
+				[
+					[
+						"Play Animation",
+						"Summon",
+						"exosphereguitar"
+					]
+				]
+			],
+			[
+				412571.428571429,
+				[
+					[
+						"Opponent Fade",
+						"20",
+						"0"
+					]
+				]
+			],
+			[
+				412571.428571429,
+				[
+					[
+						"Opponent Fade",
+						"19.15",
+						"0"
+					]
+				]
 			]
-		],
-		"notes": [],
-		"splashSkin": null,
-		"validScore": false,
-		"gfVersion": "gfinvisible",
-		"bpm": 105,
-		"arrowSkin": null,
-		"needsVoices": true,
-		"song": "Disheartened"
+		]
 	}
 }

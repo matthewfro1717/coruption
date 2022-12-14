@@ -1,0 +1,156 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "Where the hell even am I..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "All I remember is getting sent through a portal."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "Hmm... maybe she knows?"
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bep."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Liz",
+			"boxState": "normal",
+			"expression": "surprised",
+			"text": "?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bee ba bo bee baa?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Liz",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Oh this place?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Liz",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I mean... I just moved here so I just call it the Purified City."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "joyful",
+			"text": "Bap!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Liz",
+			"boxState": "normal",
+			"expression": "nervous",
+			"text": "Uhhhh, no thanks. I haven't sang in a long while."
+		},
+		{
+			"sound": "flyhighspeak",
+			"speed": 0.05,
+			"portrait": "azstroth",
+			"boxState": "normal",
+			"expression": "gone",
+			"text": "did somone say singing?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "liz",
+			"boxState": "normal",
+			"expression": "oh",
+			"text": ""
+		},
+		{
+			"sound": "flyhighspeak",
+			"speed": 0.05,
+			"portrait": "FlyHigh",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "We rarely get any entertainment out here so screw it I'm down to sing."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Liz",
+			"boxState": "normal",
+			"expression": "erm",
+			"text": "Uhhhhh, don't you have an ongoing war or something."
+		},
+		{
+			"sound": "flyhighspeak",
+			"speed": 0.05,
+			"portrait": "FlyHigh",
+			"boxState": "normal",
+			"expression": "Talk",
+			"text": "Just because I'm always in war between corruption doesn't mean I can't take breaks."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Liz",
+			"boxState": "normal",
+			"expression": "mad",
+			"text": "Guess I could get a radio..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "..."
+		},
+		{
+			"sound": "flyhighspeak",
+			"speed": 0.05,
+			"portrait": "FlyHigh",
+			"boxState": "normal",
+			"expression": "Happy",
+			"text": "Ready when you are! Maybe after I could show you the border between both sides."
+		}
+	]
+}

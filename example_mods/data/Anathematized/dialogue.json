@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.325,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "AltAngry",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.105,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "AltClosedEyes",
+			"text": "An unfortunate one he is..."
+		},
+		{
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "AltTalking",
+			"text": "Running away from someone who wanted to take care of him.."
+		},
+		{
+			"sound": "",
+			"speed": 0.11,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "AltClosedEyes",
+			"text": "At least we have our lucky few"
+		},
+		{
+			"sound": "",
+			"speed": 0.16,
+			"portrait": "Allure",
+			"boxState": "normal",
+			"expression": "AltHolding",
+			"text": "Isn't that right...?"
+		}
+	]
+}

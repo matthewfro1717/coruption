@@ -1,9 +1,9 @@
 function onCreate()
 	-- background shit
     makeLuaSprite('Seraphic', 'Seraphic', -800,-700)
-    setLuaSpriteScrollFactor('Seraphic', 0.9, 0.9); 
+    setLuaSpriteScrollFactor('Seraphic', 1, 1); 
     addLuaSprite('Seraphic')
-	scaleObject('background', 0.3,0.3);
+	scaleObject('background', 2.5,2.5);
 end
 
 function onCreatePost()

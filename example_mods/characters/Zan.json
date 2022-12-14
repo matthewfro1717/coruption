@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				180,
+				460
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Zan idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				296,
+				452
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Zan leftmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				176,
+				422
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Zan downmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				166,
+				492
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Zan upmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				76,
+				462
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Zan rightmiss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				272,
+				471
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Zan left"
+		},
+		{
+			"offsets": [
+				170,
+				405
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Zan down"
+		},
+		{
+			"offsets": [
+				160,
+				487
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Zan up"
+		},
+		{
+			"offsets": [
+				42,
+				474
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Zan right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Zan",
+	"position": [
+		320,
+		300
+	],
+	"healthicon": "Zan",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		-50,
+		-360
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}

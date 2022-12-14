@@ -1,0 +1,89 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "BizarreParkNormal",
+		"player1": "bf",
+		"player2": "atomosphere",
+		"player3": null,
+		"events": [
+			[
+				126545.454545454,
+				[
+					[
+						"Toggle FlxTrail Options",
+						"all",
+						"colorsync on"
+					]
+				]
+			],
+			[
+				126579.545454545,
+				[
+					[
+						"Toggle FlxTrail",
+						"all",
+						"on"
+					]
+				]
+			],
+			[
+				196363.636363636,
+				[
+					[
+						"Toggle FlxTrail",
+						"all",
+						"off"
+					]
+				]
+			],
+			[
+				199636.363636363,
+				[
+					[
+						"Play Animation",
+						"look",
+						"atomosphere"
+					]
+				]
+			],
+			[
+				200727.272727272,
+				[
+					[
+						"Toggle FlxTrail",
+						"all",
+						"on"
+					]
+				]
+			],
+			[
+				200795.454545454,
+				[
+					[
+						"Toggle FlxTrail Options",
+						"all",
+						"colorsync on blur on"
+					]
+				]
+			],
+			[
+				231272.727272727,
+				[
+					[
+						"Toggle FlxTrail",
+						"all",
+						"off"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "mert",
+		"bpm": 220,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Atmospherical"
+	}
+}

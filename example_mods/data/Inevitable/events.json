@@ -1,0 +1,36 @@
+{
+	"song": {
+		"events": [
+			[
+				474000,
+				[
+					[
+						"Change Character",
+						"1",
+						"exosphereguitar"
+					]
+				]
+			],
+			[
+				474012.5,
+				[
+					[
+						"Play Animation",
+						"Summon",
+						"exosphereguitar"
+					]
+				]
+			],
+			[
+				500400,
+				[
+					[
+						"Change Character",
+						"1",
+						"exosphere"
+					]
+				]
+			]
+		]
+	}
+}

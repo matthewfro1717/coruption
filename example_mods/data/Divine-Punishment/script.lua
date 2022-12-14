@@ -1,6 +1,9 @@
 function onCreatePost()
     addBloomEffect("hud", 0, 0);
     addBloomEffect("game", 0, 0);
+    addChromaticAbberationEffect("game");
+    addChromaticAbberationEffect("hud");
+
     setTextFont('timeTxt', 'gillsans.ttf')
     setTextFont('scoreTxt','gillsans.ttf')
     setTextFont('missesTxt','gillsans.ttf')
@@ -33,6 +36,8 @@ function onBeatHit()
     if curBeat == 80 then
         doBloomPulse("hud")
         doBloomPulse("game")
+        doChromaticPulse("game", 0.03, 0.175, "cubeIn")
+        doChromaticPulse("hud", 0.03, 0.175, "cubeIn")
     end
 
     if curBeat == 64 then
@@ -42,16 +47,20 @@ function onBeatHit()
         setProperty("healthBarBG.visible", true)
     end
     if curBeat > 96 and curBeat < 698 then
-        triggerEvent('Add Camera Zoom', '0.01', '0.01');
+        triggerEvent('Add Camera Zoom', '0.03', '0.03');
         triggerEvent('Screen Shake', '0.05, 0.01', '0.05, 0.005');
         triggerEvent('Screen Shake', '0.05, 0.005', '0.05, 0.005');
         doBloomPulse("hud")
+        doChromaticPulse("game", 0.015, 0.175, "cubeIn")
+        doChromaticPulse("hud", 0.01, 0.175, "cubeIn")
     end
     if curBeat > 816 then
-        triggerEvent('Add Camera Zoom', '0.02', '0.02');
+        triggerEvent('Add Camera Zoom', '0.03', '0.03');
         triggerEvent('Screen Shake', '0.05, 0.02', '0.05, 0.01');
         triggerEvent('Screen Shake', '0.05, 0.01', '0.05, 0.01');
         doBloomPulse("hud")
+        doChromaticPulse("game", 0.01, 0.175, "cubeIn")
+        doChromaticPulse("hud", 0.005, 0.175, "cubeIn")
     end
 end
 

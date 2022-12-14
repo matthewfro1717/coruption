@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bfdvp.png"><SubTexture name="bfdvp down0000" x="0" y="0" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp down0001" x="725" y="0" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp down0002" x="1450" y="0" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp down0003" x="2175" y="0" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp missdown0000" x="2900" y="0" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp missdown0001" x="0" y="635" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp idle0000" x="725" y="635" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp idle0001" x="1450" y="635" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp idle0002" x="2175" y="635" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp idle0003" x="2900" y="635" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp idle0004" x="0" y="1270" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp left0000" x="725" y="1270" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp left0001" x="1450" y="1270" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp left0002" x="2175" y="1270" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp left0003" x="2900" y="1270" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp missleft0000" x="0" y="1905" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp missleft0001" x="725" y="1905" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp right0000" x="1450" y="1905" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp right0001" x="2175" y="1905" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp right0002" x="2900" y="1905" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp right0003" x="0" y="2540" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp missright0000" x="725" y="2540" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp missright0001" x="1450" y="2540" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp up0000" x="2175" y="2540" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp up0001" x="2900" y="2540" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp up0002" x="0" y="3175" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp up0003" x="725" y="3175" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp missup0000" x="1450" y="3175" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+<SubTexture name="bfdvp missup0001" x="2175" y="3175" width="725" height="635" frameX="0" frameY="0" frameWidth="725" frameHeight="635" />
+</TextureAtlas>

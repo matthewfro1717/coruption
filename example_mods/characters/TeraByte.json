@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				551,
+				40
+			],
+			"anim": "idle",
+			"fps": 14,
+			"name": "TeraT Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				610,
+				60
+			],
+			"anim": "singLEFT",
+			"fps": 14,
+			"name": "TeraT Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				520,
+				75
+			],
+			"anim": "singDOWN",
+			"fps": 14,
+			"name": "TeraT Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				494,
+				150
+			],
+			"anim": "singUP",
+			"fps": 14,
+			"name": "TeraT Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				430,
+				47
+			],
+			"anim": "singRIGHT",
+			"fps": 14,
+			"name": "TeraT Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/TeraT",
+	"position": [
+		-820,
+		-1122
+	],
+	"healthicon": "TerraTF",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		62,
+		226
+	],
+	"camera_position": [
+		28,
+		650
+	],
+	"sing_duration": 6,
+	"scale": 0.6
+}

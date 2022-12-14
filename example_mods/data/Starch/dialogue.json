@@ -1,60 +1,60 @@
 {
 	"dialogue": [
 		{
-                                    "sound": "bfspeak",
-			"speed": 0.05,
-			"portrait": "bf",
+			"expression": "joyful",
+			"text": "beep!",
 			"boxState": "normal",
-			"expression": "excited",
-			"text": "beep!"
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend"
 		},
 		{
-                                    "sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged",
-			"boxState": "normal",
 			"expression": "mad",
-			"text": "another"
+			"text": "another",
+			"boxState": "normal",
+			"sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged"
 		},
 		{
-                                    "sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged",
-			"boxState": "normal",
 			"expression": "mad",
-			"text": "i still dont believe cheaters like you"
+			"text": "i still dont believe cheaters like you",
+			"boxState": "normal",
+			"sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged"
 		},
 		{
-                                    "sound": "gfspeak",
-			"speed": 0.05,
-			"portrait": "gf",
+			"expression": "worried",
+			"text": "jesus we have no time for this",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "jesus we have no time for this"
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf"
 		},
 		{
-                                    "sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "if you win i let you leave, i cant leave for some reason"
+			"text": "if you win i let you leave, i cant leave for some reason",
+			"boxState": "normal",
+			"sound": "expungedspeak",
+			"speed": 0.05,
+			"portrait": "expunged"
 		},
 		{
-                                    "sound": "gfspeak",
-			"speed": 0.05,
-			"portrait": "gf",
+			"expression": "what",
+			"text": "So you couldn't do anything this whole time...",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "So you couldn't do anything this whole time..."
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf"
 		},
 		{
-                                    "sound": "gfspeak",
-			"speed": 0.05,
-			"portrait": "gf",
+			"expression": "what",
+			"text": "fucking hell",
 			"boxState": "normal",
-			"expression": "confused",
-			"text": "fucking hell"
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf"
 		}
 	]
 }

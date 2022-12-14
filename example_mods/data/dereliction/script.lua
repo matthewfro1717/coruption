@@ -100,3 +100,7 @@ function onUpdate(elapsed)
 	setProperty('timeBar.color', getColorFromHex('800080'))
     setProperty('timeBarBG.color', getColorFromHex('800080'))
 end
+
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-bambi')
+end

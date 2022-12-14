@@ -32,9 +32,9 @@ end
 
 function onUpdate(elapsed)
 	if healthDrain > 0 then
-		if getProperty('health') > 0.05 then
-			healthDrain = healthDrain - 0.2 * elapsed;
-			setProperty('health', getProperty('health') - 0.2 * elapsed);
+		if getProperty('health') > 0 then
+			healthDrain = healthDrain - 0.3 * elapsed;
+			setProperty('health', getProperty('health') - 0.3 * elapsed);
 			if healthDrain < 0 then
 				healthDrain = 0;
 			end

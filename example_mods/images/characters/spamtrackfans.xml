@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="spamtrackfans.png"><SubTexture name="spamtrackfans down0000" x="0" y="0" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans down0001" x="912" y="0" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans down0002" x="1824" y="0" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans down0003" x="2736" y="0" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans idle0000" x="0" y="1009" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans idle0001" x="912" y="1009" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans idle0002" x="1824" y="1009" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans idle0003" x="2736" y="1009" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans left0000" x="0" y="2018" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans left0001" x="912" y="2018" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans left0002" x="1824" y="2018" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans left0003" x="2736" y="2018" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans right0000" x="0" y="3027" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans up0000" x="912" y="3027" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans up0001" x="1824" y="3027" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans up0002" x="2736" y="3027" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+<SubTexture name="spamtrackfans up0003" x="0" y="4036" width="912" height="1009" frameX="0" frameY="0" frameWidth="912" frameHeight="1009" />
+</TextureAtlas>

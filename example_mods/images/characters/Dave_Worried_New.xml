@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Dave_Worried_New.png"><SubTexture name="Dave_Worried_New idle0000" x="557" y="1108" width="557" height="1078" frameX="-243" frameY="-219" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New idle0001" x="2489" y="1072" width="557" height="1071" frameX="-243" frameY="-227" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New idle0002" x="1671" y="1108" width="557" height="1072" frameX="-243" frameY="-230" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New idle0003" x="2489" y="0" width="557" height="1072" frameX="-243" frameY="-228" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New left0000" x="0" y="1108" width="557" height="1083" frameX="-243" frameY="-221" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New left0001" x="1114" y="1108" width="557" height="1075" frameX="-243" frameY="-221" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New down0000" x="0" y="2191" width="661" height="1064" frameX="-243" frameY="-220" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New down0001" x="3046" y="0" width="637" height="1070" frameX="-243" frameY="-217" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New up0000" x="0" y="0" width="557" height="1108" frameX="-243" frameY="-202" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New up0001" x="557" y="0" width="557" height="1096" frameX="-243" frameY="-206" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New right0000" x="1812" y="0" width="677" height="1085" frameX="-243" frameY="-227" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Dave_Worried_New right0001" x="1114" y="0" width="698" height="1095" frameX="-243" frameY="-222" frameWidth="1084" frameHeight="1463" />
+</TextureAtlas>

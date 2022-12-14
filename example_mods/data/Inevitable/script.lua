@@ -13,12 +13,29 @@ function onCreatePost()
     for i = 4,7 do
         setPropertyFromGroup('strumLineNotes',i,'x',-20+i*110)
         end
-    makeLuaText('dis', 'You have ' .. 15-getProperty('songMisses') .. ' misses left.', 600, 330, 700)
+    makeLuaText('dis', 'You have ' .. 15-getProperty('songMisses') .. ' misses left.', 1500, 330, 700)
     setTextSize('dis', 20)
-    setTextColor('dis', 'FFFFFF')
+    setTextColor('dis', 'FF0000')
     addLuaText('dis',true)
 end
 
+
+function onSongStart()
+	setProperty('songLength', 127200)
+end
+
+function onBeatHit() 
+    if curBeat == 432 then
+        setProperty('songLength', 278400)
+    end
+    if curBeat == 944 then
+        setProperty('songLength', 382800)
+    end
+    if curBeat == 1296 then
+        setProperty('songLength', getPropertyFromClass('flixel.FlxG','sound.music.length'))
+    end
+  
+end
 function onUpdate(elapsed)
     setProperty('timeBar.color', getColorFromHex('FFFF00'))
     setProperty('timeBarBG.color', getColorFromHex('FFFF00'))
@@ -33,7 +50,6 @@ function onUpdate(elapsed)
     setProperty("iconP1.alpha", 0)
     setProperty("timeBar.alpha",0)
     setProperty("healthBar.alpha", 0)
-    setProperty("timeTxt.alpha",0)
     setProperty("scoreTxt.alpha",0)
     setProperty("camHUD.zoom", 0.9)
     setProperty("health", 2-getProperty('songMisses')*0.134)
@@ -50,4 +66,7 @@ function onUpdate(elapsed)
     end
 end
 
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-exosphere')
+end
 

@@ -2,6 +2,35 @@ local angleshit = 0;
 local anglevar = 0;
 local theepic = true;
 
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-az')
+    setProperty('ratingsData[0].image', 'anomoly-sick')
+    setProperty('ratingsData[1].image', 'anomoly-good')
+    setProperty('ratingsData[2].image', 'anomoly-bad')
+    setProperty('ratingsData[3].image', 'anomoly-shit')
+	setProperty("comboSuffix", "-anomoly") -- HEY IF YOU ARE GONNA USE THIS TYPE OF SCRIPT TO YOUR MOD, THIS WAS ONLY CODED FOR THIS MOD. Thanks Raf
+    setProperty('healthBar.flipX',true)
+    setProperty('iconP1.flipX',true)
+    setProperty('iconP1.x',220+getProperty('health')*300)
+    setProperty('iconP2.flipX',true)
+    setProperty('iconP2.x',320+getProperty('health')*300)
+end
+
+function onCountdownTick(tick)
+    if tick == 1 then
+        loadGraphic('countdownReady', 'anomoly-ready')
+       		elseif tick == 2 then
+        loadGraphic('countdownSet', 'anomoly-set')
+        	elseif tick == 3 then
+        loadGraphic('countdownGo', 'anomoly-go')
+    end
+end
+
+function onCountdownStarted()
+	for i = 0, 3 do
+		setPropertyFromGroup('opponentStrums', i, 'x', -900);
+	end
+end
 
 function onBeatHit()
     if curBeat > 0 then

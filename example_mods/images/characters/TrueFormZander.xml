@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="TrueFormZander.png"><SubTexture name="TrueFormZander down0000" x="0" y="0" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander down0001" x="1280" y="0" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander down0002" x="2560" y="0" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander down0003" x="3840" y="0" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander idle0000" x="0" y="1076" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander idle0001" x="1280" y="1076" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander idle0002" x="2560" y="1076" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander idle0003" x="3840" y="1076" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander left0000" x="0" y="2152" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander left0001" x="1280" y="2152" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander left0002" x="2560" y="2152" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander left0003" x="3840" y="2152" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander right0000" x="0" y="3228" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander right0001" x="1280" y="3228" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander right0002" x="2560" y="3228" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander right0003" x="3840" y="3228" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander up0000" x="0" y="4304" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander up0001" x="1280" y="4304" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander up0002" x="2560" y="4304" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+<SubTexture name="TrueFormZander up0003" x="3840" y="4304" width="1280" height="1076" frameX="0" frameY="0" frameWidth="1280" frameHeight="1076" />
+</TextureAtlas>

@@ -7,3 +7,9 @@ function onCreate() --setting variables and making sprites
     setTextColor('dis', 'FFFFFF')
     addLuaText('dis',true)
 end
+
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-dave')
+    setProperty('timeBar.color', getColorFromHex('001678'))
+    setProperty('timeBarBG.color', getColorFromHex('001678'))
+end

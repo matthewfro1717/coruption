@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="dave_dialogue.png"><SubTexture name="dave_dialogue bruh0000" x="0" y="0" width="619" height="1149" frameX="-475" frameY="-582" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="dave_dialogue sad0000" x="619" y="0" width="619" height="1149" frameX="-475" frameY="-582" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="dave_dialogue seethe0000" x="1238" y="0" width="619" height="1149" frameX="-475" frameY="-582" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="dave_dialogue anxious 0000" x="1857" y="0" width="619" height="1149" frameX="-475" frameY="-582" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="dave_dialogue worried0000" x="0" y="1149" width="619" height="1149" frameX="-475" frameY="-582" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="dave_dialogue joyful0000" x="619" y="1149" width="619" height="1149" frameX="-475" frameY="-582" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="dave_dialogue talk0000" x="1238" y="1149" width="619" height="1149" frameX="-475" frameY="-582" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="dave_dialogue idle0000" x="1857" y="1149" width="619" height="1149" frameX="-475" frameY="-582" frameWidth="1500" frameHeight="2000" />
+</TextureAtlas>

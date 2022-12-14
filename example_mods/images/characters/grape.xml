@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="grape.png">
+<SubTexture name="grape idle0000" x="1526" y="382" width="217" height="374" frameX="-398" frameY="-153" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape idle0001" x="0" y="1171" width="223" height="373" frameX="-393" frameY="-154" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape idle0002" x="1310" y="757" width="217" height="374" frameX="-395" frameY="-153" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape idle0003" x="1527" y="757" width="214" height="374" frameX="-399" frameY="-153" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape idle0004" x="1310" y="382" width="216" height="375" frameX="-398" frameY="-152" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape right0000" x="768" y="0" width="542" height="385" frameX="-395" frameY="-142" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape right0001" x="0" y="404" width="559" height="384" frameX="-395" frameY="-144" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape right0002" x="0" y="788" width="567" height="383" frameX="-396" frameY="-146" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape right0003" x="1310" y="0" width="560" height="382" frameX="-397" frameY="-147" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape right0004" x="559" y="404" width="542" height="384" frameX="-397" frameY="-146" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape right0005" x="567" y="788" width="539" height="383" frameX="-397" frameY="-147" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape up0000" x="512" y="0" width="256" height="402" frameX="-375" frameY="-88" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape up0001" x="0" y="0" width="256" height="404" frameX="-375" frameY="-81" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape up0002" x="0" y="0" width="256" height="404" frameX="-375" frameY="-78" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape up0003" x="0" y="0" width="256" height="404" frameX="-375" frameY="-77" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape up0004" x="0" y="0" width="256" height="404" frameX="-375" frameY="-78" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape up0005" x="256" y="0" width="256" height="403" frameX="-375" frameY="-80" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape left0000" x="223" y="1171" width="391" height="355" frameX="-133" frameY="-162" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape left0001" x="614" y="1171" width="387" height="348" frameX="-134" frameY="-171" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape left0002" x="1001" y="1171" width="387" height="347" frameX="-136" frameY="-171" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape left0003" x="1388" y="1171" width="388" height="345" frameX="-139" frameY="-172" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape left0004" x="1870" y="0" width="384" height="343" frameX="-146" frameY="-172" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape left0005" x="1870" y="343" width="382" height="343" frameX="-151" frameY="-172" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape down0000" x="0" y="1544" width="433" height="334" frameX="-283" frameY="-192" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape down0001" x="1735" y="1544" width="463" height="328" frameX="-272" frameY="-199" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape down0002" x="0" y="1878" width="451" height="328" frameX="-275" frameY="-198" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape down0003" x="1296" y="1544" width="439" height="330" frameX="-280" frameY="-196" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape down0004" x="862" y="1544" width="434" height="331" frameX="-282" frameY="-195" frameWidth="1000" frameHeight="720" />
+<SubTexture name="grape down0005" x="433" y="1544" width="429" height="332" frameX="-284" frameY="-194" frameWidth="1000" frameHeight="720" />
+</TextureAtlas>

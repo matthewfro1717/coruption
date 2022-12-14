@@ -1,0 +1,49 @@
+{
+	"song": {
+		"speed": 3.30000004768372,
+		"stage": "TheTrueVoid",
+		"player1": "exosphere",
+		"player2": "grape",
+		"player3": null,
+		"events": [
+			[
+				112941.176470588,
+				[
+					[
+						"Change Character",
+						"0",
+						"exosphereangry"
+					]
+				]
+			],
+			[
+				119294.117647059,
+				[
+					[
+						"Change Character",
+						"0",
+						"exosphere"
+					]
+				]
+			],
+			[
+				136235.294117647,
+				[
+					[
+						"Change Character",
+						"0",
+						"exosphereangry"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gfinvisible",
+		"bpm": 170,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Toothpicked"
+	}
+}

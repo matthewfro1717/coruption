@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bambi_dialogue.png"><SubTexture name="bambi_dialogue screwed0000" x="0" y="0" width="409" height="706" frameX="-396" frameY="-294" frameWidth="1217" frameHeight="1207" />
+<SubTexture name="bambi_dialogue shocked0000" x="409" y="0" width="409" height="706" frameX="-396" frameY="-294" frameWidth="1217" frameHeight="1207" />
+<SubTexture name="bambi_dialogue sad0000" x="818" y="0" width="409" height="706" frameX="-396" frameY="-294" frameWidth="1217" frameHeight="1207" />
+<SubTexture name="bambi_dialogue worried0000" x="1227" y="0" width="409" height="706" frameX="-396" frameY="-294" frameWidth="1217" frameHeight="1207" />
+<SubTexture name="bambi_dialogue smug0000" x="0" y="706" width="409" height="706" frameX="-396" frameY="-294" frameWidth="1217" frameHeight="1207" />
+<SubTexture name="bambi_dialogue mad0000" x="409" y="706" width="409" height="706" frameX="-396" frameY="-294" frameWidth="1217" frameHeight="1207" />
+<SubTexture name="bambi_dialogue idle0000" x="818" y="706" width="409" height="706" frameX="-396" frameY="-294" frameWidth="1217" frameHeight="1207" />
+</TextureAtlas>

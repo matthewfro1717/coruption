@@ -1,3 +1,7 @@
+function onUpdate()
+	setProperty('timeBar.color', getColorFromHex('505050'))
+    setProperty('timeBarBG.color', getColorFromHex('505050'))
+end
 
 function onBeatHit()
     if curBeat >= 0 then

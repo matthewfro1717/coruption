@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				460
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "ZanderAnnoyed idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				222,
+				461
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "ZanderAnnoyed left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				415
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ZanderAnnoyed down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				497
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "ZanderAnnoyed up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				172,
+				464
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "ZanderAnnoyed right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ZanderAnnoyed",
+	"position": [
+		320,
+		300
+	],
+	"healthicon": "Zander",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-50,
+		-360
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}

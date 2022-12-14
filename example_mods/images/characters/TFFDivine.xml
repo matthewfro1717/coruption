@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="TFFDivine.png"><SubTexture name="TFFDivine down0000" x="0" y="0" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine down0001" x="1658" y="0" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine down0002" x="3316" y="0" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine down0003" x="4974" y="0" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine down0004" x="6632" y="0" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine idle0000" x="0" y="1640" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine idle0001" x="1658" y="1640" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine idle0002" x="3316" y="1640" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine idle0003" x="4974" y="1640" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine idle0004" x="6632" y="1640" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine idle0005" x="0" y="3280" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine idle0006" x="1658" y="3280" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine idle0007" x="3316" y="3280" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine left0000" x="4974" y="3280" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine left0001" x="6632" y="3280" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine left0002" x="0" y="4920" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine left0003" x="1658" y="4920" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine right0000" x="3316" y="4920" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine right0001" x="4974" y="4920" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine right0002" x="6632" y="4920" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine right0003" x="0" y="6560" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine right0004" x="1658" y="6560" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine up0000" x="3316" y="6560" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine up0001" x="4974" y="6560" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine up0002" x="6632" y="6560" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine up0003" x="0" y="8200" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+<SubTexture name="TFFDivine up0004" x="1658" y="8200" width="1658" height="1640" frameX="0" frameY="0" frameWidth="1658" frameHeight="1640" />
+</TextureAtlas>

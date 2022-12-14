@@ -1,19 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="Derpai.png"><SubTexture name="Derpai idle0000" x="0" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai idle0001" x="668" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai idle0002" x="1336" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai idle0003" x="2004" y="0" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai idle0004" x="0" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai down0000" x="668" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai down0001" x="1336" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai down0002" x="2004" y="668" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai left0000" x="0" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai left0001" x="668" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai left0002" x="1336" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai right0000" x="2004" y="1336" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai right0001" x="0" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai right0002" x="668" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai up0000" x="1336" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai up0001" x="2004" y="2004" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
-<SubTexture name="Derpai up0002" x="0" y="2672" width="668" height="668" frameX="0" frameY="0" frameWidth="668" frameHeight="668" />
+<TextureAtlas imagePath="Derpai.png"><SubTexture name="Derpai down0000" x="0" y="0" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai down0001" x="896" y="0" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai down0002" x="1792" y="0" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai down0003" x="2688" y="0" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai down0004" x="3584" y="0" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai idle0000" x="0" y="833" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai idle0001" x="896" y="833" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai idle0002" x="1792" y="833" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai idle0003" x="2688" y="833" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai idle0004" x="3584" y="833" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai left0000" x="0" y="1666" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai left0001" x="896" y="1666" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai left0002" x="1792" y="1666" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai left0003" x="2688" y="1666" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai left0004" x="3584" y="1666" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai right0000" x="0" y="2499" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai right0001" x="896" y="2499" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai right0002" x="1792" y="2499" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai right0003" x="2688" y="2499" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai right0004" x="3584" y="2499" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai up0000" x="0" y="3332" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai up0001" x="896" y="3332" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai up0002" x="1792" y="3332" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai up0003" x="2688" y="3332" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
+<SubTexture name="Derpai up0004" x="3584" y="3332" width="896" height="833" frameX="0" frameY="0" frameWidth="896" frameHeight="833" />
 </TextureAtlas>

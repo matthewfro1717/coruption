@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 16,
+			"name": "boyfriend idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				1
+			],
+			"anim": "singLEFT",
+			"fps": 18,
+			"name": "boyfriend left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				2
+			],
+			"anim": "singDOWN",
+			"fps": 18,
+			"name": "boyfriend down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				3
+			],
+			"anim": "singUP",
+			"fps": 18,
+			"name": "boyfriend up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				1
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "boyfriend right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				2
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "boyfriend Lmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				4
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "boyfriend Dmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				0
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "boyfriend Umiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				1
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "boyfriend Rmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				1
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "boyfriend taunt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-2
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "boyfriend hurt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-2
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "boyfriend dodge",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BOYFRIEND",
+	"position": [
+		-40,
+		60
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		40,
+		-30
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

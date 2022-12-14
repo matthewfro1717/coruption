@@ -1,17 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="Allure.png"><SubTexture name="Allure down0000" x="0" y="0" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure down0001" x="3844" y="0" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure down0002" x="7688" y="0" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure idle0000" x="0" y="2164" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure idle0001" x="3844" y="2164" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure idle0002" x="7688" y="2164" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure left0000" x="0" y="4328" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure left0001" x="3844" y="4328" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure left0002" x="7688" y="4328" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure right0000" x="0" y="6492" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure right0001" x="3844" y="6492" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure right0002" x="7688" y="6492" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure up0000" x="0" y="8656" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure up0001" x="3844" y="8656" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
-<SubTexture name="Allure up0002" x="7688" y="8656" width="3844" height="2164" frameX="0" frameY="0" frameWidth="3844" frameHeight="2164" />
+<TextureAtlas imagePath="allure.png">
+<SubTexture name="singDOWN0000" x="0" y="0" width="270" height="403" frameX="-137" frameY="-382" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singDOWN0001" x="270" y="0" width="264" height="405" frameX="-141" frameY="-379" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singDOWN0002" x="534" y="0" width="259" height="408" frameX="-143" frameY="-376" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singDOWN0003" x="793" y="0" width="256" height="410" frameX="-147" frameY="-375" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="idle0000" x="1049" y="0" width="202" height="408" frameX="-147" frameY="-372" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="idle0001" x="0" y="410" width="212" height="405" frameX="-145" frameY="-375" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="idle0002" x="212" y="410" width="209" height="408" frameX="-142" frameY="-372" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="idle0003" x="421" y="410" width="204" height="406" frameX="-144" frameY="-373" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="idle0004" x="625" y="410" width="200" height="404" frameX="-147" frameY="-375" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singLEFT0000" x="825" y="410" width="279" height="402" frameX="-62" frameY="-377" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singLEFT0001" x="0" y="818" width="283" height="403" frameX="-60" frameY="-376" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singLEFT0002" x="572" y="818" width="288" height="405" frameX="-58" frameY="-374" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singLEFT0003" x="283" y="818" width="289" height="404" frameX="-57" frameY="-375" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singRIGHT0000" x="860" y="818" width="344" height="409" frameX="-116" frameY="-371" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singRIGHT0001" x="1204" y="818" width="335" height="410" frameX="-119" frameY="-370" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singRIGHT0002" x="0" y="1228" width="333" height="408" frameX="-120" frameY="-371" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singUP0000" x="333" y="1228" width="326" height="419" frameX="-87" frameY="-364" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singUP0001" x="659" y="1228" width="334" height="414" frameX="-85" frameY="-369" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singUP0002" x="993" y="1228" width="338" height="410" frameX="-82" frameY="-372" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="singUP0003" x="1331" y="1228" width="339" height="407" frameX="-82" frameY="-375" frameWidth="1000" frameHeight="1000" />
 </TextureAtlas>

@@ -2,115 +2,115 @@
 	"dialogue": [
 		{
 			"expression": "Talk",
-			"text": "That was fun, I should get going now...",
+			"text": "That was very fun!",
 			"boxState": "normal",
-			"portrait": "FlyHigh",
+			"sound": "FlyHighspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "FlyHigh"
 		},
 		{
-			"expression": "AngryTurn",
-			"text": "...is what I would say if the person I was looking for wasn't behind me...",
+			"sound": "flyhighspeak",
+			"speed": 0.05,
+			"portrait": "flyhigh",
 			"boxState": "normal",
-			"portrait": "FlyHigh",
-			"speed": 0.15,
-			"sound": ""
+			"expression": "talk",
+			"text": "But the person who I was looking for arrived just in time."
 		},
 		{
 			"expression": "Stance",
 			"text": "Of course your awareness saves you again, can't win even when I try to sneak around.",
 			"boxState": "normal",
-			"portrait": "Azstroth",
+			"sound": "azasspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "Azstroth"
 		},
 		{
 			"expression": "CrossedArms",
 			"text": "pitiful...",
 			"boxState": "normal",
-			"portrait": "Azstroth",
+			"sound": "azasspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "Azstroth"
 		},
 		{
 			"expression": "CrossedArms",
 			"text": "...",
 			"boxState": "normal",
-			"portrait": "Azstroth",
+			"sound": "",
 			"speed": 0.5,
-			"sound": ""
+			"portrait": "Azstroth"
 		},
 		{
 			"expression": "Looking",
 			"text": "and who might that be...",
 			"boxState": "normal",
-			"portrait": "Azstroth",
+			"sound": "azasspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "Azstroth"
 		},
 		{
 			"expression": "shocked",
 			"text": "????",
 			"boxState": "normal",
-			"portrait": "bf",
+			"sound": "",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "boyfriend"
 		},
 		{
 			"expression": "Mad",
 			"text": "Don't even worry about him, if you came here to fight me then fight m-",
 			"boxState": "normal",
-			"portrait": "FlyHigh",
+			"sound": "FlyHighspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "FlyHigh"
 		},
 		{
 			"expression": "talk",
 			"text": "bro who tf this dude and why his body built like a fuckin drill",
 			"boxState": "normal",
-			"portrait": "bf",
+			"sound": "bfspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "boyfriend"
 		},
 		{
 			"expression": "Shocked",
 			"text": "!",
 			"boxState": "normal",
-			"portrait": "FlyHigh",
+			"sound": "",
 			"speed": 0,
-			"sound": ""
+			"portrait": "FlyHigh"
 		},
 		{
 			"expression": "Stance",
 			"text": "HOW ARE YOU THE ONE TO TALK WHEN YOU CAN'T EVEN REACH THE DOORKNOB!",
 			"boxState": "angry",
-			"portrait": "Azstroth",
+			"sound": "azasspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "Azstroth"
 		},
 		{
 			"expression": "talk",
 			"text": "can't even talk when your limbs fall off the bed because of how spread out they are.",
 			"boxState": "normal",
-			"portrait": "bf",
+			"sound": "bfspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "bf"
 		},
 		{
 			"expression": "Shocked",
 			"text": "ohhhh shit...",
 			"boxState": "normal",
-			"portrait": "FlyHigh",
+			"sound": "flyhighspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "FlyHigh"
 		},
 		{
 			"expression": "Stance",
 			"text": "ALRIGHT! IF YOU WANT TO CHALLENGE ME TOO THEN SO BE IT!",
 			"boxState": "angry",
-			"portrait": "Azstroth",
+			"sound": "azasspeak",
 			"speed": 0.05,
-			"sound": ""
+			"portrait": "Azstroth"
 		}
 	]
 }

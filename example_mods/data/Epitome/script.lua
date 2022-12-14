@@ -120,6 +120,13 @@ end
 end
 
 function onBeatHit()
+	if curBeat == 32 then
+		makeLuaText('dis', "Original by Null_y34r | Remix by Emperor Yami", 600, 680, 0)
+		doTweenAlpha('disbye','dis',0,8,'linear')
+		setTextSize('dis', 20)
+		setTextColor('dis', 'FFFFFF')
+		addLuaText('dis',true)
+	end
 	if curBeat > 260 and curBeat < 263 then 
 		playSound('sorry', 0.4);
 	end
@@ -143,18 +150,14 @@ function onBeatHit()
   end
 end
 
-function onCreate()
-	makeLuaText('dis', "Original by Null_y34r | Remix by Emperor Yami", 600, 680, 0)
-    doTweenAlpha('disbye','dis',0,8,'linear')
-    setTextSize('dis', 20)
-    setTextColor('dis', 'FFFFFF')
-    addLuaText('dis',true)
-end
-
 function opponentNoteHit(ipiss, piss2, piss3, sus) -- SUS? SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?
     triggerEvent('Screen Shake', '0.1, 0.01', '0.1, 0.01');
-      triggerEvent('Add Camera Zoom', '0.01, 0.01', '0.01, 0.01'); 
-    end
+    triggerEvent('Add Camera Zoom', '0.01, 0.01', '0.01, 0.01'); 
+end
+
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-bambi')
+end
 
     
 

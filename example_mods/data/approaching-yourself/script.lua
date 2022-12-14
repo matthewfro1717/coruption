@@ -35,8 +35,13 @@ function onCreatePost()
     addLuaText('dis',true)
     for i = 4,7 do
         setPropertyFromGroup('strumLineNotes',i,'x',-20+i*110)
-        end
-        
+    end
+end
+
+function onCountdownStarted()
+	for i = 0, 3 do
+		setPropertyFromGroup('opponentStrums', i, 'x', -900);
+	end
 end
 
 function onUpdate()

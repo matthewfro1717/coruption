@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="FakerYambi.png"><SubTexture name="FakerYambi idle0000" x="0" y="0" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi idle0001" x="3004" y="0" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi idle0002" x="6008" y="0" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi idle0003" x="9012" y="0" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi idle0004" x="0" y="1692" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi down0000" x="3004" y="1692" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi down0001" x="6008" y="1692" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi down0002" x="9012" y="1692" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi down0003" x="0" y="3384" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi left0000" x="3004" y="3384" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi left0001" x="6008" y="3384" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi left0002" x="9012" y="3384" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi right0000" x="0" y="5076" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi right0001" x="3004" y="5076" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi right0002" x="6008" y="5076" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi up0000" x="9012" y="5076" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi up0001" x="0" y="6768" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+<SubTexture name="FakerYambi up0002" x="3004" y="6768" width="3004" height="1692" frameX="0" frameY="0" frameWidth="3004" frameHeight="1692" />
+</TextureAtlas>

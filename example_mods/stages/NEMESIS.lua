@@ -1,9 +1,9 @@
 
 function onCreate()
-    makeLuaSprite('TheEclipse', 'TheEclipse', -700, -100);
+    makeLuaSprite('TheEclipse', 'TheEclipse', -500, -100);
     setLuaSpriteScrollFactor('TheEclipse', 0.9, 0.9); 
     addLuaSprite('TheEclipse')
-    scaleObject('TheEclipse', 3,3);
+    scaleObject('TheEclipse', 2,2);
    
    
     makeLuaSprite('ThePinkedEdges', 'ThePinkedEdges', -500, -100 );
@@ -22,7 +22,7 @@ function onCreate()
 
     addLuaSprite('SpacialSky', false);
     setProperty("SpacialSky.alpha",1)
-    scaleObject('SpacialSky', 7,7);
+    scaleObject('SpacialSky', 5,5);
 
     makeLuaSprite('BlueSpace', 'BlueSpace', -500, -100 );
 
@@ -63,28 +63,9 @@ function onBeatHit()
         setProperty("RedGalaxy.alpha",1)
         setProperty("BlueSpace.alpha",0)
     end
-    if curBeat == 3040 then
-        setProperty("RedGalaxy.alpha",0)
-        setProperty("TheEclipse.alpha",1)
-    end
-
-    if curBeat == 3104 then
-        setProperty("SpacialSky.alpha",1)
-        setProperty("TheEclipse.alpha",0)
-    end
-
-    if curBeat == 3168 then
-        setProperty("ThePinkedEdges.alpha",1)
-        setProperty("SpacialSky.alpha",0)
-    end
-    if curBeat == 3232 then
-        setProperty("BlueSpace.alpha",1)
-        setProperty("ThePinkedEdges.alpha",0)
-    end 
-
     if curBeat == 3296 then
         setProperty("RealityShattered.alpha",1)
-        setProperty("BlueSpace.alpha",0)
+        setProperty("RedGalaxy.alpha",0)
     end
     if curBeat == 3424 then
         setProperty("RedGalaxy.alpha",1)

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gf_dialogue.png"><SubTexture name="gf_dialogue what0000" x="0" y="0" width="656" height="1355" frameX="-406" frameY="-306" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="gf_dialogue sad0000" x="656" y="0" width="656" height="1355" frameX="-406" frameY="-306" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="gf_dialogue joyful0000" x="1312" y="0" width="656" height="1355" frameX="-406" frameY="-306" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="gf_dialogue shocked0000" x="1968" y="0" width="656" height="1355" frameX="-406" frameY="-306" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="gf_dialogue worried0000" x="2624" y="0" width="656" height="1355" frameX="-406" frameY="-306" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="gf_dialogue idle0000" x="0" y="1355" width="656" height="1355" frameX="-406" frameY="-306" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="gf_dialogue talk0000" x="656" y="1355" width="656" height="1355" frameX="-406" frameY="-306" frameWidth="1500" frameHeight="2000" />
+</TextureAtlas>

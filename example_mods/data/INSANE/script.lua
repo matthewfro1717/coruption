@@ -1,21 +1,5 @@
-local angleshit = 1.5;
-local anglevar = 1.5;
-local allowCountdown = false
-function onStartCountdown()
-	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
-	if not allowCountdown and isStoryMode and not seenCutscene then
-		setProperty('inCutscene', true);
-		runTimer('startDialogue', 0.8);
-		allowCountdown = true;
-		return Function_Stop;
-	end
-	return Function_Continue;
-end
-
-function onTimerCompleted(tag, loops, loopsLeft)
-	if tag == 'startDialogue' then -- Timer completed, play dialogue
-		startDialogue('dialogue', 'canzies');
-	end
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-bambi')
 end
 
 
@@ -104,6 +88,19 @@ function onTweenCompleted(tag)
 		noteTweenX("07", 6, (notePosX6 - 100), 2, easingstyle)
 		noteTweenX("08", 7, (notePosX7 - 100), 2, easingstyle)
 	end
+	setTextFont('kadeEngineWatermark', 'Hacked-KerX.ttf')
+	if downscroll then
+		setProperty('kadeEngineWatermark.y', screenHeight * 0.9 + 49)
+	end
+
+	-- Hides the watermark to replace the new one
+	setProperty("watermarkTxt.alpha", 0)
+
+	-- Resets the fonts to the Crumb Edition ones
+	setTextFont('scoreTxt','Hacked-KerX.ttf')
+	setTextFont('missesTxt','Hacked-KerX.ttf')
+	setTextFont('judgementCounterTxt', 'Hacked-KerX.ttf')
+	setTextFont('timeTxt','Hacked-KerX.ttf')
 end
 
 function onBeatHit()
@@ -128,6 +125,7 @@ function onBeatHit()
 		setProperty('timeTxt.color', getColorFromHex('000000'))
 		setProperty('healthBar.color', getColorFromHex('000000'))
 		setProperty('scoreTxt.color', getColorFromHex('000000'))
+		setProperty('judgementCounter.color', getColorFromHex('000000'))
 		setProperty('iconP1.color', getColorFromHex('000000'))
 		setProperty('iconP2.color', getColorFromHex('000000'))
 		setProperty('camHUD.color', getColorFromHex('000000'))
@@ -143,6 +141,7 @@ function onBeatHit()
 		doTweenColor('epic7','boyfriend','FFFFFF',crochet*0.001-0.01,'linear')
 		doTweenColor('epic8','dad','FFFFFF',crochet*0.001-0.01,'linear')
 		doTweenColor('epic9','background','FFFFFF',crochet*0.001-0.01,'linear')
+		doTweenColor('epic10','judgementCounter','FFFFFF',crochet*0.001-0.01,'linear')
 		setProperty('camHD.angle',angleshit*3)
 		doTweenAngle('turn', 'camHUD', angleshit, stepCrochet*0.002, 'circOut')
 		doTweenX('tuin', 'camHUD', -angleshit*8, crochet*0.001, 'linear')

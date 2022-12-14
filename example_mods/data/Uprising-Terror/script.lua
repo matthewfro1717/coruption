@@ -1,87 +1,204 @@
 local allowCountdown = false
 
-function onUpdatePost()
-	setProperty('introSoundsSuffix', '-dave')
+function onCreate()
+	setProperty('timeBar.color', getColorFromHex('0054ff'))
+    setProperty('timeBarBG.color', getColorFromHex('0054ff'))
+	makeLuaSprite('corruptedyard', 'corruptedyard', -400, -400);
+	doTweenAlpha('lmao', 'corruptedyard', 0.85, 00000000000.1, 'linear')
+	makeLuaSprite('whitebg', 'nil', -400, -400)
+	doTweenAlpha('bgtween', 'whitebg', 1, 1.0, 'linear')
+	addLuaSprite('whitebg',false)
+	doTweenColor('davetween','dad', '000000', 1, 'linear')
+	doTweenColor('bftween', 'boyfriend', '000000', 1, 'linear')
+	doTweenColor('gftween', 'gf', '000000', 1, 'linear')
+	makeAnimatedLuaSprite('jeff','jeff', -100, -1000)
+	addAnimationByPrefix('jeff','loop','jeff',30,true)
+	objectPlayAnimation('jeff','loop',true)
+	setScrollFactor('jeff', 0.9, 0.9)
+	scaleObject('jeff', 5, 5);
+	triggerEvent('Add Camera Zoom', '0', '4');
+	makeLuaSprite('white','whiteshit',-740,-380);
+	setLuaSpriteScrollFactor('white', 0, 0);
+	scaleObject('white', 2, 2)
+
+	addLuaSprite('jeff', true);
 end
 
-function onCreate()
-	setProperty('timeBar.color', getColorFromHex('0080ff'))
-    setProperty('timeBarBG.color', getColorFromHex('0080ff'))
-	
-	makeAnimatedLuaSprite('static','static', -600, -1000)
+function onCountdownTick(tick)
+    if tick == 1 then
+        loadGraphic('countdownReady', 'og-ready')
+       		elseif tick == 2 then
+        loadGraphic('countdownSet', 'og-set')
+        	elseif tick == 3 then
+        loadGraphic('countdownGo', 'og-go')
+    end
+end
+
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-dave')
+	setProperty('ratingsData[0].image', 'og-sick')
+    setProperty('ratingsData[1].image', 'og-good')
+    setProperty('ratingsData[2].image', 'og-bad')
+    setProperty('ratingsData[3].image', 'og-shit')
+	setProperty("comboSuffix", "-og") -- HEY IF YOU ARE GONNA USE THIS TYPE OF SCRIPT TO YOUR MOD, THIS WAS ONLY CODED FOR THIS MOD. Thanks Raf
+
+	if curBeat >= 380 then
+		setProperty('ratingsData[0].image', 'sick-corrupt')
+    	setProperty('ratingsData[1].image', 'good-corrupt')
+    	setProperty('ratingsData[2].image', 'bad-corrupt')
+    	setProperty('ratingsData[3].image', 'bad-corrupt')
+		setProperty("comboSuffix", "-corrupt")
+	end
+end
+
+function onSongStart()
+	setProperty('songLength', 134000)
+end
+
+function onCountdownStarted()
+	for i = 0, 3 do
+		setPropertyFromGroup('opponentStrums', i, 'x', -900);
+	end
+end
+
+function onBeatHit()
+	if curBeat == 7 then
+		removeLuaSprite('jeff', true)
+		addLuaSprite('white', false);
+	end
+	if curBeat == 16 then
+		doTweenColor('davetween1','dad', 'FFFFFF', 0.1, 'linear')
+		doTweenColor('bftween1', 'boyfriend', 'FFFFFF', 0.1, 'linear')
+		doTweenColor('gftween1', 'gf', 'FFFFFF', 0.1, 'linear')
+	--  removeLuaSprite('white', 'linear', false)
+		doTweenAlpha('whitetween1', 'white', 0,1, 'linear')
+	end
+	if curBeat == 17 then
+		setProperty("iconP1.visible", false)
+		setProperty("iconP2.visible", false)
+		setProperty("healthBar.visible", false)
+		setProperty("healthBarBG.visible", false)
+		doTweenColor('davetween2','dad', '000000', 1, 'linear')
+		doTweenColor('bftween2', 'boyfriend', '000000', 1, 'linear')
+		doTweenColor('gftween2', 'gf', '000000', 1, 'linear')
+		doTweenAlpha('whitetween2', 'white', 1,1,'linear')
+	end
+	if curBeat == 64 then
+		makeLuaText('dis', "Uprising Terror by Emperor Yami", 600, 680, 0)
+		doTweenAlpha('disbye','dis',0,8,'linear')
+		setTextSize('dis', 20)
+		setTextColor('dis', 'FFFFFF')
+		addLuaText('dis',true)
+	end
+	if curBeat == 96 then
+		doTweenColor('davetween3', 'dad', 'FFFFFF', 6, 'linear')
+		doTweenAlpha('whitetween3', 'white', 0, 12, 'linear')
+	end
+	if curBeat == 112 then
+		doTweenColor('bftween3', 'boyfriend', 'FFFFFF', 6, 'linear')
+		doTweenColor('gftween3', 'gf', 'FFFFFF', 6, 'linear')
+	end
+	if curBeat == 128 then
+		setProperty("iconP1.visible", true)
+		setProperty("iconP2.visible", true)
+		setProperty("healthBar.visible", true)
+		setProperty("healthBarBG.visible", true)
+		cameraFlash('game', '0xFFFFFFFF', 1, true)
+		removeLuaSprite('whitebg', true)
+	end
+	if curBeat == 138 then
+		setProperty('timeBar.color', getColorFromHex('FFFFFF'))
+		setProperty('timeBarBG.color', getColorFromHex('FFFFFF'))
+		addLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'phobiadave')
+	end
+	if curBeat == 140 then
+		removeLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'Dave_Worried_New')
+		setProperty('timeBar.color', getColorFromHex('0054ff'))
+    	setProperty('timeBarBG.color', getColorFromHex('0054ff'))
+	end
+	if curBeat == 253 then
+		addLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'phobiadave')
+		setProperty('timeBar.color', getColorFromHex('FFFFFF'))
+		setProperty('timeBarBG.color', getColorFromHex('FFFFFF'))
+	end
+	if curBeat == 254 then
+		removeLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'Dave_Worried_New')
+		setProperty('timeBar.color', getColorFromHex('0054ff'))
+    	setProperty('timeBarBG.color', getColorFromHex('0054ff'))
+	end
+	if curBeat == 256 then
+		addLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'phobiadave')
+		setProperty('timeBar.color', getColorFromHex('FFFFFF'))
+		setProperty('timeBarBG.color', getColorFromHex('FFFFFF'))
+	end
+	if curBeat == 257 then
+		removeLuaSprite('coruptedyard', false);
+		triggerEvent('Change Character', '1', 'Dave_Worried_New')
+		setProperty('timeBar.color', getColorFromHex('0054ff'))
+    	setProperty('timeBarBG.color', getColorFromHex('0054ff'))
+	end
+	if curBeat == 335 then
+		addLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'phobiadave')
+		setProperty('timeBar.color', getColorFromHex('FFFFFF'))
+		setProperty('timeBarBG.color', getColorFromHex('FFFFFF'))
+	end
+	if curBeat == 336 then
+		removeLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'Dave_Worried_New')
+		setProperty('timeBar.color', getColorFromHex('0054ff'))
+    	setProperty('timeBarBG.color', getColorFromHex('0054ff'))
+	end
+	if curBeat == 380 then
+		makeAnimatedLuaSprite('static','static', -600, -1000)
 		addAnimationByPrefix('static','loop','static',30,true)
 		objectPlayAnimation('static','loop',true)
 		setScrollFactor('static', 0.9, 0.9)
 		scaleObject('static', 10, 10);
 
-		makeLuaSprite('white','whiteshit',-740,-380);
-		setLuaSpriteScrollFactor('white', 0, 0);
-		scaleObject('white', 2, 2)
-		
-makeLuaSprite('corruptedyard', 'corruptedyard', -400, -400);
-doTweenAlpha('lmao', 'corruptedyard', 0.85, 00000000000.1, 'linear')
-makeLuaText('dis', "Uprising Terror by Emperor Yami", 600, 680, 0)
-doTweenAlpha('disbye','dis',0,8,'linear')
-setTextSize('dis', 20)
-setTextColor('dis', 'FFFFFF')
-addLuaText('dis',true)
-
-makeLuaSprite('blackbar', 'blackbar', -400, -200)
-setLuaSpriteScrollFactor('blackbar', 0.9, 0.9); 
-scaleObject('blackbar', 1, 1);
-setObjectCamera('blackbar', 'camHUD')
-
-makeLuaSprite('blackbar2', 'blackbar', -400, 590)
-setLuaSpriteScrollFactor('blackbar2', 0.9, 0.9); 
-setObjectCamera('blackbar2', 'camHUD')
-
-scaleObject('blackbar2', 1, 1);
-
-end
-
-function onUpdate()
-	noteTweenAlpha('itsnothere',0, 0, 0.001, 'sineOut')
-	noteTweenAlpha('itsnothere1',1, 0, 0.001, 'sineOut')
-	noteTweenAlpha('itsnothere2',2, 0, 0.001, 'sineOut')
-	noteTweenAlpha('itsnothere3',3, 0, 0.001, 'sineOut')
-	if (getSongPosition() < 600) then
-		for i = 4, 7 do
-			setPropertyFromGroup('strumLineNotes', i, 'alpha', 0)
-		end
-	end
-end
-function onStartCountdown()
-	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
-	if not allowCountdown and isStoryMode and not seenCutscene then
-		setProperty('inCutscene', true);
-		runTimer('startDialogue', 0.8);
-		allowCountdown = true;
-		return Function_Stop;
-	end
-	return Function_Continue;
-end
-
-function onBeatHit()
-
-	if curBeat == 380 then
-		setProperty('timeBar.color', getColorFromHex('FFFFFF'))
-        setProperty('timeBarBG.color', getColorFromHex('FFFFFF'))
-		triggerEvent('Change Character', '1', 'phobiadave');  
 		addLuaSprite('static', true);
 	end
-	
+
 	if curBeat == 384 then
-			for i = 4,7 do
-				setPropertyFromGroup('strumLineNotes',i,'y',150)
-			end
-		addLuaSprite('blackbar', true);
-		addLuaSprite('blackbar2', true);
-		triggerEvent('Change Character', '0', 'ScaredBoyfriend');  
-		triggerEvent('Change Character', '2', 'gfworried');  
+		setProperty('songLength', getPropertyFromClass('flixel.FlxG','sound.music.length'))
+		addLuaSprite('corruptedyard', false);
+		playSound('sorry', 0.4, 'damn');
+		triggerEvent('Change Character', '1', 'phobiadave');  
 		removeLuaSprite('static', true)
-		addLuaSprite('white', false);
-		doTweenColor("coloBF1", "boyfriend", "000000", 1, "linear")
-		doTweenColor("colorBR", "dad", "000000", 1, "sineInOut")
-		doTweenColor("colorGthe", "gf", "000000", 1, "sineInOut")
+		setProperty('timeBar.color', getColorFromHex('FFFFFF'))
+		setProperty('timeBarBG.color', getColorFromHex('FFFFFF'))
+	end
+
+
+end
+function onStepHit()
+	if curStep == 1036 then
+		addLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'phobiadave')
+		setProperty('timeBar.color', getColorFromHex('FFFFFF'))
+		setProperty('timeBarBG.color', getColorFromHex('FFFFFF'))
+	end
+	if curStep == 1037 then
+		removeLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'Dave_Worried_New')
+		setProperty('timeBar.color', getColorFromHex('0054ff'))
+    	setProperty('timeBarBG.color', getColorFromHex('0054ff'))
+	end
+	if curStep == 1038 then
+		addLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'phobiadave')
+		setProperty('timeBar.color', getColorFromHex('FFFFFF'))
+		setProperty('timeBarBG.color', getColorFromHex('FFFFFF'))
+	end
+	if curStep == 1039 then
+		removeLuaSprite('corruptedyard', false);
+		triggerEvent('Change Character', '1', 'Dave_Worried_New')
+		setProperty('timeBar.color', getColorFromHex('0054ff'))
+    	setProperty('timeBarBG.color', getColorFromHex('0054ff'))
 	end
 end

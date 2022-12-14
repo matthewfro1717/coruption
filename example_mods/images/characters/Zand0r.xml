@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Zand0r.png"><SubTexture name="Zand0r down0000" x="0" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r down0001" x="773" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r down0002" x="1546" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r down0003" x="2319" y="0" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r down0004" x="0" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r right0000" x="773" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r right0001" x="1546" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r right0002" x="2319" y="756" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r right0003" x="0" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r right0004" x="773" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r up0000" x="1546" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r up0001" x="2319" y="1512" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r up0002" x="0" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r up0003" x="773" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r left0000" x="1546" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r left0001" x="2319" y="2268" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r left0002" x="0" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r left0003" x="773" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r left0004" x="1546" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r idle0000" x="2319" y="3024" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r idle0001" x="0" y="3780" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r idle0002" x="773" y="3780" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+<SubTexture name="Zand0r idle0003" x="1546" y="3780" width="773" height="756" frameX="0" frameY="0" frameWidth="773" frameHeight="756" />
+</TextureAtlas>

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				171
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Fligh left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				131
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Fligh down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-180,
+				171
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Fligh up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				171
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Fligh right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				201
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Fligh idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Fligh",
+	"position": [
+		-170,
+		-100
+	],
+	"healthicon": "Fligh",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		0
+	],
+	"camera_position": [
+		-300,
+		-70
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

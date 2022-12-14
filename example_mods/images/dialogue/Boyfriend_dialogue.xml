@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Boyfriend_dialogue.png"><SubTexture name="Boyfriend_dialogue idle0000" x="0" y="0" width="693" height="1365" frameX="-442" frameY="-331" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="Boyfriend_dialogue talk0000" x="693" y="0" width="693" height="1365" frameX="-442" frameY="-331" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="Boyfriend_dialogue joy0000" x="1386" y="0" width="693" height="1365" frameX="-442" frameY="-330" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="Boyfriend_dialogue scared0000" x="2079" y="0" width="693" height="1365" frameX="-442" frameY="-330" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="Boyfriend_dialogue sad0000" x="0" y="1365" width="693" height="1365" frameX="-442" frameY="-330" frameWidth="1500" frameHeight="2000" />
+<SubTexture name="Boyfriend_dialogue anger0000" x="693" y="1365" width="693" height="1365" frameX="-442" frameY="-330" frameWidth="1500" frameHeight="2000" />
+</TextureAtlas>

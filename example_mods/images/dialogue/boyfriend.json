@@ -1,0 +1,89 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		0,
+		50
+	],
+	"scale": 0.55,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				400,
+				701
+			],
+			"idle_offsets": [
+				400,
+				701
+			],
+			"loop_name": "Boyfriend_dialogue talk",
+			"idle_name": "Boyfriend_dialogue talk"
+		},
+		{
+			"idle_offsets": [
+				400,
+				701
+			],
+			"anim": "idle",
+			"loop_offsets": [
+				400,
+				701
+			],
+			"idle_name": "Boyfriend_dialogue idle",
+			"loop_name": "Boyfriend_dialogue idle"
+		},
+		{
+			"loop_offsets": [
+				400,
+				701
+			],
+			"anim": "shocked",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"loop_name": "Boyfriend_dialogue scared",
+			"idle_name": "Boyfriend_dialogue scared"
+		},
+		{
+			"loop_offsets": [
+				400,
+				701
+			],
+			"anim": "joyful",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"loop_name": "Boyfriend_dialogue joy",
+			"idle_name": "Boyfriend_dialogue joy"
+		},
+		{
+			"loop_offsets": [
+				400,
+				701
+			],
+			"anim": "sad",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"loop_name": "Boyfriend_dialogue sad",
+			"idle_name": "Boyfriend_dialogue sad"
+		},
+		{
+			"loop_name": "Boyfriend_dialogue anger",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"idle_name": "Boyfriend_dialogue anger",
+			"anim": "anger",
+			"loop_offsets": [
+				400,
+				701
+			]
+		}
+	],
+	"image": "Boyfriend_dialogue"
+}

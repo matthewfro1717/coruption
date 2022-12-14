@@ -3,21 +3,17 @@
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "FlyHigh",
+	"weekBefore": "week4p5endear",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "week4p5endear",
 	"startUnlocked": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": false,
 	"songs": [
 		[
-			"effulgence",
+			"archangel",
 			"FlyHigh",
 			[
 				255,
@@ -44,7 +40,11 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
-	"weekName": "week5FlyHigh",
-	"hiddenUntilUnlocked": true
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "week5FlyHigh"
 }

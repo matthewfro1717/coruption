@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				90,
+				280
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "FakerYambi idle"
+		},
+		{
+			"offsets": [
+				140,
+				171
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "FakerYambi down"
+		},
+		{
+			"offsets": [
+				10,
+				281
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "FakerYambi right"
+		},
+		{
+			"offsets": [
+				180,
+				311
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "FakerYambi left"
+		},
+		{
+			"offsets": [
+				60,
+				331
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singUP",
+			"indices": [],
+			"name": "FakerYambi up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/FakerYambi",
+	"position": [
+		-1500,
+		-50
+	],
+	"healthicon": "operationy",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		750,
+		90
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

@@ -16,6 +16,17 @@ function onTimerCompleted(tag, loops, loopsLeft)
 		startDialogue('dialogue', 'canzies');
 	end
 end
+
+function onCountdownTick(tick)
+    if tick == 1 then
+        loadGraphic('countdownReady', 'og-ready')
+       		elseif tick == 2 then
+        loadGraphic('countdownSet', 'og-set')
+        	elseif tick == 3 then
+        loadGraphic('countdownGo', 'og-go')
+    end
+end
+
 function onBeatHit()
 	songPos = getSongPosition()
 	local currentBeat = math.floor((songPos/1000)*(bpm/60))
@@ -68,8 +79,13 @@ function onSongStart()
 	sinmul = 200
 end
 function onUpdatePost()
+	setProperty('ratingsData[0].image', 'og-sick')
+    setProperty('ratingsData[1].image', 'og-good')
+    setProperty('ratingsData[2].image', 'og-bad')
+    setProperty('ratingsData[3].image', 'og-shit')
+	setProperty("comboSuffix", "-og") -- HEY IF YOU ARE GONNA USE THIS TYPE OF SCRIPT TO YOUR MOD, THIS WAS ONLY CODED FOR THIS MOD. Thanks Raf
 	setProperty('introSoundsSuffix', '-bambi')
-	if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SEVEN') then
+	if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SIX') then
         loadSong('Blocked-Forever', 'Blocked-Forever', true)
 	end
 	notesLength = getProperty('notes.length')

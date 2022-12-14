@@ -24,6 +24,25 @@ function onUpdate(elapsed)
     setProperty('timeBarBG.color', getColorFromHex('FFFF00'))
 end
 
+function onCountdownTick(tick)
+    if tick == 1 then
+        loadGraphic('countdownReady', 'anomoly-ready')
+       		elseif tick == 2 then
+        loadGraphic('countdownSet', 'anomoly-set')
+        	elseif tick == 3 then
+        loadGraphic('countdownGo', 'anomoly-go')
+    end
+end
+
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-exosphere')
+    setProperty('ratingsData[0].image', 'anomoly-sick')
+    setProperty('ratingsData[1].image', 'anomoly-good')
+    setProperty('ratingsData[2].image', 'anomoly-bad')
+    setProperty('ratingsData[3].image', 'anomoly-shit')
+	setProperty("comboSuffix", "-anomoly") -- HEY IF YOU ARE GONNA USE THIS TYPE OF SCRIPT TO YOUR MOD, THIS WAS ONLY CODED FOR THIS MOD. Thanks Raf
+end
+
 function onBeatHit()
     if curBeat > 0 then
         if curBeat % 2 == 0 then
@@ -38,12 +57,6 @@ function onBeatHit()
         doTweenAngle('tt', 'camGame', angleshit, stepCrochet*0.002, 'circOut')
         doTweenX('ttrn', 'camGame', -angleshit*8, crochet*0.001, 'linear')
     end
-end
-
-function onCreate()
-    setProperty("boyfriend.scale.x", 0.3)
-    setProperty("boyfriend.scale.y", 0.3)
-    setProperty("boyfriend.alpha", 0.009)
 end
 
 function opponentNoteHit(ipiss, piss2, piss3, sus) -- SUS? SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?SUS?
@@ -64,6 +77,22 @@ function opponentNoteHit(ipiss, piss2, piss3, sus) -- SUS? SUS?SUS?SUS?SUS?SUS?S
     end
 
 end      
+
+function onCreatePost()
+	for i = 0, getProperty('unspawnNotes.length') do
+        if getPropertyFromGroup('unspawnNotes', i, 'mustPress') == false and getPropertyFromGroup('unspawnNotes', i, 'noteType') == '' then
+            setPropertyFromGroup('unspawnNotes', i, 'texture', 'FlyHighNotes_assets')
+        end
+    end
+    for i = 0, getProperty('notes.length') do
+        if getPropertyFromGroup('notes', i, 'mustPress') == false and getPropertyFromGroup('notes', i, 'noteType') == '' then
+            setPropertyFromGroup('notes', i, 'texture', 'FlyHighNotes_assets')
+        end
+    end
+    for i = 0, getProperty('opponentStrums.length') do
+        setPropertyFromGroup('opponentStrums', i, 'texture', 'FlyHighNotes_assets')
+    end
+end
 
 function onEndSong()
 	if not allowEnd and isStoryMode then

@@ -1,0 +1,102 @@
+{
+	"position": [
+		0,
+		50
+	],
+	"dialogue_pos": "right",
+	"scale": 0.55,
+	"image": "gf_dialogue",
+	"animations": [
+		{
+			"idle_offsets": [
+				400,
+				701
+			],
+			"loop_offsets": [
+				400,
+				701
+			],
+			"anim": "talk",
+			"idle_name": "gf_dialogue talk",
+			"loop_name": "gf_dialogue talk"
+		},
+		{
+			"loop_offsets": [
+				400,
+				701
+			],
+			"anim": "idle",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"loop_name": "gf_dialogue idle",
+			"idle_name": "gf_dialogue idle"
+		},
+		{
+			"loop_name": "gf_dialogue worried",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"idle_name": "gf_dialogue worried",
+			"anim": "worried",
+			"loop_offsets": [
+				400,
+				701
+			]
+		},
+		{
+			"loop_name": "gf_dialogue shocked",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"idle_name": "gf_dialogue shocked",
+			"anim": "shocked",
+			"loop_offsets": [
+				400,
+				701
+			]
+		},
+		{
+			"loop_name": "gf_dialogue joyful",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"idle_name": "gf_dialogue joyful",
+			"anim": "joyful",
+			"loop_offsets": [
+				400,
+				701
+			]
+		},
+		{
+			"loop_name": "gf_dialogue sad",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"idle_name": "gf_dialogue sad",
+			"anim": "sad",
+			"loop_offsets": [
+				400,
+				701
+			]
+		},
+		{
+			"loop_name": "gf_dialogue what",
+			"idle_offsets": [
+				400,
+				701
+			],
+			"idle_name": "gf_dialogue what",
+			"anim": "what",
+			"loop_offsets": [
+				400,
+				701
+			]
+		}
+	]
+}

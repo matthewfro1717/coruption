@@ -1,9 +1,6 @@
 function onUpdate()
     setProperty('timeBar.color', getColorFromHex('5D3FD3'))
     setProperty('timeBarBG.color', getColorFromHex('5D3FD3'))
-    if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.THREE') then
-        loadSong('Quadriplegia', 'Quadripegia', true)
-	end
 end
 
 function opponentNoteHit()
@@ -15,3 +12,6 @@ function opponentNoteHit()
     end
 end
 
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-exosphere')
+end

@@ -18,6 +18,10 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	end
 end
 
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-bambi')
+end
+
 
 function onUpdate()
 	songPos = getSongPosition()

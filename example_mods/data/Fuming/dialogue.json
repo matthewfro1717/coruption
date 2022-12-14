@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"expression": "idle",
+			"text": "get out",
+			"boxState": "normal",
+			"portrait": "bambi",
+			"speed": 0.05,
+			"sound": "bambispeak"
+		},
+		{
+			"expression": "what",
+			"text": "but we need your help...",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "gfspeak"
+		},
+		{
+			"expression": "screwed",
+			"text": "I SAID GET OUT, I DONT LISTEN TO LIARS",
+			"boxState": "angry",
+			"portrait": "bambi",
+			"speed": 0.05,
+			"sound": "bambispeak"
+		},
+		{
+			"expression": "shocked",
+			"text": "Dave is in danger though... WE NEED YOUR HELP!",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "gfspeak"
+		},
+		{
+			"expression": "worried",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "bambi",
+			"speed": 0.135,
+			"sound": "bambispeak"
+		},
+		{
+			"expression": "idle",
+			"text": "i said...",
+			"boxState": "normal",
+			"portrait": "bambi",
+			"speed": 0.13,
+			"sound": "bambispeak"
+		},
+		{
+			"expression": "pissed",
+			"text": "GET OUT",
+			"boxState": "angry",
+			"portrait": "bambi",
+			"speed": 0.265,
+			"sound": "bambispeak"
+		},
+		{
+			"expression": "anger",
+			"text": "CAN YOU LISTEN TO US FOR ONE FUCKING SECOND?",
+			"boxState": "angry",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfspeak"
+		}
+	]
+}

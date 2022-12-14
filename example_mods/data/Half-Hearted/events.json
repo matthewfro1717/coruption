@@ -1,0 +1,61 @@
+{
+	"song": {
+		"events": [
+			[
+				20869.5652173913,
+				[
+					[
+						"Change Character",
+						"1",
+						"Zand0r"
+					],
+					[
+						"Change Character",
+						"2",
+						"exosphere"
+					]
+				]
+			],
+			[
+				62608.695652174,
+				[
+					[
+						"Change Character",
+						"2",
+						"exosphereguitar"
+					]
+				]
+			],
+			[
+				83478.2608695653,
+				[
+					[
+						"Change Character",
+						"2",
+						"exosphere"
+					]
+				]
+			],
+			[
+				125217.391304348,
+				[
+					[
+						"Change Character",
+						"2",
+						"exosphereguitar"
+					]
+				]
+			],
+			[
+				166956.52173913,
+				[
+					[
+						"Change Character",
+						"2",
+						"exosphere"
+					]
+				]
+			]
+		]
+	}
+}

@@ -1,143 +1,68 @@
 {
 	"animations": [
 		{
-			"loop": true,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "idle-loop",
-			"fps": 24,
-			"name": "Dad idle dance",
-			"indices": [
-				10,
-				11,
-				12,
-				12
-			]
-		},
-		{
-			"loop": true,
-			"offsets": [
-				-9,
-				10
-			],
-			"anim": "singLEFT-loop",
-			"fps": 24,
-			"name": "Dad Sing Note LEFT",
-			"indices": [
-				12,
-				13,
-				14,
-				15
-			]
-		},
-		{
-			"loop": true,
-			"offsets": [
-				0,
-				27
-			],
-			"anim": "singRIGHT-loop",
-			"fps": 24,
-			"name": "Dad Sing Note RIGHT",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			]
-		},
-		{
-			"loop": true,
-			"offsets": [
-				-6,
-				50
-			],
-			"anim": "singUP-loop",
-			"fps": 24,
-			"name": "Dad Sing Note UP",
-			"indices": [
-				56,
-				57,
-				58,
-				59
-			]
-		},
-		{
-			"offsets": [
-				140,
-				-100
-			],
 			"loop": false,
-			"fps": 24,
-			"anim": "hey",
-			"indices": [],
-			"name": "WhatYouKnowAboutRollingDownInTheDeep"
-		},
-		{
 			"offsets": [
-				-7,
+				3,
 				202
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Allure left"
+			"fps": 14,
+			"name": "singLEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
-				201
+				208
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Allure down"
+			"fps": 14,
+			"name": "singDOWN",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-10,
+				0,
 				204
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Allure up"
+			"fps": 14,
+			"name": "singUP",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				201
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Allure right"
+			"fps": 14,
+			"name": "singRIGHT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-10,
+				-3,
 				201
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Allure idle"
+			"fps": 12,
+			"name": "idle",
+			"indices": []
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/Allure",
 	"position": [
-		-1590,
-		-490
+		468,
+		35
 	],
-	"healthicon": "Allure",
+	"healthicon": "allure",
 	"flip_x": false,
 	"healthbar_colors": [
 		40,
@@ -145,9 +70,9 @@
 		40
 	],
 	"camera_position": [
-		1150,
-		430
+		-1050,
+		-660
 	],
 	"sing_duration": 6.1,
-	"scale": 0.4
+	"scale": 2
 }

@@ -1,0 +1,181 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-100,
+		-310
+	],
+	"no_antialiasing": false,
+	"scale": 1.1,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				-1
+			],
+			"idle_offsets": [
+				-1,
+				1
+			],
+			"loop_name": "Allure Talking",
+			"idle_name": "Allure Talking0000"
+		},
+		{
+			"loop_name": "Allure Annoyed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure Annoyed0000",
+			"anim": "annoyed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure Happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure Happy0000",
+			"anim": "Happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure Smiling",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure Smiling0000",
+			"anim": "Smiling",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure Erm",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure Erm0000",
+			"anim": "Erm",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure Shocked",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure Shocked0000",
+			"anim": "Shocked",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure AltAngry",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure AltAngry0000",
+			"anim": "AltAngry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure AltPOG",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure AltPOG0000",
+			"anim": "AltPOG",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure AltCrazed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure AltCrazed0000",
+			"anim": "AltCrazed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure AltSmug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure AltSmug0000",
+			"anim": "AltSmug",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure AltClosedTalking",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure AltClosedTalking0000",
+			"anim": "AltClosedEyes",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure AltHolding",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure AltHolding0000",
+			"anim": "AltHolding",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Allure AltTalking",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Allure AltTalking0000",
+			"anim": "AltTalking",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Allure"
+}

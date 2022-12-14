@@ -1,77 +1,77 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				201
 			],
-			"loop": false,
-			"fps": 18,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "exosphere left"
+			"fps": 18,
+			"name": "exosphere left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				201
 			],
-			"loop": false,
-			"fps": 18,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "exosphere down"
+			"fps": 18,
+			"name": "exosphere down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				201
 			],
-			"loop": false,
-			"fps": 18,
 			"anim": "singUP",
-			"indices": [],
-			"name": "exosphere up"
+			"fps": 18,
+			"name": "exosphere up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				201
 			],
-			"loop": false,
-			"fps": 18,
 			"anim": "attack",
-			"indices": [],
-			"name": "exosphere swing"
-		},
-		{
-			"offsets": [
-				-10,
-				201
-			],
-			"loop": false,
 			"fps": 18,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "exosphere right"
+			"name": "exosphere swing",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				201
 			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "exosphere right",
+			"indices": []
+		},
+		{
 			"loop": true,
-			"fps": 15,
+			"offsets": [
+				-10,
+				201
+			],
 			"anim": "idle",
-			"indices": [],
-			"name": "exosphere idle"
+			"fps": 15,
+			"name": "exosphere idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/exosphere",
 	"position": [
 		-650,
-		-290
+		-280
 	],
 	"healthicon": "exosphere",
 	"flip_x": false,
@@ -81,8 +81,8 @@
 		0
 	],
 	"camera_position": [
-		390,
-		0
+		40,
+		40
 	],
 	"sing_duration": 6.1,
 	"scale": 0.8

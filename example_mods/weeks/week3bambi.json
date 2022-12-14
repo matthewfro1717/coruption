@@ -3,18 +3,14 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "exospheric",
+	"weekBefore": "week2expunged",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "week2expunged",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"Resentful",
@@ -26,7 +22,7 @@
 			]
 		],
 		[
-			"temper",
+			"Fuming",
 			"madman",
 			[
 				255,
@@ -62,6 +58,10 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"weekName": "Exospheric Bambi"
 }

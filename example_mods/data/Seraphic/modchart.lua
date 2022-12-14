@@ -209,9 +209,6 @@ function onUpdatePost() --events but every frame
     if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SIX') then
         loadSong('Hydromania', 'Hydromania', true);
     end
-    if getPropertyFromClass('flixel.FlxG', 'keys.justPressed.Z') then
-        setProperty('dis.alpha', 0)
-    end
     if currentBeat >= 320 and currentBeat < 732 then
         notesLength = getProperty('notes.length')
         for i1 = 0, notesLength, 1 do
