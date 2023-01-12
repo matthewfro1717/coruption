@@ -71,7 +71,7 @@
 	"image": "characters/AllureAltForm",
 	"position": [
 		468,
-		35
+		-15
 	],
 	"healthicon": "AllurePanicked",
 	"flip_x": false,

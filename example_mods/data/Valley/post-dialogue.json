@@ -1,60 +1,60 @@
 {
 	"dialogue": [
 		{
-			"expression": "happy",
+			"expression": "joyful",
 			"text": "Nice job, you've improved quite a lot since last time!",
 			"boxState": "normal",
-			"portrait": "Dave",
+			"sound": "davespeak",
 			"speed": 0.05,
-			"sound": "davespeak"
+			"portrait": "Dave"
 		},
 		{
 			"expression": "joyful",
 			"text": "Bap!",
 			"boxState": "normal",
-			"portrait": "boyfriend",
+			"sound": "bfspeak",
 			"speed": 0.05,
-			"sound": "bfspeak"
+			"portrait": "boyfriend"
 		},
 		{
 			"expression": "idle",
 			"text": "Yea...",
 			"boxState": "normal",
-			"portrait": "Dave",
+			"sound": "davespeak",
 			"speed": 0.1,
-			"sound": "davespeak"
+			"portrait": "Dave"
 		},
 		{
+			"expression": "what",
+			"text": "Uhhhh, Dave are you ok?",
+			"boxState": "normal",
 			"sound": "gfspeak",
 			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
-			"expression": "what",
-			"text": "Uhhhh, Dave are you ok?"
+			"portrait": "gf"
 		},
 		{
 			"expression": "worried",
 			"text": "It's just something doesn't feel right thats all.",
 			"boxState": "normal",
-			"portrait": "dave",
+			"sound": "davespeak",
 			"speed": 0.05,
-			"sound": "davespeak"
+			"portrait": "dave"
 		},
 		{
 			"expression": "idle",
 			"text": "Should be nothing important though, down for another round?",
 			"boxState": "normal",
-			"portrait": "Dave",
+			"sound": "davespeak",
 			"speed": 0.05,
-			"sound": "davespeak"
+			"portrait": "Dave"
 		},
 		{
 			"expression": "talk",
 			"text": "beep!",
 			"boxState": "normal",
-			"portrait": "boyfriend",
+			"sound": "bfspeak",
 			"speed": 0.05,
-			"sound": "bfspeak"
+			"portrait": "boyfriend"
 		}
 	]
 }

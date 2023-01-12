@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				585,
+				610
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "idle",
+			"indices": [],
+			"name": "Tristan_Worried_New idle"
+		},
+		{
+			"offsets": [
+				583,
+				610
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Tristan_Worried_New left"
+		},
+		{
+			"offsets": [
+				585,
+				610
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Tristan_Worried_New down"
+		},
+		{
+			"offsets": [
+				586,
+				610
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Tristan_Worried_New up"
+		},
+		{
+			"offsets": [
+				585,
+				610
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Tristan_Worried_New right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Tristan_Worried_New",
+	"position": [
+		0,
+		390
+	],
+	"healthicon": "tristan-worried",
+	"flip_x": false,
+	"healthbar_colors": [
+		233,
+		57,
+		57
+	],
+	"camera_position": [
+		-150,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 0.5
+}

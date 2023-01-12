@@ -1,16 +1,20 @@
 {
-	"storyName": "aw hell naw not the bamber!!!",
+	"storyName": "a forgotten god filled with anger, unaware to the danger",
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "exospheric",
-	"weekBefore": "week2expunged",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "week2expunged",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Resentful",
@@ -58,10 +62,6 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"weekName": "Exospheric Bambi"
+	"hideStoryMode": false,
+	"weekName": "God-Filled Anger"
 }

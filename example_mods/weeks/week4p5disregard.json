@@ -1,16 +1,20 @@
 {
-	"storyName": "You will not be spared",
+	"storyName": "You've disregarded her warning, now you pay the price",
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "disregard",
-	"weekBefore": "week4exosphere",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "week4exosphere",
 	"startUnlocked": false,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Disregard",
@@ -22,11 +26,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hiddenUntilUnlocked": true,
-	"weekName": "???"
+	"hideStoryMode": false,
+	"weekName": "Disregarded her warning",
+	"hiddenUntilUnlocked": true
 }

@@ -3,14 +3,18 @@
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "exosphere",
-	"weekBefore": "week3p5tristan",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "week3p5tristan",
 	"startUnlocked": false,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Devoid",
@@ -38,40 +42,9 @@
 				0,
 				0
 			]
-		],
-		[
-			"Violence",
-			"exosphere",
-			[
-				0,
-				0,
-				0
-			]
-		],
-		[
-			"Exospheric",
-			"exosphere",
-			[
-				0,
-				0,
-				0
-			]
-		],
-		[
-			"Gloomy Despair",
-			"exosphere",
-			[
-				0,
-				0,
-				0
-			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Exospherical"
+	"hideStoryMode": false,
+	"weekName": "Exospherical",
+	"hiddenUntilUnlocked": false
 }

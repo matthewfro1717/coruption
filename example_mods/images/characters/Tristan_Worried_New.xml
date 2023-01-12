@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Tristan_Worried_New.png"><SubTexture name="Tristan_Worried_New idle0000" x="0" y="780" width="556" height="760" frameX="-517" frameY="-472" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New idle0001" x="2012" y="0" width="570" height="753" frameX="-511" frameY="-480" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New idle0002" x="0" y="1540" width="574" height="744" frameX="-508" frameY="-489" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New idle0003" x="2582" y="0" width="582" height="721" frameX="-505" frameY="-512" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New idle0004" x="732" y="0" width="544" height="774" frameX="-520" frameY="-459" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New idle0005" x="0" y="780" width="556" height="760" frameX="-517" frameY="-472" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New left0000" x="556" y="780" width="654" height="754" frameX="-299" frameY="-479" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New left0001" x="1210" y="780" width="658" height="754" frameX="-294" frameY="-479" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New down0000" x="1605" y="1540" width="482" height="722" frameX="-505" frameY="-511" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New down0001" x="1137" y="1540" width="468" height="735" frameX="-510" frameY="-498" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New up0000" x="1276" y="0" width="736" height="767" frameX="-348" frameY="-466" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New up0001" x="0" y="0" width="732" height="780" frameX="-344" frameY="-453" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New right0000" x="574" y="1540" width="563" height="736" frameX="-518" frameY="-497" frameWidth="1536" frameHeight="1463" />
+<SubTexture name="Tristan_Worried_New right0001" x="2012" y="753" width="557" height="736" frameX="-517" frameY="-497" frameWidth="1536" frameHeight="1463" />
+</TextureAtlas>

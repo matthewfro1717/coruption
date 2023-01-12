@@ -4,17 +4,87 @@
 		"sectionLengths": null,
 		"events": [
 			[
-				210100,
+				209600,
 				[
 					[
-						"Play Animation",
-						"fall",
-						"tristan"
+						"MoveArrow",
+						"0",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				209604.166666667,
+				[
+					[
+						"MoveArrow",
+						"1",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				209608.333333333,
+				[
+					[
+						"MoveArrow",
+						"2",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				209612.5,
+				[
+					[
+						"MoveArrow",
+						"3",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				209616.666666667,
+				[
+					[
+						"MoveArrow",
+						"4",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				209620.833333333,
+				[
+					[
+						"MoveArrow",
+						"5",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				209625,
+				[
+					[
+						"MoveArrow",
+						"6",
+						"0,0,0,0,0.001"
+					]
+				]
+			],
+			[
+				209629.166666667,
+				[
+					[
+						"MoveArrow",
+						"7",
+						"0,0,0,0,0.001"
 					]
 				]
 			]
 		],
-		"gfVersion": "gfinvisible",
+		"gfVersion": "gfworried",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -6293,6 +6363,26 @@
 				"bpm": 150
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 150,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 150
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -6303,7 +6393,7 @@
 				"mustHitSection": true
 			}
 		],
-		"player2": "tristan",
+		"player2": "Tristan_Worried_New",
 		"player3": null,
 		"song": "Grounded",
 		"stage": "Yard",
@@ -6311,6 +6401,6 @@
 		"sections": 0,
 		"validScore": true,
 		"bpm": 150,
-		"speed": 3.3
+		"speed": 3.1
 	}
 }

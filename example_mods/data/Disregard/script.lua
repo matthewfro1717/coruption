@@ -4,6 +4,41 @@ local anglevar = 6
 local funnyvar = 0
 local shake = 0
 
+function onStartCountdown()
+	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
+	if not allowCountdown and isStoryMode and not seenCutscene then
+		setProperty('inCutscene', true);
+		runTimer('startDialogue', 0.8);
+		allowCountdown = true;
+		return Function_Stop;
+	end
+	return Function_Continue;
+end
+
+function onTimerCompleted(tag, loops, loopsLeft)
+	if tag == 'startDialogue' then -- Timer completed, play dialogue
+		startDialogue('dialogue', 'Overlord');
+	end
+end
+
+function onCreatePost()
+    addChromaticAbberationEffect("game");
+    addChromaticAbberationEffect("hud");
+    makeLuaText('kadeEngineWatermark','No more games kid, I am tired of having you here if I can not corrupt you.', 0, 4, getProperty('healthBarBG.y') + 55)
+    setTextSize('kadeEngineWatermark', 16)
+    setTextBorder('kadeEngineWatermark', 1, '000000')
+    addLuaText('kadeEngineWatermark')
+    setObjectCamera('kadeEngineWatermark', 'hud')
+    setTextFont('kadeEngineWatermark', 'gillsans.ttf')
+
+    if downscroll then
+        setProperty('kadeEngineWatermark.y', screenHeight * 0.9 + 49)
+    end
+
+    -- Hides the watermark to replace the new one
+    setProperty("watermarkTxt.alpha", 0)
+end
+
 function onBeatHit()
 	local currentBeat = math.floor((songPos/1000)*(bpm/60))
 	setProperty('timeTxt.color', getColorFromHex('5D3FD3'))
@@ -19,6 +54,7 @@ function onBeatHit()
         playeddownscroll = true
         doTweenAlpha('scrofade','scro',0,1,'linear')
     end]]
+
     if currentBeat > 0 and currentBeat < 30 then
         if currentBeat % 2 == 0 then
             setProperty('camHUD.zoom',1)
@@ -74,6 +110,10 @@ end
 
 function opponentNoteHit()
     shake = 0.01
+    triggerEvent('Add Camera Zoom', '0.01', '0.02');
+    triggerEvent('Screen Shake', '0.03, 0.01', '0.03, 0.005');
+    doChromaticPulse("game", 0.01, 0.1, "sineIn")
+    doChromaticPulse("hud", 0.01, 0.1, "sineIn")
     if mustHitSection == false then
         health = getProperty('health')
         if getProperty('health') > 0.5 then
@@ -86,12 +126,12 @@ end
 
 function goodNoteHit()
     hp = getProperty('health')
-    setProperty('health',hp+0.015)
+    setProperty('health',hp+0.018)
 end
 
 
 function noteMiss()
     hp = getProperty('health')
-    setProperty('health',hp-0.1)
+    setProperty('health',hp-0.15)
 end
 

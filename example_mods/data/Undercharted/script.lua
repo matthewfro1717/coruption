@@ -1,6 +1,7 @@
 local angleshit = 0;
 local anglevar = 0;
 local theepic = true;
+local hpxvar = -200
 
 function onUpdatePost()
 	setProperty('introSoundsSuffix', '-az')
@@ -9,12 +10,25 @@ function onUpdatePost()
     setProperty('iconP1.x',220+getProperty('health')*300)
     setProperty('iconP2.flipX',true)
     setProperty('iconP2.x',320+getProperty('health')*300)
+    
+    health = getProperty('health')
+	songPos = getSongPosition()
+	local currentBeat = (songPos/1000)*(bpm/60)	
+    setProperty("healthBar.angle", 90)
+    setProperty("healthBar.y", 350)
+    setProperty("healthBar.x", hpxvar)
+    setProperty("iconP2.x", hpxvar+220)
+	setProperty("iconP2.y", 70+health*300)
+	setProperty("iconP1.x", hpxvar+220)
+	setProperty("iconP1.y", -30+health*300)
+
     if curBeat == 1364 then
         setProperty("iconP2.alpha", 0)
         setProperty("iconP1.alpha", 0)
         setProperty("healthBar.alpha",0)
     end
 end
+
 
 function onBeatHit()
     if curBeat > 0 then
@@ -37,9 +51,7 @@ function onBeatHit()
         doTweenY('bounce2','boyfriend',getProperty('boyfriend.y')-20,crochet*0.001,'sineOut')
     end
 
-    if currentstep > 5455 then
-        setProperty('health',2)
-    end
+
 end
 
 function onCreatePost()
@@ -70,8 +82,8 @@ function onUpdate()
         setProperty('timeBar.color', getColorFromHex('FFFF99'))
         setProperty('timeBarBG.color', getColorFromHex('FFFF99'))
     else
-        setProperty('timeBar.color', getColorFromHex('CF9FFF'))
-        setProperty('timeBarBG.color', getColorFromHex('CF9FFF'))
+        setProperty('timeBar.color', getColorFromHex('FFFFFF'))
+        setProperty('timeBarBG.color', getColorFromHex('FFFFFF'))
     end
 end
 

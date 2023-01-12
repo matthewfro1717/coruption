@@ -1,0 +1,50 @@
+{
+	"storyName": "A choice of violence",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "exosphere",
+	"weekBefore": "week3p5tristan",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Violence",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Exospheric",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Gloomy Despair",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "A Choice You'll Regret"
+}

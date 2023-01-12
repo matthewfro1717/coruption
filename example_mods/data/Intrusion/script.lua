@@ -1,6 +1,7 @@
 local angleshit = 0;
 local anglevar = 0;
 local theepic = true;
+local hpxvar = -200
 
 function onUpdatePost()
 	setProperty('introSoundsSuffix', '-az')
@@ -14,6 +15,18 @@ function onUpdatePost()
     setProperty('iconP1.x',220+getProperty('health')*300)
     setProperty('iconP2.flipX',true)
     setProperty('iconP2.x',320+getProperty('health')*300)
+
+    health = getProperty('health')
+	songPos = getSongPosition()
+	local currentBeat = (songPos/1000)*(bpm/60)	
+    setProperty("healthBar.angle", 90)
+    setProperty("healthBar.y", 350)
+    setProperty("healthBar.x", hpxvar)
+    setProperty("iconP2.x", hpxvar+220)
+	setProperty("iconP2.y", 70+health*300)
+	setProperty("iconP1.x", hpxvar+220)
+	setProperty("iconP1.y", -30+health*300)
+    
 end
 
 function onCountdownTick(tick)

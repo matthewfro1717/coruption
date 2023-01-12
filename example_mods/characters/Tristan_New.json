@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				405,
+				610
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "idle",
+			"indices": [],
+			"name": "Tristan_New idle"
+		},
+		{
+			"offsets": [
+				403,
+				610
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Tristan_New left"
+		},
+		{
+			"offsets": [
+				404,
+				610
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Tristan_New down"
+		},
+		{
+			"offsets": [
+				405,
+				609
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Tristan_New up"
+		},
+		{
+			"offsets": [
+				407,
+				610
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Tristan_New right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Tristan_New",
+	"position": [
+		90,
+		370
+	],
+	"healthicon": "tristanhappy",
+	"flip_x": false,
+	"healthbar_colors": [
+		235,
+		40,
+		60
+	],
+	"camera_position": [
+		-70,
+		-250
+	],
+	"sing_duration": 4,
+	"scale": 0.5
+}

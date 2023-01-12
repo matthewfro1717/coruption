@@ -1,5 +1,5 @@
 {
-	"storyName": "Tristan in the void? HOW?!?!?!?!",
+	"storyName": "Controlled but doesn't show, eventually you'll know",
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "tristan",
@@ -26,7 +26,7 @@
 			]
 		],
 		[
-			"Lesson",
+			"Session",
 			"tristan",
 			[
 				255,
@@ -54,5 +54,5 @@
 		]
 	],
 	"hideStoryMode": false,
-	"weekName": "Exospheric Bambi"
+	"weekName": "Tristan"
 }

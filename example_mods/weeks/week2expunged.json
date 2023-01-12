@@ -1,20 +1,16 @@
 {
-	"storyName": "expung",
+	"storyName": "Cheaters dont always get what they want...",
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "INSANE",
+	"weekBefore": "week1dave",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "week1dave",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"farm",
@@ -35,7 +31,7 @@
 			]
 		],
 		[
-			"epitome",
+			"deficient",
 			"epitome",
 			[
 				0,
@@ -53,6 +49,10 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
-	"weekName": "Custom Week"
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "CHEATER"
 }

@@ -29,6 +29,22 @@ function onCreate()
     addLuaText('dis',true)
 end
 
+function onBeatHit()
+    if curBeat == 524 then
+		makeLuaSprite('Blackout', 'Blackout', -400, -650)
+		setLuaSpriteScrollFactor('Blackout', 0.9, 0.9); 
+		addLuaSprite('Blackout', true);
+		scaleObject('Blackout', 10, 10);
+        playSound('PowerOff', 0.4);
+        setProperty('camHUD.alpha', 0)
+        setProperty("iconP2.alpha", 0)
+        setProperty("iconP1.alpha", 0)
+        setProperty("timeTxt.alpha", 0)
+        setProperty("scoreTxt.alpha", 0)
+        setProperty("heathBar.alpha", 0)
+        setProperty("timeBar.alpha", 0)
+	end
+end
 function onUpdatePost()	
     setProperty('ratingsData[0].image', 'og-sick')
     setProperty('ratingsData[1].image', 'og-good')
@@ -46,3 +62,14 @@ function onCountdownTick(tick)
         loadGraphic('countdownGo', 'og-go')
     end
 end
+
+function onEndSong()
+	if not allowEnd and isStoryMode then
+		setProperty('inCutscene', true);
+		startDialogue('post-dialogue', 'Overlord');
+		allowEnd = true;
+		return Function_Stop;
+	end
+	return Function_Continue;
+end
+

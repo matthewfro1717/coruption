@@ -3,18 +3,14 @@
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "half",
+	"weekBefore": "week4p5endear",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "week4p5endear",
 	"startUnlocked": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"Annoyance",
@@ -53,7 +49,11 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
-	"weekName": "Halfbi356489-345u-0345u-",
-	"hiddenUntilUnlocked": true
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "Zander Moment"
 }

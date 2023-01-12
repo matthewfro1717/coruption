@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"expression": "confused",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere"
+		},
+		{
+			"expression": "idle",
+			"text": "beep!",
+			"boxState": "normal",
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "idle",
+			"text": "Lets make a deal, I'll bring you back to where you were, in exchange you stop ruining what I've been doing.",
+			"boxState": "normal",
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere"
+		},
+		{
+			"expression": "idle",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.105,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "idle",
+			"text": "I rarely do this, either you accept and leave with no harm or your grave will be right where you stand.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "exosphere"
+		},
+		{
+			"expression": "idle",
+			"text": "...hmm",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		}
+	]
+}

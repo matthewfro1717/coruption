@@ -1,0 +1,92 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tristan",
+			"boxState": "angry",
+			"expression": "sobbing",
+			"text": "IT'S SO DARK!!!"
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "Why did everything go dark all of the sudden???"
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "Boyfriend, I think we should probably leave..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "azstroth",
+			"boxState": "normal",
+			"expression": "gone",
+			"text": ""
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "what",
+			"text": "Uhhhhhh.... Boyfriend??"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Tristan",
+			"boxState": "normal",
+			"expression": "sobbing",
+			"text": "I CAN'T SEE HIM!"
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "GF",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "WHAT?? "
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "He probably ran off... I think I'll just."
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "what",
+			"text": "..."
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "what",
+			"text": "hes somewhere I can't teleport to..."
+		},
+		{
+			"sound": "gfspeak",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "This is VERY bad..."
+		}
+	]
+}

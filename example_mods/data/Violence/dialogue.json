@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "So have you made your choice?"
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bap!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "..."
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "you've got to be kidding me, you want to try and free them?"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "They're literally under my control, do you want to end up like one of them or something?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep bap! bapeepop!"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "You've got to be joking... you think you can FREE them from my control?"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "I think you don't know who you're messing with..."
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "agitated",
+			"text": "If you're that determined to save them then lets put that to the test shall we."
+		}
+	]
+}

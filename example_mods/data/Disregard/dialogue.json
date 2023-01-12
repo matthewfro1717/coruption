@@ -1,0 +1,140 @@
+{
+	"dialogue": [
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "joyful",
+			"text": "BAP!"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "... I've really tried giving you a chance and yet you still kept going..."
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "Infact you haven't even realized that I've tried controlling you."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "???"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "But I couldn't, because you're already being controlled."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "(yo i think shes talkin bout you, yes you the player)"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "because of that... I'm afraid that you're gonna have to perish."
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I've literally survived multiple times I am not stopping here..."
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "agitated",
+			"text": "You really don't know what you're getting yourself into..."
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "come at me then lmfao"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "angry",
+			"expression": "enraged",
+			"text": "YOU WANT TO DIE THIS FUCKING BADLY???"
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "lol"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "agitated",
+			"text": "Then be my guest, just remember this one thing."
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.105,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "agitated",
+			"text": "I'm not alone..."
+		},
+		{
+			"sound": "davespeak",
+			"speed": 0.05,
+			"portrait": "daveold",
+			"boxState": "normal",
+			"expression": "pain",
+			"text": ""
+		},
+		{
+			"sound": "glitchbambitalk",
+			"speed": 0.05,
+			"portrait": "exobamb",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": ""
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "aaaand she's using them against me..."
+		}
+	]
+}

@@ -3,6 +3,7 @@ local anglevar = 0;
 local theepic = true;
 local camMovement = 20
 local velocity = 5
+local hpxvar = -200
 
 --leave this ones alone--
 local campointx = 0
@@ -36,6 +37,32 @@ function onBeatHit()
         setProperty('boyfriend.y',getProperty('boyfriend.y')+20)
         doTweenY('bounce2','boyfriend',getProperty('boyfriend.y')-20,crochet*0.001,'sineOut')
     end
+end
+
+function onUpdatePost()
+	setProperty('introSoundsSuffix', '-az')
+    setProperty('ratingsData[0].image', 'anomoly-sick')
+    setProperty('ratingsData[1].image', 'anomoly-good')
+    setProperty('ratingsData[2].image', 'anomoly-bad')
+    setProperty('ratingsData[3].image', 'anomoly-shit')
+	setProperty("comboSuffix", "-anomoly") -- HEY IF YOU ARE GONNA USE THIS TYPE OF SCRIPT TO YOUR MOD, THIS WAS ONLY CODED FOR THIS MOD. Thanks Raf
+    setProperty('healthBar.flipX',true)
+    setProperty('iconP1.flipX',true)
+    setProperty('iconP1.x',220+getProperty('health')*300)
+    setProperty('iconP2.flipX',true)
+    setProperty('iconP2.x',320+getProperty('health')*300)
+
+    health = getProperty('health')
+	songPos = getSongPosition()
+	local currentBeat = (songPos/1000)*(bpm/60)	
+    setProperty("healthBar.angle", 90)
+    setProperty("healthBar.y", 350)
+    setProperty("healthBar.x", hpxvar)
+    setProperty("iconP2.x", hpxvar+220)
+	setProperty("iconP2.y", 70+health*300)
+	setProperty("iconP1.x", hpxvar+220)
+	setProperty("iconP1.y", -30+health*300)
+    
 end
 
 function onCreatePost()
@@ -115,11 +142,9 @@ function onUpdate()
     if curBeat % 2 == 0 then
         setProperty('timeBar.color', getColorFromHex('FF0000'))
         setProperty('timeBarBG.color', getColorFromHex('FF0000'))
-		doTweenColor("coloUH", "background", "FF0000", 0.001, "sineInOut")
     else
         setProperty('timeBar.color', getColorFromHex('FFFF00'))
         setProperty('timeBarBG.color', getColorFromHex('FFFF00'))
-		doTweenColor("coloUH", "background", "FFFF00", 0.001, "sineInOut")
     end
 end
 

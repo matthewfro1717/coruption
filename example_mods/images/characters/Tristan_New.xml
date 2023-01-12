@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Tristan_New.png"><SubTexture name="Tristan_New idle0000" x="1470" y="0" width="555" height="760" frameX="-292" frameY="-472" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New idle0001" x="1470" y="0" width="555" height="760" frameX="-292" frameY="-472" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New idle0002" x="1840" y="1536" width="603" height="713" frameX="-278" frameY="-520" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New idle0003" x="572" y="1536" width="594" height="721" frameX="-287" frameY="-512" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New idle0004" x="0" y="1536" width="572" height="740" frameX="-289" frameY="-493" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New idle0005" x="467" y="0" width="540" height="776" frameX="-293" frameY="-457" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New left0000" x="0" y="784" width="435" height="752" frameX="-287" frameY="-481" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New left0001" x="2025" y="0" width="428" height="745" frameX="-289" frameY="-488" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New down0000" x="2453" y="0" width="673" height="710" frameX="-89" frameY="-523" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New down0001" x="1166" y="1536" width="674" height="721" frameX="-73" frameY="-512" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New up0000" x="0" y="0" width="467" height="784" frameX="-300" frameY="-449" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New up0001" x="1007" y="0" width="463" height="773" frameX="-297" frameY="-460" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New right0000" x="435" y="784" width="672" height="751" frameX="-124" frameY="-482" frameWidth="1084" frameHeight="1463" />
+<SubTexture name="Tristan_New right0001" x="1107" y="784" width="698" height="749" frameX="-114" frameY="-484" frameWidth="1084" frameHeight="1463" />
+</TextureAtlas>

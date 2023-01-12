@@ -1,4 +1,20 @@
 {
+	"storyName": "A mansion within the snowstorm",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "allure",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week4p5endear",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Greetings",
@@ -37,23 +53,7 @@
 			]
 		]
 	],
-	"hiddenUntilUnlocked": true,
-	"hideFreeplay": false,
-	"weekBackground": "allure",
-	"difficulties": "Hard",
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"storyName": "A mansion within the snowstorm",
-	"weekName": "Custom Week",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
 	"hideStoryMode": false,
-	"weekBefore": "week4p5endear",
-	"startUnlocked": false
+	"weekName": "Miserable Mansion",
+	"hiddenUntilUnlocked": true
 }

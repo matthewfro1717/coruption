@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				236,
 				660
 			],
+			"loop": false,
+			"fps": 15,
 			"anim": "idle",
-			"fps": 15,
-			"name": "Dave_New idle",
-			"indices": []
+			"indices": [],
+			"name": "Dave_New idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				236,
 				660
 			],
+			"loop": false,
+			"fps": 15,
 			"anim": "singLEFT",
-			"fps": 15,
-			"name": "Dave_New left",
-			"indices": []
+			"indices": [],
+			"name": "Dave_New left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				236,
 				660
 			],
+			"loop": false,
+			"fps": 15,
 			"anim": "singDOWN",
-			"fps": 15,
-			"name": "Dave_New down",
-			"indices": []
+			"indices": [],
+			"name": "Dave_New down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				236,
 				660
 			],
+			"loop": false,
+			"fps": 15,
 			"anim": "singUP",
-			"fps": 15,
-			"name": "Dave_New up",
-			"indices": []
+			"indices": [],
+			"name": "Dave_New up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				236,
 				660
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 15,
-			"name": "Dave_New right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Dave_New right"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Dave_New",
 	"position": [
 		0,
-		350
+		410
 	],
 	"healthicon": "Dave",
 	"flip_x": false,

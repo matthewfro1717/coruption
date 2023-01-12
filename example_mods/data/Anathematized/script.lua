@@ -10,6 +10,7 @@ function onBeatHit()
         setProperty('health', 0.5)
         doFlash(1,1.5,'6A0DAD')
         setProperty("MansionHalls.alpha",1)
+        playSound('Shattered', 0.4);
     end
 
 end
@@ -27,7 +28,6 @@ function onCreate()
     makeLuaSprite('introfade','',0,0)
     makeGraphic('introfade',3000,3000,'000000')
     setObjectCamera('introfade','other')
-    setProperty('healthBar.alpha', 0)
     addLuaSprite('introfade',true)
     doTweenAlpha('introfade1','introfade',0,2,'linear')
     makeLuaText('dis', "Anathematized by Emperor Yami", 600, 680, 0)
@@ -97,3 +97,14 @@ function onCountdownTick(tick)
         loadGraphic('countdownGo', 'anomoly-go')
     end
 end
+
+function onEndSong()
+	if not allowEnd and isStoryMode then
+		setProperty('inCutscene', true);
+		startDialogue('post-dialogue', 'Overlord');
+		allowEnd = true;
+		return Function_Stop;
+	end
+	return Function_Continue;
+end
+

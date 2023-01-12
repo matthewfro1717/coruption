@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "UHHHHHHHHHH"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Never thought I would be stepping in like this."
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "angry",
+			"expression": "anger",
+			"text": "WHERE THE HELL AM I"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "Looks like you're mad enough that you're able to speak properly."
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "Welcome to the Void, a place where everything is under my control."
+		},
+		{
+			"sound": "bfspeak",
+			"speed": 0.05,
+			"portrait": "boyfriend",
+			"boxState": "normal",
+			"expression": "idle",
+			"text": "... beep bap?"
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "Of course you go back to your original way of talking but I know what you want."
+		},
+		{
+			"sound": "exospeak",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "I'll be down to kill some time..."
+		}
+	]
+}

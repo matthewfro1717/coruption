@@ -21,36 +21,3 @@ function onUpdate()
 	setProperty('timeBar.color', getColorFromHex('00ff00'))
     setProperty('timeBarBG.color', getColorFromHex('00ff00'))
 end
-
-function onBeatHit()
-	if curBeat > 384 and curBeat < 389 then
-		playSound('sorry', 0.4);
-    end
-end
-
-function onCreate()
-	makeLuaText('dis', "Starch by Hortas | Remix by Emperor Yami", 600, 680, 0)
-    doTweenAlpha('disbye','dis',0,8,'linear')
-    setTextSize('dis', 20)
-    setTextColor('dis', 'FFFFFF')
-    addLuaText('dis',true)
-end
-
-function onUpdatePost()
-	setProperty('introSoundsSuffix', '-bambi')
-	setProperty('ratingsData[0].image', 'og-sick')
-    setProperty('ratingsData[1].image', 'og-good')
-    setProperty('ratingsData[2].image', 'og-bad')
-    setProperty('ratingsData[3].image', 'og-shit')
-	setProperty("comboSuffix", "-og") -- HEY IF YOU ARE GONNA USE THIS TYPE OF SCRIPT TO YOUR MOD, THIS WAS ONLY CODED FOR THIS MOD. Thanks Raf
-end
-
-function onCountdownTick(tick)
-    if tick == 1 then
-        loadGraphic('countdownReady', 'og-ready')
-       		elseif tick == 2 then
-        loadGraphic('countdownSet', 'og-set')
-        	elseif tick == 3 then
-        loadGraphic('countdownGo', 'og-go')
-    end
-end

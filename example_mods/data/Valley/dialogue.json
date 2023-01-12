@@ -1,52 +1,52 @@
 {
 	"dialogue": [
 		{
-			"expression": "happy",
+			"expression": "joyful",
 			"text": "Honing your skills I see.",
 			"boxState": "normal",
-			"portrait": "dave",
+			"sound": "davespeak",
 			"speed": 0.05,
-			"sound": "davespeak"
+			"portrait": "dave"
 		},
 		{
 			"expression": "joyful",
 			"text": "Same to you dave!",
 			"boxState": "normal",
-			"portrait": "gf",
+			"sound": "gfspeak",
 			"speed": 0.05,
-			"sound": "gfspeak"
+			"portrait": "gf"
 		},
 		{
 			"expression": "worried",
 			"text": "I just hope I don't turn 3D again like last time.",
 			"boxState": "normal",
-			"portrait": "dave",
+			"sound": "davespeak",
 			"speed": 0.05,
-			"sound": "davespeak"
+			"portrait": "dave"
 		},
 		{
 			"expression": "idle",
 			"text": "Beep skdoo bop.",
 			"boxState": "normal",
-			"portrait": "boyfriend",
+			"sound": "bfspeak",
 			"speed": 0.05,
-			"sound": "bfspeak"
+			"portrait": "boyfriend"
 		},
 		{
 			"expression": "joyful",
 			"text": "Anyways, Up for another round?",
 			"boxState": "normal",
-			"portrait": "dave",
+			"sound": "davespeak",
 			"speed": 0.05,
-			"sound": "davespeak"
+			"portrait": "dave"
 		},
 		{
 			"expression": "excited",
 			"text": "Beep!",
 			"boxState": "normal",
-			"portrait": "boyfriend",
+			"sound": "bfspeak",
 			"speed": 0.05,
-			"sound": "bfspeak"
+			"portrait": "boyfriend"
 		}
 	]
 }

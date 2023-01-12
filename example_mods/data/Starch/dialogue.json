@@ -1,60 +1,53 @@
 {
 	"dialogue": [
 		{
-			"expression": "joyful",
-			"text": "beep!",
-			"boxState": "normal",
-			"sound": "bfspeak",
 			"speed": 0.05,
-			"portrait": "boyfriend"
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "beep!"
 		},
 		{
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
 			"expression": "mad",
-			"text": "another",
-			"boxState": "normal",
-			"sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged"
+			"text": "another"
 		},
 		{
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
 			"expression": "mad",
-			"text": "i still dont believe cheaters like you",
-			"boxState": "normal",
-			"sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged"
+			"text": "i still dont believe cheaters like you"
 		},
 		{
-			"expression": "worried",
-			"text": "jesus we have no time for this",
-			"boxState": "normal",
-			"sound": "gfspeak",
 			"speed": 0.05,
-			"portrait": "gf"
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "jesus we have no time for this"
 		},
 		{
+			"speed": 0.05,
+			"portrait": "expunged",
+			"boxState": "normal",
 			"expression": "talk",
-			"text": "if you win i let you leave, i cant leave for some reason",
-			"boxState": "normal",
-			"sound": "expungedspeak",
-			"speed": 0.05,
-			"portrait": "expunged"
+			"text": "if you win i let you leave, i cant leave for some reason"
 		},
 		{
-			"expression": "what",
-			"text": "So you couldn't do anything this whole time...",
-			"boxState": "normal",
-			"sound": "gfspeak",
 			"speed": 0.05,
-			"portrait": "gf"
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "So you couldn't do anything this whole time..."
 		},
 		{
-			"expression": "what",
-			"text": "fucking hell",
-			"boxState": "normal",
-			"sound": "gfspeak",
 			"speed": 0.05,
-			"portrait": "gf"
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "fucking hell"
 		}
 	]
 }

@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "...."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "(He should've been under my control by now)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "(the only thing that could even prevent that is...)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "exosphere",
+			"boxState": "normal",
+			"expression": "worried",
+			"text": "(...if someone else is controlling him already)"
+		}
+	]
+}
