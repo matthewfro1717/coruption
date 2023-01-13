@@ -3235,6 +3235,7 @@ class PlayState extends MusicBeatState
 					if (!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false))
 					{
 						StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
+						StoryMenuStateAnomalies.weekCompleted.set(WeekData.weeksList[storyWeek], true);
 
 						if (SONG.validScore)
 						{
@@ -4344,14 +4345,30 @@ class PlayState extends MusicBeatState
 			{
 				var unlock:Bool = false;
 
+				var formattedSongName = Paths.formatToSongPath(SONG.song);
+				var didAFC = songMisses < 1;
+
 				if (achievementName.toLowerCase() == (WeekData.getWeekFileName() + "_completion"))
 				{
 					if (isStoryMode && storyPlaylist.length <= 1 && !changedDifficulty)
-						unlock = true;
+					{
+						var songToCheck = "censure";
+						switch (storyWeek)
+						{
+							case 1:
+								songToCheck = "insane";
+							case 2:
+								songToCheck = "glitchcorn";
+							case 3:
+								songToCheck = "defiance";
+							case 5:
+								songToCheck = "gloomy-despair";
+						}
+
+						unlock = songToCheck == formattedSongName;
+					}
 				}
 
-				var formattedSongName = Paths.formatToSongPath(SONG.song);
-				var didAFC = songMisses < 1;
 				switch (achievementName)
 				{
 					case "riftsomewhere":

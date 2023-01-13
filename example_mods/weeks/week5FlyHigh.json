@@ -45,6 +45,7 @@
 		"",
 		""
 	],
-	"hiddenUntilUnlocked": true,
-	"weekName": "The Purified City"
+	"hiddenUntilUnlocked": true,	
+	"weekName": "The Purified City",
+	"anomaly": true
 }

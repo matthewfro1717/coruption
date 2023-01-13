@@ -18,7 +18,6 @@ class ClientPrefs
 		"purgatory" => false,
 		"charlatan" => false,
 		"atmospherical" => false,
-		"nemesis" => false,
 		"supreme" => false
 	]; // for secret songs
 	public static var songPlayedHidden:Map<String, Bool> = []; // for hidden songs

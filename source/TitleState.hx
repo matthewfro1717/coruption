@@ -194,10 +194,15 @@ class TitleState extends MusicBeatState
 			persistentUpdate = true;
 			persistentDraw = true;
 		}
-
+		if (FlxG.save.data.version == null)
+		{
+			FlxG.save.data.version = 2.3; // save for v3
+			FlxG.save.flush();
+		}
 		if (FlxG.save.data.weekCompleted != null)
 		{
 			StoryMenuState.weekCompleted = FlxG.save.data.weekCompleted;
+			StoryMenuStateAnomalies.weekCompleted = FlxG.save.data.weekCompleted;
 		}
 
 		FlxG.mouse.visible = false;

@@ -55,5 +55,6 @@
 		""
 	],
 	"hiddenUntilUnlocked": true,
-	"weekName": "Zander Moment"
+	"weekName": "Zander Moment",
+	"anomaly": true
 }

@@ -22,7 +22,7 @@ import WeekData;
 
 using StringTools;
 
-class StoryMenuState extends MusicBeatState
+class StoryMenuStateAnomalies extends MusicBeatState
 {
 	public static var weekCompleted:Map<String, Bool> = new Map<String, Bool>();
 
@@ -38,7 +38,7 @@ class StoryMenuState extends MusicBeatState
 	private static var curWeek:Int = 0;
 
 	var txtTracklist:FlxText;
-	var etas:Array<Int> = [10, 14, 14, 9, 15, 11, 4];
+	var etas:Array<Int> = [10, 4, 10, 10, 13, 13, 7];
 	var etaText:FlxText;
 
 	var grpWeekText:FlxTypedGroup<MenuItem>;
@@ -103,7 +103,7 @@ class StoryMenuState extends MusicBeatState
 		{
 			var weekFile:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
 			var isLocked:Bool = weekIsLocked(WeekData.weeksList[i]);
-			if ((!isLocked || !weekFile.hiddenUntilUnlocked) && !weekFile.anomaly)
+			if ((!isLocked || !weekFile.hiddenUntilUnlocked) && weekFile.anomaly)
 			{
 				loadedWeeks.push(weekFile);
 				WeekData.setDirectoryFromWeek(weekFile);
@@ -198,23 +198,13 @@ class StoryMenuState extends MusicBeatState
 		var switchModeButtonThingy = new FlxButton((FlxG.width * 0.75), txtTracklist.y - 70, "", function()
 		{
 			if (!selectedWeek)
-				MusicBeatState.switchState(new StoryMenuStateAnomalies());
+				MusicBeatState.switchState(new StoryMenuState());
 			selectedWeek = true;
 		});
-		switchModeButtonThingy.loadGraphic(Paths.image("anomalees"));
+		switchModeButtonThingy.loadGraphic(Paths.image("anomaleesbutbye"));
 		switchModeButtonThingy.scale.set(1.2, 1.2);
 		switchModeButtonThingy.updateHitbox();
 		add(switchModeButtonThingy);
-		var hardcoreButtonThingy = new FlxButton(switchModeButtonThingy.x, switchModeButtonThingy.y + 90, "", function()
-		{
-			FlxG.sound.play(Paths.sound('cancelMenu'));
-		});
-		hardcoreButtonThingy.loadGraphic(Paths.image("hardcorelocked"));
-		hardcoreButtonThingy.scale.set(1.2, 1.2);
-		hardcoreButtonThingy.updateHitbox();
-		add(hardcoreButtonThingy);
-		FlxG.mouse.visible = true;
-
 		super.create();
 	}
 
@@ -332,7 +322,7 @@ class StoryMenuState extends MusicBeatState
 				}
 				stopspamming = true;
 			}
-			FlxG.mouse.visible = false;
+
 			// We can't use Dynamic Array .copy() because that crashes HTML5, here's a workaround.
 			var songArray:Array<String> = [];
 			var leWeek:Array<Dynamic> = loadedWeeks[curWeek].songs;
@@ -345,6 +335,7 @@ class StoryMenuState extends MusicBeatState
 			PlayState.storyPlaylist = songArray;
 			PlayState.isStoryMode = true;
 			selectedWeek = true;
+			FlxG.mouse.visible = false;
 
 			var diffic = CoolUtil.getDifficultyFilePath(curDifficulty);
 			if (diffic == null)

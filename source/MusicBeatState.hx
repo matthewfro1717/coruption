@@ -145,7 +145,7 @@ class MusicBeatState extends FlxUIState
 
 			case "farm", "starch": // expunged
 				imageName = "expung";
-			case "epitome":
+			case "deficient":
 				imageName = "eptiome";
 			case "insane", "oblivious":
 				imageName = "insaneloud";
@@ -159,7 +159,7 @@ class MusicBeatState extends FlxUIState
 			case "glitchcorn":
 				imageName = "glitchedcorn";
 
-			case "homework", "lesson", "grounded":
+			case "homework", "session", "grounded":
 				imageName = "hairman";
 			case "defiance":
 				imageName = "nohairman";
@@ -193,7 +193,7 @@ class MusicBeatState extends FlxUIState
 			case "imprisonment", "anathematized":
 				imageName = "allure2";
 
-			case "disregard": // yes
+			case "amethyst": // yes
 				imageName = "unregardant";
 
 			case "atmospherical": // secret songs

@@ -17,10 +17,10 @@ class Achievements
 		["Voided Realms", "Beat Expunged's Week", "week2expunged_completion", false],
 		["Bugged", "Beat Bambi's Week.", "week3bambi_completion", false],
 		["Puppeted", "Beat Tristan's Week.", "week3p5tristan_completion", false],
-		["Incorruptible", "Beat Exosphere's Week.", "week4exosphere_completion", false],
+		["Incorruptible", "Beat Exosphere's Week.", "week4p1exosphere_completion", false],
 		["The Rift to Somewhere", "Beat Endearment.", "riftsomewhere", false],
 		["Standoff", "FC Stand-off. [Unlocks Supreme]", "supreme_unlock", false],
-		["Hydromaniac", "Beat Hydromania. [Unlocks Nemesis]", "nemesis_unlock", false],
+		["Hydromaniac", "Beat Hydromania.", "nemesis_unlock", false],
 		[
 			"Flawless Victory",
 			"FC Intrusion. [Unlocks Purgatory]",

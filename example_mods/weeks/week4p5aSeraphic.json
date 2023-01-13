@@ -28,5 +28,6 @@
 	],
 	"hideStoryMode": false,
 	"weekName": "the power of five",
-	"hiddenUntilUnlocked": true
+	"hiddenUntilUnlocked": true,
+	"anomaly": true
 }

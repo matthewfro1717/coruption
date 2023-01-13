@@ -3,13 +3,13 @@
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "end",
-	"weekBefore": "week4p1exosphere",
+	"weekBefore": "",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"startUnlocked": false,
+	"startUnlocked": true,
 	"hideStoryMode": false,
 	"songs": [
 		[
@@ -27,6 +27,7 @@
 		"",
 		""
 	],
-	"hiddenUntilUnlocked": true,
-	"weekName": "???"
+	"hiddenUntilUnlocked": false,
+	"weekName": "???",
+	"anomaly": true
 }

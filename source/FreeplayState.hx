@@ -124,7 +124,7 @@ class FreeplayState extends MusicBeatState
 			// this code sucks (and is very dangerous) but is better than hard-coded
 			if (["disheartened", "divine-punishment", "fractured-incantation", "numbskull"].contains(Paths.formatToSongPath(songData[0])))
 				addSong(songData[0], FlxColor.fromRGB(songData[2][0], songData[2][1], songData[2][2]), songData[1], true, false);
-			else if (["purgatory", "supreme", "nemesis", "atmospherical", "charlatan"].contains(Paths.formatToSongPath(songData[0])))
+			else if (["purgatory", "supreme", "atmospherical", "charlatan"].contains(Paths.formatToSongPath(songData[0])))
 				addSong(songData[0], FlxColor.fromRGB(songData[2][0], songData[2][1], songData[2][2]), songData[1], true, true);
 			else
 				addSong(songData[0], FlxColor.fromRGB(songData[2][0], songData[2][1], songData[2][2]), songData[1], false, false);
@@ -139,7 +139,7 @@ class FreeplayState extends MusicBeatState
 			var locked = true;
 			if (ClientPrefs.songPlayed.get(song))
 				locked = false;
-			else if ((["supreme", "nemesis", "atmospherical", "purgatory", "charlatan"].contains(song)
+			else if ((["supreme", "atmospherical", "purgatory", "charlatan"].contains(song)
 				&& Achievements.isAchievementUnlocked(song + "_unlock"))
 				&& achievementUnlockAllow) // achievement songs
 				locked = false;
@@ -639,7 +639,7 @@ class FreeplayState extends MusicBeatState
 			case "pseptuagint5", "unexpected", "aichmophobia", "quadriplegia", "hydromania", "atmospherical", "charlatan", "purgatory":
 				return "severe";
 
-			case "disregard", "seraphic", "undercharted", "supreme", "nemesis":
+			case "disregard", "seraphic", "undercharted", "supreme":
 				return "intense";
 
 			case "disheartened", "numbskull":

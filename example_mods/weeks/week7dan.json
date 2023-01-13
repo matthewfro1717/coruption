@@ -1,0 +1,51 @@
+{
+	"songs": [
+		[
+			"Omission",
+			"thebambi",
+			[
+				100,
+				100,
+				100
+			]
+		],
+		[
+			"nerved",
+			"thebambi",
+			[
+				40,
+				40,
+				40
+			]
+		],
+		[
+			"Lakuna",
+			"lacuna",
+			[
+				175,
+				175,
+				175
+			]
+		]
+	],
+	"hiddenUntilUnlocked": true,
+	"hideFreeplay": false,
+	"weekBackground": "dan",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "yes this is different except for omission",
+	"weekName": "Omission Dan no shot",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "week4p5endear",
+	"startUnlocked": false,
+	"anomaly": true
+}

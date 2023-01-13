@@ -55,5 +55,6 @@
 	],
 	"hideStoryMode": false,
 	"weekName": "Miserable Mansion",
-	"hiddenUntilUnlocked": true
+	"hiddenUntilUnlocked": true,
+	"anomaly": true
 }
