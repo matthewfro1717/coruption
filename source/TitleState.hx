@@ -205,6 +205,14 @@ class TitleState extends MusicBeatState
 			StoryMenuStateAnomalies.weekCompleted = FlxG.save.data.weekCompleted;
 		}
 
+		if (false) // set to true to "legitly" get every achievement!!!
+		{
+			for (achievement in Achievements.achievementsStuff)
+			{
+				Achievements.unlockAchievement(achievement[2]);
+			}
+			ClientPrefs.saveSettings();
+		}
 		FlxG.mouse.visible = false;
 		#if FREEPLAY
 		MusicBeatState.switchState(new FreeplayState());
