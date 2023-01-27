@@ -56,6 +56,8 @@ class MainMenuState extends MusicBeatState
 
 	var debugKeys:Array<FlxKey>;
 
+	var elapsed:Float = 0.0;
+
 	override function beatHit()
 	{
 		camGame.zoom = 1.0125;
@@ -106,7 +108,7 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 0...optionShit.length)
 		{
-			var offset:Float = 240 - (Math.max(optionShit.length, 4) - 4) * 80;
+			var offset:Float = 240 - (Math.max(optionShit.length, 4) - 4) * 85;
 			var menuItem:FlxSprite = new FlxSprite(100, (Math.floor(i / 2) * 200) + offset);
 			var correcty = menuItem.y;
 			menuItem.scale.x = scale;
@@ -161,6 +163,11 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		this.elapsed += elapsed;
+		for (mi in menuItems) // ineffient maybe
+		{
+			mi.y += Math.cos(this.elapsed) * 5;
+		}
 		Conductor.songPosition = FlxG.sound.music.time;
 		if (FlxG.sound.music.volume < 0.8)
 		{
