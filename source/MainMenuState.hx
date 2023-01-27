@@ -108,8 +108,8 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 0...optionShit.length)
 		{
-			var offset:Float = 240 - (Math.max(optionShit.length, 4) - 4) * 85;
-			var menuItem:FlxSprite = new FlxSprite(100, (Math.floor(i / 2) * 200) + offset);
+			var offset:Float = 240 - (Math.max(optionShit.length, 4) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(100, (Math.floor(i / 2) * 200) + offset + 5);
 			var correcty = menuItem.y;
 			menuItem.scale.x = scale;
 			menuItem.scale.y = scale;
@@ -166,7 +166,7 @@ class MainMenuState extends MusicBeatState
 		this.elapsed += elapsed;
 		for (mi in menuItems) // ineffient maybe
 		{
-			mi.y += Math.cos(this.elapsed) * 5;
+			mi.y += Math.cos(this.elapsed * (1 + (Math.PI * (mi.ID % 4)) + (0.05 * mi.ID))) / 7;
 		}
 		Conductor.songPosition = FlxG.sound.music.time;
 		if (FlxG.sound.music.volume < 0.8)
