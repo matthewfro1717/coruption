@@ -55,7 +55,6 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = ['story_mode', 'freeplay', 'options', "credits", "discord", "achievements"];
 
 	var debugKeys:Array<FlxKey>;
-	
 
 	override function beatHit()
 	{
@@ -291,6 +290,11 @@ class MainMenuState extends MusicBeatState
 			{
 				selectedSomethin = true;
 				MusicBeatState.switchState(new MasterEditorMenu());
+			}
+			else if (FlxG.keys.justPressed.FOUR)
+			{
+				selectedSomethin = true;
+				MusicBeatState.switchState(new MainStoryMenuState());
 			}
 			#end
 		}

@@ -195,16 +195,6 @@ class StoryMenuStateAnomalies extends MusicBeatState
 		changeWeek();
 		changeDifficulty();
 
-		var switchModeButtonThingy = new FlxButton((FlxG.width * 0.75), txtTracklist.y - 70, "", function()
-		{
-			if (!selectedWeek)
-				MusicBeatState.switchState(new StoryMenuState());
-			selectedWeek = true;
-		});
-		switchModeButtonThingy.loadGraphic(Paths.image("anomaleesbutbye"));
-		switchModeButtonThingy.scale.set(1.2, 1.2);
-		switchModeButtonThingy.updateHitbox();
-		add(switchModeButtonThingy);
 		super.create();
 	}
 

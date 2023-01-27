@@ -195,26 +195,6 @@ class StoryMenuState extends MusicBeatState
 		changeWeek();
 		changeDifficulty();
 
-		var switchModeButtonThingy = new FlxButton((FlxG.width * 0.75), txtTracklist.y - 70, "", function()
-		{
-			if (!selectedWeek)
-				MusicBeatState.switchState(new StoryMenuStateAnomalies());
-			selectedWeek = true;
-		});
-		switchModeButtonThingy.loadGraphic(Paths.image("anomalees"));
-		switchModeButtonThingy.scale.set(1.2, 1.2);
-		switchModeButtonThingy.updateHitbox();
-		add(switchModeButtonThingy);
-		var hardcoreButtonThingy = new FlxButton(switchModeButtonThingy.x, switchModeButtonThingy.y + 90, "", function()
-		{
-			FlxG.sound.play(Paths.sound('cancelMenu'));
-		});
-		hardcoreButtonThingy.loadGraphic(Paths.image("hardcorelocked"));
-		hardcoreButtonThingy.scale.set(1.2, 1.2);
-		hardcoreButtonThingy.updateHitbox();
-		add(hardcoreButtonThingy);
-		FlxG.mouse.visible = true;
-
 		super.create();
 	}
 
