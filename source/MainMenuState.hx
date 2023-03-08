@@ -237,7 +237,7 @@ class MainMenuState extends MusicBeatState
 				}
 				if (optionShit[curSelected] == 'discord')
 				{
-					CoolUtil.browserLoad('https://discord.gg/exosphere');
+					CoolUtil.browserLoad('https://discord.gg/wvUPHxFudk');
 				}
 				else
 				{

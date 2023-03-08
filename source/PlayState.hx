@@ -2185,7 +2185,11 @@ class PlayState extends MusicBeatState
 		switch (cam.toLowerCase())
 		{
 			case 'camhud' | 'hud':
-				camHUDShaders.remove(effectClass);
+				for (effect in camHUDShaders)
+				{
+					if (Std.isOfType(effect, effectClass))
+						camHUDShaders.remove(effect);
+				}
 				var newCamEffects:Array<BitmapFilter> = [];
 				for (i in camHUDShaders)
 				{
@@ -2193,7 +2197,11 @@ class PlayState extends MusicBeatState
 				}
 				camHUD.setFilters(newCamEffects);
 			case 'camother' | 'other':
-				camOtherShaders.remove(effectClass);
+				for (effect in camOtherShaders)
+				{
+					if (Std.isOfType(effect, effectClass))
+						camOtherShaders.remove(effect);
+				}
 				var newCamEffects:Array<BitmapFilter> = [];
 				for (i in camOtherShaders)
 				{
@@ -2201,7 +2209,11 @@ class PlayState extends MusicBeatState
 				}
 				camOther.setFilters(newCamEffects);
 			case 'camgame' | 'game':
-				camGameShaders.remove(effect);
+				for (effect in camGameShaders)
+				{
+					if (Std.isOfType(effect, effectClass))
+						camGameShaders.remove(effect);
+				}
 				var newCamEffects:Array<BitmapFilter> = []; // IT SHUTS HAXE UP IDK WHY BUT WHATEVER IDK WHY I CANT JUST ARRAY<SHADERFILTER>
 				for (i in camGameShaders)
 				{
