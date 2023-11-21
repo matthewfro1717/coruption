@@ -219,7 +219,7 @@ class PlayState extends MusicBeatState
 	public var modchartsDisabled:Bool = false;
 
 	public var botplaySine:Float = 0;
-	public var botplayTxt:FlxSprite;
+	public var botplayTxt:FlxText;
 
 	var judgementCounter:FlxText;
 	var screwYouTxt:FlxText;
@@ -832,7 +832,7 @@ class PlayState extends MusicBeatState
 		watermarkTxt.updateHitbox();
 		watermarkTxt.alpha = 0.6;
 		add(watermarkTxt);
-		botplayTxt = new FlxSprite(400, timeBarBG.y + 55).loadGraphic(Paths.image("do not"));
+		botplayTxt = new FlxText(400, healthBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.visible = cpuControlled;
 		botplayTxt.screenCenter(X);
